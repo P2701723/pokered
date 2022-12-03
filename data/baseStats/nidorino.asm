@@ -1,9 +1,9 @@
 NidorinoBaseStats: ; 3875e (e:475e)
 db DEX_NIDORINO ; pokedex id
-db 61 ; base hp
-db 72 ; base attack
-db 57 ; base defense
-db 65 ; base speed
+db 71 ; base hp       +10
+db 82 ; base attack   +10
+db 67 ; base defense  +10
+db 75 ; base speed    +10
 db 55 ; base special
 db POISON ; species type 1
 db POISON ; species type 2
@@ -15,15 +15,15 @@ dw NidorinoPicBack
 ; attacks known at lvl 0
 db LEER
 db TACKLE
-db HORN_ATTACK
+db FOCUS_ENERGY
 db 0
 db 3 ; growth rate
 ; learnset
 db %11100000
 db %00111111
-db %10001000
-db %11000001
+db %10001010 ; Counter
+db %11001001 ; Dig
 db %10000011
 db %00001000
-db %00000010
+db %00100110 ; Cut, Strength
 db 0 ; padding
