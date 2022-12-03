@@ -834,7 +834,10 @@ _IndigoPlateauHQText:: ; 88f08 (22:4f08)
 
 _RedBedroomSNESText:: ; 88f27 (22:4f27)
 	text $52, " is"
-	line "playing the SNES!"
+	line "playing the NES!"
+	
+	para "..."
+	line "..."
 	cont "...Okay!"
 	cont "It's time to go!"
 	done
