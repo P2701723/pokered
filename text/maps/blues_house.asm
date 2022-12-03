@@ -49,6 +49,6 @@ _BluesHouseText3::
 	text "It's a big map of"
 	line "the KANTO region!"
 	
-	line "This is useful!"
+	para "This is useful!"
 	done
 
