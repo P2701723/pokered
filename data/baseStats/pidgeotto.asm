@@ -1,10 +1,10 @@
 PidgeottoBaseStats: ; 3859e (e:459e)
 db DEX_PIDGEOTTO ; pokedex id
 db 63 ; base hp
-db 60 ; base attack
-db 55 ; base defense
-db 71 ; base speed
-db 50 ; base special
+db 70 ; base attack   +10
+db 65 ; base defense  +10
+db 81 ; base speed    +10
+db 60 ; base special  +10
 db NORMAL ; species type 1
 db FLYING ; species type 2
 db 120 ; catch rate
@@ -13,9 +13,9 @@ INCBIN "pic/bmon/pidgeotto.pic",0,1 ; 66, sprite dimensions
 dw PidgeottoPicFront
 dw PidgeottoPicBack
 ; attacks known at lvl 0
-db GUST
+db TACKLE
 db SAND_ATTACK
-db 0
+db GUST
 db 0
 db 3 ; growth rate
 ; learnset
