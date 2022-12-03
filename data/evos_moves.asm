@@ -216,15 +216,15 @@ Mon115_EvosMoves: ; 3b1e6 (e:71e6)
 Mon032_EvosMoves: ; 3b1f2 (e:71f2)
 ;NIDORAN_M
 ;Evolutions
-	db EV_LEVEL,16,NIDORINO
+	db EV_LEVEL,25,NIDORINO
 	db 0
 ;Learnset
-	db 8,HORN_ATTACK
-	db 14,POISON_STING
-	db 21,FOCUS_ENERGY
-	db 29,FURY_ATTACK
-	db 36,HORN_DRILL
-	db 43,DOUBLE_KICK
+	db 8,FOCUS_ENERGY
+	db,12,DOUBLE_KICK
+	db 17,POISON_STING
+	db 23,HORN_ATTACK
+	db 30,FURY_ATTACK
+	db 38,HORN_DRILL
 	db 0
 Mon035_EvosMoves: ; 3b203 (e:7203)
 ;CLEFAIRY
@@ -268,9 +268,9 @@ Mon034_EvosMoves: ; 3b233 (e:7233)
 ;Evolutions
 	db 0
 ;Learnset
-	db 8,HORN_ATTACK
-	db 14,POISON_STING
-	db 23,THRASH
+	db 43,THRASH
+	db 65,EARTHQUAKE
+	db 65,THUNDER
 	db 0
 Mon080_EvosMoves: ; 3b23b (e:723b)
 ;SLOWBRO
@@ -354,24 +354,23 @@ Mon094_EvosMoves: ; 3b291 (e:7291)
 Mon029_EvosMoves: ; 3b297 (e:7297)
 ;NIDORAN_F
 ;Evolutions
-	db EV_LEVEL,16,NIDORINA
+	db EV_LEVEL,25,NIDORINA
 	db 0
 ;Learnset
-	db 8,SCRATCH
-	db 14,POISON_STING
-	db 21,TAIL_WHIP
-	db 29,BITE
-	db 36,FURY_SWIPES
-	db 43,DOUBLE_KICK
+	db 8,TAIL_WHIP
+	db 12,DOUBLE_KICK
+	db 17,POISON_STING
+	db 23,BITE
+	db 30,FURY_SWIPES
 	db 0
 Mon031_EvosMoves: ; 3b2a8 (e:72a8)
 ;NIDOQUEEN
 ;Evolutions
 	db 0
 ;Learnset
-	db 8,SCRATCH
-	db 14,POISON_STING
-	db 23,BODY_SLAM
+	db 43,BODY_SLAM
+	db 65,EARTHQUAKE
+	db 65,THUNDER
 	db 0
 Mon104_EvosMoves: ; 3b2b0 (e:72b0)
 ;CUBONE
@@ -832,11 +831,13 @@ Mon056_EvosMoves: ; 3b4a4 (e:74a4)
 	db EV_LEVEL,28,PRIMEAPE
 	db 0
 ;Learnset
+	db 9,LOW_KICK
 	db 15,KARATE_CHOP
 	db 21,FURY_SWIPES
 	db 27,FOCUS_ENERGY
 	db 33,SEISMIC_TOSS
 	db 39,THRASH
+	db 45,SCREECH
 	db 0
 Mon086_EvosMoves: ; 3b4b3 (e:74b3)
 ;SEEL
@@ -1439,8 +1440,10 @@ Mon057_EvosMoves: ; 3b70c (e:770c)
 	db 15,KARATE_CHOP
 	db 21,FURY_SWIPES
 	db 27,FOCUS_ENERGY
+	db 28,RAGE
 	db 37,SEISMIC_TOSS
 	db 46,THRASH
+	db 55,SCREECH
 	db 0
 Mon051_EvosMoves: ; 3b718 (e:7718)
 ;DUGTRIO
@@ -1929,12 +1932,12 @@ Mon033_EvosMoves: ; 3b8d8 (e:78d8)
 	db EV_ITEM,MOON_STONE,1,NIDOKING
 	db 0
 ;Learnset
-	db 8,HORN_ATTACK
-	db 14,POISON_STING
-	db 23,FOCUS_ENERGY
-	db 32,FURY_ATTACK
-	db 41,HORN_DRILL
-	db 50,DOUBLE_KICK
+	db 8,FOCUS_ENERGY
+	db 12,DOUBLE_KICK
+	db 19,POISON_STING
+	db 27,HORN_ATTACK
+	db 36,FURY_ATTACK
+	db 46,HORN_DRILL
 	db 0
 Mon030_EvosMoves: ; 3b8ea (e:78ea)
 ;NIDORINA
@@ -1942,12 +1945,12 @@ Mon030_EvosMoves: ; 3b8ea (e:78ea)
 	db EV_ITEM,MOON_STONE,1,NIDOQUEEN
 	db 0
 ;Learnset
-	db 8,SCRATCH
-	db 14,POISON_STING
-	db 23,TAIL_WHIP
-	db 32,BITE
-	db 41,FURY_SWIPES
-	db 50,DOUBLE_KICK
+	db 8,TAIL_WHIP
+	db 12,DOUBLE_KICK
+	db 19,POISON_STING
+	db 27,BITE
+	db 36,FURY_SWIPES
+	db 46,HORN_DRILL
 	db 0
 Mon074_EvosMoves: ; 3b8fc (e:78fc)
 ;GEODUDE
