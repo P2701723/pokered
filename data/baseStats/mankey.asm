@@ -4,7 +4,7 @@ db 40 ; base hp
 db 80 ; base attack
 db 35 ; base defense
 db 70 ; base speed
-db 35 ; base special
+db 45 ; base special  +10
 db FIGHTING ; species type 1
 db FIGHTING ; species type 2
 db 190 ; catch rate
@@ -22,7 +22,7 @@ db 0 ; growth rate
 db %10110001
 db %10000011
 db %10001111
-db %11001001
+db %11001111 ; Earthquake, Fissure
 db %11000110
 db %10001000
 db %00100010
