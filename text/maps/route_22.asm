@@ -32,8 +32,9 @@ _Route22RivalAfterBattleText1:: ; 9236f (24:636f)
 
 _Route22RivalDefeatedText1:: ; 923f4 (24:63f4)
 	text "Awww!"
-	line "You just lucked"
-	cont "out!"
+	
+	para "You just lucked"
+	line "out!"
 	prompt
 
 _Route22Text_511bc:: ; 92410 (24:6410)
