@@ -35,7 +35,7 @@ _IntroducePlayerText::
 
 _IntroduceRivalText::
 	text "This is my"
-	line "grandson.
+	line "grandson."
 	
 	para "He's been your"
 	line "rival since you"
