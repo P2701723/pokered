@@ -6,24 +6,23 @@ _OakSpeechText2C::
 	prompt
 
 _IntroducePlayerGender::
-	text "Are you a boy? Or"
-	line "are you a girl?"
+	text "Do you want to be"
+	line "a boy or a girl?"
 	done
 
 _IntroducePlayerName::
-	text "Let's begin with"
-	line "your name."
-	para "What is it?"
+	text "Next, what is"
+	line "your name?"
 	prompt
 	
 _ConfirmBoyText::
-	text "So, you are a"
-	line "boy. Right?"
+	text "So, you want to be"
+	line "the boy, right?"
 	done
 
 _ConfirmGirlText::
-	text "So, you are a"
-	line "girl. Right?"
+	text "So, you want to be"
+	line "the girl, right?"
 	done
 
 _AreYouREALLYSureText::
