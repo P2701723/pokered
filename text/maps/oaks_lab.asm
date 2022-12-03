@@ -33,13 +33,13 @@ _OaksLabText41:: ; 94dbd (25:4dbd)
 
 _OaksLabText39:: ; 94ddf (25:4ddf)
 IF DEF(_YELLOW)
-	text "That's a #"
-	line "BALL."
+	text "That's a"
+	line "# BALL."
 	
 	para "There's a"
 ELSE
-	text "Those are #"
-	line "BALLs."
+	text "Those are"
+	line "# BALLs."
 	
 	para "There are"
 ENDC
