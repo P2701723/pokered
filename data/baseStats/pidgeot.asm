@@ -1,10 +1,10 @@
 PidgeotBaseStats: ; 385ba (e:45ba)
 db DEX_PIDGEOT ; pokedex id
-db $54 ; base hp
-db $5a ; base attack
-db $5f ; base defense
-db $5b ; base speed
-db $50 ; base special
+db 83 ; base hp
+db 100 ; base attack  +20
+db 95 ; base defense  +20
+db 121 ; base speed   +30
+db 90 ; base special  +20
 db NORMAL ; species type 1
 db FLYING ; species type 2
 db 45 ; catch rate
@@ -13,10 +13,10 @@ INCBIN "pic/bmon/pidgeot.pic",0,1 ; 77, sprite dimensions
 dw PidgeotPicFront
 dw PidgeotPicBack
 ; attacks known at lvl 0
-db GUST
+db TACKLE
 db SAND_ATTACK
+db GUST
 db QUICK_ATTACK
-db 0
 db 3 ; growth rate
 ; learnset
 db %00101010
