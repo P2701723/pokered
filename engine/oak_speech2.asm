@@ -231,7 +231,7 @@ ENDC
 IF DEF(_YELLOW)
 DefaultNamesPlayer:
 	db   "NEW NAME"
-	next "YELLOW"
+	next "RED"
 	next "ASH"
 	next "JACK"
 	db   "@"
@@ -247,8 +247,8 @@ ENDC
 DefaultNamesPlayerG: ; 6aa8 (1:6aa8)
 	db   "NEW NAME"
 	next "GREEN"
-	next "LEAF"
-	next "TERESA"
+	next "SARA"
+	next "JADE"
 	db   "@"
 
 Func_6ad6: ; 6ad6 (1:6ad6)
@@ -286,13 +286,13 @@ DefaultNamesRivalList: ; 6b08 (1:6b08)
 ENDC
 IF DEF(_YELLOW)
 DefaultNamesPlayerList:
-	db "NEW NAME@YELLOW@ASH@JACK@"
+	db "NEW NAME@RED@ASH@JACK@"
 DefaultNamesRivalList:
 	db "NEW NAME@BLUE@GARY@JOHN@"
 ENDC
 
 DefaultNamesPlayerListG:
-	db "NEW NAME@GREEN@LEAF@TERESA@"
+	db "NEW NAME@GREEN@SARA@JADE@"
 
 TextTerminator_6b20: ; 6b20 (1:6b20)
 	db "@"
