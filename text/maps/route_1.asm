@@ -44,7 +44,8 @@ _Route1Text2:: ; 8d69f (23:569f)
 
 _Route1Text3:: ; 8d720 (23:5720)
 	text "ROUTE 1"
-	line "PALLET TOWN -"
-	cont "VIRIDIAN CITY"
+	
+	para "PALLET TOWN -"
+	line "VIRIDIAN CITY"
 	done
 
