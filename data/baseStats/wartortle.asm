@@ -1,10 +1,10 @@
 WartortleBaseStats: ; 384a2 (e:44a2)
 db DEX_WARTORTLE ; pokedex id
 db 59 ; base hp
-db 63 ; base attack
-db 80 ; base defense
+db 68 ; base attack   +5
+db 85 ; base defense  +5
 db 58 ; base speed
-db 65 ; base special
+db 80 ; base special  +15
 db WATER ; species type 1
 db WATER ; species type 2
 db 45 ; catch rate
