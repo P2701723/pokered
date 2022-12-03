@@ -1,16 +1,15 @@
 _OakAppearsText::
-	text "OAK: Hey! Wait!"
+	text "Hey! Wait!"
 	line "Don't go out!@@"
 
 _OakWalksUpText::
-	text "OAK: It's unsafe!"
+	text "It's unsafe!"
 	line "Wild #MON live"
 	cont "in tall grass!"
 
 	para "You need your own"
 	line "#MON for your"
-	cont "protection."
-	cont "I know!"
+	cont "protection!"
 
 	para "Here, come with"
 	line "me!"
@@ -42,15 +41,22 @@ _PalletTownText4::
 
 _PalletTownText5::
 	text "PALLET TOWN"
-	line "Shades of your"
-	cont "journey await!"
+	
+	para "Shades of your"
+	line "journey await!"
 	done
 
 _PalletTownText6::
-	text $52,"'s house "
+	text "It's your house."
+	
+	para "You live here"
+	line "with your mom."
 	done
 
 _PalletTownText7::
-	text $53,"'s house "
+	text "OAK RESIDENCE"
+	
+	para $53, " lives here"
+	line "with his sister."
 	done
 
