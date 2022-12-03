@@ -1,6 +1,5 @@
 _Route22RivalBeforeBattleText1:: ; 922cd (24:62cd)
-	text $53, ": Hey!"
-	line $52, "!"
+	text "Hey! ", $52, "!"
 
 	para "You're going to"
 	line "#MON LEAGUE?"
@@ -47,10 +46,9 @@ _Route22Text_511bc:: ; 92410 (24:6410)
 	prompt
 
 _Route22RivalBeforeBattleText2:: ; 92450 (24:6450)
-	text $53, ": What?"
-	line $52, "! What a"
-	cont "surprise to see"
-	cont "you here!"
+	text "What? ", $52, "!"
+	line "What a surprise"
+	cont "to see you here!"
 
 	para "So you're going to"
 	line "#MON LEAGUE?"
@@ -59,15 +57,9 @@ _Route22RivalBeforeBattleText2:: ; 92450 (24:6450)
 	line "the BADGEs too?"
 	cont "That's cool!"
 
-IF DEF(_YELLOW)
 	para "Then I'll whip"
 	line "you, ", $52, ", as"
 	cont "a warmup for"
-ELSE
-	para "Then I'll whip you"
-	line $52, " as a"
-	cont "warm up for"
-ENDC
 	cont "#MON LEAGUE!"
 
 	para "Come on!"
@@ -106,6 +98,6 @@ _Route22Text_511d0:: ; 925a0 (24:65a0)
 
 _Route22FrontGateText:: ; 92606 (24:6606)
 	text "#MON LEAGUE"
-	line "Front Gate"
+	line "FRONT GATE"
 	done
 
