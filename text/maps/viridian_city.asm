@@ -43,10 +43,17 @@ _ViridianCityText_19157:: ; a44db (29:44db)
 	done
 
 _ViridianCityText_19175:: ; a4525 (29:4525)
-	text "Oh Grandpa! Don't"
+	text "Oh, grandpa! Don't"
 	line "be so mean!"
-	cont "He hasn't had his"
-	cont "coffee yet."
+
+	para "I'm so sorry, he's"
+	line "always like this"
+	cont "when he drinks"
+	cont "too much."
+	
+	para "I'll fetch some"
+	line "coffee to help"
+	cont "sober him up..."
 	done
 
 _ViridianCityText_1917a:: ; a4560 (29:4560)
@@ -67,19 +74,27 @@ _ViridianCityText_19191:: ; a45b5 (29:45b5)
 
 _ViridianCityText_191ca:: ; a45ea (29:45ea)
 	text "Yawn!"
-	line "I must have dozed"
-	cont "off in the sun."
+	
+	para "I must have dozed"
+	line "off in the sun."
 
 	para "I had this dream"
 	line "about a DROWZEE"
 	cont "eating my dream."
-	cont "What's this?"
-	cont "Where did this TM"
-	cont "come from?"
+	
+	para "..."
+	
+	para "What's this?"
+	
+	para "Where did this TM"
+	line "come from?"
+
+	para "..."
 
 	para "This is spooky!"
-	line "Here, you can"
-	cont "have this TM."
+
+	para "Here, you can"
+	line "have this TM."
 	prompt
 
 _ReceivedTM42Text:: ; a469a (29:469a)
@@ -102,11 +117,17 @@ _ViridianCityText_1920a:: ; a46f9 (29:46f9)
 	line "coffee now and I"
 	cont "feel great!"
 
-	para "Sure you can go"
-	line "through!"
-
-	para "Are you in a"
-	line "hurry?"
+	para "Sure, you can go"
+	line "on through!"
+	
+	para "I guess I was"
+	line "pretty drunk..."
+	
+	para "I'm sorry I was"
+	line "so rude to you!"
+	
+	para "Say, kid, are you"
+	line "in a hurry?"
 	done
 
 _ViridianCityText_1920f:: ; a4754 (29:4754)
@@ -118,12 +139,9 @@ _ViridianCityText_1920f:: ; a4754 (29:4754)
 	cont "is automatically"
 	cont "updated."
 
-	para "What? Don't you"
-	line "know how to catch"
-	cont "#MON?"
-
-	para "I'll show you"
-	line "how to then."
+	para "I'll show you how"
+	line "to catch #MON"
+	cont "as my apology!"
 	done
 
 _ViridianCityText_19214:: ; a47e6 (29:47e6)
@@ -132,15 +150,17 @@ _ViridianCityText_19214:: ; a47e6 (29:47e6)
 	done
 
 _ViridianCityText_19219:: ; a4807 (29:4807)
-	text "First, you need"
-	line "to weaken the"
-	cont "target #MON."
+	text "If you run out of"
+	line "# BALLS, stock"
+	cont "up on more at a"
+	cont "nearby # MART!"
 	done
 
 _ViridianCityText8:: ; a4833 (29:4833)
-	text "VIRIDIAN CITY "
-	line "The Eternally"
-	cont "Green Paradise"
+	text "VIRIDIAN CITY"
+	
+	para "The eternally"
+	line "green paradise!"
 	done
 
 _ViridianCityText9:: ; a4860 (29:4860)
