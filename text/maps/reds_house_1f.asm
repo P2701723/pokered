@@ -22,7 +22,7 @@ _MomHealText1::
 	prompt
 
 _MomHealText2::
-	para "Oh, good!"
+	text "Oh, good!"
 	
 	para "You and your"
 	line "#MON are"
