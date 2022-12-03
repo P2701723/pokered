@@ -3,23 +3,20 @@ _ViridianForestText1:: ; 8031d (20:431d)
 	line "some friends!"
 
 	para "They're out for"
-	line "#MON fights!"
+	line "#MON battles!"
 	done
 
 _ViridianForestBattleText1:: ; 80359 (20:4359)
 	text "Hey! You have"
 	line "#MON! Come on!"
-IF DEF(_YELLOW)
 	cont "Let's battle 'em!"
-ELSE
-	cont "Let's battle'em!"
-ENDC
 	done
 
 _ViridianForestEndBattleText1:: ; 80387 (20:4387)
 	text "No!"
-	line "CATERPIE can't"
-	cont "cut it!"
+	
+	para "CATERPIE can't"
+	line "cut it!"
 	prompt
 
 _ViridianFrstAfterBattleText1:: ; 803a2 (20:43a2)
@@ -35,8 +32,9 @@ _ViridianForestBattleText2:: ; 803c3 (20:43c3)
 
 _ViridianForestEndBattleText2:: ; 803f2 (20:43f2)
 	text "Huh?"
-	line "I ran out of"
-	cont "#MON!"
+	
+	para "I ran out of"
+	line "#MON!"
 	prompt
 
 _ViridianFrstAfterBattleText2:: ; 8040b (20:440b)
@@ -51,19 +49,16 @@ _ViridianForestBattleText3:: ; 80438 (20:4438)
 	done
 
 _ViridianForestEndBattleText3:: ; 80458 (20:4458)
-	text "I"
-	line "give! You're good"
-	cont "at this!"
+	text ""
+	line "I give! You're"
+	cont "good at this!"
 	prompt
 
 _ViridianFrstAfterBattleText3:: ; 80475 (20:4475)
-	text "Sometimes, you"
-	line "can find stuff on"
-	cont "the ground!"
-
-	para "I'm looking for"
-	line "the stuff I"
-	cont "dropped!"
+	text "METAPOD is cool"
+	line "because its"
+	cont "attack is its"
+	cont "defense!"
 	done
 
 if DEF(_YELLOW)
@@ -141,8 +136,9 @@ _ViridianForestText12:: ; 805c6 (20:45c6)
 	para "No stealing of"
 	line "#MON from"
 	cont "other trainers!"
-	cont "Catch only wild"
-	cont "#MON!"
+	
+	para "Catch only wild"
+	line "#MON!"
 	done
 
 _ViridianForestText13:: ; 80613 (20:4613)
@@ -159,6 +155,7 @@ _ViridianForestText13:: ; 80613 (20:4613)
 _ViridianForestText14:: ; 80667 (20:4667)
 	text "LEAVING"
 	line "VIRIDIAN FOREST"
-	cont "PEWTER CITY AHEAD"
+	
+	para "PEWTER CITY AHEAD"
 	done
 
