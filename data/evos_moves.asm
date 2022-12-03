@@ -288,15 +288,15 @@ Mon080_EvosMoves: ; 3b23b (e:723b)
 Mon002_EvosMoves: ; 3b24b (e:724b)
 ;IVYSAUR
 ;Evolutions
-	db EV_LEVEL,32,VENUSAUR
+	db EV_LEVEL,50,VENUSAUR
 	db 0
 ;Learnset
-	db 7,LEECH_SEED
-	db 13,VINE_WHIP
+	db 7,VINE_WHIP
+	db 13,LEECH_SEED
 	db 22,POISONPOWDER
 	db 30,RAZOR_LEAF
-	db 38,GROWTH
-	db 46,SLEEP_POWDER
+	db 38,SLEEP_POWDER
+	db 46,GROWTH
 	db 54,SOLARBEAM
 	db 0
 Mon103_EvosMoves: ; 3b25e (e:725e)
@@ -511,6 +511,7 @@ Mon009_EvosMoves: ; 3b346 (e:7346)
 	db 24,BITE
 	db 31,WITHDRAW
 	db 42,SKULL_BASH
+	db 49,ICE_BEAM
 	db 52,HYDRO_PUMP
 	db 0
 Mon127_EvosMoves: ; 3b354 (e:7354)
@@ -1774,15 +1775,15 @@ Mon121_EvosMoves: ; 3b842 (e:7842)
 Mon001_EvosMoves: ; 3b844 (e:7844)
 ;BULBASAUR
 ;Evolutions
-	db EV_LEVEL,16,IVYSAUR
+	db EV_LEVEL,25,IVYSAUR
 	db 0
 ;Learnset
-	db 7,LEECH_SEED
-	db 13,VINE_WHIP
+	db 7,VINE_WHIP
+	db 13,LEECH_SEED
 	db 20,POISONPOWDER
 	db 27,RAZOR_LEAF
-	db 34,GROWTH
-	db 41,SLEEP_POWDER
+	db 34,SLEEP_POWDER
+	db 41,GROWTH
 	db 48,SOLARBEAM
 	db 0
 Mon003_EvosMoves: ; 3b857 (e:7857)
@@ -1790,12 +1791,12 @@ Mon003_EvosMoves: ; 3b857 (e:7857)
 ;Evolutions
 	db 0
 ;Learnset
-	db 7,LEECH_SEED
-	db 13,VINE_WHIP
+	db 7,VINE_WHIP
+	db 13,LEECH_SEED
 	db 22,POISONPOWDER
 	db 30,RAZOR_LEAF
-	db 43,GROWTH
-	db 55,SLEEP_POWDER
+	db 43,SLEEP_POWDER
+	db 55,GROWTH
 	db 65,SOLARBEAM
 	db 0
 Mon073_EvosMoves: ; 3b867 (e:7867)
@@ -2014,7 +2015,7 @@ Mon186_EvosMoves: ; 3b936 (e:7936)
 Mon004_EvosMoves: ; 3b938 (e:7938)
 ;CHARMANDER
 ;Evolutions
-	db EV_LEVEL,16,CHARMELEON
+	db EV_LEVEL,25,CHARMELEON
 	db 0
 ;Learnset
 	db 9,EMBER
@@ -2027,7 +2028,7 @@ Mon004_EvosMoves: ; 3b938 (e:7938)
 Mon007_EvosMoves: ; 3b949 (e:7949)
 ;SQUIRTLE
 ;Evolutions
-	db EV_LEVEL,16,WARTORTLE
+	db EV_LEVEL,25,WARTORTLE
 	db 0
 ;Learnset
 	db 8,BUBBLE
@@ -2040,7 +2041,7 @@ Mon007_EvosMoves: ; 3b949 (e:7949)
 Mon005_EvosMoves: ; 3b95a (e:795a)
 ;CHARMELEON
 ;Evolutions
-	db EV_LEVEL,36,CHARIZARD
+	db EV_LEVEL,50,CHARIZARD
 	db 0
 ;Learnset
 	db 9,EMBER
@@ -2053,7 +2054,7 @@ Mon005_EvosMoves: ; 3b95a (e:795a)
 Mon008_EvosMoves: ; 3b96b (e:796b)
 ;WARTORTLE
 ;Evolutions
-	db EV_LEVEL,36,BLASTOISE
+	db EV_LEVEL,50,BLASTOISE
 	db 0
 ;Learnset
 	db 8,BUBBLE
@@ -2073,6 +2074,7 @@ Mon006_EvosMoves: ; 3b97c (e:797c)
 	db 24,RAGE
 	db 36,SLASH
 	db 46,FLAMETHROWER
+	db 50,WING_ATTACK
 	db 55,FIRE_SPIN
 	db 0
 
