@@ -27,7 +27,7 @@ _DaisyBagFullText::
 _DaisyUseMapText::
 	text "Use the TOWN MAP"
 	line "to find out where"
-	cont "you are."
+	cont "you are in KANTO."
 	done
 
 _BluesHouseText2::
@@ -46,7 +46,9 @@ ELSE
 ENDC
 
 _BluesHouseText3::
-	text "It's a big map!"
+	text "It's a big map of"
+	line "the KANTO region!"
+	
 	line "This is useful!"
 	done
 
