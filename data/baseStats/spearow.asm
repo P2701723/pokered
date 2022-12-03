@@ -1,10 +1,10 @@
 SpearowBaseStats: ; 3860e (e:460e)
 db DEX_SPEAROW ; pokedex id
 db 40 ; base hp
-db 60 ; base attack
-db 30 ; base defense
+db 70 ; base attack   +10
+db 35 ; base defense  +5
 db 70 ; base speed
-db 31 ; base special
+db 36 ; base special  +5
 db NORMAL ; species type 1
 db FLYING ; species type 2
 db 255 ; catch rate
@@ -25,5 +25,5 @@ db %00001000
 db %11000000
 db %01000010
 db %00001100
-db %00001010
+db %00001011 ; Tri Attack
 db 0 ; padding
