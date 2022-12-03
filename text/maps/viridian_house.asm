@@ -9,16 +9,16 @@ _ViridianHouseText1:: ; 95d71 (25:5d71)
 	done
 
 _ViridianHouseText2:: ; 95dc7 (25:5dc7)
-	text "My Daddy loves"
+	text "My daddy loves"
 	line "#MON too."
 	done
 
 _ViridianHouseText_1d5b1:: ; 95de1 (25:5de1)
-	text "SPEARY: Tetweet!"
+	text "Tetweet!"
 	done
 
 _ViridianHouseText4:: ; 95df3 (25:5df3)
 	text "SPEAROW"
-	line "Name: SPEARY"
+	line "Name: BRITNEY"
 	done
 
