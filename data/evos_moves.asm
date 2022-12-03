@@ -242,7 +242,7 @@ Mon035_EvosMoves: ; 3b203 (e:7203)
 Mon021_EvosMoves: ; 3b215 (e:7215)
 ;SPEAROW
 ;Evolutions
-	db EV_LEVEL,20,FEAROW
+	db EV_LEVEL,25,FEAROW
 	db 0
 ;Learnset
 	db 9,LEER
@@ -589,15 +589,16 @@ Mon022_EvosMoves: ; 3b390 (e:7390)
 Mon016_EvosMoves: ; 3b39c (e:739c)
 ;PIDGEY
 ;Evolutions
-	db EV_LEVEL,18,PIDGEOTTO
+	db EV_LEVEL,20,PIDGEOTTO
 	db 0
 ;Learnset
 	db 5,SAND_ATTACK
-	db 12,QUICK_ATTACK
-	db 19,WHIRLWIND
-	db 28,WING_ATTACK
-	db 36,AGILITY
-	db 44,MIRROR_MOVE
+	db 9,GUST
+	db 15,QUICK_ATTACK
+	db 21,WHIRLWIND
+	db 29,WING_ATTACK
+	db 37,AGILITY
+	db 47,MIRROR_MOVE
 	db 0
 Mon079_EvosMoves: ; 3b3ad (e:73ad)
 ;SLOWPOKE
@@ -1744,15 +1745,16 @@ Mon065_EvosMoves: ; 3b815 (e:7815)
 Mon017_EvosMoves: ; 3b823 (e:7823)
 ;PIDGEOTTO
 ;Evolutions
-	db EV_LEVEL,36,PIDGEOT
+	db EV_LEVEL,45,PIDGEOT
 	db 0
 ;Learnset
 	db 5,SAND_ATTACK
-	db 12,QUICK_ATTACK
-	db 21,WHIRLWIND
-	db 31,WING_ATTACK
-	db 40,AGILITY
-	db 49,MIRROR_MOVE
+	db 9,GUST
+	db 15,QUICK_ATTACK
+	db 23,WHIRLWIND
+	db 33,WING_ATTACK
+	db 43,AGILITY
+	db 55,MIRROR_MOVE
 	db 0
 Mon018_EvosMoves: ; 3b834 (e:7834)
 ;PIDGEOT
@@ -1760,11 +1762,13 @@ Mon018_EvosMoves: ; 3b834 (e:7834)
 	db 0
 ;Learnset
 	db 5,SAND_ATTACK
-	db 12,QUICK_ATTACK
-	db 21,WHIRLWIND
-	db 31,WING_ATTACK
-	db 44,AGILITY
-	db 54,MIRROR_MOVE
+	db 9,GUST
+	db 15,QUICK_ATTACK
+	db 23,WHIRLWIND
+	db 33,WING_ATTACK
+	db 46,AGILITY
+	db 53,SKY_ATTACK
+	db 61,MIRROR_MOVE
 	db 0
 Mon121_EvosMoves: ; 3b842 (e:7842)
 ;STARMIE
@@ -1901,7 +1905,7 @@ Mon078_EvosMoves: ; 3b8b3 (e:78b3)
 Mon019_EvosMoves: ; 3b8c1 (e:78c1)
 ;RATTATA
 ;Evolutions
-	db EV_LEVEL,20,RATICATE
+	db EV_LEVEL,25,RATICATE
 	db 0
 ;Learnset
 	db 7,QUICK_ATTACK
