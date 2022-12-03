@@ -790,7 +790,7 @@ _ViridianSchoolNotebookText3:: ; 88dbd (22:4dbd)
 	para "#MON trainers"
 	line "seek others to"
 	cont "engage in #MON"
-	cont "fights."
+	cont "battles."
 
 	para "Battles are"
 	line "constantly fought"
@@ -928,6 +928,10 @@ _ViridianBlackboardSleepText:: ; 89172 (22:5172)
 	line "asleep even after"
 	cont "battles."
 
+	para "It may wake up on"
+	line "its own, but it's"
+	cont "not guaranteed!"
+
 	para "Use AWAKENING to"
 	line "wake them up!"
 	prompt
@@ -949,6 +953,9 @@ _ViridianBlackbaordPrlzText:: ; 8924b (22:524b)
 	line "make #MON"
 	cont "moves misfire!"
 
+	para "It also heavily"
+	line "reduces speed."
+
 	para "Paralysis remains"
 	line "after battles."
 
@@ -958,8 +965,9 @@ _ViridianBlackbaordPrlzText:: ; 8924b (22:524b)
 
 _ViridianBlackboardBurnText:: ; 892b5 (22:52b5)
 	text "A burn reduces"
-	line "power and speed."
-	cont "It also causes"
+	line "attack power."
+	
+	para "It also causes"
 	cont "ongoing damage."
 
 	para "Burns remain"
@@ -980,6 +988,9 @@ _ViridianBlackboardFrozenText:: ; 8932f (22:532f)
 
 	para "Use ICE HEAL to"
 	line "thaw out #MON!"
+	
+	para "Fire attacks can"
+	line "also melt ice!"
 	prompt
 
 _VermilionGymTrashText:: ; 893a7 (22:53a7)
