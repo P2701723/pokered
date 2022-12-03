@@ -1,14 +1,16 @@
 _DaisyInitialText::
-	text "Hi ",$52,"!"
-	line $53," is out at"
-	cont "Grandpa's lab."
+	text "Hi, ",$52,"!"
+	
+	para $53," is out at"
+	line "grandpa's lab."
 	done
 
 _DaisyOfferMapText::
 	text "Grandpa asked you"
 	line "to run an errand?"
-	cont "Here, this will"
-	cont "help you!"
+	
+	para "Here, this will"
+	line "help you!"
 	prompt
 
 _GotMapText::
