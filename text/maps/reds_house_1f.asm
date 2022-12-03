@@ -1,11 +1,8 @@
 _MomWakeUpText::
-	text "MOM: Right."
-	line "All kids leave"
-IF DEF(_YELLOW)
-	cont "home someday."
-ELSE
-	cont "home some day."
-ENDC
+	text "That's right."
+	
+	para "All kids leave"
+	line "home someday."
 	cont "It said so on TV."
 
 	para "PROF.OAK, next"
@@ -14,36 +11,36 @@ ENDC
 	done
 
 _MomHealText1::
-IF DEF(_YELLOW)
-	text "MOM: ",$52,", if"
-	line "your drive your"
+	text $52, ", if you"
+	line "drive your"
 	cont "#MON too hard,"
 	cont "they'll dislike"
 	cont "you."
 
 	para "You should take a"
-	line "rest."
+	line "quick rest."
 	prompt
-ELSE
-	text "MOM: ",$52,"!"
-	line "You should take a"
-	cont "quick rest."
-	prompt
-ENDC
 
 _MomHealText2::
-	text "MOM: Oh good!"
-	line "You and your"
-	cont "#MON are"
+	para "Oh, good!"
+	
+	para "You and your"
+	line "#MON are"
 	cont "looking great!"
-	cont "Take care now!"
+	
+	para "Take care now!"
 	done
 
 _StandByMeText::
 	text "There's a movie"
-	line "on TV. Four boys"
-	cont "are walking on"
+	line "on TV."
+	
+	para "Four boys are"
+	line "walking on"
 	cont "railroad tracks."
+
+	para "..."
+	line "..."
 
 	para "I better go too."
 	done
