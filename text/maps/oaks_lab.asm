@@ -185,8 +185,10 @@ _OaksLabGivePokeballsText2:: ; 950f2 (25:50f2)
 	line "work, though."
 
 	para "A healthy #MON"
-	line "could escape. You"
-	cont "have to be lucky!"
+	line "could escape."
+	
+	para "You have to be"
+	line "lucky!"
 	done
 
 _OaksLabPleaseVisitText:: ; 9519e (25:519e)
