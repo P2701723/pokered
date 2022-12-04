@@ -1,7 +1,8 @@
 _Mansion1BattleText2:: ; a07a8 (28:47a8)
-	text "Who are you? There"
-	line "shouldn't be"
-	cont "anyone here."
+	text "Who are you?"
+	
+	para "There shouldn't"
+	line "be anyone here!"
 	done
 
 _Mansion1EndBattleText2:: ; a07d5 (28:47d5)
