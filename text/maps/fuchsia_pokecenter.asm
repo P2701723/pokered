@@ -15,7 +15,8 @@ _FuchsiaPokecenterText3:: ; 9e3de (27:63de)
 
 	para "It goes to #MON"
 	line "LEAGUE HQ."
-	cont "The HQ governs"
-	cont "all trainers."
+	
+	para "The HQ governs"
+	line "all trainers."
 	done
 
