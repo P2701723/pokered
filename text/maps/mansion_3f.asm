@@ -24,15 +24,17 @@ _Mansion3EndBattleText2:: ; 85460 (21:5460)
 
 _Mansion3AfterBattleText2:: ; 85475 (21:5475)
 	text "So, you're stuck?"
-	line "Try jumping off"
-	cont "over there!"
+	
+	para "Try jumping off"
+	line "over there!"
 	done
 
 _Mansion3Text5:: ; 854a3 (21:54a3)
-	text "Diary: Feb. 6"
-	line "MEW gave birth."
+	text "FEB 6, 19XY"
 
-	para "We named the"
+	para "MEW gave birth."
+
+	para "I named the"
 	line "newborn MEWTWO."
 	done
 
