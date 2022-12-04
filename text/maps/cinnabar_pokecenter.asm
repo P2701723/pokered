@@ -10,8 +10,8 @@ _CinnabarPokecenterText1:: ; a12de (28:52de)
 	done
 
 _CinnabarPokecenterText3:: ; a133e (28:533e)
-	text "Do you have any"
-	line "friends?"
+	text "Have you done"
+	line "any trades?"
 
 	para "#MON you get"
 	line "in trades grow"
