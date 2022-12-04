@@ -1,9 +1,5 @@
 _SSAnne9Text_61bf2:: ; 81799 (20:5799)
-IF DEF(_YELLOW)
 	text "In all my travels,"
-ELSE
-	text "In all my travels"
-ENDC
 	line "I've never seen"
 	cont "any #MON sleep"
 	cont "like this one!"
@@ -34,13 +30,13 @@ _SSAnne9Text_61c1f:: ; 81854 (20:5854)
 	done
 
 _SSAnne9Text_61c2e:: ; 818a8 (20:58a8)
-	text "Me and my Daddy"
+	text "Me and my daddy"
 	line "think the SAFARI"
 	cont "ZONE is awesome!"
 	done
 
 _SSAnne9Text_61c3d:: ; 818db (20:58db)
-	text "The CAPTAIN looked"
+	text "The captain looked"
 	line "really sick and"
 	cont "pale!"
 	done
@@ -57,9 +53,11 @@ _SSAnne9BattleText1:: ; 81926 (20:5926)
 	done
 
 _SSAnne9EndBattleText1:: ; 81956 (20:5956)
-	text "Good"
-	line "fight! Ah, I feel"
-	cont "young again!"
+	text ""
+	line "Good fight!
+	
+	para "Ah, I feel young"
+	cont "again!"
 	prompt
 
 _SSAnne9AfterBattleText1:: ; 8197b (20:597b)
@@ -107,8 +105,8 @@ _SSAnne9BattleText4:: ; 81a5d (20:5a5d)
 	done
 
 _SSAnne9EndBattleText4:: ; 81a7c (20:5a7c)
-	text "Take"
-	line "it easy!"
+	text ""
+	line "Take it easy!"
 	prompt
 
 _SSAnne9AfterBattleText4:: ; 81a8b (20:5a8b)
