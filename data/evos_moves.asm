@@ -510,7 +510,7 @@ Mon009_EvosMoves: ; 3b346 (e:7346)
 	db 24,BITE
 	db 31,WITHDRAW
 	db 42,SKULL_BASH
-	db 49,ICE_BEAM
+	db 50,ICE_BEAM
 	db 52,HYDRO_PUMP
 	db 0
 Mon127_EvosMoves: ; 3b354 (e:7354)
@@ -1401,8 +1401,8 @@ Mon013_EvosMoves: ; 3b6e4 (e:76e4)
 Mon014_EvosMoves: ; 3b6e9 (e:76e9)
 ;KAKUNA
 ;Evolutions
-	db EV_LEVEL,14,BEEDRILL
-	db 7,HARDEN
+	db EV_LEVEL,13,BEEDRILL
+	db 8,HARDEN
 	db 0
 ;Learnset
 	db 0
@@ -1508,8 +1508,8 @@ Mon010_EvosMoves: ; 3b742 (e:7742)
 Mon011_EvosMoves: ; 3b747 (e:7747)
 ;METAPOD
 ;Evolutions
-	db EV_LEVEL,14,BUTTERFREE
-	db 7,HARDEN
+	db EV_LEVEL,13,BUTTERFREE
+	db 8,HARDEN
 	db 0
 ;Learnset
 	db 0
