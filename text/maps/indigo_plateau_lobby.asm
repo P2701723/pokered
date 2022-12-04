@@ -9,8 +9,10 @@ _IndigoPlateauLobbyText1:: ; a13f0 (28:53f0)
 
 	para "If you lose, you"
 	line "have to start all"
-	cont "over again! This"
-	cont "is it! Go for it!"
+	cont "over again!"
+	
+	para "This is it!"
+	line "Go for it!"
 	done
 
 _IndigoPlateauLobbyText3:: ; a148b (28:548b)
