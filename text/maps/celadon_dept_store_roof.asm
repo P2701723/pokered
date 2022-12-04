@@ -50,14 +50,10 @@ _CeladonMartRoofText_4850f:: ; 9cca5 (27:4ca5)
 	para "@"
 	TX_RAM wcf4b
 	text " contains"
-IF DEF(_YELLOW)
-	line "ROCK SLIDE!@@"
-ELSE
 	line "ROCK SLIDE!"
 
 	para "It can spook the"
 	line "target sometimes!@@"
-ENDC
 
 _CeladonMartRoofText_48515:: ; 9cce6 (27:4ce6)
 	text "Yay!"
@@ -84,8 +80,9 @@ _CeladonMartRoofText_48526:: ; 9cd4d (27:4d4d)
 
 _CeladonMartRoofText_4852c:: ; 9cd6d (27:4d6d)
 	text "No thank you!"
-	line "I'm not thirsty"
-	cont "after all!@@"
+	
+	para "I'm not thirsty"
+	line "after all!@@"
 
 _CeladonMartRoofText1:: ; 9cd97 (27:4d97)
 	text "My sister is a"
@@ -99,15 +96,20 @@ _CeladonMartRoofText1:: ; 9cd97 (27:4d97)
 
 _CeladonMartRoofText_48598:: ; 9cdee (27:4dee)
 	text "I'm thirsty!"
-	line "I want something"
-	cont "to drink!"
+	
+	para "I want something"
+	line "to drink!"
 	done
 
 _CeladonMartRoofText4:: ; 9ce16 (27:4e16)
 	text "I'm thirsty!"
-	line "I want something"
-	cont "to drink!"
+	
+	para "I want something"
+	line "to drink!"
 
+	para "..."
+	line "..."
+	
 	para "Give her a drink?"
 	done
 
