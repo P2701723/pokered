@@ -57,27 +57,26 @@ _RockTunnel2EndBattleText5:: ; 86b53 (21:6b53)
 	prompt
 
 _RockTunnel2AfterBattleText5:: ; 86b66 (21:6b66)
-	text "Costume players"
-	line "dress up as"
+	text "Cosplayers dress"
+	line "as their favorite"
 	cont "#MON for fun."
 	done
 
 _RockTunnel2BattleText6:: ; 86b91 (21:6b91)
-	text "My #MON"
-	line "techniques will"
-	cont "leave you crying!"
+	text "You seem like a"
+	line "lousy trainer,"
+	cont "kid!"
 	done
 
 _RockTunnel2EndBattleText6:: ; 86bbc (21:6bbc)
-	text "I give!"
-	line "You're a better"
-	cont "technician!"
+	text "Hahaha!"
+	line "I take it back!"
 	prompt
 
 _RockTunnel2AfterBattleText6:: ; 86be0 (21:6be0)
-	text "In mountains,"
-	line "you'll often find"
-	cont "rock-type #MON."
+	text "You sure chopped"
+	line "me down to size,"
+	cont "kid!"
 	done
 
 _RockTunnel2BattleText7:: ; 86c10 (21:6c10)
