@@ -1,9 +1,11 @@
 _FightingDojoText_5ce8e:: ; a1852 (28:5852)
 	text "Grunt!"
 
-	para "I am the KARATE"
-	line "MASTER! I am the"
-	cont "LEADER here!"
+	para "I am KOICHI, the"
+	line "KARATE KING!"
+	
+	para "I'm MASTER of the"
+	line "FIGHTING DOJO!"
 
 	para "You wish to"
 	line "challenge us?"
@@ -38,7 +40,7 @@ _FightingDojoText_5ce9d:: ; a1972 (28:5972)
 	text "Ho!"
 
 	para "Stay and train at"
-	line "Karate with us!"
+	line "karate with us!"
 	done
 
 _FightingDojoBattleText1:: ; a1999 (28:5999)
@@ -53,7 +55,7 @@ _FightingDojoEndBattleText1:: ; a19b7 (28:59b7)
 
 _FightingDojoAfterBattleText1:: ; a19c3 (28:59c3)
 	text "You wait 'til you"
-	line "see our Master!"
+	line "see our MASTER!"
 
 	para "I'm a small fry"
 	line "compared to him!"
@@ -70,7 +72,7 @@ _FightingDojoEndBattleText2:: ; a1a22 (28:5a22)
 	prompt
 
 _FightingDojoAfterBattleText2:: ; a1a33 (28:5a33)
-	text "Our Master is a"
+	text "Our MASTER is a"
 	line "pro fighter!"
 	done
 
@@ -114,21 +116,13 @@ _FightingDojoAfterBattleText4:: ; a1b1a (28:5b1a)
 
 _WantHitmonleeText:: ; a1b4a (28:5b4a)
 	text "You want the"
-IF DEF(_YELLOW)
 	line "hard-kicking"
-ELSE
-	line "hard kicking"
-ENDC
 	cont "HITMONLEE?"
 	done
 
 _WantHitmonchanText:: ; a1b70 (28:5b70)
 	text "You want the"
-IF DEF(_YELLOW)
 	line "piston-punching"
-ELSE
-	line "piston punching"
-ENDC
 	cont "HITMONCHAN?"
 	done
 
