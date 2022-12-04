@@ -1401,10 +1401,10 @@ Mon013_EvosMoves: ; 3b6e4 (e:76e4)
 Mon014_EvosMoves: ; 3b6e9 (e:76e9)
 ;KAKUNA
 ;Evolutions
-	db EV_LEVEL,13,BEEDRILL
-	db 8,HARDEN
+	db EV_LEVEL,14,BEEDRILL
 	db 0
 ;Learnset
+	db 7,HARDEN
 	db 0
 Mon015_EvosMoves: ; 3b6ee (e:76ee)
 ;BEEDRILL
@@ -1508,10 +1508,10 @@ Mon010_EvosMoves: ; 3b742 (e:7742)
 Mon011_EvosMoves: ; 3b747 (e:7747)
 ;METAPOD
 ;Evolutions
-	db EV_LEVEL,13,BUTTERFREE
-	db 8,HARDEN
+	db EV_LEVEL,14,BUTTERFREE
 	db 0
 ;Learnset
+	db 7,HARDEN
 	db 0
 Mon012_EvosMoves: ; 3b74c (e:774c)
 ;BUTTERFREE
