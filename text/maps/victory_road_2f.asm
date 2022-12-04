@@ -18,19 +18,23 @@ _VictoryRoad2AfterBattleText1:: ; 8d0ad (23:50ad)
 	done
 
 _VictoryRoad2BattleText2:: ; 8d0e1 (23:50e1)
-	text "Ah, so you wish"
-	line "to challenge the"
-	cont "ELITE FOUR?"
+	text "It's showtime!"
+	
+	para "Watch me work my"
+	line "magic!"
 	done
 
 _VictoryRoad2EndBattleText2:: ; 8d10f (23:510f)
-	text "You"
-	line "got me!"
+	text "I can't"
+	line "believe it!"
 	prompt
 
 _VictoryRoad2AfterBattleText2:: ; 8d11c (23:511c)
-	text $53, " also came"
-	line "through here!"
+	text "But I'm MANDI the"
+	line "astounding..."
+	
+	para "How could I"
+	line "lose...?"
 	done
 
 _VictoryRoad2BattleText3:: ; 8d137 (23:5137)
