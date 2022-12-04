@@ -1,9 +1,10 @@
 _BlaineBattleText:: ; a0844 (28:4844)
 	text "Hah!"
 
-	para "I am BLAINE! I"
-	line "am the LEADER of"
-	cont "CINNABAR GYM!"
+	para "I am BLAINE!"
+	
+	para "I am the LEADER"
+	line "of CINNABAR GYM!"
 
 	para "My fiery #MON"
 	line "will incinerate"
@@ -14,7 +15,7 @@ _BlaineBattleText:: ; a0844 (28:4844)
 	done
 
 _BlaineEndBattleText:: ; a08c7 (28:48c7)
-	text "I have"
+	text "I've"
 	line "burnt out!"
 
 	para "You have earned"
@@ -55,8 +56,8 @@ _TM38ExplanationText:: ; a09bc (28:49bc)
 	para "Teach it to fire-"
 	line "type #MON!"
 
-	para "CHARMELEON or"
-	line "PONYTA would be"
+	para "CHARIZARD or"
+	line "RAPIDASH would be"
 	cont "good bets!"
 	done
 
@@ -67,7 +68,7 @@ _TM38NoRoomText:: ; a0a1e (28:4a1e)
 
 _CinnabarGymText_7595f:: ; a0a36 (28:4a36)
 	text "Do you know how"
-	line "hot #MON fire"
+	line "hot fire #MON"
 	cont "breath can get?"
 	done
 
@@ -168,7 +169,7 @@ _CinnabarGymText_75a6d:: ; a0cc1 (28:4cc1)
 
 _CinnabarGymText_75a72:: ; a0cd2 (28:4cd2)
 	text "Us fire #MON"
-	line "fans like PONYTA"
+	line "fans love PONYTA"
 	cont "and NINETALES!"
 	done
 
@@ -184,8 +185,9 @@ _CinnabarGymText_75aa2:: ; a0d1b (28:4d1b)
 
 _CinnabarGymText_75aa7:: ; a0d2d (28:4d2d)
 	text "Water beats fire!"
-	line "But, fire melts"
-	cont "ice #MON!"
+	
+	para "But, fire melts"
+	line "ice #MON!"
 	done
 
 _CinnabarGymText_75ac2:: ; a0d5a (28:4d5a)
@@ -205,6 +207,6 @@ _CinnabarGymText_75ac2:: ; a0d5a (28:4d5a)
 
 _CinnabarGymText_75ac7:: ; a0dd9 (28:4dd9)
 	text $52, "! You beat"
-	line "that fire brand!"
+	line "that firebrand!"
 	done
 
