@@ -1,9 +1,9 @@
 _PewterCityText1:: ; a497f (29:497f)
 	text "It's rumored that"
-	line "CLEFAIRYs came"
+	line "CLEFAIRY came"
 	cont "from the moon!"
 
-	para "They appeared "
+	para "They appeared"
 	line "after MOON STONE"
 	cont "fell on MT.MOON."
 	done
@@ -27,28 +27,32 @@ _PewterCityText_193f1:: ; a4a56 (29:4a56)
 
 _PewterCityText_193f6:: ; a4a75 (29:4a75)
 	text "Weren't those"
-	line "fossils from MT."
-	cont "MOON amazing?"
+	line "fossils from"
+	cont "MT.MOON amazing?"
 	done
 
 _PewterCityText_193fb:: ; a4aa2 (29:4aa2)
 	text "Really?"
-	line "You absolutely"
-	cont "have to go!"
+	
+	para "You absolutely"
+	line "have to go!"
 	done
 
 _PewterCityText13:: ; a4ac6 (29:4ac6)
 	text "It's right here!"
-	line "You have to pay"
-	cont "to get in, but"
+	
+	para "You have to pay"
+	line "to get in, but"
 	cont "it's worth it!"
-	cont "See you around!"
+	
+	para "See you around!"
 	done
 
 _PewterCityText_19427:: ; a4b14 (29:4b14)
 	text "Psssst!"
-	line "Do you know what"
-	cont "I'm doing?"
+	
+	para "Do you know what"
+	line "I'm doing?"
 	done
 
 _PewterCityText_1942c:: ; a4b38 (29:4b38)
@@ -63,7 +67,7 @@ _PewterCityText_19431:: ; a4b55 (29:4b55)
 	done
 
 _PewterCityText_1945d:: ; a4b87 (29:4b87)
-	text "You're a trainer"
+	text "You're a trainer,"
 	line "right? BROCK's"
 	cont "looking for new"
 	cont "challengers!"
@@ -89,10 +93,12 @@ _PewterCityText7:: ; a4c4a (29:4c4a)
 	text "NOTICE!"
 
 	para "Thieves have been"
-	line "stealing #MON"
-	cont "fossils at MT."
-	cont "MOON! Please call"
-	cont "PEWTER POLICE"
+	line "reported stealing"
+	cont "#MON fossils"
+	cont "at MT.MOON!
+	
+	para "Please call"
+	line "PEWTER police"
 	cont "with any info!"
 	done
 
@@ -106,13 +112,14 @@ _PewterCityText11:: ; a4ccb (29:4ccb)
 	line "#MON GYM"
 	cont "LEADER: BROCK"
 
-	para "The Rock Solid"
-	line "#MON Trainer!"
+	para "The rock solid"
+	line "#MON trainer!"
 	done
 
 _PewterCityText12:: ; a4d0c (29:4d0c)
 	text "PEWTER CITY"
-	line "A Stone Gray"
-	cont "City"
+	
+	para "A stone gray"
+	line "city!"
 	done
 
