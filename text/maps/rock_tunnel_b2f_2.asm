@@ -16,6 +16,6 @@ _RockTunnel2EndBattleText9:: ; 88042 (22:4042)
 
 _RockTunnel2AfterBattleText9:: ; 88057 (22:4057)
 	text "I'm an artist,"
-	line "not a fighter."
+	line "not a fighter!"
 	done
 
