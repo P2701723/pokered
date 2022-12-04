@@ -45,9 +45,11 @@ _SSAnne5EndBattleText2:: ; 8108e (20:508e)
 	prompt
 
 _SSAnne5AfterBattleText2:: ; 810a4 (20:50a4)
-	text "My Pa said there"
-	line "are 100 kinds of"
-	cont "#MON. I think"
-	cont "there are more."
+	text "My pa said there"
+	line "are 150 kinds of"
+	cont "#MON."
+	
+	para "I think there"
+	line "could be more."
 	done
 
