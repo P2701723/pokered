@@ -1,12 +1,11 @@
 _SilphCoPresidentText:: ; 84e9b (21:4e9b)
-	text "PRESIDENT: Thank"
-	line "you for saving"
-	cont "SILPH!"
+	text "Thank you for"
+	line "saving SILPH!"
 
 	para "I will never"
-	line "forget you saved"
-	cont "us in our moment"
-	cont "of peril!"
+	line "forget how you"
+	cont "saved us in our"
+	cont "moment of peril!"
 
 	para "I have to thank"
 	line "you in some way!"
@@ -26,9 +25,8 @@ _ReceivedSilphCoMasterBallText:: ; 84f63 (21:4f63)
 	text "!@@"
 
 _SilphCo10Text_6231c:: ; 84f74 (21:4f74)
-	text "PRESIDENT: You"
-	line "can't buy that"
-	cont "anywhere!"
+	text "You can't buy that"
+	line "at any # MART!"
 
 	para "It's our secret"
 	line "prototype MASTER"
@@ -58,14 +56,10 @@ _SilphCo11Text2:: ; 8502f (21:502f)
 	done
 
 _SilphCo11Text3:: ; 85075 (21:5075)
-IF DEF(_YELLOW)
 	text "Ah, ", $52, "!"
-ELSE
-	text "Ah ", $52, "!"
-ENDC
 	line "So we meet again!"
 
-	para "The PRESIDENT and"
+	para "The president and"
 	line "I are discussing"
 	cont "a vital business"
 	cont "proposition."
@@ -74,11 +68,7 @@ ENDC
 	line "out of grown-up"
 	cont "matters..."
 
-IF DEF(_YELLOW)
-	para "or, experience a"
-ELSE
-	para "Or, experience a"
-ENDC
+	para "Or experience a"
 	line "world of pain!"
 	done
 
@@ -88,16 +78,18 @@ _SilphCo10Text_62330:: ; 85119 (21:5119)
 	prompt
 
 _SilphCo10Text_62335:: ; 85131 (21:5131)
-	text "Blast it all!"
-	line "You ruined our"
-	cont "plans for SILPH!"
+	text "Damn it all!"
+	
+	para "You've ruined our"
+	line "plans for SILPH!"
 
 	para "But, TEAM ROCKET"
 	line "will never fall!"
 
-	para $52, "! Never"
-	line "forget that all"
-	cont "#MON exist"
+	para $52, "!
+	
+	para "Never forget that"
+	line "all #MON exist"
 	cont "for TEAM ROCKET!"
 
 	para "I must go, but I"
