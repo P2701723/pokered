@@ -5,13 +5,13 @@ _RocketHideout2BattleText2:: ; 820bb (20:60bb)
 	done
 
 _RocketHideout2EndBattleText2:: ; 820ef (20:60ef)
-	text "I"
-	line "surrender!"
+	text ""
+	line "I surrender!"
 	prompt
 
 _RocketHideout2AfterBattleTxt2:: ; 820fd (20:60fd)
-	text "The TEAM ROCKET"
-	line "HQ has 4 basement"
+	text "TEAM ROCKET HQ"
+	line "has four basement"
 	cont "floors. Can you"
 	cont "reach the BOSS?"
 	done
