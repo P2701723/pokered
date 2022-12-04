@@ -19,8 +19,8 @@ _VictoryRoad3BattleText3:: ; 81df9 (20:5df9)
 	done
 
 _VictoryRoad3EndBattleText3:: ; 81e1e (20:5e1e)
-	text "I'm"
-	line "furious!"
+	text ""
+	line "I'm furious!"
 	prompt
 
 _VictoryRoad3AfterBattleText3:: ; 81e2b (20:5e2b)
