@@ -1,14 +1,14 @@
 Route18Mons:
 	db $19
-	db 43,DODRIO
-	db 43,FEAROW
-	db 43,PIDGEOT
-	db 43,FARFETCH_D
-	db 43,PERSIAN
-	db 43,VENOMOTH
-	db 43,BEEDRILL
-	db 43,BUTTERFREE
-	db 43,PARAS
-	db 43,STARMIE
+	db 31,SPEAROW	; 35% Spearow
+	db 32,DODUO	; 30% Doduo
+	db 34,RATICATE	; 20% Raticate
+	db 32,SPEAROW	; 15% Fearow
+	db 33,DODUO
+	db 34,FEAROW
+	db 33,SPEAROW
+	db 36,RATICATE
+	db 35,FEAROW
+	db 36,FEAROW
 	db $00
 
