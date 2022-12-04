@@ -6,7 +6,7 @@ _VermilionHouse1Text1:: ; 9c449 (27:4449)
 	done
 
 _VermilionHouse1Text2:: ; 9c488 (27:4488)
-	text "PIDGEY: Kurukkoo!@@"
+	text "Kurukkoo!@@"
 
 _VermilionHouse1Text3:: ; 9c49c (27:449c)
 	text "Dear PIPPI, I hope"
