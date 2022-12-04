@@ -20,8 +20,9 @@ _SilphCo4EndBattleText2:: ; 8284b (20:684b)
 
 _SilphCo4AfterBattleText2:: ; 82853 (20:6853)
 	text "Fwahahaha!"
-	line "My BOSS has been"
-	cont "after this place!"
+	
+	para "My BOSS has been"
+	line "after this place!"
 	done
 
 _SilphCo4BattleText3:: ; 82882 (20:6882)
@@ -30,15 +31,17 @@ _SilphCo4BattleText3:: ; 82882 (20:6882)
 	done
 
 _SilphCo4EndBattleText3:: ; 828a2 (20:68a2)
-	text "Darn!"
+	text "Damn it!"
 	line "You weak #MON!"
 	prompt
 
 _SilphCo4AfterBattleText3:: ; 828b8 (20:68b8)
 	text "The doors are"
 	line "electronically"
-	cont "locked! A CARD"
-	cont "KEY opens them!"
+	cont "locked!"
+	
+	para "You'll need a CARD"
+	cont "KEY to open them!"
 	done
 
 _SilphCo4BattleText4:: ; 828f5 (20:68f5)
@@ -46,8 +49,8 @@ _SilphCo4BattleText4:: ; 828f5 (20:68f5)
 	done
 
 _SilphCo4EndBattleText4:: ; 82908 (20:6908)
-	text "Who"
-	line "are you?"
+	text "What the"
+	line "hell are you?"
 	prompt
 
 _SilphCo4AfterBattleText4:: ; 82916 (20:6916)
