@@ -8,14 +8,18 @@ _AgathaBeforeBattleText:: ; 8686b (21:686b)
 
 	para "That old duff was"
 	line "once tough and"
-	cont "handsome! That"
-	cont "was decades ago!"
+	cont "handsome!"
+	
+	para "But that was"
+	line "decades ago!"
 
 	para "Now he just wants"
 	line "to fiddle with"
-	cont "his #DEX! He's"
-	cont "wrong! #MON"
-	cont "are for fighting!"
+	cont "his #DEX! 
+	
+	para "He's wrong!"
+	line "#MON are for"
+	cont "battling!"
 
 	para $52, "! I'll show"
 	line "you how a real"
@@ -23,13 +27,10 @@ _AgathaBeforeBattleText:: ; 8686b (21:686b)
 	done
 
 _AgathaEndBattleText:: ; 86970 (21:6970)
-IF DEF(_YELLOW)
-	text "Woo-hoo!"
-ELSE
 	text "Oh ho!"
-ENDC
-	line "You're something"
-	cont "special, child!"
+	
+	para "You're something"
+	line "special, child!"
 	prompt
 
 _AgathaAfterBattleText:: ; 86998 (21:6998)
@@ -38,12 +39,14 @@ _AgathaAfterBattleText:: ; 86998 (21:6998)
 	cont "sees in you now!"
 
 	para "I have nothing"
-	line "else to say! Run"
-	cont "along now, child!"
+	line "else to say!"
+	
+	para "Run along now,"
+	line "child!"
 	done
 
 _AgathaText2:: ; 869fd (21:69fd)
-	text "Someone's voice:"
-	line "Don't run away!"
+	text "Can't escape!"
 	done
+
 
