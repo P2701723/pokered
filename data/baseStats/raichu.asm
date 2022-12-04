@@ -1,10 +1,10 @@
 RaichuBaseStats: ; 3869a (e:469a)
 db DEX_RAICHU ; pokedex id
-db 60 ; base hp
-db 90 ; base attack
-db 55 ; base defense
-db 100 ; base speed
-db 90 ; base special
+db 70 ; base hp       +10
+db 115 ; base attack  +25
+db 65 ; base defense  +10
+db 120 ; base speed   +20
+db 110 ; base special +20
 db ELECTRIC ; species type 1
 db ELECTRIC ; species type 2
 db 75 ; catch rate
@@ -13,17 +13,17 @@ INCBIN "pic/bmon/raichu.pic",0,1 ; 77, sprite dimensions
 dw RaichuPicFront
 dw RaichuPicBack
 ; attacks known at lvl 0
-db THUNDERSHOCK
-db GROWL
+db MEGA_PUNCH
+db MEGA_KICK
 db THUNDER_WAVE
-db 0
+db THUNDERBOLT
 db 0 ; growth rate
 ; learnset
 db %10110001
 db %11000011
-db %10001101
-db %11000001
+db %10001111 ; Counter
+db %11001001 ; Dig
 db %11000011
 db %00011000
-db %01000010
+db %01100010 ; Strength
 db 0 ; padding
