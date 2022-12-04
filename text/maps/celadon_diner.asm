@@ -19,7 +19,7 @@ _CeladonDinerText3:: ; 9df99 (27:5f99)
 	done
 
 _CeladonDinerText4:: ; 9dfc9 (27:5fc9)
-	text "Munch..."
+	text "Chomp..."
 
 	para "The man at that"
 	line "table lost it all"
@@ -36,9 +36,9 @@ _CeladonDinerText_491a7:: ; 9e003 (27:6003)
 	line "me! I'm going"
 	cont "straight!"
 
-	para "Here! I won't be"
-	line "needing this any-"
-	cont "more!"
+	para "Here! I won't"
+	line "be needing this"
+	cont "anymore!"
 	prompt
 
 _ReceivedCoinCaseText:: ; 9e07a (27:607a)
