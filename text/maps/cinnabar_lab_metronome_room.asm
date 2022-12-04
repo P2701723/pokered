@@ -44,17 +44,55 @@ _Lab3Text3:: ; a1010 (28:5010)
 	line "bird #MON are"
 	cont "ARTICUNO, ZAPDOS"
 	cont "and MOLTRES."
+	
+	para "ARCANINE appeared"
+	line "after GROWLITHE"
+	cont "was exposed to"
+	cont "a FIRE STONE."
+	
+	para "We have not yet"
+	line "determined where"
+	cont "the GAME CORNER"
+	cont "is obtaining its"
+	cont "DRATINI supply."
 
-	para "Their whereabouts"
-	line "are unknown."
+	para "MEW's whereabouts"
+	line "are also unknown."
 
 	para "We plan to explore"
 	line "the cavern close"
-	cont "to CERULEAN."
+	cont "to CERULEAN CITY"
+	cont "and the pond at"
+	cont "the SAFARI ZONE."
 
 	para "From: #MON"
 	line "RESEARCH TEAM"
 
+	para "..."
+	line "..."
+	cont "...?"
+	
+	para "There's a"
+	line "follow-up email!"
+	
+	para "..."
+	
+	para "One more thing!"
+	
+	para "Still no sign of"
+	line "a driver for that"
+	cont "suspicious truck"
+	cont "at the harbor in"
+	cont "VERMILION CITY."
+	
+	para "We tried to move"
+	line "the vehicle, but"
+	cont "it's too heavy"
+	cont "for us to push."
+	
+	para "From: #MON"
+	line "RESEARCH TEAM"
+	
 	para "..."
 	done
 
