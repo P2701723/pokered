@@ -39,15 +39,16 @@ _LavenderTownText3:: ; a555f (29:555f)
 
 _LavenderTownText4:: ; a55bb (29:55bb)
 	text "LAVENDER TOWN"
-	line "The Noble Purple"
-	cont "Town"
+
+	para "The noble purple"
+	line "town!"
 	done
 
 _LavenderTownText5:: ; a55e0 (29:55e0)
 	text "New SILPH SCOPE!"
 
-	para "Make the Invisible"
-	line "Plain to See!"
+	para "Make the invisible"
+	line "plain to see!"
 
 	para "SILPH CO."
 	done
@@ -58,8 +59,8 @@ _LavenderTownText8:: ; a561d (29:561d)
 	done
 
 _LavenderTownText9:: ; a563c (29:563c)
-	text "May the Souls of"
-	line "#MON Rest Easy"
-	cont "#MON TOWER"
+	text "#MON TOWER"
+	
+	para "May the souls of"
+	line "#MON rest easy."
 	done
-
