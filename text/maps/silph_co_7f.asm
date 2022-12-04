@@ -1,7 +1,12 @@
 _MeetLaprasGuyText::
 	text "Oh! Hi! You're"
-	line "not a ROCKET! You"
-	cont "came to save us?"
+	line "not a ROCKET!"
+	
+	para "..."
+	line "..."
+	
+	para "You came here to"
+	line "save us?"
 	cont "Why, thank you!"
 
 	para "I want you to"
@@ -31,7 +36,7 @@ _LaprasGuyText::
 	text "TEAM ROCKET's"
 	line "BOSS went to the"
 	cont "boardroom! Is our"
-	cont "PRESIDENT OK?"
+	cont "president OK?"
 	done
 
 _LaprasGuySavedText::
@@ -69,27 +74,27 @@ _SilphCo7Text_51e28::
 _SilphCo7Text_51e46::
 	text "You! It's really"
 	line "dangerous here!"
-	cont "You came to save"
-	cont "me? You can't!"
+	
+	para "..."
+	line "..."
+	
+	para "You came to save"
+	line "me? You can't!"
 	done
 
 _SilphCo7Text_51e4b::
 	text "Safe at last!"
-	line "Oh thank you!"
+	line "Oh, thank you!"
 	done
 
 _SilphCo7BattleText1:: ; 846ff (21:46ff)
-IF DEF(_YELLOW)
 	text "Aha! I smell a"
-ELSE
-	text "Oh ho! I smell a"
-ENDC
 	line "little rat!"
 	done
 
 _SilphCo7EndBattleText1:: ; 8471d (21:471d)
-	text "Lights"
-	line "out!"
+	text ""
+	line "Lights out!"
 	prompt
 
 _SilphCo7AfterBattleText1:: ; 8472a (21:472a)
@@ -106,8 +111,8 @@ _SilphCo7BattleText2:: ; 8475b (21:475b)
 	done
 
 _SilphCo7EndBattleText2:: ; 84786 (21:4786)
-	text "I'm"
-	line "done!"
+	text ""
+	line "I'm done!"
 	prompt
 
 _SilphCo7AfterBattleText2:: ; 84790 (21:4790)
@@ -128,8 +133,9 @@ _SilphCo7EndBattleText3:: ; 847e2 (21:47e2)
 
 _SilphCo7AfterBattleText3:: ; 847fb (21:47fb)
 	text "Doesn't matter."
-	line "My brothers will"
-	cont "repay the favor!"
+	
+	para "My brothers will"
+	line "repay the favor!"
 	done
 
 _SilphCo7BattleText4:: ; 8482d (21:482d)
@@ -145,39 +151,37 @@ _SilphCo7EndBattleText4:: ; 84852 (21:4852)
 _SilphCo7AfterBattleText4:: ; 84861 (21:4861)
 	text "Go on home"
 	line "before my BOSS"
-	cont "gets ticked off!"
+	cont "gets pissed off!"
 	done
 
 _SilphCo7Text_51ebe:: ; 8488d (21:488d)
-	text $53, ": What"
-	line "kept you ", $52, "?"
+	text "Hey, ", $52, "!"
+	line "What kept you?"
 	done
 
 _SilphCo7Text_51ec3:: ; 848a2 (21:48a2)
-	text $53, ": Hahaha!"
-	line "I thought you'd"
+	text "Hahaha! I had a"
+	line "feeling you'd"
 	cont "turn up if I"
 	cont "waited here!"
 
 	para "I guess TEAM"
 	line "ROCKET slowed you"
-	cont "down! Not that I"
+	cont "down? Not that I"
 	cont "care!"
 
 	para "I saw you in"
-	line "SAFFRON, so I"
-	cont "decided to see if"
-	cont "you got better!"
+	line "SAFFRON, so let's"
+	cont "see if you've got"
+	cont "any stronger!"
 	done
 
 _SilphCo7Text_51ec8:: ; 8494a (21:494a)
-IF DEF(_YELLOW)
-	text "Oh-oh!"
-ELSE
-	text "Oh ho!"
-ENDC
-	line "So, you are ready"
-	cont "for BOSS ROCKET!"
+	text "Haha!"
+
+	line "I guess you're"
+	cont "ready for the" 
+	cont "BOSS ROCKET!"
 	prompt
 
 _SilphCo7Text_51ecd:: ; 84975 (21:4975)
@@ -210,7 +214,7 @@ _SilphCo7Text_51ed2:: ; 849bd (21:49bd)
 	line "world's most"
 	cont "powerful trainer!"
 
-	para $52, ", well"
+	para "Well, ", $52, ","
 	line "good luck to you!"
 	cont "Don't sweat it!"
 	cont "Smell ya!"
