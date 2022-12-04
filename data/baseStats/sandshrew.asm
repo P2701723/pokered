@@ -2,9 +2,9 @@ SandshrewBaseStats: ; 386b6 (e:46b6)
 db DEX_SANDSHREW ; pokedex id
 db 50 ; base hp
 db 75 ; base attack
-db 85 ; base defense
-db 40 ; base speed
-db 30 ; base special
+db 90 ; base defense  +5
+db 55 ; base speed    +15
+db 35 ; base special  +5
 db GROUND ; species type 1
 db GROUND ; species type 2
 db 255 ; catch rate
@@ -14,14 +14,14 @@ dw SandshrewPicFront
 dw SandshrewPicBack
 ; attacks known at lvl 0
 db SCRATCH
-db 0
+db DEFENSE_CURL
 db 0
 db 0
 db 0 ; growth rate
 ; learnset
 db %10100100
 db %00000011
-db %00001101
+db %00001111 ; Counter
 db %11001110
 db %11000010
 db %10001000
