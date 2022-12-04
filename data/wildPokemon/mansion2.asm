@@ -1,14 +1,14 @@
 MansionMons2:
 	db $0a
-	db 55,GROWLITHE
-	db 55,PONYTA
-	db 55,VULPIX
-	db 55,MAROWAK
-	db 55,WEEZING
-	db 55,MAGMAR
-	db 55,MUK
-	db 55,HYPNO
-	db 55,HAUNTER
-	db 55,MACHOKE
+	db 41,PONYTA	; 25% Grimer
+	db 42,KOFFING	; 20% Ponyta
+	db 42,GRIMER	; 20% Koffing
+	db 42,GRIMER	; 10% Rattata
+	db 44,RATTATA	; 10% Raticate
+	db 46,RATICATE	; 5% Growlithe
+	db 43,GROWLITHE	; 5% Vulpix
+	db 43,VULPIX	; 4% Muk 
+	db 47,MUK	; 1% Weezing
+	db 46,WEEZING
 	db $00
 
