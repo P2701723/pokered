@@ -573,6 +573,10 @@ Mon095_EvosMoves: ; 3b384 (e:7384)
 	db 25,RAGE
 	db 33,SLAM
 	db 43,HARDEN
+	db 69,DIG
+	db 69,SLAM
+	db 69,ROCK_SLIDE
+	db 69,EARTHQUAKE
 	db 0
 Mon022_EvosMoves: ; 3b390 (e:7390)
 ;FEAROW
@@ -636,9 +640,11 @@ Mon075_EvosMoves: ; 3b3cf (e:73cf)
 	db 11,DEFENSE_CURL
 	db 16,ROCK_THROW
 	db 21,SELFDESTRUCT
-	db 29,HARDEN
-	db 36,EARTHQUAKE
-	db 43,EXPLOSION
+	db 29,TAKE_DOWN
+	db 37,ROCK_SLIDE
+	db 45,EARTHQUAKE
+	db 53,EXPLOSION
+	db 62,DOUBLE_EDGE
 	db 0
 Mon113_EvosMoves: ; 3b3e0 (e:73e0)
 ;CHANSEY
@@ -655,7 +661,7 @@ Mon113_EvosMoves: ; 3b3e0 (e:73e0)
 Mon067_EvosMoves: ; 3b3ee (e:73ee)
 ;MACHOKE
 ;Evolutions
-	db EV_LEVEL,60,MACHAMP
+	db EV_LEVEL,50,MACHAMP
 	db EV_TRADE,1,MACHAMP
 	db 0
 ;Learnset
@@ -753,9 +759,11 @@ Mon076_EvosMoves: ; 3b459 (e:7459)
 	db 11,DEFENSE_CURL
 	db 16,ROCK_THROW
 	db 21,SELFDESTRUCT
-	db 29,HARDEN
-	db 36,EARTHQUAKE
-	db 43,EXPLOSION
+	db 29,TAKE_DOWN
+	db 37,ROCK_SLIDE
+	db 45,EARTHQUAKE
+	db 53,EXPLOSION
+	db 62,DOUBLE_EDGE
 	db 0
 
 Mon154_EvosMoves: ; 3b467 (e:7467)
@@ -857,11 +865,11 @@ Mon050_EvosMoves: ; 3b4c2 (e:74c2)
 	db EV_LEVEL,26,DUGTRIO
 	db 0
 ;Learnset
-	db 15,GROWL
 	db 19,DIG
 	db 24,SAND_ATTACK
 	db 31,SLASH
 	db 40,EARTHQUAKE
+	db 51,FISSURE
 	db 0
 Mon128_EvosMoves: ; 3b4d1 (e:74d1)
 ;TAUROS
@@ -1206,14 +1214,15 @@ Mon169_EvosMoves: ; 3b5fa (e:75fa)
 Mon027_EvosMoves: ; 3b5fc (e:75fc)
 ;SANDSHREW
 ;Evolutions
-	db EV_LEVEL,22,SANDSLASH
+	db EV_LEVEL,26,SANDSLASH
 	db 0
 ;Learnset
 	db 10,SAND_ATTACK
-	db 17,SLASH
-	db 24,POISON_STING
+	db 17,POISON_STING
+	db 24,SLASH
 	db 31,SWIFT
 	db 38,FURY_SWIPES
+	db 45,EARTHQUAKE
 	db 0
 Mon028_EvosMoves: ; 3b60b (e:760b)
 ;SANDSLASH
@@ -1221,10 +1230,11 @@ Mon028_EvosMoves: ; 3b60b (e:760b)
 	db 0
 ;Learnset
 	db 10,SAND_ATTACK
-	db 17,SLASH
-	db 27,POISON_STING
+	db 17,POISON_STING
+	db 27,SLASH
 	db 36,SWIFT
 	db 47,FURY_SWIPES
+	db 56,EARTHQUAKE
 	db 0
 Mon138_EvosMoves: ; 3b617 (e:7617)
 ;OMANYTE
@@ -1455,11 +1465,11 @@ Mon051_EvosMoves: ; 3b718 (e:7718)
 ;Evolutions
 	db 0
 ;Learnset
-	db 15,GROWL
-	db 19,DIG
-	db 24,SAND_ATTACK
+	db 19,SAND_ATTACK
+	db 24,DIG
 	db 35,SLASH
 	db 47,EARTHQUAKE
+	db 60,FISSURE
 	db 0
 Mon049_EvosMoves: ; 3b724 (e:7724)
 ;VENOMOTH
@@ -1966,9 +1976,11 @@ Mon074_EvosMoves: ; 3b8fc (e:78fc)
 	db 11,DEFENSE_CURL
 	db 16,ROCK_THROW
 	db 21,SELFDESTRUCT
-	db 26,HARDEN
-	db 31,EARTHQUAKE
-	db 36,EXPLOSION
+	db 26,TAKE_DOWN
+	db 31,ROCK_SLIDE
+	db 36,EARTHQUAKE
+	db 41,EXPLOSION
+	db 46,DOUBLE_EDGE
 	db 0
 Mon137_EvosMoves: ; 3b90d (e:790d)
 ;PORYGON
