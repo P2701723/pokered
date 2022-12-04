@@ -51,13 +51,14 @@ _SafariZoneEntranceText_753bb:: ; 9e825 (27:6825)
 	done
 
 _SafariZoneEntranceText_753c0:: ; 9e854 (27:6854)
-	text "Good Luck!"
+	text "Good luck!"
 	done
 
 _SafariZoneEntranceText_753c5:: ; 9e860 (27:6860)
 	text "Did you get a"
 	line "good haul?"
-	cont "Come again!"
+	
+	para "Come again!"
 	done
 
 _SafariZoneEntranceText_753e6:: ; 9e886 (27:6886)
@@ -66,14 +67,15 @@ _SafariZoneEntranceText_753e6:: ; 9e886 (27:6886)
 	done
 
 _SafariZoneEntranceText_753eb:: ; 9e8a7 (27:68a7)
-	text "SAFARI ZONE has 4"
-	line "zones in it."
+	text "SAFARI ZONE has"
+	line "four zones in it."
 
 	para "Each zone has"
 	line "different kinds"
-	cont "of #MON. Use"
-	cont "SAFARI BALLs to"
-	cont "catch them!"
+	cont "of #MON."
+	
+	para "Use SAFARI BALLS"
+	line "to catch them!"
 
 	para "When you run out"
 	line "of time or SAFARI"
