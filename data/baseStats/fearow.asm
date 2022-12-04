@@ -20,7 +20,7 @@ db 0
 db 0 ; growth rate
 ; learnset
 db %00101010
-db %01000011
+db %11000011 ; Pay Day
 db %00001000
 db %11000000
 db %01000010
