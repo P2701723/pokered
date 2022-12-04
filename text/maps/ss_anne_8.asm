@@ -1,23 +1,24 @@
 _SSAnne8Text8:: ; 814d7 (20:54d7)
-	text "WIGGLYTUFF: Puup"
-	line "pupuu!@@"
+	text "Puup pupuu!@@"
 
 _SSAnne8BattleText1:: ; 814f1 (20:54f1)
-	text "I travel alone"
-	line "on my journeys!"
-
-	para "My #MON are my"
-	line "only friends!"
+	text "Are you brave"
+	line "enough to"
+	cont "challenge my"
+	cont "RATICATE?"
 	done
 
 _SSAnne8EndBattleText1:: ; 8152e (20:552e)
-	text "My, my"
-	line "friends..."
+	text "Let's"
+	line "call it a draw!"
 	prompt
 
 _SSAnne8AfterBattleText1:: ; 81541 (20:5541)
-	text "You should be"
-	line "nice to friends!"
+	text "Your #MON are"
+	line "extraordinary!"
+
+	para "How about we"
+	line "trade?"
 	done
 
 _SSAnne8BattleText2:: ; 81561 (20:5561)
@@ -96,8 +97,8 @@ _SSAnne8Text9:: ; 81736 (20:5736)
 	done
 
 _SSAnne8Text11:: ; 81759 (20:5759)
-	text "Ssh! I'm a GLOBAL"
-	line "POLICE agent!"
+	text "Ssh! I'm a global"
+	line "police agent!"
 
 	para "I'm on the trail"
 	line "of TEAM ROCKET!"
