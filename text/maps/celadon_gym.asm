@@ -3,18 +3,21 @@ _CeladonGymText_48a5e:: ; 9d28f (27:528f)
 	line "weather isn't it?"
 	cont "It's so pleasant."
 
-	para "...Oh dear..."
-	line "I must have dozed"
-	cont "off. Welcome."
+	para "...Oh dear..."	
+	
+	para "I must have dozed"
+	line "off. Welcome."
 
 	para "My name is ERIKA."
-	line "I am the LEADER"
-	cont "of CELADON GYM."
+	
+	para "I am the LEADER"
+	line "of CELADON GYM."
 
 	para "I teach the art of"
 	line "flower arranging."
-	cont "My #MON are of"
-	cont "the grass-type."
+	
+	para "My #MON are of"
+	line "the grass-type."
 
 	para "Oh, I'm sorry, I"
 	line "had no idea that"
@@ -86,7 +89,7 @@ _TM21NoRoomText:: ; 9d576 (27:5576)
 _CeladonGymBattleText2:: ; 9d596 (27:5596)
 	text "Hey!"
 
-	para "You are not"
+	para "Only grass-types"
 	line "allowed in here!"
 	done
 
@@ -122,13 +125,14 @@ _CeladonGymAfterBattleText3:: ; 9d612 (27:5612)
 	done
 
 _CeladonGymBattleText4:: ; 9d675 (27:5675)
-	text "Aren't you the"
-	line "peeping Tom?"
+	text "Weren't you"
+	line "peeking in here"
+	cont "earlier?"
 	done
 
 _CeladonGymEndBattleText4:: ; 9d691 (27:5691)
-	text "I'm"
-	line "in shock!"
+	text "You're"
+	line "an eye-opener!"
 	prompt
 
 _CeladonGymAfterBattleText4:: ; 9d69f (27:569f)
@@ -167,7 +171,7 @@ _CeladonGymBattleText6:: ; 9d762 (27:5762)
 
 _CeladonGymEndBattleText6:: ; 9d78d (27:578d)
 	text "Oh!"
-	line "You!"
+	line "You...!"
 	prompt
 
 _CeladonGymAfterBattleText6:: ; 9d797 (27:5797)
@@ -191,8 +195,9 @@ _CeladonGymEndBattleText7:: ; 9d808 (27:5808)
 _CeladonGymAfterBattleText7:: ; 9d817 (27:5817)
 	text "I have a blind"
 	line "date coming up."
-	cont "I have to learn"
-	cont "to be polite."
+	
+	para "I have to learn"
+	line "to be polite."
 	done
 
 _CeladonGymBattleText8:: ; 9d855 (27:5855)
@@ -201,7 +206,7 @@ _CeladonGymBattleText8:: ; 9d855 (27:5855)
 
 	para "You better not"
 	line "underestimate"
-	cont "girl power!"
+	cont "flower power!"
 	done
 
 _CeladonGymEndBattleText8:: ; 9d897 (27:5897)
