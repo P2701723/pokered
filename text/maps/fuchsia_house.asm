@@ -1,6 +1,6 @@
 _FuchsiaHouse1Text1:: ; 9e2a3 (27:62a3)
 	text "SAFARI ZONE's"
-	line "WARDEN is old,"
+	line "warden is old,"
 	cont "but still active!"
 
 	para "All his teeth are"
