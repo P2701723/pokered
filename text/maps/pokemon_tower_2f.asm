@@ -1,13 +1,16 @@
 _PokemonTower2Text_6062d:: ; 9957b (26:557b)
-	text $53, ": Hey,"
-	line $52, "! What"
-	cont "brings you here?"
-	cont "Your #MON"
-	cont "don't look dead!"
+	text "Hey, ", $52, "!"
+
+	para "What brings you"
+	line "here?"
+
+	para "Your #MON"
+	line "don't look dead!"
 
 	para "I can at least"
 	line "make them faint!"
-	cont "Let's go, pal!"
+
+	para "Let's go, pal!"
 	done
 
 _PokemonTower2Text_60632:: ; 995e5 (26:55e5)
@@ -15,7 +18,7 @@ _PokemonTower2Text_60632:: ; 995e5 (26:55e5)
 	line "You stinker!"
 
 	para "I took it easy on"
-	line "you too!"
+	line "you, too!"
 	prompt
 
 _PokemonTower2Text_60637:: ; 99614 (26:5614)
@@ -30,18 +33,22 @@ _PokemonTower2Text_60637:: ; 99614 (26:5614)
 _PokemonTower2Text_6063c:: ; 99657 (26:5657)
 	text "How's your #DEX"
 	line "coming, pal?"
-	cont "I just caught a"
-	cont "CUBONE!"
+	
+	para "I just caught a"
+	line "CUBONE!"
 
 	para "I can't find the"
 	line "grown-up MAROWAK"
 	cont "yet!"
 
 	para "I doubt there are"
-	line "any left! Well, I"
-	cont "better get going!"
-	cont "I've got a lot to"
-	cont "accomplish, pal!"
+	line "any left!"
+	
+	para "Well, I better"
+	line "get going!"
+
+	para "I've got a lot to"
+	line "accomplish, pal!"
 
 	para "Smell ya later!"
 	done
@@ -51,7 +58,7 @@ _PokemonTower2Text2:: ; 9971a (26:571a)
 	line "identify the"
 	cont "wayward GHOSTs!"
 
-	para "A SILPH SCOPE"
+	para "The SILPH SCOPE"
 	line "might be able to"
 	cont "unmask them."
 	done
