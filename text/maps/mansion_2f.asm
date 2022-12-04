@@ -16,21 +16,24 @@ _Mansion2AfterBattleText1:: ; 85302 (21:5302)
 	done
 
 _Mansion2Text3:: ; 85336 (21:5336)
-	text "Diary: July 5"
-	line "Guyana,"
-	cont "South America"
+	text "JUL 5, 19XX"
+	
+	para "GUYANA,"
+	line "SOUTH AMERICA"
 
-	para "A new #MON was"
-	line "discovered deep"
+	para "I discovered a"
+	line "new #MON deep"
 	cont "in the jungle."
 	done
 
 _Mansion2Text4:: ; 85389 (21:5389)
-	text "Diary: July 10"
-	line "We christened the"
-	cont "newly discovered"
+	text "JUL 10, 19XX"
+
+	para "I christened the"
+	line "newly discovered"
 	cont "#MON, MEW."
 	done
+
 
 _Mansion2Text_520c2:: ; 853c7 (21:53c7)
 	text "A secret switch!"
