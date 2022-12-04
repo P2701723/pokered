@@ -1,14 +1,14 @@
 _CopycatsHouse2FText_5ccd4:: ; a15ad (28:55ad)
-	text $52, ": Hi! Do"
-	line "you like #MON?"
+	text "Hi! Do you like"
+	line "#MON?"
 
-	para $52, ": Uh no, I"
-	line "just asked you."
+	para "Uh no, I just"
+	line "asked you."
 
-	para $52, ": Huh?"
+	para "Huh?"
 	line "You're strange!"
 
-	para "COPYCAT: Hmm?"
+	para "Hmm?"
 	line "Quit mimicking?"
 
 	para "But, that's my"
@@ -41,16 +41,16 @@ _TM31ExplanationText1:: ; a1689 (28:5689)
 	line "#MON!@@"
 
 _TM31ExplanationText2:: ; a16c5 (28:56c5)
-	text $52, ": Hi!"
+	text "Hi!"
 	line "Thanks for TM31!"
 
-	para $52, ": Pardon?"
+	para "Pardon?"
 
-	para $52, ": Is it"
-	line "that fun to mimic"
-	cont "my every move?"
+	para "Is it that fun"
+	line "to mimic my"
+	cont "every move?"
 
-	para "COPYCAT: You bet!"
+	para "You bet!"
 	line "It's a scream!"
 	done
 
@@ -59,7 +59,7 @@ _TM31NoRoomText:: ; a1733 (28:5733)
 	line "this?@@"
 
 _CopycatsHouse2FText2:: ; a1749 (28:5749)
-	text "DODUO: Giiih!"
+	text "Giiih!"
 
 	para "MIRROR MIRROR ON"
 	line "THE WALL, WHO IS"
@@ -74,21 +74,33 @@ _CopycatsHouse2FText3:: ; a1792 (28:5792)
 	done
 
 _CopycatsHouse2FText6:: ; a17be (28:57be)
-	text "A game with MARIO"
-	line "wearing a bucket"
-	cont "on his head!"
+	text "Hey! Her SNES has"
+	line "a SUPER GAME BOY"
+	cont "attachment!"
+	
+	para "Huh? What's that"
+	line "red cartridge?"
+	
+	para "..."
+	line "..."
+	
+	para "Better get going!"
 	done
 
 _CopycatsHouse2FText_5cd17:: ; a17ef (28:57ef)
-	text "..."
+	text "COPYCAT's SECRETS!"
 
-	para "My Secrets!"
+	para "Skill:"
+	line "Mimicry!"
 
-	para "Skill: Mimicry!"
-	line "Hobby: Collecting"
-	cont "dolls!"
-	cont "Favorite #MON:"
-	cont "CLEFAIRY!"
+	para "Hobby:"
+	line "Collecting dolls!"
+
+	para "Favorite #MON:"
+	line "DITTO!"
+	
+	para "Favorite move:"
+	line "MIMIC, of course!"
 	done
 
 _CopycatsHouse2FText_5cd1c:: ; a1842 (28:5842)
