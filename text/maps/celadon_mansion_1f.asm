@@ -1,5 +1,5 @@
 _CeladonMansion1Text1:: ; 9ceee (27:4eee)
-	text "MEOWTH: Meow!@@"
+	text "Meow!@@"
 
 _CeladonMansion1Text2:: ; 9cefe (27:4efe)
 	text "My dear #MON"
@@ -10,15 +10,12 @@ _CeladonMansion1Text2:: ; 9cefe (27:4efe)
 	done
 
 _CeladonMansion1Text3:: ; 9cf3c (27:4f3c)
-	text "CLEFAIRY: Pi"
-	line "pippippi!@@"
+	text "Pi pippippi!@@"
 
 _CeladonMansion1Text4:: ; 9cf55 (27:4f55)
-	text "NIDORAN: Kya"
-	line "kyaoo!@@"
+	text "Kya kyaoo!@@"
 
 _CeladonMansion1Text5:: ; 9cf6b (27:4f6b)
 	text "CELADON MANSION"
-	line "Manager's Suite"
+	line "MANAGER'S SUITE"
 	done
-
