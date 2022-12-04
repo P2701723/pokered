@@ -1,14 +1,14 @@
 MansionMons3:
 	db $0a
-	db 60,NINETALES
-	db 60,ARCANINE
-	db 60,RAPIDASH
-	db 60,MAGMAR
-	db 60,ARBOK
-	db 60,WEEZING
-	db 60,RHYDON
-	db 60,MAROWAK
-	db 60,GOLEM
-	db 60,FLAREON
+	db 45,GRIMER	; 20% Grimer
+	db 45,KOFFING	; 20% Koffing
+	db 46,PONYTA	; 15% Ponyta
+	db 50,RATTATA	; 10% Rattata
+	db 51,RATICATE	; 10% Raticate
+	db 50,MUK	; 10% Muk
+	db 46,GROWLITHE	; 5% Growlithe
+	db 46,VULPIX	; 5% Vulpix
+	db 51,WEEZING	; 4% Weezing
+	db 47,MAGMAR	; 1% Magmar
 	db $00
 
