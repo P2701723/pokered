@@ -9,22 +9,25 @@ _Lab1Text1:: ; a0df7 (28:4df7)
 
 _Lab1Text2:: ; a0e49 (28:4e49)
 	text "A photo of the"
-	line "LAB's founder,"
-	cont "DR.FUJI!"
+	line "LAB's founder."
+	
+	para "..."
+	line "..."
+	cont "...DR.FUJI!?"
 	done
 
 _Lab1Text3:: ; a0e70 (28:4e70)
 	text "#MON LAB"
-	line "Meeting Room"
+	line "MEETING ROOM"
 	done
 
 _Lab1Text4:: ; a0e87 (28:4e87)
 	text "#MON LAB"
-	line "R-and-D Room"
+	line "RESEARCH ROOM"
 	done
 
 _Lab1Text5:: ; a0e9e (28:4e9e)
 	text "#MON LAB"
-	line "Testing Room"
+	line "TESTING ROOM"
 	done
 
