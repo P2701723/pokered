@@ -14,9 +14,8 @@ _ReceivedTM29Text:: ; a252a (28:652a)
 _TM29ExplanationText:: ; a253e (28:653e)
 	text "TM29 is PSYCHIC!"
 
-	para "It can lower the"
-	line "target's SPECIAL"
-	cont "abilities."
+	para "That's short for"
+	line "PSYCHOKINESIS!"
 	done
 
 _TM29NoRoomText:: ; a257c (28:657c)
