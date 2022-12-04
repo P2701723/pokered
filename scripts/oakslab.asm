@@ -1004,7 +1004,7 @@ OaksLabText5: ; 1d248 (7:5248)
 	bit 4, [hl]
 	set 4, [hl]
 	jr nz, .asm_17c30 ; 0x1d2d7
-	ld bc, (POKE_BALL << 8) | 5
+	ld bc, (POKE_BALL << 8) | 10
 	call GiveItem
 	ld hl, OaksLabGivePokeballsText
 	call PrintText
