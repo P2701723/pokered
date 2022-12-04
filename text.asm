@@ -407,8 +407,7 @@ _GymStatueText2:: ; 882a5 (22:42a5)
 	db $0
 
 	para "WINNING TRAINERS:"
-	line $53
-	cont $52
+	line $53, ", ", $52
 	done
 
 _ViridianCityPokecenterGuyText:: ; 882d7 (22:42d7)
