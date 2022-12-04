@@ -1,7 +1,8 @@
 _NameRaterText_1dab3:: ; 9a308 (26:6308)
 	text "Hello, hello!"
-	line "I am the official"
-	cont "NAME RATER!"
+	
+	para "I am the official"
+	line "NAME RATER!"
 
 	para "Want me to rate"
 	line "the nicknames of"
@@ -16,8 +17,9 @@ _NameRaterText_1dab8:: ; 9a361 (26:6361)
 _NameRaterText_1dabd:: ; 9a37f (26:637f)
 	TX_RAM wcd6d
 	text ", is it?"
-	line "That is a decent"
-	cont "nickname!"
+	
+	para "That is a decent"
+	line "nickname!"
 
 	para "But, would you"
 	line "like me to give"
@@ -43,19 +45,16 @@ _NameRaterText_1dac7:: ; 9a404 (26:6404)
 	done
 
 _NameRaterText_1dacc:: ; 9a44c (26:644c)
-IF DEF(_YELLOW)
-	text "Fine! Come any-"
-ELSE
 	text "Fine! Come any"
-ENDC
 	line "time you like!"
 	done
 
 _NameRaterText_1dad1:: ; 9a46b (26:646b)
 	TX_RAM wcd6d
 	text ", is it?"
-	line "That is a truly"
-	cont "impeccable name!"
+	
+	para "That is a truly"
+	line "impeccable name!"
 
 	para "Take good care of"
 	line "@"
