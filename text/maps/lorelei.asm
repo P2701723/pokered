@@ -37,7 +37,6 @@ _LoreleiAfterBattleText:: ; 866d3 (21:66d3)
 	done
 
 _LoreleiText2:: ; 86729 (21:6729)
-	text "Someone's voice:"
-	line "Don't run away!"
+	text "Can't escape!"
 	done
 
