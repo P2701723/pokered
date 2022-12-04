@@ -1,14 +1,14 @@
 PowerPlantMons:
 	db $0A
-	db 60,ELECTRODE
-	db 60,MAGNETON
-	db 60,RAICHU
-	db 60,TAUROS
-	db 60,CHANSEY
-	db 60,MR_MIME
-	db 65,MAGNEMITE
-	db 60,MAGNETON
-	db 65,VOLTORB
-	db 60,ELECTABUZZ
+	db 40,MAGNEMITE		; 30% Magnemite
+	db 40,VOLTORB		; 25% Voltorb
+	db 40,PIKACHU		; 15% Pikachu
+	db 40,GRIMER		; 10% Grimer
+	db 46,MAGNETON		; 10% Magneton
+	db 40,MAGNEMITE		; 5% Muk
+	db 40,VOLTORB		; 4% Raichu
+	db 46,MUK		; 1% Electabuzz
+	db 46,RAICHU
+	db 48,ELECTABUZZ
 	db $00
 
