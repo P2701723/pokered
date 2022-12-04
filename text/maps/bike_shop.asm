@@ -3,11 +3,11 @@ _BikeShopText_1d810:: ; 98e03 (26:4e03)
 	line "our BIKE SHOP."
 
 	para "Have we got just"
-	line "the BIKE for you!"
+	line "the bike for you!"
 	prompt
 
 _BikeShopText_1d815:: ; 98e45 (26:4e45)
-	text "It's a cool BIKE!"
+	text "It's a cool bike!"
 	line "Do you want it?"
 	done
 
@@ -31,7 +31,7 @@ _BikeShopText_1d824:: ; 98eb2 (26:4eb2)
 
 _BikeShopText_1d82a:: ; 98ee0 (26:4ee0)
 	text "Come back again"
-	line "some time!"
+	line "sometime!"
 	done
 
 _BikeShopText_1d82f:: ; 98efc (26:4efc)
@@ -49,7 +49,7 @@ _BikeShopText_1d834:: ; 98f4d (26:4f4d)
 	done
 
 _BikeShopText_1d843:: ; 98f6d (26:4f6d)
-	text "A plain city BIKE"
+	text "A plain city bike"
 	line "is good enough"
 	cont "for me!"
 
@@ -59,13 +59,13 @@ _BikeShopText_1d843:: ; 98f6d (26:4f6d)
 	done
 
 _BikeShopText_1d85c:: ; 98fc1 (26:4fc1)
-	text "These BIKEs are"
+	text "These bikes are"
 	line "cool, but they're"
 	cont "way expensive!"
 	done
 
 _BikeShopText_1d861:: ; 98ff2 (26:4ff2)
-	text "Wow. Your BIKE is"
+	text "Wow. Your bike is"
 	line "really cool!"
 	done
 
