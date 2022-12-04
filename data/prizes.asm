@@ -17,19 +17,19 @@ PrizeMenuMon1Entries: ; 52859 (14:6859)
 	db SQUIRTLE
 	db "@"
 PrizeMenuMon1Cost: ; 5285d (14:685d)
-	db $20,$00
-	db $20,$00
-	db $20,$00
+	db $10,$00
+	db $10,$00
+	db $10,$00
 	db "@"
 
 PrizeMenuMon2Entries: ; 52864 (14:6864)
 	db EEVEE
-	db DRATINI
+	db DRAGONAIR
 	db PORYGON
 	db "@"
 PrizeMenuMon2Cost: ; 52868 (14:6868)
-	db $30,$00
-	db $40,$00
+	db $25,$00
+	db $65,$00
 	db $99,$99
 	db "@"
 
