@@ -1,6 +1,6 @@
 _SSAnne10Text8:: ; 81aaa (20:5aaa)
-	text "MACHOKE: Gwoh!"
-	line "Goggoh!@@"
+	text "Gwoh! Goggoh!@@"
+
 
 _SSAnne10BattleText1:: ; 81ac3 (20:5ac3)
 	text "You know what they"
@@ -56,7 +56,7 @@ _SSAnne10BattleText4:: ; 81bf3 (20:5bf3)
 
 _SSAnne10EndBattleText4:: ; 81c12 (20:5c12)
 	text "Argh!"
-	line "Lost it!"
+	line "Damn it!"
 	prompt
 
 _SSAnne10AfterBattleText4:: ; 81c22 (20:5c22)
@@ -77,9 +77,9 @@ _SSAnne10EndBattleText5:: ; 81c7f (20:5c7f)
 	prompt
 
 _SSAnne10AfterBattleText5:: ; 81c97 (20:5c97)
-	text "Jellyfish some-"
-	line "times drift into"
-	cont "the ship."
+	text "Wild TENTACOOL"
+	line "sometimes drift"
+	cont "into the ship."
 	done
 
 _SSAnne10BattleText6:: ; 81cc3 (20:5cc3)
@@ -92,18 +92,19 @@ _SSAnne10BattleText6:: ; 81cc3 (20:5cc3)
 
 _SSAnne10EndBattleText6:: ; 81d01 (20:5d01)
 	text "Darn!"
-	line "I let that one"
-	cont "get away!"
+	
+	para "I let that one"
+	line "get away!"
 	prompt
 
 _SSAnne10AfterBattleText6:: ; 81d21 (20:5d21)
 	text "I was going to"
 	line "make you my"
-	cont "assistant too!"
+	cont "assistant, too!"
 	done
 
 _SSAnne10Text7:: ; 81d4c (20:5d4c)
-	text "My buddy, MACHOKE,"
+	text "My buddy MACHOKE"
 	line "is super strong!"
 
 	para "He has enough"
