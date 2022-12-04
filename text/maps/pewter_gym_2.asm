@@ -136,7 +136,6 @@ _PewterGymText_5c51f:: ; 983fc (26:43fc)
 	line "are harmless to"
 	cont "BROCK's ground-"
 	cont "type #MON."
-	done
 	
 	para "The rock-type is"
 	line "durable against"
