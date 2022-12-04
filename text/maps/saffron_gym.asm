@@ -17,38 +17,40 @@ _SaffronGymText_5d162:: ; a1bb4 (28:5bb4)
 	done
 
 _SaffronGymText_5d167:: ; a1c73 (28:5c73)
-	text "I'm"
-	line "shocked!"
-	cont "But, a loss is a"
-	cont "loss."
+	text ""
+	line "I'm shocked!"
+	
+	para "But, a loss is a"
+	line "loss."
 
 	para "I admit I didn't"
 	line "work hard enough"
 	cont "to win!"
 
 	para "You earned the"
-	line "MARSHBADGE!@@"
+	line "SOULBADGE!@@"
 
 _SaffronGymText_5d16e:: ; a1cdc (28:5cdc)
 	text "Everyone has"
-	line "psychic power!"
-	cont "People just don't"
-	cont "realize it!"
+	line "psychic power."
+	
+	para "People just don't"
+	line "realize it."
 	done
 
 _SaffronGymText_5d173:: ; a1d16 (28:5d16)
-	text "The MARSHBADGE"
+	text "The SOULBADGE"
 	line "makes #MON up"
-	cont "to L70 obey you!"
+	cont "to L70 obey you."
 
 	para "Stronger #MON"
 	line "will become wild,"
 	cont "ignoring your"
-	cont "orders in battle!"
+	cont "orders in battle."
 
 	para "Just don't raise"
 	line "your #MON too"
-	cont "much!"
+	cont "much."
 
 	para "Wait, please take"
 	line "this TM with you!"
@@ -60,10 +62,11 @@ ReceivedTM46Text:: ; a1dcd (28:5dcd)
 
 _TM46ExplanationText:: ; a1de0 (28:5de0)
 	db $0
-	para "TM46 is PSYWAVE!"
-	line "It uses powerful"
-	cont "psychic waves to"
-	cont "inflict damage!"
+	para "TM46 is PSYBEAM!"
+
+	para "It can weaken the"
+	line "target's SPECIAL"
+	cont "abilities."
 	done
 
 _TM46NoRoomText:: ; a1e25 (28:5e25)
@@ -104,8 +107,8 @@ _SaffronGymBattleText1:: ; a1f33 (28:5f33)
 	done
 
 _SaffronGymEndBattleText1:: ; a1f62 (28:5f62)
-	text "Not"
-	line "good enough!"
+	text ""
+	line "Not good enough!"
 	prompt
 
 _SaffronGymAfterBattleText1:: ; a1f74 (28:5f74)
@@ -131,12 +134,8 @@ _SaffronGymEndBattleText2:: ; a2002 (28:6002)
 
 _SaffronGymAfterBattleText2:: ; a2019 (28:6019)
 	text "Psychic #MON"
-IF DEF(_YELLOW)
-	line "fear only bugs!"
-ELSE
 	line "fear only ghosts"
 	cont "and bugs!"
-ENDC
 	done
 
 _SaffronGymBattleText3:: ; a2042 (28:6042)
@@ -149,8 +148,8 @@ _SaffronGymBattleText3:: ; a2042 (28:6042)
 	done
 
 _SaffronGymEndBattleText3:: ; a2091 (28:6091)
-	text "I knew"
-	line "it!"
+	text ""
+	line "I knew it!"
 	prompt
 
 _SaffronGymAfterBattleText3:: ; a209d (28:609d)
@@ -209,18 +208,18 @@ _SaffronGymEndBattleText6:: ; a21e4 (28:61e4)
 
 _SaffronGymAfterBattleText6:: ; a21fe (28:61fe)
 	text "There used to be"
-	line "2 #MON GYMs in"
-	cont "SAFFRON."
+	line "two #MON GYMs"
+	cont "in SAFFRON CITY."
 
 	para "The FIGHTING DOJO"
 	line "next door lost"
 	cont "its GYM status"
 	cont "when we went and"
-	cont "creamed them!"
+	cont "defeated KOICHI!"
 	done
 
 _SaffronGymBattleText7:: ; a2277 (28:6277)
-	text "SAFFRON #MON"
+	text "The SAFFRON CITY"
 	line "GYM is famous for"
 	cont "its psychics!"
 
