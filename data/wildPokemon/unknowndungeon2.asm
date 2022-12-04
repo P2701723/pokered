@@ -1,14 +1,14 @@
 DungeonMons2:
 	db $0f
-	db 80,DODRIO
-	db 80,VENOMOTH
-	db 80,ALAKAZAM
-	db 80,RHYDON
-	db 80,MAROWAK
-	db 80,ELECTRODE
-	db 80,CHANSEY
-	db 80,WIGGLYTUFF
-	db 80,DITTO
-	db 80,DRAGONITE
+	db 65,DODRIO	; 20% Dodrio
+	db 65,VENOMOTH	; 20% Venomoth
+	db 66,RHYDON	; 15% Rhydon
+	db 65,KADABRA	; 10% Kadabra
+	db 66,MAROWAK	; 10% Marowak
+	db 66,ELECTRODE	; 10% Electrode
+	db 65,GRAVELER	; 5% Graveler
+	db 70,DITTO	; 5% Ditto
+	db 68,CHANSEY	; 4% Chansey
+	db 65,SNORLAX	; 1% Snorlax
 	db $00
 
