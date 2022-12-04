@@ -14,8 +14,9 @@ _VermilionPokecenterText1:: ; 9a4b2 (26:64b2)
 
 _VermilionPokecenterText3:: ; 9a539 (26:6539)
 	text "My #MON was"
-	line "poisoned! It"
-	cont "fainted while we"
-	cont "were walking!"
+	line "poisoned!"
+
+	para "It fainted while"
+	line "we were walking!"
 	done
 
