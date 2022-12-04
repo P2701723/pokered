@@ -1,11 +1,15 @@
 _SSAnne1Text1:: ; 80c70 (20:4c70)
 	text "Bonjour!"
-	line "I am le waiter on"
-	cont "this ship!"
+	
+	para "I am le waiter on"
+	line "this ship!"
 
 	para "I will be happy"
-	line "to serve you any-"
+	line "to serve you any"
 	cont "thing you please!"
+
+	para "..."
+	line "..."
 
 	para "Ah! Le strong"
 	line "silent type!"
