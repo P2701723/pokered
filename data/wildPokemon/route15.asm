@@ -1,14 +1,13 @@
 Route15Mons:
 	db $0f
-	db 40,POLIWHIRL
-	db 40,KRABBY
-	db 40,JYNX
-	db 40,PARASECT
-	db 40,MAROWAK
-	db 40,ARCANINE
-	db 40,GOLDUCK
-	db 40,MACHOKE
-	db 40,PIDGEOT
-	db 40,ALAKAZAM
+	db 31,ODDISH		; 20% Oddish
+	db 31,BELLSPROUT	; 20% Bellsprout
+	db 32,VENONAT		; 19% Venonat
+	db 31,PIDGEY		; 10% Pidgey
+	db 36,PIDGEOTTO		; 10% Pidgeotto
+	db 33,DITTO		; 10% Ditto
+	db 35,GLOOM		; 5% Gloom
+	db 35,WEEPINBELL	; 5% Weepinbell
+	db 33,VENONAT		; 1% Venomoth
+	db 35,VENOMOTH
 	db $00
-
