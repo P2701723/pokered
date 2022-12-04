@@ -1,9 +1,9 @@
 DugtrioBaseStats: ; 38956 (e:4956)
 db DEX_DUGTRIO ; pokedex id
 db 35 ; base hp
-db 80 ; base attack
-db 50 ; base defense
-db 120 ; base speed
+db 100 ; base attack	+20
+db 60 ; base defense	+10
+db 130 ; base speed	+10
 db 70 ; base special
 db GROUND ; species type 1
 db GROUND ; species type 2
@@ -25,9 +25,5 @@ db %00001000
 db %11001110
 db %00000010
 db %10001000
-IF DEF(_YELLOW)
-	db %00000110
-ELSE
-	db %00000010
-ENDC
+db %00000111 ; Tri Attack, Cut
 db 0 ; padding
