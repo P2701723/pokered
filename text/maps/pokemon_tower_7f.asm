@@ -25,10 +25,10 @@ _PokemonTowerJessieJamesText4::
 ENDC
 
 _TowerRescueFujiText:: ; 99c1a (26:5c1a)
-	text "MR.FUJI: Heh? You"
-	line "came to save me?"
+	text "Eh? You came here"
+	line "to save me?"
 
-	para "Thank you. But, I"
+	para "Thank you, but I"
 	line "came here of my"
 	cont "own free will."
 
@@ -45,7 +45,7 @@ _TowerRescueFujiText:: ; 99c1a (26:5c1a)
 	cont "concern!"
 
 	para "Follow me to my"
-	line "home, #MON"
+	line "home, the #MON"
 	cont "HOUSE at the foot"
 	cont "of this tower."
 	done
