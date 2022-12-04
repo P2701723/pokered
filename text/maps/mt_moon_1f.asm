@@ -1,7 +1,9 @@
 _MtMoon1BattleText2:: ; 80692 (20:4692)
-	text "WHOA! You shocked"
-	line "me! Oh, you're"
-	cont "just a kid!"
+	text "WHOA!"
+	line "You shocked me!"
+	
+	para "Oh, you're just"
+	line "a kid!"
 	done
 
 _MtMoon1EndBattleText2:: ; 806bf (20:46bf)
@@ -48,8 +50,8 @@ _MtMoon1AfterBattleText4:: ; 80788 (20:4788)
 	done
 
 _MtMoon1BattleText5:: ; 807a5 (20:47a5)
-	text "What! Don't sneak"
-	line "up on me!"
+	text "What?! Don't"
+	line "sneak up on me!"
 	done
 
 _MtMoon1EndBattleText5:: ; 807c1 (20:47c1)
@@ -90,9 +92,10 @@ _MtMoon1EndBattleText7:: ; 8088e (20:488e)
 	prompt
 
 _MtMoon1AfterBattleText7:: ; 8089b (20:489b)
-	text "I saw them! I'm"
-	line "sure they're from"
-	cont "TEAM ROCKET!"
+	text "I saw them!"
+	
+	para "I'm sure they're"
+	line "from TEAM ROCKET!"
 	done
 
 _MtMoon1BattleText8:: ; 808c9 (20:48c9)
@@ -108,16 +111,13 @@ _MtMoon1EndBattleText8:: ; 808f8 (20:48f8)
 
 _MtMoon1AfterBattleText8:: ; 80901 (20:4901)
 	text "ZUBAT is tough!"
-	line "But, it can be"
-	cont "useful if you"
+	
+	para "But, it can be"
+	line "useful if you"
 	cont "catch one."
 	done
 
 _MtMoon1Text14:: ; 8093a (20:493a)
 	text "Beware! ZUBAT is"
-IF DEF(_YELLOW)
 	line "a bloodsucker!"
-ELSE
-	line "a blood sucker!"
-ENDC
 	done
