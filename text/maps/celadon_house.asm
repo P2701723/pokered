@@ -5,10 +5,10 @@ _CeladonHouseText1:: ; 9e0d5 (27:60d5)
 	done
 
 _CeladonHouseText2:: ; 9e10a (27:610a)
-	text "CHIEF!"
+	text "Call the BOSS!"
 
 	para "We just shipped"
-	line "2000 #MON as"
+	line "more #MON as"
 	cont "slot prizes!"
 	done
 
