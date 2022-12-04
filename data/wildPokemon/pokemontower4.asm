@@ -1,14 +1,14 @@
 TowerMons4:
 	db $0A
-	db 50,ARBOK
-	db 50,MUK
-	db 50,WEEZING
-	db 50,GASTLY
-	db 50,GASTLY
-	db 50,HAUNTER
-	db 50,HAUNTER
-	db 55,CUBONE
-	db 55,CUBONE
-	db 50,HAUNTER
+	db 29,GASTLY	; 80% Gastly L29-34
+	db 30,GASTLY	; 10% Cubone L35
+	db 31,GASTLY	; 10% Haunter L37
+	db 32,GASTLY
+	db 33,GASTLY
+	db 35,CUBONE
+	db 34,GASTLY
+	db 37,HAUNTER
+	db 37,HAUNTER
+	db 37,HAUNTER
 	db $00
 
