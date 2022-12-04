@@ -1,6 +1,5 @@
 _CeruleanCityText_19668:: ; a4d2b (29:4d2b)
-	text $53, ": Yo!"
-	line $52, "!"
+	text "Yo! ", $52, "!"
 
 	para "You're still"
 	line "struggling along"
@@ -29,7 +28,7 @@ _CeruleanCityText_19672:: ; a4de3 (29:4de3)
 	prompt
 
 _CeruleanCityText_19677:: ; a4e07 (29:4e07)
-	text $53, ": Hey,"
+	text "Hey, ", $52, ","
 	line "guess what?"
 
 	para "I went to BILL's"
@@ -46,8 +45,8 @@ _CeruleanCityText_19677:: ; a4e07 (29:4e07)
 	cont "#MANIAC!"
 
 	para "He invented the"
-	line "#MON Storage"
-	cont "System on PC!"
+	line "#MON STORAGE"
+	cont "SYSTEM on PC!"
 
 	para "Since you're using"
 	line "his system, go"
@@ -60,8 +59,14 @@ _CeruleanCityText_19677:: ; a4e07 (29:4e07)
 
 _CeruleanCityText_196d9:: ; a4f27 (29:4f27)
 	text "Hey! Stay out!"
-	line "It's not your"
-	cont "yard! Huh? Me?"
+	
+	para "It's not your"
+	line "yard!"
+	
+	para "..."
+	line "..."
+	
+	para "Huh? Me?"
 
 	para "I'm an innocent"
 	line "bystander! Don't"
@@ -87,8 +92,9 @@ _TM28NoRoomText:: ; a4fb3 (29:4fb3)
 
 _CeruleanCityText_196ee:: ; a4feb (29:4feb)
 	text "Stop!"
-	line "I give up! I'll"
-	cont "leave quietly!"
+	
+	para "I give up! I'll"
+	line "leave quietly!"
 	prompt
 
 _CeruleanCityText_196f3:: ; a5010 (29:5010)
@@ -115,35 +121,23 @@ _CeruleanCityText4:: ; a506e (29:506e)
 _CeruleanCityText5:: ; a50ba (29:50ba)
 	text "You're making an"
 	line "encyclopedia on"
-	cont "#MON? That"
-	cont "sounds amusing."
+	cont "#MON?"
+	
+	para "That sounds"
+	line "amusing."
 	done
-
+	
 _CeruleanCityText6:: ; a50f6 (29:50f6)
-IF DEF(_YELLOW)
 	text "These poor people"
 	line "here were robbed."
 
 	para "We're positive"
 	line "that TEAM ROCKET"
 	cont "is behind this"
-	cont "terrible deed."
-ELSE
-	text "The people here"
-	line "were robbed."
+	cont "terrible crime!"
 
-	para "It's obvious that"
-	line "TEAM ROCKET is"
-	cont "behind this most"
-	cont "heinous crime!"
-ENDC
-
-	para "Even our POLICE"
-IF DEF(_YELLOW)
-	line "FORCE has trouble"
-ELSE
+	para "Even our police"
 	line "force has trouble"
-ENDC
 	cont "with the ROCKETs!"
 	done
 
@@ -153,23 +147,25 @@ IF DEF(_YELLOW)
 ELSE
 	text "OK! SLOWBRO!"
 ENDC
-	line "Use SONICBOOM!"
+	line "Use PSYWAVE!"
 IF DEF(_YELLOW)
-	cont "Please ELECTRODE,"
+	para "Please, ELECTRODE!"
 ELSE
-	cont "Come on, SLOWBRO"
+	para "Come on, SLOWBRO!"
 ENDC
-	cont "pay attention!"
+	line "Pay attention!"
 	done
 
 _CeruleanCityText_19735:: ; a51c5 (29:51c5)
 IF DEF(_YELLOW)
-	text "ELECTRODE, TACKLE!"
+	text "ELECTRODE, use"
+	line "TACKLE!"
 ELSE
-	text "SLOWBRO punch!"
+	text "SLOWBRO, try"
+	line "MEGA PUNCH!"
 ENDC
-	line "No! You blew it"
-	cont "again!"
+	para "No! You blew it"
+	line "again!"
 	done
 
 _CeruleanCityText_1973a:: ; a51ec (29:51ec)
@@ -178,15 +174,10 @@ IF DEF(_YELLOW)
 ELSE
 	text "SLOWBRO, WITHDRAW!"
 ENDC
-	line "No! That's wrong!"
+	para "No! That's wrong!"
 
-IF DEF(_YELLOW)
-	para "Training #MON"
-	line "is difficult!"
-ELSE
 	para "It's so hard to"
 	line "control #MON!"
-ENDC
 
 	para "Your #MON's"
 	line "obedience depends"
@@ -253,24 +244,26 @@ _CeruleanCityText10:: ; a531f (29:531f)
 
 _CeruleanCityText12:: ; a539a (29:539a)
 	text "CERULEAN CITY"
-	line "A Mysterious,"
-	cont "Blue Aura"
-	cont "Surrounds It"
+	
+	para "A mysterious"
+	line "blue aura"
+	cont "surrounds it!"
 	done
 
 _CeruleanCityText13:: ; a53ce (29:53ce)
 	text "TRAINER TIPS"
 
-	para "Pressing B Button"
+	para "Pressing B button"
 	line "during evolution"
 	cont "cancels the whole"
 	cont "process."
 	done
 
 _CeruleanCityText16:: ; a541a (29:541a)
-	text "Grass and caves"
+	text "BIKE SHOP"
+
+	para "Grass and caves"
 	line "handled easily!"
-	cont "BIKE SHOP"
 	done
 
 _CeruleanCityText17:: ; a5445 (29:5445)
@@ -278,7 +271,7 @@ _CeruleanCityText17:: ; a5445 (29:5445)
 	line "#MON GYM"
 	cont "LEADER: MISTY"
 
-	para "The Tomboyish"
-	line "Mermaid!"
+	para "The tomboyish"
+	line "mermaid!"
 	done
 
