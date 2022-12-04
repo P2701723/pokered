@@ -48,8 +48,8 @@ _Lab4Text_610ae:: ; a11d6 (28:51d6)
 	cont "#MON that is"
 	cont "already extinct!"
 
-	para "My Resurrection"
-	line "Machine will make"
+	para "My RESURRECTION"
+	line "MACHINE will make"
 	cont "that #MON live"
 	cont "again!"
 	done
