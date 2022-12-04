@@ -25,8 +25,9 @@ _Museum1FText_5c22e:: ; 965a7 (25:65a7)
 	line "in the back way!"
 
 	para "Oh, whatever!"
-	line "Do you know what"
-	cont "AMBER is?"
+	
+	para "Do you know what"
+	line "AMBER is?"
 	done
 
 _Museum1FText_5c233:: ; 965f1 (25:65f1)
@@ -72,11 +73,7 @@ _Museum1FText_5c28e:: ; 966b4 (25:66b4)
 	para "But, my colleagues"
 	line "just ignore me!"
 
-IF DEF(_YELLOW)
 	para "So, I have a favor"
-ELSE
-	para "So I have a favor"
-ENDC
 	line "to ask!"
 
 	para "Take this to a"
