@@ -1,6 +1,5 @@
 _WardenGibberishText1:: ; 9e444 (27:6444)
-	text "WARDEN: Hif fuff"
-	line "hefifoo!"
+	text "Hif fuff hefifoo!"
 
 	para "Ha lof ha feef ee"
 	line "hafahi ho. Heff"
@@ -20,24 +19,26 @@ _WardenGibberishText3:: ; 9e4b0 (27:64b0)
 _WardenTeethText1:: ; 9e4d2 (27:64d2)
 	text $52, " gave the"
 	line "GOLD TEETH to the"
-	cont "WARDEN!@@"
+	cont "warden!@@"
 
 _WardenTeethText2:: ; 9e4f9 (27:64f9)
 	db $0
-	para "The WARDEN popped"
+	para "The warden popped"
 	line "in his teeth!"
 	prompt
 
 _WardenThankYouText:: ; 9e51b (27:651b)
-	text "WARDEN: Thanks,"
-	line "kid! No one could"
-	cont "understand a word"
-	cont "that I said."
+	text "Thanks, kid!"
+	
+	para "No one could"
+	line "understand a word"
+	cont "I was saying."
 
 	para "I couldn't work"
 	line "that way."
-	cont "Let me give you"
-	cont "something for"
+	
+	para "Let me give you"
+	line "something for"
 	cont "your trouble."
 	prompt
 
@@ -48,8 +49,8 @@ _ReceivedHM04Text:: ; 9e5a2 (27:65a2)
 	text "!@@"
 
 _HM04ExplanationText:: ; 9e5b6 (27:65b6)
-	text "WARDEN: HM04"
-	line "teaches STRENGTH!"
+	text "HM04 teaches"
+	line "STRENGTH!"
 
 	para "It lets #MON"
 	line "move boulders"
