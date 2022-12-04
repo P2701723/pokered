@@ -12,7 +12,7 @@ BTLib2:
 	
 BTLib3:
 	db "Oh no@@@@@"
-	db "Argh no@@@"
+	db "Argh, no@@"
 	db "Oh well@@@"
 	db "My streak@"
 	
@@ -87,7 +87,7 @@ BTBeforeBattleTemplate6:
 	done
 
 BTBeforeBattleTemplate7:
-	text "I'm waiting for"
+	text "I've waited for"
 	line "a while now."
 	
 	para "Let's @"
@@ -111,7 +111,7 @@ BTAfterBattleTemplate1:
 	TX_RAM wStringBuffer1
 	text "!"
 	
-	para "Oh man.."
+	para "Aw, man..."
 	prompt
 	
 BTAfterBattleTemplate2:
