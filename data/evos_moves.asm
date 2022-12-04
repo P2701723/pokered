@@ -1092,7 +1092,7 @@ Mon025_EvosMoves: ; 3b592 (e:7592)
 	db 0
 ;Learnset
 	db 6,TAIL_WHIP
-	db 9,THUNDER_WAVE
+	db 8,THUNDER_WAVE
 	db 11,QUICK_ATTACK
 	db 15,DOUBLE_TEAM
 	db 20,SLAM
