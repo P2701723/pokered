@@ -26,7 +26,8 @@ _PokemonTower1Text4:: ; 99524 (26:5524)
 
 _PokemonTower1Text5:: ; 99546 (26:5546)
 	text "I am a CHANNELER!"
-	line "There are spirits"
-	cont "up to mischief!"
+	
+	para "There are spirits"
+	line "up to mischief!"
 	done
 
