@@ -37,7 +37,7 @@ _SilphCo8EndBattleText2:: ; 84b73 (21:4b73)
 _SilphCo8AfterBattleText2:: ; 84b81 (21:4b81)
 	text "So, what do you"
 	line "think of SILPH"
-	cont "BUILDING's maze?"
+	cont "building's maze?"
 	done
 
 _SilphCo8BattleText3:: ; 84bb1 (21:4bb1)
