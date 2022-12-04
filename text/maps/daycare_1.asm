@@ -1,7 +1,8 @@
 _DayCareMText_5640f:: ; 8ab95 (22:6b95)
 	text "I run a DAYCARE."
-	line "Would you like me"
-	cont "to raise one of"
+	
+	para "Would you like me"
+	line "to raise one of"
 	cont "your #MON?"
 	done
 
@@ -56,10 +57,11 @@ _DayCareMText_5642d:: ; 8acae (22:6cae)
 
 _DayCareMText_56432:: ; 8acc1 (22:6cc1)
 	text "Back already?"
-	line "Your @"
+	
+	para "Your @"
 	TX_RAM wcd6d
 	db $0
-	cont "needs some more"
+	line "needs some more"
 	cont "time with me."
 	prompt
 
