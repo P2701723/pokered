@@ -1,10 +1,10 @@
 GravelerBaseStats: ; 38bf6 (e:4bf6)
 db DEX_GRAVELER ; pokedex id
 db 55 ; base hp
-db 95 ; base attack
-db 115 ; base defense
-db 35 ; base speed
-db 45 ; base special
+db 100 ; base attack  +5
+db 120 ; base defense +5
+db 40 ; base speed    +5
+db 55 ; base special  +10
 db ROCK ; species type 1
 db GROUND ; species type 2
 db 120 ; catch rate
@@ -23,7 +23,7 @@ db %10100001
 db %00000011
 db %00001111
 db %11001110
-db %00101110
+db %00111110 ; Flamethrower
 db %11001000
 db %00100010
 db 0 ; padding
