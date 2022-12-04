@@ -27,10 +27,28 @@ _RocketHideout4Text_4557a:: ; 8223e (20:623e)
 	text "So! I must say, I"
 	line "am impressed you"
 	cont "got here!"
+	
+	para "TEAM ROCKET"
+	line "captures #MON"
+	cont "from around the"
+	cont "world."
+	
+	para "They're important"
+	line "tools for keeping"
+	cont "our criminal"
+	cont "enterprise going."
+	
+	para "I am the leader,"
+	line "GIOVANNI!"
+	
+	para "For your"
+	line "insolence, you"
+	cont "will feel a"
+	cont "world of pain!"
 	done
 
 _RocketHideout4Text_4557f:: ; 8226c (20:626c)
-	text "WHAT!"
+	text "WHAT!?"
 	line "This cannot be!"
 	prompt
 
@@ -94,7 +112,7 @@ _RocketHideout4EndBattleText4:: ; 82413 (20:6413)
 	prompt
 
 _RocketHideout4Text_455ec:: ; 82418 (20:6418)
-	text "Oh no! I dropped"
+	text "Crap! I dropped"
 	line "the LIFT KEY!"
 	done
 
