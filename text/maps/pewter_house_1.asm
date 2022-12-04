@@ -1,8 +1,8 @@
 _PewterHouse1Text1:: ; 984ce (26:44ce)
-	text "NIDORAN: Bowbow!@@"
+	text "Bowbow!@@"
 
 _PewterHouse1Text2:: ; 984e1 (26:44e1)
-	text "NIDORAN sit!"
+	text "NIDORAN, sit!"
 	done
 
 _PewterHouse1Text3:: ; 984ef (26:44ef)
