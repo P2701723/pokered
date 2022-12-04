@@ -11,9 +11,12 @@ _RocketHideout3EndBattleText2:: ; 82168 (20:6168)
 
 _RocketHideout3AfterBattleTxt2:: ; 8217a (20:617a)
 	text "SILPH SCOPE?"
-	line "The machine the"
-	cont "BOSS stole. It's"
-	cont "here somewhere."
+	
+	para "The machine the"
+	line "BOSS stole?"
+	
+	para "It's here"
+	line "somewhere."
 	done
 
 _RocketHideout3BattleTxt:: ; 821b8 (20:61b8)
@@ -29,8 +32,9 @@ _RocketHideout3EndBattleText3:: ; 821e9 (20:61e9)
 
 _RocketHide3AfterBattleText3:: ; 821fc (20:61fc)
 	text "Go ahead and go!"
-	line "But, you need the"
-	cont "LIFT KEY to run"
+
+	para "But, you need the"
+	line "LIFT KEY to run"
 	cont "the elevator!"
 	done
 
