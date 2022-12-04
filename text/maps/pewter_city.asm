@@ -95,7 +95,7 @@ _PewterCityText7:: ; a4c4a (29:4c4a)
 	para "Thieves have been"
 	line "reported stealing"
 	cont "#MON fossils"
-	cont "at MT.MOON!
+	cont "at MT.MOON!"
 	
 	para "Please call"
 	line "PEWTER police"
