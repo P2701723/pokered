@@ -57,7 +57,8 @@ _MtMoon3Text_49f8a:: ; 80a01 (20:4a01)
 _MtMoon3Text_49f8f:: ; 80a11 (20:4a11)
 	text "We'll each take"
 	line "one!"
-	cont "No being greedy!"
+	
+	para "No being greedy!"
 	done
 
 _MtMoon3Text_49f94:: ; 80a37 (20:4a37)
@@ -88,9 +89,10 @@ _MtMoon3EndBattleText2:: ; 80af6 (20:4af6)
 	prompt
 
 _MtMoon3AfterBattleText2:: ; 80b09 (20:4b09)
-	text "You made me mad!"
-	line "TEAM ROCKET will"
-	cont "blacklist you!"
+	text "You piss me off!"
+	
+	para "TEAM ROCKET will"
+	line "blacklist you!"
 	done
 
 _MtMoon3BattleText3:: ; 80b3b (20:4b3b)
@@ -105,7 +107,7 @@ _MtMoon3EndBattleText3:: ; 80b61 (20:4b61)
 	prompt
 
 _MtMoon3AfterBattleText3:: ; 80b6d (20:4b6d)
-	text "Darn it all! My"
+	text "Damn it all! My"
 	line "associates won't"
 	cont "stand for this!"
 	done
