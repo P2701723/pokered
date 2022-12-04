@@ -8,7 +8,7 @@ LoneMoves: ; 39d22 (e:5d22)
 ; first byte:  pokemon in the trainer's party that gets the move
 ; second byte: move
 ; unterminated
-	db 1,ROCK_SLIDE ; Brock obviously entered Lance's school of 'mon hacking.
+	db 1,BIDE ; Brock's Onix
 	db 0,SURF ; Misty
 	db 1,THUNDERBOLT ; Lt. Surge
 	db 2,SOLARBEAM ; Erika
