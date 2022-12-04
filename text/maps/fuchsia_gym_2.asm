@@ -11,7 +11,7 @@ _UnnamedText_7558b:: ; a0000 (28:4000)
 
 _UnnamedText_75590:: ; a0069 (28:4069)
 	text "Now that you have"
-	line "the SOULBADGE,"
+	line "the MARSHBADGE,"
 	cont "the DEFENSE of"
 	cont "your #MON"
 	cont "increases!"
@@ -114,7 +114,7 @@ _FuchsiaGymBattleText4:: ; a02fe (28:42fe)
 
 _FuchsiaGymEndBattleText4:: ; a033a (28:433a)
 	text "Whoa!"
-	line "He's got it!"
+	line "You've got it!"
 	prompt
 
 _FuchsiaGymAfterBattleText4:: ; a034d (28:434d)
@@ -164,7 +164,7 @@ _FuchsiaGymAfterBattleText6:: ; a0483 (28:4483)
 	line "light, there is"
 	cont "shadow!"
 
-	para "Light and shadow!"
+	para "Light or shadow!"
 	line "Which do you"
 	cont "choose?"
 	done
