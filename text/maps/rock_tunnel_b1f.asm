@@ -4,7 +4,7 @@ _RockTunnel1BattleText1:: ; 8c33a (23:433a)
 	done
 
 _RockTunnel1EndBattleText1:: ; 8c35d (23:435d)
-	text "Doh!"
+	text "D'oh!"
 	line "You win!"
 	prompt
 
@@ -110,7 +110,8 @@ _RockTunnel1AfterBattleText7:: ; 8c59d (23:459d)
 
 _RockTunnel1Text8:: ; 8c5b7 (23:45b7)
 	text "ROCK TUNNEL"
-	line "CERULEAN CITY -"
-	cont "LAVENDER TOWN"
+
+	para "CERULEAN CITY -"
+	line "LAVENDER TOWN"
 	done
 
