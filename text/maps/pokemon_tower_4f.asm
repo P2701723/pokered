@@ -19,7 +19,7 @@ _PokemonTower4BattleText2:: ; 998b0 (26:58b0)
 	done
 
 _PokemonTower4EndBattleText2:: ; 998cc (26:58cc)
-	text "What!"
+	text "What?!"
 	prompt
 
 _PokemonTower4AfterBattleText2:: ; 998d3 (26:58d3)
