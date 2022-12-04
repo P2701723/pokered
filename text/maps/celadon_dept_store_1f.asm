@@ -24,6 +24,14 @@ _CeladonMart1Text2:: ; 9c6cd (27:46cd)
 	para "ROOFTOP SQUARE:"
 	line "VENDING MACHINES"
 	
+	para "..."
+	line "..."
+	cont "...?"
+	
+	para "There's something"
+	line "scribbled at the"
+	cont "bottom."
+	
 	para "B1F: TM DEPOT"
 	done
 
