@@ -23,18 +23,19 @@ _LavenderHouse1Text_1d8f4:: ; 99eee (26:5eee)
 
 _LavenderHouse1Text_1d8f9:: ; 99f4b (26:5f4b)
 	text "It's so warm!"
-	line "#MON are so"
-	cont "nice to hug!"
+	
+	para "#MON are so"
+	line "nice to hug!"
 	done
 
 _LavenderHouse1Text3:: ; 99f72 (26:5f72)
-	text "PSYDUCK: Gwappa!@@"
+	text "Gwappa!@@"
 
 _LavenderHouse1Text4:: ; 99f85 (26:5f85)
-	text "NIDORINO: Gaoo!@@"
+	text "Gaoo!@@"
 
 _LavenderHouse1Text_1d94c:: ; 99f97 (26:5f97)
-	text "MR.FUJI: ", $52, "."
+	text $52, "."
 
 	para "Your #DEX quest"
 	line "may fail without"
@@ -68,14 +69,15 @@ _FluteNoRoomText:: ; 9a069 (26:6069)
 	done
 
 _MrFujiAfterFluteText:: ; 9a087 (26:6087)
-	text "MR.FUJI: Has my"
-	line "FLUTE helped you?"
+	text "Has my FLUTE"
+	line "helped you?"
 	done
 
 _LavenderHouse1Text6:: ; 9a0aa (26:60aa)
-	text "#MON Monthly"
-	line "Grand Prize"
-	cont "Drawing!"
+	text "#MON MONTHLY"
+	
+	para "Grand prize"
+	line "drawing!"
 
 	para "The application"
 	line "form is..."
@@ -83,4 +85,3 @@ _LavenderHouse1Text6:: ; 9a0aa (26:60aa)
 	para "Gone! It's been"
 	line "clipped out!"
 	done
-
