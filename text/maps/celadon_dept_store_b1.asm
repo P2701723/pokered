@@ -1,19 +1,17 @@
 _CeladonMartBasementSign:: 
-	text "All the TMs you"
-	line "will ever need!"
+	text "B1F: TM DEPOT"
 
-	para "B1F: TM DEPOT"
+	para "All the TMs you"
+	line "will ever need!"
 	done
 
 _CeladonMartBasementGuy:: 
-	text "This is the best"
-	line "floor in the"
-	cont "mart!"
+	text "It's my favorite"
+	line "shop in the whole"
+	cont "DEPT.STORE!"
 
-	para "I can max out the"
-	line "potential of my"
-	cont "#MON by"
-	cont "upgrading its"
-	cont "moves with these"
-	cont "TMs!"
+	para "TMs usually break"
+	line "after being used,"
+	cont "so I can just buy"
+	cont "more at TM DEPOT!"
 	done
