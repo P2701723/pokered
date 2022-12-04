@@ -40,8 +40,8 @@ _CeladonGameCornerText_48d36:: ; 9d9e1 (27:59e1)
 	done
 
 _CeladonGameCornerText_48d3b:: ; 9da00 (27:5a00)
-	text "You don't have a"
-	line "COIN CASE!"
+	text "You don't have"
+	line "a COIN CASE!"
 	done
 
 _CeladonGameCornerText3:: ; 9da1c (27:5a1c)
@@ -111,8 +111,9 @@ _CeladonGameCornerText_48dcf:: ; 9dbac (27:5bac)
 
 _CeladonGameCornerText8:: ; 9dc06 (27:5c06)
 	text "Games are scary!"
-	line "It's so easy to"
-	cont "get hooked!"
+	
+	para "It's so easy to"
+	line "get hooked!"
 	done
 
 _CeladonGameCornerText_48e26:: ; 9dc33 (27:5c33)
@@ -138,8 +139,9 @@ _CeladonGameCornerText_48e36:: ; 9dc7f (27:5c7f)
 _CeladonGameCornerText_48e88:: ; 9dcad (27:5cad)
 	text "Hey, what? You're"
 	line "throwing me off!"
-	cont "Here are some"
-	cont "coins, shoo!"
+	
+	para "Here are some"
+	line "coins, shoo!"
 	prompt
 
 _CeladonGameCornerText_48e8d:: ; 9dceb (27:5ceb)
@@ -160,17 +162,20 @@ _CeladonGameCornerText_48e98:: ; 9dd1d (27:5d1d)
 _CeladonGameCornerText_48ece:: ; 9dd47 (27:5d47)
 	text "I'm guarding this"
 	line "poster!"
-	cont "Go away, or else!"
+	
+	para "Go away, or else!"
 	done
 
 _CeladonGameCornerText_48ed3:: ; 9dd73 (27:5d73)
-	text "Dang!"
+	text "Damn it!"
 	prompt
 
 _CeladonGameCornerText_48ed8:: ; 9dd7a (27:5d7a)
 	text "Our hideout might"
-	line "be discovered! I"
-	cont "better tell BOSS!"
+	line "be discovered!"
+	
+	para "I better tell"
+	cont "BOSS!"
 	done
 
 _CeladonGameCornerText_48f09:: ; 9ddb0 (27:5db0)
