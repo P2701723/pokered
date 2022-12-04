@@ -6,7 +6,7 @@ _SafariZoneCenterText3:: ; 85813 (21:5813)
 	text "TRAINER TIPS"
 
 	para "Press the START"
-	line "Button to check"
+	line "button to check"
 	cont "remaining time!"
 	done
 
