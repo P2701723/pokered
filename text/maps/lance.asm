@@ -1,15 +1,11 @@
 _LanceBeforeBattleText:: ; 85d3c (21:5d3c)
 	text "Ah! I heard about"
-IF DEF(_YELLOW)
 	line "you, ", $52, "!"
-ELSE
-	line "you ", $52, "!"
-ENDC
 
 	para "I lead the ELITE"
 	line "FOUR! You can"
 	cont "call me LANCE the"
-	cont "dragon trainer!"
+	cont "dragon master!"
 
 	para "You know that"
 	line "dragons are"
@@ -35,8 +31,8 @@ _LanceEndBattleText:: ; 85e64 (21:5e64)
 	text "That's it!"
 
 	para "I hate to admit"
-	line "it, but you are a"
-	cont "#MON master!"
+	line "it, but you're a"
+	cont "true master!"
 	prompt
 
 _LanceAfterBattleText:: ; 85e9e (21:5e9e)
@@ -54,15 +50,15 @@ _LanceAfterBattleText:: ; 85e9e (21:5e9e)
 	cont "you have one more"
 	cont "challenge ahead."
 
-	para "You have to face"
-	line "another trainer!"
-	cont "His name is..."
-
-	para $53, "!"
-	line "He beat the ELITE"
+	para "Another trainer"
+	line "beat the ELITE"
 	cont "FOUR before you!"
 
-	para "He is the real"
+	para "Head onward to the"
+	line "next room, where"
+	cont "you shall face..."
+
+	para "The current"
 	line "#MON LEAGUE"
 	cont "champion!@@"
 
