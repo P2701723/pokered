@@ -44,8 +44,9 @@ _SaffronCityText8:: ; a63df (29:63df)
 _SaffronCityText9:: ; a640f (29:640f)
 	text "Yeah! TEAM ROCKET"
 	line "is gone!"
-	cont "It's safe to go"
-	cont "out again!"
+	
+	para "It's safe to go"
+	line "out again!"
 	done
 
 _SaffronCityText10:: ; a6445 (29:6445)
@@ -58,6 +59,9 @@ _SaffronCityText11:: ; a6475 (29:6475)
 	text "I flew here on my"
 	line "PIDGEOT when I"
 	cont "read about SILPH."
+	
+	para "..."
+	line "..."
 
 	para "It's already over?"
 	line "I missed the"
@@ -65,7 +69,7 @@ _SaffronCityText11:: ; a6475 (29:6475)
 	done
 
 _SaffronCityText12:: ; a64d6 (29:64d6)
-	text "PIDGEOT: Bi bibii!@@"
+	text "Bi bibii!@@"
 
 _SaffronCityText13:: ; a64eb (29:64eb)
 	text "I saw ROCKET"
@@ -77,13 +81,15 @@ _SaffronCityText14:: ; a6518 (29:6518)
 	text "I'm a security"
 	line "guard."
 
-	para "Suspicious kids I"
-	line "don't allow in!"
+	para "No suspicious kids"
+	line "are allowed in!"
 	done
 
 _SaffronCityText15:: ; a654f (29:654f)
-	text "..."
-	line "Snore..."
+	para "Snore..."
+
+	para "..."
+	line "..."
 
 	para "Hah! He's taking"
 	line "a snooze!"
@@ -91,12 +97,18 @@ _SaffronCityText15:: ; a654f (29:654f)
 
 _SaffronCityText16:: ; a6577 (29:6577)
 	text "SAFFRON CITY"
-	line "Shining, Golden"
-	cont "Land of Commerce"
+
+	para "Shining, golden"
+	line "land of commerce!"
 	done
 
 _SaffronCityText17:: ; a65a6 (29:65a6)
-	text "FIGHTING DOJO"
+	text "SAFFRON CITY"
+	line "FIGHTING DOJO"
+	cont "LEADER: KOICHI"
+
+	para "The master of"
+	line "fighting #MON!"
 	done
 
 _SaffronCityText18:: ; a65b5 (29:65b5)
@@ -104,8 +116,8 @@ _SaffronCityText18:: ; a65b5 (29:65b5)
 	line "#MON GYM"
 	cont "LEADER: SABRINA"
 
-	para "The Master of"
-	line "Psychic #MON!"
+	para "The mistress of"
+	line "psychic #MON!"
 	done
 
 _SaffronCityText20:: ; a65f8 (29:65f8)
