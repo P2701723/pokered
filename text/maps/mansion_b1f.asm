@@ -24,17 +24,29 @@ _Mansion4EndBattleText2:: ; 85541 (21:5541)
 
 _Mansion4AfterBattleText2:: ; 85555 (21:5555)
 	text "I like it here!"
-	line "It's conducive to"
-	cont "my studies!"
+	
+	para "It's conducive to"
+	line "my studies!"
 	done
 
 _Mansion4Text7:: ; 85583 (21:5583)
-	text "Diary; Sept. 1"
-	line "MEWTWO is far too"
-	cont "powerful."
+	text "SEP 1, 19XY"
 
-	para "We have failed to"
-	line "curb its vicious"
-	cont "tendencies..."
+	para "MEWTWO has become"
+	line "far too powerful."
+
+	para "It's beyond human"
+	line "comprehension."
+
+	para "I cannot control"
+	line "it any longer!"
+
+	para "I dreamed of"
+	line "creating the"
+	cont "world's strongest"
+	cont "#MON..."
+
+	para "...and I"
+	line "succeeded."
 	done
 
