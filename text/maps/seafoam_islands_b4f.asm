@@ -8,7 +8,7 @@ _SeafoamIslands5Text4:: ; 8807e (22:407e)
 	done
 
 _SeafoamIslands5Text5:: ; 880a8 (22:40a8)
-	text "DANGER"
+	text "DANGER!"
 	line "Fast current!"
 	done
 
