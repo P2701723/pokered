@@ -1,17 +1,16 @@
 _ProgrammerText:: ; 9cfa4 (27:4fa4)
 	text "Me? I'm the"
 	line "programmer!"
+	
+	para "This stuff is a"
+	line "lot harder than"
+	cont "it looks!"
 	done
 
 _GraphicArtistText:: ; 9cfbc (27:4fbc)
-	text "I'm the graphic"
+	text "I'm the character"
 	line "artist!"
-	cont "I drew you!"
-	done
-
-_WriterText:: ; 9cfe0 (27:4fe0)
-	text "I wrote the story!"
-	line "Isn't ERIKA cute?"
+	cont "Isn't ERIKA cute?"
 
 	para "I like MISTY a"
 	line "lot too!"
@@ -20,10 +19,17 @@ _WriterText:: ; 9cfe0 (27:4fe0)
 	line "I like her!"
 	done
 
-_GameDesignerText:: ; 9d03a (27:503a)
-	text "Is that right?"
+_WriterText:: ; 9cfe0 (27:4fe0)
+	text "I helped design"
+	line "the #MON!"
 
-	para "I'm the game"
+	para "The first one we"
+	line "made was named"
+	cont "RHYDON!"
+	done
+
+_GameDesignerText:: ; 9d03a (27:503a)
+	text "I'm the game"
 	line "designer!"
 
 	para "Filling up your"
@@ -36,8 +42,9 @@ _GameDesignerText:: ; 9d03a (27:503a)
 
 _CompletedDexText:: ; 9d0ad (27:50ad)
 	text "Wow! Excellent!"
-	line "You completed"
-	cont "your #DEX!"
+	
+	para "You completed"
+	line "your #DEX!"
 	cont "Congratulations!"
 	cont "...@@"
 
@@ -50,18 +57,18 @@ _CeladonMansion3Text5:: ; 9d0ed (27:50ed)
 
 _CeladonMansion3Text6:: ; 9d12c (27:512c)
 	text "Someone's playing"
-	line "a game instead of"
+	line "TETRIS instead of"
 	cont "working!"
 	done
 
 _CeladonMansion3Text7:: ; 9d159 (27:5159)
 	text "It's the script!"
-	line "Better not look"
-	cont "at the ending!"
+	
+	para "Hey! There's more"
+	cont "after the ending!"
 	done
 
 _CeladonMansion3Text8:: ; 9d189 (27:5189)
 	text "GAME FREAK"
-	line "Development Room"
+	line "DEVELOPMENT ROOM"
 	done
-
