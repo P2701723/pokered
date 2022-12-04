@@ -39,7 +39,7 @@ _PokemonTower5BattleText3:: ; 99a1e (26:5a1e)
 	done
 
 _PokemonTower5EndBattleText3:: ; 99a28 (26:5a28)
-	text "Ha?"
+	text "Hah?"
 	prompt
 
 _PokemonTower5AfterBattleText3:: ; 99a2d (26:5a2d)
