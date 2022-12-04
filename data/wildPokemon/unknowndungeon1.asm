@@ -1,14 +1,14 @@
 DungeonMons1:
 	db $0a
-	db 80,GOLBAT
-	db 80,HYPNO
-	db 80,MAGNETON
-	db 80,MUK
-	db 80,VENOMOTH
-	db 80,ARBOK
-	db 80,MACHAMP
-	db 80,PARASECT
-	db 80,RAICHU
-	db 80,ELECTABUZZ
+	db 63,GOLBAT	; 20% Golbat
+	db 63,HYPNO	; 20% Hypno
+	db 63,MAGNETON	; 15% Magneton
+	db 64,DODRIO	; 10% Dodrio
+	db 64,VENOMOTH	; 10% Venomoth
+	db 66,SANDSLASH	; 10% Sandslash
+	db 62,GRAVELER	; 5% Graveler
+	db 66,PARASECT	; 5% Parasect
+	db 70,DITTO	; 4% Ditto
+	db 65,SNORLAX	; 1% Snorlax
 	db $00
 
