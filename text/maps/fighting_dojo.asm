@@ -1,5 +1,5 @@
 _FightingDojoText_5ce8e:: ; a1852 (28:5852)
-	text "Grunt!"
+	text "Humph!"
 
 	para "I am KOICHI, the"
 	line "KARATE KING!"
