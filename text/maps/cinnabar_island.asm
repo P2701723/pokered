@@ -13,18 +13,16 @@ _CinnabarIslandText1:: ; a61e6 (29:61e6)
 _CinnabarIslandText2:: ; a622a (29:622a)
 	text "Scientists conduct"
 	line "experiments in"
-IF DEF(_YELLOW)
 	cont "the burned-out"
-ELSE
-	cont "the burned out"
-ENDC
 	cont "building."
 	done
 
+
 _CinnabarIslandText3:: ; a6266 (29:6266)
 	text "CINNABAR ISLAND"
-	line "The Fiery Town of"
-	cont "Burning Desire"
+	
+	para "The fiery town of"
+	line "burning desire!"
 	done
 
 _CinnabarIslandText6:: ; a6298 (29:6298)
@@ -36,7 +34,7 @@ _CinnabarIslandText7:: ; a62a2 (29:62a2)
 	line "#MON GYM"
 	cont "LEADER: BLAINE"
 
-	para "The Hot-Headed"
-	line "Quiz Master!"
+	para "The hot-headed"
+	line "quiz master!"
 	done
 
