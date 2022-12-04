@@ -61,32 +61,34 @@ _SilphCo6BattleText2:: ; 84306 (21:4306)
 	done
 
 _SilphCo6EndBattleText2:: ; 8432a (21:432a)
-	text "Flame"
-	line "out!"
+	text ""
+	line "Flame out!"
 	prompt
 
 _SilphCo6AfterBattleText2:: ; 84336 (21:4336)
 	text "No matter!"
-	line "My brothers will"
-	cont "avenge me!"
+	
+	para "My brothers will"
+	line "avenge me!"
 	done
 
 _SilphCo6BattleText3:: ; 8435e (21:435e)
-	text "That rotten"
-	line "PRESIDENT!"
+	text "That damned"
+	line "president!"
 
 	para "He shouldn't have"
-	line "sent me to the"
-	cont "TIKSI BRANCH!"
+	line "sent me to that"
+	cont "SILPH branch in"
+	cont "PONAYA TUNGUSKA!"
 	done
 
 _SilphCo6EndBattleText3:: ; 843a4 (21:43a4)
-	text "Shoot!"
+	text "Blyad!"
 	prompt
 
 _SilphCo6AfterBattleText3:: ; 843ac (21:43ac)
-	text "TIKSI BRANCH?"
-	line "It's in Russian"
+	text "I'm not going back"
+	line "to that RUSSIAN"
 	cont "no man's land!"
 	done
 
@@ -96,8 +98,8 @@ _SilphCo6BattleText4:: ; 843d8 (21:43d8)
 	done
 
 _SilphCo6EndBattleText4:: ; 843f6 (21:43f6)
-	text "You"
-	line "traitor!"
+	text ""
+	line "You traitor!"
 	prompt
 
 _SilphCo6AfterBattleText4:: ; 84404 (21:4404)
