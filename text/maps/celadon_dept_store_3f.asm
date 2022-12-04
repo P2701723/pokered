@@ -1,8 +1,13 @@
 _TM18PreReceiveText:: ; 9c814 (27:4814)
-	text "Oh, hi! I finally"
-	line "finished #MON!"
+	text "Hey! You're making"
+	line "great progress"
+	cont "with finishing"
+	cont "#MON RED!"
 
-	para "Not done yet?"
+	para "Huh? Did I say"
+	line "something weird?"
+	
+	para "Well, anyway!"
 	line "This might be"
 	cont "useful!"
 	prompt
@@ -30,8 +35,8 @@ _CeladonMart3Text2:: ; 9c8c7 (27:48c7)
 	line "are registered"
 	cont "with an ID No."
 	cont "and OT, the name"
-	cont "of the Original"
-	cont "Trainer that"
+	cont "of the original"
+	cont "trainer that"
 	cont "caught it!"
 	done
 
@@ -40,19 +45,19 @@ _CeladonMart3Text3:: ; 9c92d (27:492d)
 
 	para "My buddy's going"
 	line "to trade me his"
-	cont "KANGASKHAN for my"
-	cont "GRAVELER!"
+	cont "SHELLDER for my"
+	cont "SLOWPOKE!"
 	done
 
 _CeladonMart3Text4:: ; 9c975 (27:4975)
-	text "Come on GRAVELER!"
+	text "Come on, SLOWPOKE!"
 
-	para "I love GRAVELER!"
+	para "I love SLOWPOKE!"
 	line "I collect them!"
 
 	para "Huh?"
 
-	para "GRAVELER turned"
+	para "SLOWPOKE turned"
 	line "into a different"
 	cont "#MON!"
 	done
@@ -61,30 +66,31 @@ _CeladonMart3Text5:: ; 9c9d5 (27:49d5)
 	text "You can identify"
 	line "#MON you got"
 	cont "in trades by"
-	cont "their ID Numbers!"
+	cont "their ID numbers!"
 	done
 
 _CeladonMart3Text6:: ; 9ca13 (27:4a13)
 	text "It's an SNES!"
+	line "Sweet graphics!"
 	done
 
 _CeladonMart3Text7:: ; 9ca21 (27:4a21)
-	text "An RPG! There's"
-	line "no time for that!"
+	text "EARTH BOUND!"
+	line "No problem here!"
 	done
 
 _CeladonMart3Text9:: ; 9ca43 (27:4a43)
-	text "A sports game!"
+	text "SUPER MARIO!"
 	line "Dad'll like that!"
 	done
 
 _CeladonMart3Text11:: ; 9ca64 (27:4a64)
-	text "A puzzle game!"
+	text "PUZZLE LEAGUE!"
 	line "Looks addictive!"
 	done
 
 _CeladonMart3Text13:: ; 9ca85 (27:4a85)
-	text "A fighting game!"
+	text "SMASH BROTHERS!"
 	line "Looks tough!"
 	done
 
@@ -93,7 +99,7 @@ _CeladonMart3Text14:: ; 9caa4 (27:4aa4)
 	done
 
 _CeladonMart3Text15:: ; 9cab6 (27:4ab6)
-	text "Red and Blue!"
-	line "Both are #MON!"
+	text "Red, blue, green!"
+	line "All 3 are #MON!"
 	done
 
