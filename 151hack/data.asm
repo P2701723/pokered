@@ -2,22 +2,22 @@
 	
 TPPRedMovesTable:
 ; Copied directly from the save file
-	db THUNDERSHOCK, DRILL_PECK, TAKE_DOWN, THUNDER ; Zapdos
-	db SURF, POISON_STING, STRENGTH, FURY_ATTACK ; Nidoking
-	db HYDRO_PUMP, WITHDRAW, SURF, HORN_ATTACK ; Omastar
-	db DISABLE, POISONPOWDER, LEECH_LIFE, STUN_SPORE ; Venomoth
-	db CONFUSE_RAY, MIST, SURF, STRENGTH ; Lapras
-	db MIRROR_MOVE, SAND_ATTACK, QUICK_ATTACK, SKY_ATTACK; Pidgeot
+	db THUNDERBOLT, DOUBLE_TEAM, SURF, THUNDER ; Pikachu
+	db SURF, BODY_SLAM, CONFUSE_RAY, ICE_BEAM ; Lapras
+	db REST, BODY_SLAM, EARTHQUAKE, HYPER_BEAM ; Snorlax
+	db WITHDRAW, SKULL_BASH, BLIZZARD, HYDRO_PUMP ; Blastoise
+	db RAZOR_LEAF, SLEEP_POWDER, MEGA_DRAIN, SOLARBEAM ; Venusaur
+	db SLASH, FLAMETHROWER, FIRE_BLAST, FIRE_SPIN ; Charizard
 	
 TPPRedNicksTable:
 ; Copied directly from the save file
 ; Some nicknaming traces are shown
-	db "AA-j@@@@@@L"
-	db "AAAAAAAAAA@"
-	db "OMASTAR@@@@"
-	db "AATTVVV@ALL"
-	db "AIIIIIIRRR@"
-	db "aaabaaajss@"
+	db "PIKACHU@@@@"
+	db "LAPRAS@@@@@"
+	db "SNORLAX@@@@"
+	db "BLASTOISE@@"
+	db "VENUSAUR@@@"
+	db "CHARIZARD@@"
 	
 LegendaryList:
 	db ARTICUNO, ZAPDOS, MOLTRES, MEWTWO, MEW, $ff
