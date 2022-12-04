@@ -35,7 +35,7 @@ PokemonTower6Script0: ; 60b17 (18:4b17)
 	call DisplayTextID
 	ld a, MAROWAK
 	ld [W_CUROPPONENT], a ; wd059
-	ld a, 30
+	ld a, 45
 	ld [W_CURENEMYLVL], a ; W_CURENEMYLVL
 	ld a, $4
 	ld [W_POKEMONTOWER6CURSCRIPT], a
