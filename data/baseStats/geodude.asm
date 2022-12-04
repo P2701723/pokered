@@ -4,7 +4,7 @@ db 40 ; base hp
 db 80 ; base attack
 db 100 ; base defense
 db 20 ; base speed
-db 30 ; base special
+db 35 ; base special  +5
 db ROCK ; species type 1
 db GROUND ; species type 2
 db 255 ; catch rate
@@ -23,7 +23,7 @@ db %10100001
 db %00000011
 db %00001111
 db %11001110
-db %00101110
+db %00111110 ; Flamethrower
 db %11001000
 db %00100010
 db 0 ; padding
