@@ -1,18 +1,10 @@
 _CeladonCityText1:: ; a59fb (29:59fb)
 	text "I got my KOFFING"
-IF DEF(_YELLOW)
-	line "from my friend!"
-
-	para "We get along now,"
-	line "because I was"
-	cont "very nice to it!"
-ELSE
 	line "in CINNABAR!"
 
 	para "It's nice, but it"
 	line "breathes poison"
 	cont "when it's angry!"
-ENDC
 	done
 
 _CeladonCityText2:: ; a5a4b (29:5a4b)
@@ -28,7 +20,7 @@ _CeladonCityText3:: ; a5a79 (29:5a79)
 	done
 
 _CeladonCityText4:: ; a5aa6 (29:5aa6)
-	text "Moan! I blew it"
+	text "Ugh! I blew it"
 	line "all at the slots!"
 
 	para "I knew I should"
@@ -57,11 +49,11 @@ _TM41ExplanationText:: ; a5b6e (29:5b6e)
 	text "TM41 teaches"
 	line "SOFTBOILED!"
 
-	para "Only one #MON"
+	para "Very few #MON"
 	line "can use it!"
 
-	para "That #MON is"
-	line "CHANSEY!"
+	para "They're all pink"
+	line "and normal-type!"
 	done
 
 _TM41NoRoomText:: ; a5bb8 (29:5bb8)
@@ -79,8 +71,7 @@ _CeladonCityText6:: ; a5bd9 (29:5bd9)
 	done
 
 _CeladonCityText7:: ; a5c30 (29:5c30)
-	text "POLIWRATH: Ribi"
-	line "ribit!@@"
+	text "Ribi ribit!@@"
 
 _CeladonCityText8:: ; a5c49 (29:5c49)
 	text "What are you"
@@ -110,8 +101,9 @@ _CeladonCityText10:: ; a5c82 (29:5c82)
 
 _CeladonCityText11:: ; a5d18 (29:5d18)
 	text "CELADON CITY"
-	line "The City of"
-	cont "Rainbow Dreams"
+	
+	para "The city of"
+	line "rainbow dreams!"
 	done
 
 _CeladonCityText13:: ; a5d41 (29:5d41)
@@ -119,12 +111,8 @@ _CeladonCityText13:: ; a5d41 (29:5d41)
 	line "#MON GYM"
 	cont "LEADER: ERIKA"
 
-IF DEF(_YELLOW)
-	para "The Nature-Loving"
-ELSE
-	para "The Nature Loving"
-ENDC
-	line "Princess!"
+	para "The nature-loving"
+	line "princess!"
 	done
 
 _CeladonCityText14:: ; a5d82 (29:5d82)
@@ -152,18 +140,16 @@ _CeladonCityText16:: ; a5dbf (29:5dbf)
 	done
 
 _CeladonCityText17:: ; a5e3e (29:5e3e)
-	text "Coins exchanged"
+	text "PRIZE EXCHANGE"
+	
+	para "Coins exchanged"
 	line "for prizes!"
-	cont "PRIZE EXCHANGE"
 	done
 
 _CeladonCityText18:: ; a5e6a (29:5e6a)
 	text "ROCKET GAME CORNER"
-	line "The playground"
-IF DEF(_YELLOW)
-	cont "for grownups!"
-ELSE
-	cont "for grown-ups!"
-ENDC
+	
+	para "The playground"
+	line "for grown-ups!"
 	done
 
