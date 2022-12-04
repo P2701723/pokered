@@ -7,9 +7,9 @@ _PewterPokecenterText1:: ; 98704 (26:4704)
 	para "..."
 	line "..."
 	cont "Huh?"
-	cont "I'm on the phone!"
-
-	para "Scram!"
+	
+	para "I'm on the phone!"
+	line "Scram!"
 	done
 
 IF DEF(_YELLOW)
