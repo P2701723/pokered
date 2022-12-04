@@ -5,8 +5,9 @@ _SilphCo2Text_59ded:: ; 82454 (20:6454)
 	para "Oh, you're not"
 	line "with TEAM ROCKET."
 	cont "I thought..."
-	cont "I'm sorry. Here,"
-	cont "please take this!"
+	
+	para "I'm sorry. Here,"
+	line "please take this!"
 	prompt
 
 _ReceivedTM36Text:: ; 824ba (20:64ba)
@@ -32,13 +33,13 @@ _TM36NoRoomText:: ; 8251c (20:651c)
 
 _SilphCo2BattleText1:: ; 8253e (20:653e)
 	text "Help! I'm a SILPH"
-	line "employee."
+	line "employee!"
 	done
 
 _SilphCo2EndBattleText1:: ; 8255a (20:655a)
-	text "How"
-	line "did you know I"
-	cont "was a ROCKET?"
+	text ""
+	line "How did you know"
+	cont "I was a ROCKET?"
 	prompt
 
 _SilphCo2AfterBattleText1:: ; 8257c (20:657c)
@@ -72,11 +73,7 @@ _SilphCo2EndBattleText3:: ; 8260f (20:660f)
 	prompt
 
 _SilphCo2AfterBattleText3:: ; 82617 (20:6617)
-IF DEF(_YELLOW)
 	text "Diamond-shaped"
-ELSE
-	text "Diamond shaped"
-ENDC
 	line "tiles are"
 	cont "teleport blocks!"
 
