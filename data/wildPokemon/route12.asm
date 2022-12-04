@@ -1,14 +1,14 @@
 Route12Mons:
 	db $0f
-	db 38,VILEPLUME
-	db 38,BEEDRILL
-	db 38,PARASECT
-	db 38,VENOMOTH
-	db 38,PERSIAN
-	db 38,SEADRA
-	db 38,SHELLDER
-	db 38,SEEL
-	db 38,ONIX
-	db 38,RHYDON
+	db 30,ODDISH		; 30% Pidgey L30-32
+	db 30,BELLSPROUT	; 20% Oddish L30
+	db 31,VENONAT		; 20% Bellsprout L30
+	db 30,PIDGEY		; 15% Venonat L31
+	db 31,PIDGEY		; 5% Gloom L34
+	db 32,PIDGEY		; 5% Weepinbell L34
+	db 34,GLOOM		; 4% Pidgeotto L33
+	db 34,WEEPINBELL	; 1% Farfetch'd L32
+	db 33,PIDGEOTTO
+	db 32,FARFETCH_D
 	db $00
 
