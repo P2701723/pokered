@@ -16,15 +16,21 @@ _FuchsiaCityText2:: ; a5ede (29:5ede)
 	done
 
 _FuchsiaCityText3:: ; a5f3e (29:5f3e)
-	text "ERIK: Where's"
-	line "SARA? I said I'd"
-	cont "meet her here."
+	text "That's weird..."
+	
+	para "My girlfriend said"
+	line "to use a fish"
+	cont "#MON to go"
+	cont "meet her..."
+	
+	para "But I can't SURF"
+	line "on dry land!"
 	done
 
 _FuchsiaCityText4:: ; a5f6b (29:5f6b)
 	text "That item ball in"
 	line "there is really a"
-	cont "#MON."
+	cont "#MON!"
 	done
 
 _FuchsiaCityText5:: ; a5f96 (29:5f96)
@@ -33,8 +39,9 @@ _FuchsiaCityText5:: ; a5f96 (29:5f96)
 
 _FuchsiaCityText11:: ; a5f99 (29:5f99)
 	text "FUCHSIA CITY"
-	line "Behold! It's"
-	cont "Passion Pink!"
+
+	para "Behold! It's"
+	line "passion pink!"
 	done
 
 _FuchsiaCityText13:: ; a5fc1 (29:5fc1)
@@ -57,12 +64,8 @@ _FuchsiaCityText18:: ; a6011 (29:6011)
 	line "#MON GYM"
 	cont "LEADER: KOGA"
 
-	para "The Poisonous"
-IF DEF(_YELLOW)
-	line "Ninja Master!"
-ELSE
-	line "Ninja Master"
-ENDC
+	para "The poisonous"
+	line "ninja master!"
 	done
 
 _FuchsiaCityChanseyText:: ; a6050 (29:6050)
@@ -105,17 +108,17 @@ _FuchsiaCityLaprasText:: ; a612c (29:612c)
 _FuchsiaCityOmanyteText:: ; a6157 (29:6157)
 	text "Name: OMANYTE"
 
-	para "A #MON that"
-	line "was resurrected"
-	cont "from a fossil."
+	para "A #MON"
+	line "resurrected from"
+	cont "a HELIX FOSSIL."
 	prompt
 
 _FuchsiaCityKabutoText:: ; a6191 (29:6191)
 	text "Name: KABUTO"
 
-	para "A #MON that"
-	line "was resurrected"
-	cont "from a fossil."
+	para "A #MON"
+	line "resurrected from"
+	cont "a DOME FOSSIL."
 	prompt
 
 _FuchsiaCityText_19b2a:: ; a61ca (29:61ca)
