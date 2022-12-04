@@ -25,6 +25,6 @@ _CeladonMart4Text10:: ; 9cb56 (27:4b56)
 	line "with gifts!"
 
 	para "Evolution stones"
-	cont "on sale now!"
+	line "on sale now!"
 	done
 
