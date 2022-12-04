@@ -15,7 +15,7 @@ dw OnixPicBack
 ; attacks known at lvl 0
 db TACKLE
 db SCREECH
-db BIND
+db BIDE
 db 0
 db 0 ; growth rate
 ; learnset
