@@ -54,7 +54,7 @@ PewterGymScript_5c3df: ; 5c3df (17:43df)
 	call DisplayTextID
 	ld hl, wd755
 	set 7, [hl]
-	ld bc, (TM_09 << 8) | 1
+	ld bc, (TM_34 << 8) | 1
 	call GiveItem
 	jr nc, .BagFull
 	ld a, $5
