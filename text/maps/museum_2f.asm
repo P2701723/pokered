@@ -6,10 +6,10 @@ _Museum2FText1:: ; 96841 (25:6841)
 	done
 
 _Museum2FText2:: ; 96869 (25:6869)
-	text "Feb 13, 2014!"
+	text "FEB 13, 2014!"
 
 	para "The start of"
-	line "Twitch Plays"
+	line "TWITCH PLAYS"
 	cont "#MON!"
 
 	para "I bought a laptop"
@@ -38,8 +38,9 @@ IF DEF(_YELLOW)
 _Museum2FPikachuText1::
 	text "Your PIKACHU looks"
 	line "untamed."
-	cont "May I have it for"
-	cont "my daughter?"
+	
+	para "May I have it for"
+	line "my daughter?"
 	done
 
 _Museum2FPikachuText2::
