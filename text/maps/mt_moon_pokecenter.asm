@@ -17,9 +17,10 @@ _MtMoonPokecenterText3:: ; 8a929 (22:6929)
 	done
 
 _MtMoonPokecenterText_4935c:: ; 8a976 (22:6976)
-	text "MAN: Hello, there!"
-	line "Have I got a deal"
-	cont "just for you!"
+	text "Hello, there!"
+	
+	para "Have I got a deal"
+	line "just for you!"
 
 	para "I'll let you have"
 	line "a swell MAGIKARP"
@@ -39,7 +40,7 @@ _MtMoonPokecenterText_49366:: ; 8aa17 (22:6a17)
 	done
 
 _MtMoonPokecenterText_4936b:: ; 8aa39 (22:6a39)
-	text "MAN: Well, I don't"
+	text "Well, I don't"
 	line "give refunds!"
 	done
 
