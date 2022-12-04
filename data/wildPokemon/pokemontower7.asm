@@ -1,14 +1,14 @@
 TowerMons7:
 	db $0f
-	db 61,GASTLY
-	db 57,GASTLY
-	db 59,GASTLY
-	db 56,GASTLY
-	db 60,GASTLY
-	db 58,HAUNTER
-	db 55,CUBONE
-	db 57,CUBONE
-	db 58,HAUNTER
-	db 59,HAUNTER
+	db 32,GASTLY	; 65% Gastly L32-38
+	db 44,HAUNTER	; 20% Haunter L44
+	db 38,CUBONE	; 15% Cubone L38
+	db 33,GASTLY
+	db 34,GASTLY
+	db 35,GASTLY
+	db 36,GASTLY
+	db 37,GASTLY
+	db 38,GASTLY
+	db 38,GASTLY
 	db $00
 
