@@ -1,5 +1,5 @@
 _LavenderHouse2Text1:: ; 9a238 (26:6238)
-	text "CUBONE: Kyarugoo!@@"
+	text "Kyarugoo!@@"
 
 _LavenderHouse2Text_1d9dc:: ; 9a24c (26:624c)
 	text "I hate those"
