@@ -220,7 +220,7 @@ Mon032_EvosMoves: ; 3b1f2 (e:71f2)
 	db 0
 ;Learnset
 	db 8,FOCUS_ENERGY
-	db,12,DOUBLE_KICK
+	db 12,DOUBLE_KICK
 	db 17,POISON_STING
 	db 23,HORN_ATTACK
 	db 30,FURY_ATTACK
