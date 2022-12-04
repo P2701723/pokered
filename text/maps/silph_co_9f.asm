@@ -1,7 +1,8 @@
 _SilphCo9Text_5d8e5:: ; 84c0b (21:4c0b)
 	text "You look tired!"
-	line "You should take a"
-	cont "quick nap!"
+	
+	para "You should take a"
+	line "quick nap!"
 	prompt
 
 _SilphCo9Text_5d8ea:: ; 84c39 (21:4c39)
@@ -35,15 +36,16 @@ _SilphCo9BattleText2:: ; 84cb6 (21:4cb6)
 	done
 
 _SilphCo9EndBattleText2:: ; 84ce4 (21:4ce4)
-	text "You"
-	line "hammered me!"
+	text ""
+	line "You hammered me!"
 	prompt
 
 _SilphCo9AfterBattleText2:: ; 84cf6 (21:4cf6)
 	text "Exploiting weak"
 	line "spots does work!"
-	cont "Think about"
-	cont "element types!"
+	
+	para "Think about"
+	line "element types!"
 	done
 
 _SilphCo9BattleText3:: ; 84d33 (21:4d33)
