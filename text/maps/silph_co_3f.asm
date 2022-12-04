@@ -15,8 +15,8 @@ _SilphCo3BattleText1:: ; 826fe (20:66fe)
 	done
 
 _SilphCo3EndBattleText1:: ; 8271a (20:671a)
-	text "I give"
-	line "up!"
+	text ""
+	line "I give up!"
 	prompt
 
 _SilphCo3AfterBattleText1:: ; 82726 (20:6726)
