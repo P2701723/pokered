@@ -26,7 +26,7 @@ MoveNames:: ; b0000 (2c:4000)
 	db "MEGA KICK@"
 	db "JUMP KICK@"
 	db "ROLLING KICK@"
-	db "SAND-ATTACK@"
+	db "SAND ATTACK@"
 	db "HEADBUTT@"
 	db "HORN ATTACK@"
 	db "FURY ATTACK@"
