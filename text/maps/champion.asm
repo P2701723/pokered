@@ -1,5 +1,6 @@
 _GaryText_760f4:: ; 860e1 (21:60e1)
-	text $53, ": Hey!"
+	text "Hey! I see you"
+	line "finally made it!"
 
 	para "I was looking"
 	line "forward to seeing"
@@ -15,7 +16,7 @@ _GaryText_760f4:: ; 860e1 (21:60e1)
 	cont "powerful #MON!"
 
 	para "Not only that, I"
-	line "assembled teams"
+	line "assembled a team"
 	cont "that would beat"
 	cont "any #MON type!"
 
@@ -24,9 +25,10 @@ _GaryText_760f4:: ; 860e1 (21:60e1)
 	para "I'm the #MON"
 	line "LEAGUE champion!"
 
-	para $52, "! Do you"
-	line "know what that"
-	cont "means?"
+	para $52, "!"
+
+	para "Do you know what"
+	line "that means?"
 
 	para "I'll tell you!"
 
@@ -37,8 +39,8 @@ _GaryText_760f4:: ; 860e1 (21:60e1)
 
 _GaryText_760f9:: ; 8623b (21:623b)
 	text "NO!"
-	line "That can't be!"
-	cont "You beat my best!"
+	line "This can't be!"
+	cont "You beat my best!?"
 
 	para "After all that"
 	line "work to become"
@@ -66,14 +68,14 @@ _GaryText_760fe:: ; 862b4 (21:62b4)
 	prompt
 
 _GaryText_76103:: ; 8632f (21:632f)
-	text "Why?"
+	text "Why...?"
 	line "Why did I lose?"
 
 	para "I never made any"
 	line "mistakes raising"
 	cont "my #MON..."
 
-	para "Darn it! You're"
+	para "Damn it! You're"
 	line "the new #MON"
 	cont "LEAGUE champion!"
 
@@ -82,29 +84,30 @@ _GaryText_76103:: ; 8632f (21:632f)
 	done
 
 _GaryText2:: ; 863c1 (21:63c1)
-	text "OAK: ", $52, "!"
+	text $52, "!"
 	done
 
 _GaryText_76120:: ; 863ca (21:63ca)
-	text "OAK: So, you won!"
+	text "So, you won!"
 	line "Congratulations!"
-	cont "You're the new"
-	cont "#MON LEAGUE"
+	
+	para "You're the new"
+	line "#MON LEAGUE"
 	cont "champion!"
 
-	para "You've grown up so"
-	line "much since you"
+	para "You've grown up"
+	line "so much since you"
 	cont "first left with"
 	cont "@"
 	TX_RAM wcd6d
 	text "!"
 
-	para $52, ", you have"
-	line "come of age!"
+	para "You've really come"
+	line "of age, ", $52, "!"
 	done
 
 _GaryText_76125:: ; 86463 (21:6463)
-	text "OAK: ", $53, "! I'm"
+	text $53, "... I'm"
 	line "disappointed!"
 
 	para "I came when I"
@@ -115,9 +118,10 @@ _GaryText_76125:: ; 86463 (21:6463)
 	line "here, you had"
 	cont "already lost!"
 
-	para $53, "! Do you"
-	line "understand why"
-	cont "you lost?"
+	para $53, "!"
+	
+	para "Do you understand"
+	line "why you lost?"
 
 	para "You have forgotten"
 	line "to treat your"
@@ -126,11 +130,11 @@ _GaryText_76125:: ; 86463 (21:6463)
 
 	para "Without them, you"
 	line "will never become"
-	cont "a champ again!"
+	cont "champion again!"
 	done
 
 _GaryText_7612a:: ; 86567 (21:6567)
-	text "OAK: ", $52, "!"
+	text $52, "!"
 
 	para "You understand"
 	line "that your victory"
