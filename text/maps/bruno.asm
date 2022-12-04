@@ -7,7 +7,7 @@ _BrunoBeforeBattleText:: ; 86749 (21:6749)
 	cont "and #MON can"
 	cont "become stronger!"
 
-	para "I've weight"
+	para "I've even weight"
 	line "trained with"
 	cont "my #MON!"
 
@@ -27,12 +27,12 @@ _BrunoEndBattleText:: ; 86805 (21:6805)
 
 _BrunoAfterBattleText:: ; 8681d (21:681d)
 	text "My job is done!"
-	line "Go face your next"
-	cont "challenge!"
+	
+	para "Go face your next"
+	line "challenge!"
 	done
 
 _UnnamedText_763d2:: ; 8684b (21:684b)
-	text "Someone's voice:"
-	line "Don't run away!"
+	text "Can't escape!"
 	done
 
