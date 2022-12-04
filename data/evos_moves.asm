@@ -1091,11 +1091,15 @@ Mon025_EvosMoves: ; 3b592 (e:7592)
 	db EV_ITEM,THUNDER_STONE ,1,RAICHU
 	db 0
 ;Learnset
+	db 6,TAIL_WHIP
 	db 9,THUNDER_WAVE
-	db 16,QUICK_ATTACK
-	db 26,SWIFT
+	db 11,QUICK_ATTACK
+	db 15,DOUBLE_TEAM
+	db 20,SLAM
+	db 26,THUNDERBOLT
 	db 33,AGILITY
-	db 43,THUNDER
+	db 41,THUNDER
+	db 50,LIGHT_SCREEN
 	db 0
 Mon026_EvosMoves: ; 3b5a2 (e:75a2)
 ;RAICHU
@@ -1397,7 +1401,8 @@ Mon013_EvosMoves: ; 3b6e4 (e:76e4)
 Mon014_EvosMoves: ; 3b6e9 (e:76e9)
 ;KAKUNA
 ;Evolutions
-	db EV_LEVEL,10,BEEDRILL
+	db EV_LEVEL,14,BEEDRILL
+	db 7,HARDEN
 	db 0
 ;Learnset
 	db 0
@@ -1406,8 +1411,8 @@ Mon015_EvosMoves: ; 3b6ee (e:76ee)
 ;Evolutions
 	db 0
 ;Learnset
-	db 12,FURY_ATTACK
-	db 16,FOCUS_ENERGY
+	db 14,FURY_ATTACK
+	db 17,FOCUS_ENERGY
 	db 20,TWINEEDLE
 	db 25,RAGE
 	db 30,PIN_MISSILE
@@ -1503,7 +1508,8 @@ Mon010_EvosMoves: ; 3b742 (e:7742)
 Mon011_EvosMoves: ; 3b747 (e:7747)
 ;METAPOD
 ;Evolutions
-	db EV_LEVEL,10,BUTTERFREE
+	db EV_LEVEL,14,BUTTERFREE
+	db 7,HARDEN
 	db 0
 ;Learnset
 	db 0
@@ -1512,12 +1518,11 @@ Mon012_EvosMoves: ; 3b74c (e:774c)
 ;Evolutions
 	db 0
 ;Learnset
-	db 12,CONFUSION
-	db 15,POISONPOWDER
-	db 16,STUN_SPORE
-	db 17,SLEEP_POWDER
-	db 21,SUPERSONIC
-	db 26,WHIRLWIND
+	db 14,CONFUSION
+	db 17,POISONPOWDER
+	db 19,STUN_SPORE
+	db 21,SLEEP_POWDER
+	db 26,GUST
 	db 32,PSYBEAM
 	db 0
 Mon068_EvosMoves: ; 3b75c (e:775c)
