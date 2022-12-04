@@ -16,11 +16,7 @@ _VermilionGymText_5cb77:: ; 9c069 (27:4069)
 	cont "#MON's SPEED!"
 
 	para "It also lets your"
-IF DEF(_YELLOW)
-	line "#MON FLY any-"
-ELSE
 	line "#MON FLY any"
-ENDC
 	cont "time, kid!"
 
 	para "You're special,"
@@ -122,16 +118,18 @@ _VermilionGymText_5cbf4:: ; 9c32b (27:432b)
 	para "LT.SURGE has a"
 	line "nickname. People"
 	cont "refer to him as"
-	cont "the Lightning"
-	cont "American!"
+	cont "the lightning"
+	cont "AMERICAN!"
 
 	para "He's an expert on"
 	line "electric #MON!"
 
 	para "Birds and water"
 	line "#MON are at"
-	cont "risk! Beware of"
-	cont "paralysis too!"
+	cont "risk!"
+	
+	para "Beware of"
+	line "paralysis, too!"
 
 	para "LT.SURGE is very"
 	line "cautious!"
