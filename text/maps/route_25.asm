@@ -35,44 +35,46 @@ _Route25BattleText1:: ; 9421e (25:421e)
 	done
 
 _Route25EndBattleText1:: ; 94245 (25:4245)
-	text "You're"
-	line "decent."
+	text ""
+	line "You're decent."
 	prompt
 
 _Route25AfterBattleText1:: ; 94254 (25:4254)
 	text "All #MON have"
-	line "weaknesses. It's"
-	cont "best to raise"
-	cont "different kinds."
+	line "weaknesses."
+	
+	para "It's best to raise"
+	line "different kinds."
 	done
 
 _Route25BattleText2:: ; 94292 (25:4292)
 	text "Dad took me to a"
 	line "great party on"
-	cont "S.S.ANNE at"
+	cont "the ST.ANNE in"
 	cont "VERMILION CITY!"
 	done
 
 _Route25EndBattleText2:: ; 942cf (25:42cf)
-	text "I'm"
-	line "not mad!"
+	text ""
+	line "I'm not mad!"
 	prompt
 
 _Route25AfterBattleText2:: ; 942dc (25:42dc)
-	text "On S.S.ANNE, I"
+	text "On the ST.ANNE, I"
 	line "saw trainers from"
 	cont "around the world."
 	done
 
 _Route25BattleText3:: ; 94310 (25:4310)
 	text "I'm a cool guy."
-	line "I've got a girl"
-	cont "friend!"
+	
+	para "I've got a"
+	line "girlfriend!"
 	done
 
 _Route25EndBattleText3:: ; 94337 (25:4337)
-	text "Aww,"
-	line "darn..."
+	text ""
+	line "Aww, darn..."
 	prompt
 
 _Route25AfterBattleText3:: ; 94345 (25:4345)
@@ -81,18 +83,13 @@ _Route25AfterBattleText3:: ; 94345 (25:4345)
 	done
 
 _Route25BattleText4:: ; 94369 (25:4369)
-	text "Hi! My boy"
-	line "friend is cool!"
+	text "Hi! My boyfriend"
+	line "is cool!"
 	done
 
 _Route25EndBattleText4:: ; 94385 (25:4385)
-IF DEF(_YELLOW)
 	text "I'm in"
 	line "a slump!"
-ELSE
-	text "I was in"
-	line "bad condition!"
-ENDC
 	prompt
 
 _Route25AfterBattleText4:: ; 9439e (25:439e)
@@ -107,7 +104,7 @@ _Route25BattleText5:: ; 943c1 (25:43c1)
 
 _Route25EndBattleText5:: ; 943dd (25:43dd)
 	text "I knew"
-	line "I'd lose too!"
+	line "I'd lose, too!"
 	prompt
 
 _Route25AfterBattleText5:: ; 943f2 (25:43f2)
@@ -129,9 +126,11 @@ _Route25EndBattleText6:: ; 94455 (25:4455)
 	prompt
 
 _Route25AfterBattleText6:: ; 94469 (25:4469)
-	text "You came from MT."
-	line "MOON? May I have"
-	cont "a CLEFAIRY?"
+	text "Oh, you came from"
+	line "MT.MOON?
+	
+	para "May I have a"
+	cont "CLEFAIRY?"
 	done
 
 _Route25BattleText7:: ; 94499 (25:4499)
@@ -141,14 +140,15 @@ _Route25BattleText7:: ; 94499 (25:4499)
 	done
 
 _Route25EndBattleText7:: ; 944c6 (25:44c6)
-	text "You"
-	line "worked hard!"
+	text ""
+	line "You worked hard!"
 	prompt
 
 _Route25AfterBattleText7:: ; 944d8 (25:44d8)
-	text "Drat!"
-	line "A ZUBAT bit me"
-	cont "back in there."
+	text "Ouch!"
+	
+	para "A ZUBAT bit me"
+	line "back in there."
 	done
 
 _Route25BattleText8:: ; 944fd (25:44fd)
@@ -158,8 +158,8 @@ _Route25BattleText8:: ; 944fd (25:44fd)
 	done
 
 _Route25EndBattleText8:: ; 9452a (25:452a)
-	text "You"
-	line "got me."
+	text ""
+	line "You got me."
 	prompt
 
 _Route25AfterBattleText8:: ; 94537 (25:4537)
