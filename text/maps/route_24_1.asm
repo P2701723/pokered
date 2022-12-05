@@ -1,7 +1,8 @@
 _Route24Text_51510:: ; 92721 (24:6721)
 	text "Congratulations!"
-	line "You beat our 5"
-	cont "contest trainers!@@"
+	
+	para "You beat our five"
+	line "contest trainers!@@"
 
 _Route24Text_51515:: ; 92755 (24:6755)
 	db $0
@@ -31,12 +32,24 @@ _Route24Text_51526:: ; 927a8 (24:67a8)
 
 	para "Want to join?"
 
+	para "..."
+	line "..."
+	
 	para "Are you sure?"
+
+	para "..."
+	line "..."
 
 	para "Come on, join us!"
 
+	para "..."
+	line "..."
+
 	para "I'm telling you"
 	line "to join!"
+
+	para "..."
+	line "..."
 
 	para "OK, you need"
 	line "convincing!"
