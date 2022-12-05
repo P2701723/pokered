@@ -1,5 +1,6 @@
 _Route16BattleText1:: ; 91081 (24:5081)
-	text "What do you want?"
+	text "What the hell do"
+	line "you want?"
 	done
 
 _Route16EndBattleText1:: ; 91094 (24:5094)
@@ -14,22 +15,18 @@ _Route16AfterBattleText1:: ; 910aa (24:50aa)
 	done
 
 _Route16BattleText2:: ; 910d7 (24:50d7)
-	text "Nice BIKE!"
+	text "Nice bike!"
 	line "Hand it over!"
 	done
 
 _Route16EndBattleText2:: ; 910f1 (24:50f1)
-IF DEF(_YELLOW)
-	text "Knock-"
-ELSE
-	text "Knock"
-ENDC
-	line "out!"
+	text ""
+	line "Knock-out!"
 	prompt
 
 _Route16AfterBattleText2:: ; 910fd (24:50fd)
 	text "Forget it, who"
-	line "needs your BIKE!"
+	line "needs your bike!"
 	done
 
 _Route16BattleText3:: ; 9111e (24:511e)
@@ -38,8 +35,8 @@ _Route16BattleText3:: ; 9111e (24:511e)
 	done
 
 _Route16EndBattleText3:: ; 91140 (24:5140)
-	text "You"
-	line "little rat!"
+	text ""
+	line "You little rat!"
 	prompt
 
 _Route16AfterBattleText3:: ; 91151 (24:5151)
@@ -69,14 +66,16 @@ _Route16BattleText5:: ; 911d8 (24:51d8)
 	done
 
 _Route16EndBattleText5:: ; 911f5 (24:51f5)
-	text "Bad,"
-	line "bad, bad!"
+	text ""
+	line "Bad, bad, bad!"
 	prompt
 
 _Route16AfterBattleText5:: ; 91205 (24:5205)
 	text "I like my #MON"
-	line "ferocious! They"
-	cont "tear up enemies!"
+	line "ferocious!"
+	
+	para "They tear up my"
+	line "enemies!"
 	done
 
 _Route16BattleText6:: ; 91236 (24:5236)
@@ -84,8 +83,8 @@ _Route16BattleText6:: ; 91236 (24:5236)
 	done
 
 _Route16EndBattleText6:: ; 91245 (24:5245)
-	text "Don't make"
-	line "me mad!"
+	text "Don't piss"
+	line "me off!"
 	prompt
 
 _Route16AfterBattleText6:: ; 91258 (24:5258)
@@ -119,7 +118,8 @@ _Route16Text8:: ; 9130d (24:530d)
 
 _Route16Text9:: ; 9132c (24:532c)
 	text "ROUTE 16"
-	line "CELADON CITY -"
-	cont "FUCHSIA CITY"
+	
+	para "CELADON CITY -"
+	line "FUCHSIA CITY"
 	done
 
