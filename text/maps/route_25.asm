@@ -127,7 +127,7 @@ _Route25EndBattleText6:: ; 94455 (25:4455)
 
 _Route25AfterBattleText6:: ; 94469 (25:4469)
 	text "Oh, you came from"
-	line "MT.MOON?
+	line "MT.MOON?"
 	
 	para "May I have a"
 	cont "CLEFAIRY?"
