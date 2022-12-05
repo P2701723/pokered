@@ -33,7 +33,6 @@ _VictoryRoadGuardText_513a3:: ; 926dd (24:66dd)
 	done
 
 _Route23Text8:: ; 92700 (24:6700)
-	text "VICTORY ROAD GATE"
-	line "- #MON LEAGUE"
+	text "#MON LEAGUE"
+	line "VICTORY ROAD GATE"
 	done
-
