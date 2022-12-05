@@ -13,17 +13,17 @@ INCBIN "pic/bmon/dratini.pic",0,1 ; 55, sprite dimensions
 dw DratiniPicFront
 dw DratiniPicBack
 ; attacks known at lvl 0
-db WRAP
 db LEER
+db WRAP
 db 0
 db 0
 db 5 ; growth rate
 ; learnset
 db %10100000
-db %00111111
+db %01111111 ; Hyper Beam
 db %11001000
 db %11000001
-db %11100011
+db %11110011 ; Flamethrower
 db %00011000
 db %00010010
 db 0 ; padding
