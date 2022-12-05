@@ -46,7 +46,7 @@ _Route6EndBattleText1:: ; 8dc5e (23:5c5e)
 
 _Route6AfterBattleText1:: ; 8dc70 (23:5c70)
 	text "Whisper..."
-	line "whisper..."
+	line "Whisper..."
 	done
 
 _Route6BattleText2:: ; 8dc87 (23:5c87)
@@ -78,35 +78,37 @@ _Route6AfterBattleText3:: ; 8dcfd (23:5cfd)
 	done
 
 _Route6BattleText4:: ; 8dd30 (23:5d30)
-	text "Huh? You want"
-	line "to talk to me?"
+	text "I'm doing this"
+	line "out of love."
+	cont "I can't lose!"
 	done
 
 _Route6EndBattleText4:: ; 8dd4e (23:5d4e)
-	text "I"
-	line "didn't start it!"
+	text "No,"
+	line "this can't be..."
 	prompt
 
 _Route6AfterBattleText4:: ; 8dd61 (23:5d61)
-	text "I should carry"
-	line "more #MON with"
-	cont "me for safety."
+	text "My love will leave"
+	line "me in disgust."
 	done
 
 _Route6BattleText5:: ; 8dd8f (23:5d8f)
-	text "Me? Well, OK."
-	line "I'll play!"
+	text "I'm training for"
+	line "my exams. Don't"
+	cont "underestimate me!"
 	done
 
 _Route6EndBattleText5:: ; 8dda8 (23:5da8)
-	text "Just"
-	line "didn't work!"
+	text "My"
+	line "textbook never..."
 	prompt
 
 _Route6AfterBattleText5:: ; 8ddba (23:5dba)
-	text "I want to get"
-	line "stronger! What's"
-	cont "your secret?"
+	text "Now I understand,"
+	line "#MON isn't"
+	cont "about calculated"
+	cont "numbers."
 	done
 
 _Route6BattleText6:: ; 8dde6 (23:5de6)
@@ -128,7 +130,7 @@ _Route6AfterBattleText6:: ; 8de23 (23:5e23)
 
 _Route6Text7:: ; 8de49 (23:5e49)
 	text "UNDERGROUND PATH"
-	line "CERULEAN CITY -"
-	cont "VERMILION CITY"
+	
+	para "CERULEAN CITY -"
+	line "VERMILION CITY"
 	done
-
