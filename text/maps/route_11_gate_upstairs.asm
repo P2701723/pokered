@@ -35,7 +35,7 @@ _Route11GateUpstairsText_494d5:: ; 8c78b (23:478b)
 	para "The only way to"
 	line "get from CERULEAN"
 	cont "CITY to LAVENDER"
-	cont "is by way of the"
+	cont "TOWN is through"
 	cont "ROCK TUNNEL."
 	done
 
