@@ -63,7 +63,7 @@ ENDC
 	done
 
 FanClubSeelText::
-	text Kyuoo!"
+	text "Kyuoo!"
 	done
 
 FanClubMeetChairText::
