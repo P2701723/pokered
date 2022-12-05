@@ -29,7 +29,7 @@ _Route20AfterBattleText2:: ; 91cd3 (24:5cd3)
 
 _Route20BattleText3:: ; 91d01 (24:5d01)
 	text "I love floating"
-	line "with the fishes!"
+	line "with the fish!"
 	done
 
 _Route20EndBattleText3:: ; 91d23 (24:5d23)
@@ -47,8 +47,8 @@ _Route20BattleText4:: ; 91d43 (24:5d43)
 	done
 
 _Route20EndBattleText4:: ; 91d5d (24:5d5d)
-	text "No"
-	line "mercy at all!"
+	text ""
+	line "No mercy at all!"
 	prompt
 
 _Route20AfterBattleText4:: ; 91d6f (24:5d6f)
@@ -93,8 +93,8 @@ _Route20BattleText7:: ; 91e3d (24:5e3d)
 	done
 
 _Route20EndBattleText7:: ; 91e58 (24:5e58)
-	text "Oh"
-	line "no!"
+	text ""
+	line "Oh no!"
 	prompt
 
 _Route20AfterBattleText7:: ; 91e60 (24:5e60)
@@ -103,7 +103,7 @@ _Route20AfterBattleText7:: ; 91e60 (24:5e60)
 	done
 
 _Route20BattleText8:: ; 91e7c (24:5e7c)
-	text "My boy friend gave"
+	text "My boyfriend gave"
 	line "me big pearls!"
 	done
 
