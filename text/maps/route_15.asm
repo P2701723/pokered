@@ -5,8 +5,8 @@ _Route15BattleText1:: ; 90c3e (24:4c3e)
 	done
 
 _Route15EndBattleText1:: ; 90c6e (24:4c6e)
-	text "Not"
-	line "good enough!"
+	text ""
+	line "Not good enough!"
 	prompt
 
 _Route15AfterBattleText1:: ; 90c80 (24:4c80)
@@ -15,8 +15,8 @@ _Route15AfterBattleText1:: ; 90c80 (24:4c80)
 	cont "any #MON you"
 	cont "get in a trade."
 
-	para "Only the Original"
-	line "Trainer can."
+	para "Only the original"
+	line "trainer can."
 	done
 
 _Route15BattleText2:: ; 90cdd (24:4cdd)
@@ -26,13 +26,13 @@ _Route15BattleText2:: ; 90cdd (24:4cdd)
 	done
 
 _Route15EndBattleText2:: ; 90d0a (24:4d0a)
-	text "No,"
-	line "wrong!"
+	text ""
+	line "No, wrong!"
 	prompt
 
 _Route15AfterBattleText2:: ; 90d16 (24:4d16)
 	text "I'm afraid of"
-	line "BIKERs, they look"
+	line "bikers, they look"
 	cont "so ugly and mean!"
 	done
 
@@ -54,8 +54,10 @@ _Route15AfterBattleText3:: ; 90d84 (24:4d84)
 
 _Route15BattleText4:: ; 90da7 (24:4da7)
 	text "Hmm? My birds are"
-	line "shivering! You're"
-	cont "good, aren't you?"
+	line "shivering!"
+	
+	para "You're good,"
+	line "aren't you?"
 	done
 
 _Route15EndBattleText4:: ; 90ddc (24:4ddc)
@@ -116,7 +118,8 @@ _Route15AfterBattleText7:: ; 90f19 (24:4f19)
 	text "You only live"
 	line "once, so I live"
 	cont "as an outlaw!"
-	cont "TEAM ROCKET RULES!"
+	
+	para "TEAM ROCKET rules!"
 	done
 
 _Route15BattleText8:: ; 90f59 (24:4f59)
@@ -126,7 +129,7 @@ _Route15BattleText8:: ; 90f59 (24:4f59)
 	done
 
 _Route15EndBattleText8:: ; 90f8c (24:4f8c)
-	text "That"
+	text "This"
 	line "can't be true!"
 	prompt
 
@@ -136,18 +139,18 @@ _Route15AfterBattleText8:: ; 90fa0 (24:4fa0)
 	done
 
 _Route15BattleText9:: ; 90fc4 (24:4fc4)
-	text "What's cool?"
-	line "Trading #MON!"
+	text "I want to be a big"
+	line "star with DITTO!"
 	done
 
 _Route15EndBattleText9:: ; 90fdf (24:4fdf)
-	text "I"
-	line "said trade!"
+	text "Thank"
+	line "you, thank you!"
 	prompt
 
 _Route15AfterBattleText9:: ; 90fee (24:4fee)
-	text "I trade #MON"
-	line "with my friends!"
+	text "I hope you see us"
+	line "on stage someday!"
 	done
 
 _Route15BattleText10:: ; 9100d (24:500d)
@@ -166,7 +169,8 @@ _Route15AfterBattleText10:: ; 9103f (24:503f)
 
 _Route15Text12:: ; 91062 (24:5062)
 	text "ROUTE 15"
-	line "West to FUCHSIA"
-	cont "CITY"
+	
+	para "FUCHSIA CITY"
+	line "is west of here!"
 	done
 
