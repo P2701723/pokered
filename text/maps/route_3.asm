@@ -27,8 +27,9 @@ _Route3AfterBattleText1:: ; 8d80d (23:580d)
 
 _Route3BattleText2:: ; 8d84c (23:584c)
 	text "Hi! I like shorts!"
-	line "They're comfy and"
-	cont "easy to wear!"
+	
+	para "They're comfy and"
+	line "easy to wear!"
 	done
 
 _Route3EndBattleText2:: ; 8d87f (23:587f)
@@ -49,8 +50,8 @@ _Route3BattleText3:: ; 8d8d0 (23:58d0)
 	done
 
 _Route3EndBattleText3:: ; 8d8ee (23:58ee)
-	text "You're"
-	line "mean!"
+	text ""
+	line "You're mean!"
 	prompt
 
 _Route3AfterBattleText3:: ; 8d8fb (23:58fb)
@@ -61,18 +62,13 @@ _Route3AfterBattleText3:: ; 8d8fb (23:58fb)
 
 _Route3BattleText4:: ; 8d924 (23:5924)
 	text "Are you a trainer?"
-	line "Let's fight!"
+	line "Let's battle!"
 	done
 
 _Route3EndBattleText4:: ; 8d944 (23:5944)
 	text "If I"
-IF DEF(_YELLOW)
 	line "had new #MON,"
 	cont "I would've won!"
-ELSE
-	line "had new #MON I"
-	cont "would've won!"
-ENDC
 	prompt
 
 _Route3AfterBattleText4:: ; 8d966 (23:5966)
