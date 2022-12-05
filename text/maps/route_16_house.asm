@@ -4,8 +4,9 @@ _Route16HouseText3:: ; 8ce02 (23:4e02)
 
 	para "Please don't tell"
 	line "anyone I'm here."
-	cont "I'll make it up"
-	cont "to you with this!"
+	
+	para "I'll make it up"
+	line "to you with this!"
 	prompt
 
 _ReceivedHM02Text:: ; 8ce66 (23:4e66)
@@ -14,8 +15,9 @@ _ReceivedHM02Text:: ; 8ce66 (23:4e66)
 
 _HM02ExplanationText:: ; 8ce79 (23:4e79)
 	text "HM02 is FLY."
-	line "It will take you"
-	cont "back to any town."
+	
+	para "It will take you"
+	line "back to any town."
 
 	para "Put it to good"
 	line "use!"
@@ -27,6 +29,6 @@ _HM02NoRoomText:: ; 8cebe (23:4ebe)
 	done
 
 _Route16HouseText_1e652:: ; 8cee0 (23:4ee0)
-	text "FEAROW: Kyueen!"
+	text "Kyueen!"
 	done
 
