@@ -33,34 +33,34 @@ _Route9AfterBattleTextAJ::
 ENDC
 
 _Route9BattleText2:: ; 8e2ff (23:62ff)
+	text "I aim to be the"
+	line "ultimate trainer!"
+	done
+
+_Route9EndBattleText2:: ; 8e330 (23:6330)
+	text "My"
+	line "SANDSLASH lost?"
+	prompt
+
+_Route9AfterBattleText2:: ; 8e343 (23:6343)
+	text "I'll restart my"
+	line "100-win streak"
+	cont "with SANDSLASH."
+	done
+
+_Route9BattleText3:: ; 8e352 (23:6352)
 	text "Who's that walking"
 	line "with those good"
 	cont "looking #MON?"
 	done
 
-_Route9EndBattleText2:: ; 8e330 (23:6330)
+_Route9EndBattleText3:: ; 8e37e (23:637e)
 	text "Out"
 	line "like a light!"
 	prompt
 
-_Route9AfterBattleText2:: ; 8e343 (23:6343)
-	text "Keep walking!"
-	done
-
-_Route9BattleText3:: ; 8e352 (23:6352)
-	text "I'm taking ROCK"
-	line "TUNNEL to go to"
-	cont "LAVENDER..."
-	done
-
-_Route9EndBattleText3:: ; 8e37e (23:637e)
-	text "Can't"
-	line "measure up!"
-	prompt
-
 _Route9AfterBattleText3:: ; 8e390 (23:6390)
-	text "Are you off to"
-	line "ROCK TUNNEL too?"
+	text "Keep walking!"
 	done
 
 _Route9BattleText4:: ; 8e3b1 (23:63b1)
@@ -81,8 +81,9 @@ _Route9AfterBattleText4:: ; 8e3e4 (23:63e4)
 
 _Route9BattleText5:: ; 8e411 (23:6411)
 	text "Bwahaha!"
-	line "Great! I was"
-	cont "bored, eh!"
+	
+	para "Great! I was"
+	line "bored, eh!"
 	done
 
 _Route9EndBattleText5:: ; 8e433 (23:6433)
@@ -101,13 +102,14 @@ _Route9AfterBattleText5:: ; 8e461 (23:6461)
 
 _Route9BattleText6:: ; 8e491 (23:6491)
 	text "Hahaha!"
-	line "Aren't you a"
-	cont "little toughie!"
+	
+	para "Aren't you a"
+	line "little toughie!"
 	done
 
 _Route9EndBattleText6:: ; 8e4b6 (23:64b6)
-	text "What's"
-	line "that?"
+	text ""
+	line "What's that?"
 	prompt
 
 _Route9AfterBattleText6:: ; 8e4c3 (23:64c3)
@@ -147,8 +149,9 @@ _Route9EndBattleText8:: ; 8e58d (23:658d)
 
 _Route9AfterBattleText8:: ; 8e5aa (23:65aa)
 	text "Hahahaha!"
-	line "Us hearty guys"
-	cont "always laugh!"
+	
+	para "Us hearty guys"
+	line "always laugh!"
 	done
 
 _Route9BattleText9:: ; 8e5d2 (23:65d2)
@@ -157,8 +160,8 @@ _Route9BattleText9:: ; 8e5d2 (23:65d2)
 	done
 
 _Route9EndBattleText9:: ; 8e5ea (23:65ea)
-	text "My"
-	line "bugs..."
+	text ""
+	line "My bugs..."
 	prompt
 
 _Route9AfterBattleText9:: ; 8e5f6 (23:65f6)
@@ -169,7 +172,7 @@ _Route9AfterBattleText9:: ; 8e5f6 (23:65f6)
 
 _Route9Text11:: ; 8e61e (23:661e)
 	text "ROUTE 9"
-	line "CERULEAN CITY-"
-	cont "ROCK TUNNEL"
+	
+	para "CERULEAN CITY-"
+	line "ROCK TUNNEL"
 	done
-
