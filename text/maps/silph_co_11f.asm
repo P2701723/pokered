@@ -86,7 +86,7 @@ _SilphCo10Text_62335:: ; 85131 (21:5131)
 	para "But, TEAM ROCKET"
 	line "will never fall!"
 
-	para $52, "!
+	para $52, "!"
 	
 	para "Never forget that"
 	line "all #MON exist"
