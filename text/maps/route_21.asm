@@ -19,8 +19,8 @@ _Route21BattleText2:: ; 92006 (24:6006)
 	done
 
 _Route21EndBattleText2:: ; 9202a (24:602a)
-	text "Darn"
-	line "MAGIKARP!"
+	text ""
+	line "Damn MAGIKARP!"
 	prompt
 
 _Route21AfterBattleText2:: ; 9203a (24:603a)
@@ -48,14 +48,18 @@ _Route21BattleText4:: ; 920a0 (24:60a0)
 	done
 
 _Route21EndBattleText4:: ; 920bf (24:60bf)
-	text "Cheap"
-	line "shot!"
+	text ""
+	line "Cheap shot!"
 	prompt
 
 _Route21AfterBattleText4:: ; 920cc (24:60cc)
 	text "I look like what?"
-	line "A studded inner"
-	cont "tube? Get lost!"
+	
+	para "..."
+	line "..."
+	
+	para "A studded inner"
+	line "tube? Get lost!"
 	done
 
 _Route21BattleText5:: ; 920ff (24:60ff)
@@ -85,8 +89,9 @@ _Route21EndBattleText6:: ; 9216e (24:616e)
 
 _Route21AfterBattleText6:: ; 92186 (24:6186)
 	text "I'm beat!"
-	line "But, I still have"
-	cont "the bike race and"
+	
+	para "But, I still have"
+	line "the bike race and"
 	cont "marathon left!"
 	done
 
@@ -133,6 +138,6 @@ _Route21EndBattleText9:: ; 92297 (24:6297)
 
 _Route21AfterBattleText9:: ; 922af (24:62af)
 	text "Oh wait! I got a"
-	line "bite! Yeah!"
+	line "bite! Hell yeah!"
 	done
 
