@@ -82,8 +82,8 @@ _Route11BattleText6:: ; 8eab8 (23:6ab8)
 	done
 
 _Route11EndBattleText6:: ; 8ead5 (23:6ad5)
-	text "My"
-	line "first loss!"
+	text ""
+	line "My first loss!"
 	prompt
 
 _Route11AfterBattleText6:: ; 8eae5 (23:6ae5)
@@ -113,8 +113,9 @@ _Route11BattleText8:: ; 8eb57 (23:6b57)
 
 _Route11EndBattleText8:: ; 8eb71 (23:6b71)
 	text "Darn!"
-	line "I need to make my"
-	cont "#MON stronger!"
+	
+	para "I need to make my"
+	line "#MON stronger!"
 	prompt
 
 _Route11AfterBattleText8:: ; 8eb99 (23:6b99)
