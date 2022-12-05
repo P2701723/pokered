@@ -1,9 +1,9 @@
 MoltresBaseStats: ; 393ba (e:53ba)
 db DEX_MOLTRES ; pokedex id
-db 90 ; base hp
+db 85 ; base hp       -5
 db 100 ; base attack
-db 90 ; base defense
-db 90 ; base speed
+db 95 ; base defense  +5
+db 95 ; base speed    +5
 db 125 ; base special
 db FIRE ; species type 1
 db FLYING ; species type 2
@@ -13,17 +13,17 @@ INCBIN "pic/bmon/moltres.pic",0,1 ; 77, sprite dimensions
 dw MoltresPicFront
 dw MoltresPicBack
 ; attacks known at lvl 0
-db PECK
+db SKY_ATTACK
+db FLAMETHROWER
+db DRILL_PECK
 db FIRE_SPIN
-db 0
-db 0
 db 5 ; growth rate
 ; learnset
 db %00101010
 db %01000011
-db %00001000
+db %00101000 ; Solarbeam
 db %11000000
-db %01100011
+db %01110011 ; Flamethrower
 db %00001100
 db %00001010
 db 0 ; padding
