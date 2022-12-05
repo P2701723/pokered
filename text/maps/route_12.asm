@@ -12,9 +12,11 @@ _Route12Text13:: ; 900bf (24:40bf)
 
 _Route12Text14:: ; 900ef (24:40ef)
 	text "SNORLAX calmed"
-	line "down! With a big"
-	cont "yawn, it returned"
-	cont "to the mountains!"
+	line "down!"
+	
+	para "With a big yawn,"
+	line "it returned to"
+	cont "the mountains!"
 	done
 
 _Route12BattleText1:: ; 90134 (24:4134)
@@ -34,8 +36,9 @@ _Route12AfterBattleText1:: ; 90167 (24:4167)
 
 _Route12BattleText2:: ; 90183 (24:4183)
 	text "Be patient!"
-	line "Fishing is a"
-	cont "waiting game!"
+	
+	para "Fishing is a"
+	line "waiting game!"
 	done
 
 _Route12EndBattleText2:: ; 901ab (24:41ab)
@@ -86,8 +89,8 @@ _Route12BattleText5:: ; 902a8 (24:42a8)
 	done
 
 _Route12EndBattleText5:: ; 902c8 (24:42c8)
-	text "Too"
-	line "much!"
+	text ""
+	line "Too much!"
 	prompt
 
 _Route12AfterBattleText5:: ; 902d3 (24:42d3)
@@ -107,13 +110,10 @@ _Route12EndBattleText6:: ; 90318 (24:4318)
 	prompt
 
 _Route12AfterBattleText6:: ; 90329 (24:4329)
-	text "It's all right."
-	line "Losing doesn't"
-IF DEF(_YELLOW)
-	cont "bug me anymore."
-ELSE
-	cont "bug me any more."
-ENDC
+	text "It's alright."
+	
+	para "Losing doesn't"
+	line "bug me anymore."
 	done
 
 _Route12BattleText7:: ; 90358 (24:4358)
@@ -123,8 +123,7 @@ _Route12BattleText7:: ; 90358 (24:4358)
 	done
 
 _Route12EndBattleText7:: ; 9037e (24:437e)
-	text "Lost"
-	line "it!"
+	text "Damn it!"
 	prompt
 
 _Route12AfterBattleText7:: ; 90388 (24:4388)
@@ -134,8 +133,11 @@ _Route12AfterBattleText7:: ; 90388 (24:4388)
 	done
 
 _Route12Text11:: ; 903bc (24:43bc)
-	text "ROUTE 12 "
-	line "North to LAVENDER"
+	text "ROUTE 12"
+	line "SILENCE BRIDGE"
+
+	para "LAVENDER TOWN"
+	line "is north of here!"
 	done
 
 _Route12Text12:: ; 903d9 (24:43d9)
