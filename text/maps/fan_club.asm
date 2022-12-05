@@ -196,7 +196,7 @@ ENDC
 _FanClubText6:: ; 9a948 (26:6948)
 	text "Our chairman is"
 	line "very vocal about"
-	cont "#MON.
+	cont "#MON."
 	done
 
 _FanClubText7:: ; 9a970 (26:6970)
