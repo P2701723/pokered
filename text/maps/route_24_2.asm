@@ -1,6 +1,6 @@
 _Route24EndBattleText1:: ; 94000 (25:4000)
-	text "I"
-	line "thought not!"
+	text ""
+	line "I thought not!"
 	prompt
 
 _Route24AfterBattleText1:: ; 94010 (25:4010)
@@ -10,10 +10,10 @@ _Route24AfterBattleText1:: ; 94010 (25:4010)
 	done
 
 _Route24BattleText2:: ; 94043 (25:4043)
-	text "OK! I'm No. 5!"
+	text "OK! I'm fifth!"
 	line "I'll stomp you!"
 	done
-
+	
 _Route24EndBattleText2:: ; 94061 (25:4061)
 	text "Whoa!"
 	line "Too much!"
@@ -25,13 +25,13 @@ _Route24AfterBattleText2:: ; 94072 (25:4072)
 	done
 
 _Route24BattleText3:: ; 94095 (25:4095)
-	text "I'm No. 4!"
+	text "I'm fourth!"
 	line "Getting tired?"
 	done
 
 _Route24EndBattleText3:: ; 940af (25:40af)
-	text "I lost"
-	line "too!"
+	text ""
+	line "I lost too!"
 	prompt
 
 _Route24AfterBattleText3:: ; 940bc (25:40bc)
@@ -40,10 +40,10 @@ _Route24AfterBattleText3:: ; 940bc (25:40bc)
 	done
 
 _Route24BattleText4:: ; 940df (25:40df)
-	text "Here's No. 3!"
+	text "I'm the third!"
 	line "I won't be easy!"
 	done
-
+	
 _Route24EndBattleText4:: ; 940fd (25:40fd)
 	text "Ow!"
 	line "Stomped flat!"
@@ -60,8 +60,8 @@ _Route24BattleText5:: ; 94133 (25:4133)
 	done
 
 _Route24EndBattleText5:: ; 94150 (25:4150)
-	text "How could I"
-	line "lose?"
+	text "How could"
+	line "I lose?"
 	prompt
 
 _Route24AfterBattleText5:: ; 94163 (25:4163)
@@ -71,7 +71,7 @@ _Route24AfterBattleText5:: ; 94163 (25:4163)
 
 _Route24BattleText6:: ; 94186 (25:4186)
 	text "This is NUGGET"
-	line "BRIDGE! Beat us 5"
+	line "BRIDGE! Beat five"
 	cont "trainers and win"
 	cont "a fabulous prize!"
 
