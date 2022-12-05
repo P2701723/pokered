@@ -54,7 +54,7 @@ _SSAnne9BattleText1:: ; 81926 (20:5926)
 
 _SSAnne9EndBattleText1:: ; 81956 (20:5956)
 	text ""
-	line "Good fight!
+	line "Good fight!"
 	
 	para "Ah, I feel young"
 	cont "again!"
