@@ -5,16 +5,12 @@ _Route14BattleText1:: ; 9080d (24:480d)
 	done
 
 _Route14EndBattleText1:: ; 9083f (24:483f)
-	text "Not"
-	line "good enough!"
+	text ""
+	line "Not good enough!"
 	prompt
 
 _Route14AfterBattleText1:: ; 90851 (24:4851)
-IF DEF(_YELLOW)
 	text "You have some HMs,"
-ELSE
-	text "You have some HMs"
-ENDC
 	line "right? #MON"
 	cont "can't ever forget"
 	cont "those moves."
@@ -27,8 +23,8 @@ _Route14BattleText2:: ; 9088e (24:488e)
 	done
 
 _Route14EndBattleText2:: ; 908b8 (24:48b8)
-	text "Not"
-	line "ready yet!"
+	text ""
+	line "Not ready yet!"
 	prompt
 
 _Route14AfterBattleText2:: ; 908c8 (24:48c8)
@@ -39,13 +35,14 @@ _Route14AfterBattleText2:: ; 908c8 (24:48c8)
 _Route14BattleText3:: ; 908ea (24:48ea)
 	text "TMs are on sale"
 	line "in CELADON!"
-	cont "But, only a few"
-	cont "people have HMs!"
+	
+	para "But, only a few"
+	line "people have HMs!"
 	done
 
 _Route14EndBattleText3:: ; 90928 (24:4928)
-	text "Aww,"
-	line "bummer!"
+	text ""
+	line "Aww, bummer!"
 	prompt
 
 _Route14AfterBattleText3:: ; 90936 (24:4936)
@@ -74,7 +71,7 @@ _Route14AfterBattleText4:: ; 909b3 (24:49b3)
 _Route14BattleText5:: ; 909d0 (24:49d0)
 	text "Have you heard of"
 	line "the legendary"
-	cont "#MON?"
+	cont "bird #MON?"
 	done
 
 _Route14EndBattleText5:: ; 909f7 (24:49f7)
@@ -94,8 +91,8 @@ _Route14BattleText6:: ; 90a37 (24:4a37)
 	done
 
 _Route14EndBattleText6:: ; 90a59 (24:4a59)
-	text "I"
-	line "knew it!"
+	text ""
+	line "I knew it!"
 	prompt
 
 _Route14AfterBattleText6:: ; 90a65 (24:4a65)
@@ -105,9 +102,10 @@ _Route14AfterBattleText6:: ; 90a65 (24:4a65)
 	done
 
 _Route14BattleText7:: ; 90a99 (24:4a99)
-	text "C'mon, c'mon."
-	line "Let's go, let's"
-	cont "go, let's go!"
+	text "C'mon, c'mon!"
+	
+	para "Let's go, let's"
+	line "go, let's go!"
 	done
 
 _Route14EndBattleText7:: ; 90ac1 (24:4ac1)
@@ -127,7 +125,7 @@ _Route14BattleText8:: ; 90afd (24:4afd)
 
 _Route14EndBattleText8:: ; 90b21 (24:4b21)
 	text "What?"
-	line "You!?"
+	line "You...!?"
 	prompt
 
 _Route14AfterBattleText8:: ; 90b2e (24:4b2e)
@@ -160,19 +158,21 @@ _Route14BattleText10:: ; 90bcc (24:4bcc)
 	done
 
 _Route14EndBattleText10:: ; 90be7 (24:4be7)
-	text "Blown"
-	line "away!"
+	text ""
+	line "Blown away!"
 	prompt
 
 _Route14AfterBattleText10:: ; 90bf4 (24:4bf4)
 	text "You know who'd"
-	line "win, you and me"
-	cont "one on one!"
+	line "win, if we was"
+	cont "to go 1-on-1!"
 	done
 
 _Route14Text11:: ; 90c1f (24:4c1f)
 	text "ROUTE 14"
-	line "West to FUCHSIA"
-	cont "CITY"
+	
+	para "FUCHSIA CITY"
+	line "is west of here!"
 	done
+
 
