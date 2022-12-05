@@ -1,8 +1,8 @@
 ZapdosBaseStats: ; 3939e (e:539e)
 db DEX_ZAPDOS ; pokedex id
 db 90 ; base hp
-db 90 ; base attack
-db 85 ; base defense
+db 95 ; base attack   +5
+db 90 ; base defense  +5
 db 100 ; base speed
 db 125 ; base special
 db ELECTRIC ; species type 1
@@ -13,10 +13,10 @@ INCBIN "pic/bmon/zapdos.pic",0,1 ; 77, sprite dimensions
 dw ZapdosPicFront
 dw ZapdosPicBack
 ; attacks known at lvl 0
-db THUNDERSHOCK
+db SKY_ATTACK
+db THUNDERBOLT
 db DRILL_PECK
-db 0
-db 0
+db THUNDER
 db 5 ; growth rate
 ; learnset
 db %00101010
