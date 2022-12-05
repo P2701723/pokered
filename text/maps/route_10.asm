@@ -1,8 +1,9 @@
 _Route10BattleText1:: ; 8e642 (23:6642)
 	text "Wow, are you a"
 	line "#MANIAC too?"
-	cont "Want to see my"
-	cont "collection?"
+	
+	para "Want to see my"
+	line "collection?"
 	done
 
 _Route10EndBattleText1:: ; 8e67a (23:667a)
@@ -33,11 +34,7 @@ _Route10AfterBattleText2:: ; 8e6f5 (23:66f5)
 	done
 
 _Route10BattleText3:: ; 8e71c (23:671c)
-IF DEF(_YELLOW)
 	text "Hi, kid, want to"
-ELSE
-	text "Hi kid, want to"
-ENDC
 	line "see my #MON?"
 	done
 
@@ -98,8 +95,9 @@ _Route10EndBattleText6:: ; 8e872 (23:6872)
 _Route10AfterBattleText6:: ; 8e884 (23:6884)
 	text "The #MON here"
 	line "are so chunky!"
-	cont "There should be a"
-	cont "pink one with a"
+	
+	para "There should be a"
+	line "pink one with a"
 	cont "floral pattern!"
 	done
 
