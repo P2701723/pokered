@@ -4,8 +4,8 @@ _Route17BattleText1:: ; 91352 (24:5352)
 	done
 
 _Route17EndBattleText1:: ; 91375 (24:5375)
-	text "Burned"
-	line "out!"
+	text ""
+	line "Burned out!"
 	prompt
 
 _Route17AfterBattleText1:: ; 91382 (24:5382)
@@ -45,27 +45,36 @@ _Route17AfterBattleText3:: ; 9141f (24:541f)
 	done
 
 _Route17BattleText4:: ; 91438 (24:5438)
-	text "We're BIKERs!"
-	line "Highway stars!"
+	text "You think you"
+	line "can play with"
+	cont "the big boys?"
+	
+	para "I'll send you"
+	line "home crying!"
 	done
 
 _Route17EndBattleText4:: ; 91455 (24:5455)
-	text "Smoked!"
+	text ""
+	line "Unbelievable!"
+	
+	para "That's a real"
+	line "biker for ya!"
 	prompt
 
 _Route17AfterBattleText4:: ; 9145e (24:545e)
-	text "Are you looking"
-	line "for adventure?"
+	text "From now on,"
+	line "I'm calling you"
+	cont "BIG ", $52, "!"
 	done
 
 _Route17BattleText5:: ; 9147e (24:547e)
-	text "Let VOLTORB"
+	text "Let ELECTRODE"
 	line "electrify you!"
 	done
 
 _Route17EndBattleText5:: ; 9149a (24:549a)
-	text "Grounded"
-	line "out!"
+	text ""
+	line "Grounded out!"
 	prompt
 
 _Route17AfterBattleText5:: ; 914a9 (24:54a9)
@@ -80,14 +89,14 @@ _Route17BattleText6:: ; 914d9 (24:54d9)
 	done
 
 _Route17EndBattleText6:: ; 914f4 (24:54f4)
-	text "Why,"
-	line "you!"
+	text ""
+	line "Why, you...!"
 	prompt
 
 _Route17AfterBattleText6:: ; 914ff (24:54ff)
-	text "Maybe some #MON"
-	line "need element"
-	cont "STONEs to evolve."
+	text "Maybe its level"
+	line "still isn't high"
+	cont "enough?"
 	done
 
 _Route17BattleText7:: ; 9152f (24:552f)
@@ -119,7 +128,7 @@ _Route17AfterBattleText8:: ; 91594 (24:5594)
 	done
 
 _Route17BattleText9:: ; 915b9 (24:55b9)
-	text "Nice BIKE!"
+	text "Nice bike!"
 	line "How's it handle?"
 	done
 
@@ -133,11 +142,7 @@ _Route17AfterBattleText9:: ; 915dd (24:55dd)
 	done
 
 _Route17BattleText10:: ; 91600 (24:5600)
-IF DEF(_YELLOW)
 	text "Get lost, kid!"
-ELSE
-	text "Get lost kid!"
-ENDC
 	line "I'm bushed!"
 	done
 
@@ -148,7 +153,7 @@ _Route17EndBattleText10:: ; 9161a (24:561a)
 
 _Route17AfterBattleText10:: ; 9162e (24:562e)
 	text "I need to catch"
-	line "a few Zs!"
+	line "a few Z's!"
 	done
 
 _Route17Text11:: ; 91649 (24:5649)
@@ -174,23 +179,24 @@ _Route17Text13:: ; 916d8 (24:56d8)
 	text "TRAINER TIPS"
 
 	para "Press the A or B"
-	line "Button to stay in"
+	line "button to stay in"
 	cont "place while on a"
 	cont "slope."
 	done
 
 _Route17Text14:: ; 91721 (24:5721)
 	text "ROUTE 17"
-	line "CELADON CITY -"
-	cont "FUCHSIA CITY"
+	
+	para "CELADON CITY -"
+	line "FUCHSIA CITY"
 	done
+
 
 _Route17Text15:: ; 91747 (24:5747)
 	text "It's a notice!"
 
-	para "Don't throw the"
-	line "game, throw #"
-	cont "BALLs instead!"
+	para "Throw # BALLs,"
+	line "not the game!"
 	done
 
 _Route17Text16:: ; 91782 (24:5782)
