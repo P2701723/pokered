@@ -9,8 +9,11 @@ _SafariZoneRestHouse2Text1:: ; 85a2f (21:5a2f)
 _SafariZoneRestHouse2Text2:: ; 85a7a (21:5a7a)
 	text "Using BAIT will"
 	line "make #MON"
-	cont "easier to catch."
+	cont "harder to catch,"
+	cont "but they'll run"
+	cont "away less often."
 	done
+
 
 _SafariZoneRestHouse2Text3:: ; 85aa6 (21:5aa6)
 	text "I hiked a lot, but"
