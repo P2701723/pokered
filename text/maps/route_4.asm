@@ -25,12 +25,13 @@ _Route4AfterBattleText1:: ; 8db88 (23:5b88)
 
 _Route4Text5:: ; 8dbcd (23:5bcd)
 	text "MT.MOON"
-	line "Tunnel Entrance"
+	line "TUNNEL ENTRANCE"
 	done
 
 _Route4Text6:: ; 8dbe6 (23:5be6)
 	text "ROUTE 4"
-	line "MT.MOON -"
-	cont "CERULEAN CITY"
+	
+	para "MT.MOON -"
+	line "CERULEAN CITY"
 	done
 
