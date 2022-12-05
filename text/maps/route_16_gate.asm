@@ -13,7 +13,7 @@ _Route16GateText_4977c:: ; 8cccd (23:4ccd)
 
 _Route16GateText_49781:: ; 8cd0e (23:4d0e)
 	text "Excuse me! Wait"
-	line "up please!"
+	line "up, please!"
 	done
 
 _Route16GateText2:: ; 8cd2a (23:4d2a)
