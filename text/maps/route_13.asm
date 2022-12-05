@@ -36,8 +36,8 @@ _Route13BattleText4:: ; 904a6 (24:44a6)
 	done
 
 _Route13EndBattleText4:: ; 904c6 (24:44c6)
-	text "Not"
-	line "enough!"
+	text ""
+	line "Not enough!"
 	prompt
 
 _Route13AfterBattleText4:: ; 904d3 (24:44d3)
@@ -69,8 +69,8 @@ _Route13BattleText6:: ; 90579 (24:4579)
 	done
 
 _Route13EndBattleText6:: ; 90599 (24:4599)
-	text "Just"
-	line "messed up!"
+	text ""
+	line "Just messed up!"
 	prompt
 
 _Route13AfterBattleText6:: ; 905aa (24:45aa)
@@ -85,8 +85,8 @@ _Route13BattleText7:: ; 905d0 (24:45d0)
 	done
 
 _Route13EndBattleText7:: ; 905eb (24:45eb)
-	text "The"
-	line "wind turned!"
+	text ""
+	line "The wind turned!"
 	prompt
 
 _Route13AfterBattleText7:: ; 905fd (24:45fd)
@@ -123,17 +123,19 @@ _Route13EndBattleText9:: ; 9069e (24:469e)
 _Route13AfterBattleText9:: ; 906b1 (24:46b1)
 	text "I don't know"
 	line "anything about"
-	cont "#MON. I just"
-	cont "like cool ones!"
+	cont "#MON."
+	
+	para "I just like the"
+	line "cool ones!"
 	done
 
 _Route13BattleText10:: ; 906ea (24:46ea)
-	text "What're you"
-	line "lookin' at?"
+	text "What the hell are"
+	line "you lookin' at?"
 	done
 
 _Route13EndBattleText10:: ; 90702 (24:4702)
-	text "Dang!"
+	text "Damn!"
 	line "Stripped gears!"
 	prompt
 
@@ -147,14 +149,14 @@ _Route13BattleText11:: ; 90724 (24:4724)
 	done
 
 _Route13EndBattleText11:: ; 90741 (24:4741)
-	text "Out"
-	line "of power!"
+	text ""
+	line "Out of power!"
 	prompt
 
 _Route13AfterBattleText11:: ; 90750 (24:4750)
 	text "I wish I could"
-	line "fly like PIDGEY"
-	cont "and PIDGEOTTO..."
+	line "fly like FEAROW"
+	cont "and PIDGEOT..."
 	done
 
 _Route13Text11:: ; 90781 (24:4781)
@@ -174,7 +176,8 @@ _Route13Text12:: ; 907ae (24:47ae)
 
 _Route13Text13:: ; 907eb (24:47eb)
 	text "ROUTE 13"
-	line "North to SILENCE"
-	cont "BRIDGE"
+	
+	para "SILENCE BRIDGE"
+	cont "is north of here!"
 	done
 
