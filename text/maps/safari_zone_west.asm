@@ -8,8 +8,9 @@ _SafariZoneWestText6:: ; 85725 (21:5725)
 	para "Please find the"
 	line "SAFARI WARDEN's"
 	cont "lost GOLD TEETH."
-	cont "They're around"
-	cont "here somewhere."
+	
+	para "They're around"
+	line "here somewhere."
 
 	para "Reward offered!"
 	line "Contact: WARDEN"
@@ -18,10 +19,10 @@ _SafariZoneWestText6:: ; 85725 (21:5725)
 _SafariZoneWestText7:: ; 857a3 (21:57a3)
 	text "TRAINER TIPS"
 
-	para "Zone Exploration"
-	line "Campaign!"
+	para "ZONE EXPLORATION"
+	line "CAMPAIGN!"
 
-	para "The Search for"
+	para "The search for"
 	line "the SECRET HOUSE!"
 	done
 
