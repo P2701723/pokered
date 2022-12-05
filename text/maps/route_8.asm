@@ -25,7 +25,7 @@ _Route8EndBattleText2:: ; 8df26 (23:5f26)
 	prompt
 
 _Route8AfterBattleText2:: ; 8df3c (23:5f3c)
-	text "Lady Luck's not"
+	text "Lady luck's not"
 	line "with me today!"
 	done
 
@@ -55,10 +55,10 @@ _Route8EndBattleText4:: ; 8dfe4 (23:5fe4)
 	prompt
 
 _Route8AfterBattleText4:: ; 8dff0 (23:5ff0)
-	text "When #MON grow"
-	line "up they get ugly!"
-	cont "They shouldn't"
-	cont "evolve!"
+	text "SAFFRON's gate-"
+	line "keeper won't let"
+	cont "us through."
+	cont "He's so mean!"
 	done
 
 _Route8BattleText5:: ; 8e028 (23:6028)
@@ -87,8 +87,8 @@ _Route8EndBattleText6:: ; 8e0b8 (23:60b8)
 	prompt
 
 _Route8AfterBattleText6:: ; 8e0bf (23:60bf)
-	text "I think PIDGEY"
-	line "and RATTATA"
+	text "I think VULPIX"
+	line "and GROWLITHE"
 	cont "are cute too!"
 	done
 
@@ -104,14 +104,11 @@ _Route8EndBattleText7:: ; 8e116 (23:6116)
 	prompt
 
 _Route8AfterBattleText7:: ; 8e12a (23:612a)
-if DEF(_YELLOW)
-	text "SAFFRON's gate-"
-ELSE
-	text "SAFFRON's gate"
-ENDC
-	line "keeper won't let"
-	cont "us through."
-	cont "He's so mean!"
+	text "When #MON grow"
+	line "up they get ugly!"
+	
+	para "They shouldn't"
+	line "evolve!"
 	done
 
 _Route8BattleText8:: ; 8e162 (23:6162)
@@ -132,28 +129,29 @@ _Route8AfterBattleText8:: ; 8e198 (23:6198)
 	done
 
 _Route8BattleText9:: ; 8e1d4 (23:61d4)
-	text "What's a cute,"
+	text "I love cute,"
 	line "round and fluffy"
-	cont "#MON?"
+	cont "#MON!"
 	done
 
 _Route8EndBattleText9:: ; 8e1fa (23:61fa)
 	text "Stop!"
 
 	para "Don't be so mean"
-	line "to my CLEFAIRY!"
+	line "to my #MON!"
 	prompt
 
 _Route8AfterBattleText9:: ; 8e221 (23:6221)
-	text "I heard that"
-	line "CLEFAIRY evolves"
-	cont "when it's exposed"
-	cont "to a MOON STONE."
+	text "My JIGGLYPUFF and"
+	line "CLEFAIRY evolved"
+	cont "after I used a"
+	cont "MOON STONE!"
 	done
 
 _Route8Text10:: ; 8e262 (23:6262)
 	text "UNDERGROUND PATH"
-	line "CELADON CITY -"
-	cont "LAVENDER TOWN"
+	
+	para "CELADON CITY -"
+	line "LAVENDER TOWN"
 	done
 
