@@ -13,8 +13,8 @@ INCBIN "pic/bmon/dragonite.pic",0,1 ; 77, sprite dimensions
 dw DragonitePicFront
 dw DragonitePicBack
 ; attacks known at lvl 0
-db WRAP
 db LEER
+db WRAP
 db THUNDER_WAVE
 db AGILITY
 db 5 ; growth rate
@@ -22,8 +22,8 @@ db 5 ; growth rate
 db %11100010
 db %01111111
 db %11001000
-db %11000001
-db %11100011
-db %00011000
-db %00110010
+db %11000111 ; Earthquake, Fissure
+db %11110011 ; Flamethrower
+db %10011000 ; Rock Slide
+db %00111110 ; Cut, Fly
 db 0 ; padding
