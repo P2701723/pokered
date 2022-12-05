@@ -1,7 +1,10 @@
 _SafariZoneRestHouse1Text1:: ; 85851 (21:5851)
-	text "SARA: Where did"
-	line "my boy friend,"
-	cont "ERIK, go?"
+	text "I asked my"
+	line "boyfriend to"
+	cont "come fish #MON"
+	cont "with me..."
+	
+	para "But where is he?"
 	done
 
 _SafariZoneRestHouse1Text2:: ; 8587b (21:587b)
