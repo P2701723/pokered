@@ -2,7 +2,7 @@ _Route12HouseText_564c0:: ; 8c9b3 (23:49b3)
 	text "I'm the FISHING"
 	line "GURU's brother!"
 
-	para "I simply Looove"
+	para "I simply looove"
 	line "fishing!"
 
 	para "Do you like to"
@@ -43,8 +43,9 @@ _Route12HouseText_564d4:: ; 8cac2 (23:4ac2)
 
 	para "Use the SUPER ROD"
 	line "in any water!"
-	cont "You can catch"
-	cont "different kinds"
+	
+	para "You can catch"
+	line "different kinds"
 	cont "of #MON."
 
 	para "Try fishing"
