@@ -4,8 +4,8 @@ _Route19BattleText1:: ; 918eb (24:58eb)
 	done
 
 _Route19EndBattleText1:: ; 9190c (24:590c)
-	text "All"
-	line "warmed up!"
+	text ""
+	line "All warmed up!"
 	prompt
 
 _Route19AfterBattleText1:: ; 9191c (24:591c)
@@ -25,7 +25,7 @@ _Route19EndBattleText2:: ; 91961 (24:5961)
 
 _Route19AfterBattleText2:: ; 91975 (24:5975)
 	text "Watch out for"
-	line "TENTACOOL!"
+	line "TENTACRUEL!"
 	done
 
 _Route19BattleText3:: ; 9198f (24:598f)
@@ -34,8 +34,8 @@ _Route19BattleText3:: ; 9198f (24:598f)
 	done
 
 _Route19EndBattleText3:: ; 919b1 (24:59b1)
-	text "Belly"
-	line "flop!"
+	text ""
+	line "Belly flop!"
 	prompt
 
 _Route19AfterBattleText3:: ; 919be (24:59be)
@@ -101,7 +101,7 @@ _Route19EndBattleText7:: ; 91af4 (24:5af4)
 _Route19AfterBattleText7:: ; 91b01 (24:5b01)
 	text "It's still a long"
 	line "way to go to"
-	cont "SEAFOAM ISLANDS."
+	cont "CINNABAR ISLAND."
 	done
 
 _Route19BattleText8:: ; 91b31 (24:5b31)
@@ -114,9 +114,9 @@ _Route19EndBattleText8:: ; 91b53 (24:5b53)
 	prompt
 
 _Route19AfterBattleText8:: ; 91b5d (24:5b5d)
-	text "My boy friend"
+	text "My boyfriend"
 	line "wanted to swim to"
-	cont "SEAFOAM ISLANDS."
+	cont "CINNABAR ISLAND."
 	done
 
 _Route19BattleText9:: ; 91b8f (24:5b8f)
@@ -140,8 +140,8 @@ _Route19BattleText10:: ; 91bdd (24:5bdd)
 	done
 
 _Route19EndBattleText10:: ; 91bf9 (24:5bf9)
-	text "I'm"
-	line "exhausted..."
+	text ""
+	line "I'm exhausted..."
 	prompt
 
 _Route19AfterBattleText10:: ; 91c0a (24:5c0a)
@@ -152,7 +152,8 @@ _Route19AfterBattleText10:: ; 91c0a (24:5c0a)
 
 _Route19Text11:: ; 91c3c (24:5c3c)
 	text "SEA ROUTE 19"
-	line "FUCHSIA CITY -"
-	cont "SEAFOAM ISLANDS"
+	
+	para "FUCHSIA CITY -"
+	line "SEAFOAM ISLANDS"
 	done
 
