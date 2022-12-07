@@ -19,11 +19,11 @@ db TAIL_WHIP
 db FURY_ATTACK
 db 5 ; growth rate
 ; learnset
-db %11110001
+db %11110101 ; Swords Dance
 db %11111111
 db %10001111
 db %11001111
-db %10100010
+db %10110010 ; Flamethrower
 db %10001000
-db %00110010
+db %00110110 ; Cut
 db 0 ; padding
