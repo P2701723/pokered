@@ -13,8 +13,8 @@ INCBIN "pic/bmon/lapras.pic",0,1 ; 77, sprite dimensions
 dw LaprasPicFront
 dw LaprasPicBack
 ; attacks known at lvl 0
-db WATER_GUN
-db GROWL
+db SING
+db SURF
 db 0
 db 0
 db 5 ; growth rate
@@ -24,6 +24,6 @@ db %01111111
 db %11101000
 db %11010001
 db %10000011
-db %00101000
+db %00101010 ; Dream Eater
 db %00110010
 db 0 ; padding
