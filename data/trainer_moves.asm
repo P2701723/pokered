@@ -11,7 +11,7 @@ LoneMoves: ; 39d22 (e:5d22)
 	db 1,BIDE		; Brock's Onix/Rhyhorn
 	db 0,BUBBLEBEAM		; Misty's Staryu/Golduck
 	db 1,THUNDERBOLT	; Lt. Surge
-	db 2,SOLARBEAM		; Erika
+	db 0,MEGA_DRAIN		; Erika's Victreebel/Tangela
 	db 3,TOXIC		; Koga
 	db 1,PSYCHIC_M		; Sabrina's Mr. Mime
 	db 1,FIRE_BLAST		; Blaine's Rapidash
