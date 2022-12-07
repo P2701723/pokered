@@ -1,10 +1,10 @@
 GloomBaseStats: ; 38892 (e:4892)
 db DEX_GLOOM ; pokedex id
-db 60 ; base hp
+db 65 ; base hp       +5
 db 65 ; base attack
-db 70 ; base defense
-db 40 ; base speed
-db 85 ; base special
+db 85 ; base defense  +15
+db 55 ; base speed    +15
+db 100 ; base special +15
 db GRASS ; species type 1
 db POISON ; species type 2
 db 120 ; catch rate
@@ -25,5 +25,5 @@ db %00111000
 db %11000000
 db %00000011
 db %00001000
-db %00000110
+db %01000110 ; Flash
 db 0 ; padding
