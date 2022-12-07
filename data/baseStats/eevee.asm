@@ -1,9 +1,9 @@
 EeveeBaseStats: ; 3924e (e:524e)
 db DEX_EEVEE ; pokedex id
-db 55 ; base hp
-db 55 ; base attack
-db 50 ; base defense
-db 55 ; base speed
+db 60 ; base hp		+5
+db 65 ; base attack	+10
+db 60 ; base defense	+10
+db 65 ; base speed	+10
 db 65 ; base special
 db NORMAL ; species type 1
 db NORMAL ; species type 2
@@ -14,19 +14,15 @@ dw EeveePicFront
 dw EeveePicBack
 ; attacks known at lvl 0
 db TACKLE
-IF DEF(_YELLOW)
-	db TAIL_WHIP
-ELSE
-	db SAND_ATTACK
-ENDC
-db 0
-db 0
+db GROWL
+db TAIL_WHIP
+db SAND_ATTACK
 db 0 ; growth rate
 ; learnset
 db %10100000
 db %00000011
 db %00001000
-db %11000000
+db %11001000 ; Dig
 db %11000011
 db %00001000
 db %00000010
