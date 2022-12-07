@@ -4,7 +4,7 @@ db 65 ; base hp
 db 50 ; base attack
 db 35 ; base defense
 db 95 ; base speed
-db 95 ; base special
+db 115 ; base special +20
 db ICE ; species type 1
 db PSYCHIC ; species type 2
 db 45 ; catch rate
@@ -24,6 +24,6 @@ db %01111111
 db %00001111
 db %11110000
 db %10000111
-db %00101000
-db %00000010
+db %00101010 ; Dream Eater
+db %01000010 ; Flash
 db 0 ; padding
