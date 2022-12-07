@@ -8,14 +8,14 @@ LoneMoves: ; 39d22 (e:5d22)
 ; first byte:  pokemon in the trainer's party that gets the move
 ; second byte: move
 ; unterminated
-	db 1,BIDE ; Brock's Onix
-	db 0,SURF ; Misty
-	db 1,THUNDERBOLT ; Lt. Surge
-	db 2,SOLARBEAM ; Erika
-	db 3,TOXIC ; Koga
-	db 3,PSYCHIC_M ; Sabrina has OPchic PogChamp
-	db 3,FIRE_BLAST ; Blaine
-	db 4,EARTHQUAKE ; Giovanni/PC has OPquake PogChamp
+	db 1,BIDE		; Brock's Onix/Rhyhorn
+	db 0,SURF		; Misty
+	db 1,THUNDERBOLT	; Lt. Surge
+	db 2,SOLARBEAM		; Erika
+	db 3,TOXIC		; Koga
+	db 1,PSYCHIC_M		; Sabrina's Mr. Mime
+	db 1,FIRE_BLAST		; Blaine's Rapidash
+	db 4,EARTHQUAKE		; Giovanni/PC has OPquake PogChamp
 
 TeamMoves: ; 39d32 (e:5d32)
 ; these are used for elite four.
@@ -26,10 +26,10 @@ TeamMoves: ; 39d32 (e:5d32)
 ; first byte: trainer (all trainers in this class have this move)
 ; second byte: move
 ; ff-terminated
-	db LORELEI,ICE_BEAM
-	db BRUNO,HI_JUMP_KICK
-	db AGATHA,TOXIC
-	db LANCE,BARRIER
+	db LORELEI,BLIZZARD	; Lapras/Jynx
+	db BRUNO,FISSURE	; Machamp/Golem
+	db AGATHA,TOXIC		; Gengar/Arbok
+	db LANCE,FIRE_BLAST	; Dragonite/Charizard
 	db $FF
 
 ELSE
