@@ -1,9 +1,9 @@
 WeepinbellBaseStats: ; 38b6a (e:4b6a)
 db DEX_WEEPINBELL ; pokedex id
-db 65 ; base hp
+db 70 ; base hp       +5
 db 90 ; base attack
 db 50 ; base defense
-db 55 ; base speed
+db 70 ; base speed    +15
 db 85 ; base special
 db GRASS ; species type 1
 db POISON ; species type 2
@@ -25,5 +25,5 @@ db %00111000
 db %11000000
 db %00000011
 db %00001000
-db %00000110
+db %01000110 ; Flash
 db 0 ; padding
