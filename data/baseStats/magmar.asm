@@ -21,8 +21,8 @@ db 0 ; growth rate
 ; learnset
 db %10110001
 db %01000011
-db %00001111
-db %11110000
+db %10101111 ; Solarbeam, Thunderbolt
+db %11110111 ; Thunder, Earthquake, Fissure
 db %10110110 ; Flamethrower
 db %00101000
 db %00100010
