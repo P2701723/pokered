@@ -1,10 +1,10 @@
 MagmarBaseStats: ; 3918a (e:518a)
 db DEX_MAGMAR ; pokedex id
-db 65 ; base hp
+db 75 ; base hp       +10
 db 95 ; base attack
-db 57 ; base defense
-db 93 ; base speed
-db 85 ; base special
+db 67 ; base defense  +10
+db 83 ; base speed    -10
+db 125 ; base special +40
 db FIRE ; species type 1
 db FIRE ; species type 2
 db 45 ; catch rate
@@ -23,7 +23,7 @@ db %10110001
 db %01000011
 db %00001111
 db %11110000
-db %10100110
+db %10110110 ; Flamethrower
 db %00101000
 db %00100010
 db 0 ; padding
