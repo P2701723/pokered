@@ -13,10 +13,10 @@ INCBIN "pic/bmon/starmie.pic",0,1 ; 66, sprite dimensions
 dw StarmiePicFront
 dw StarmiePicBack
 ; attacks known at lvl 0
-db TACKLE
-db WATER_GUN
 db HARDEN
-db 0
+db SWIFT
+db RECOVER
+db BUBBLEBEAM
 db 5 ; growth rate
 ; learnset
 db %00100000
@@ -24,6 +24,6 @@ db %01111111
 db %10001000
 db %11110001
 db %11000011
-db %00111000
+db %00111010 ; Dream Eater
 db %01010011
 db 0 ; padding
