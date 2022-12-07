@@ -1,10 +1,10 @@
 MagnemiteBaseStats: ; 38c9e (e:4c9e)
 db DEX_MAGNEMITE ; pokedex id
-db 25 ; base hp
-db 35 ; base attack
-db 70 ; base defense
-db 45 ; base speed
-db 95 ; base special
+db 35 ; base hp       +10
+db 40 ; base attack   +5
+db 80 ; base defense  +10
+db 40 ; base speed    -5
+db 100 ; base special +5
 db ELECTRIC ; species type 1
 db ELECTRIC ; species type 2
 db 190 ; catch rate
