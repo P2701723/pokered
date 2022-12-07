@@ -22,8 +22,8 @@ db 0 ; growth rate
 db %10110001
 db %01000011
 db %10101111 ; Solarbeam, Thunderbolt
-db %11110111 ; Thunder, Earthquake, Fissure
+db %11110110 ; Earthquake, Fissure
 db %10110110 ; Flamethrower
-db %00101000
+db %10101000 ; Rock Slide
 db %00100010
 db 0 ; padding
