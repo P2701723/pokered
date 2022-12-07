@@ -3,8 +3,8 @@ db DEX_EKANS ; pokedex id
 db 35 ; base hp
 db 60 ; base attack
 db 44 ; base defense
-db 55 ; base speed
-db 40 ; base special
+db 65 ; base speed    +10
+db 54 ; base special  +14
 db POISON ; species type 1
 db POISON ; species type 2
 db 255 ; catch rate
@@ -13,8 +13,8 @@ INCBIN "pic/bmon/ekans.pic",0,1 ; 55, sprite dimensions
 dw EkansPicFront
 dw EkansPicBack
 ; attacks known at lvl 0
-db WRAP
 db LEER
+db WRAP
 db 0
 db 0
 db 0 ; growth rate
