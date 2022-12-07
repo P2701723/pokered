@@ -21,7 +21,7 @@ db 5 ; growth rate
 ; learnset
 db %00100000 ; Toxic
 db %00111111 ; Headbutt, Double-Edge, Bubblebeam, Water Gun, Ice Beam, Blizzard
-db %01001000 ; Rage, Dragon Rage
+db %01001010 ; Counter, Rage, Dragon Rage
 db %11000000 ; Mimic, Double Team
 db %01000010 ; Bide, Swift
 db %00001000 ; Rest
