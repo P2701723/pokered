@@ -9,7 +9,7 @@ LoneMoves: ; 39d22 (e:5d22)
 ; second byte: move
 ; unterminated
 	db 1,BIDE		; Brock's Onix/Rhyhorn
-	db 0,SURF		; Misty
+	db 0,BUBBLEBEAM		; Misty's Staryu/Golduck
 	db 1,THUNDERBOLT	; Lt. Surge
 	db 2,SOLARBEAM		; Erika
 	db 3,TOXIC		; Koga
