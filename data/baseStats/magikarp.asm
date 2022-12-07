@@ -1,10 +1,10 @@
 MagikarpBaseStats: ; 391de (e:51de)
 db DEX_MAGIKARP ; pokedex id
 db 20 ; base hp
-db 10 ; base attack
+db 15 ; base attack     +5
 db 55 ; base defense
 db 80 ; base speed
-db 20 ; base special
+db 55 ; base special    +35
 db WATER ; species type 1
 db WATER ; species type 2
 db 255 ; catch rate
@@ -19,11 +19,11 @@ db 0
 db 0
 db 5 ; growth rate
 ; learnset
-db %00000000
-db %00000000
-db %00000000
-db %00000000
-db %00000000
-db %00000000
-db %00000000
+db %00100000 ; Toxic
+db %00111111 ; Headbutt, Double-Edge, Bubblebeam, Water Gun, Ice Beam, Blizzard
+db %01001000 ; Rage, Dragon Rage
+db %11000000 ; Mimic, Double Team
+db %01000010 ; Bide, Swift
+db %00001000 ; Rest
+db %00010010 ; Substitute, Surf
 db 0 ; padding
