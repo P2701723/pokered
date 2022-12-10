@@ -14,14 +14,9 @@ dw KadabraPicFront
 dw KadabraPicBack
 ; attacks known at lvl 0
 db TELEPORT
-IF DEF(_YELLOW)
-	DB KINESIS
-	db 0
-ELSE
-	db CONFUSION
-	db DISABLE
-ENDC
-db 0
+db DISABLE
+db CONFUSION
+db KINESIS
 db 3 ; growth rate
 ; learnset
 db %10110001
@@ -29,6 +24,6 @@ db %00000011
 db %00001111
 db %11111000
 db %10000111
-db %00111000
+db %00111010 ; Dream Eater
 db %01000011
 db 0 ; padding
