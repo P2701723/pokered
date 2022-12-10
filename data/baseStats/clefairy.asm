@@ -1,10 +1,10 @@
 ClefairyBaseStats: ; 38796 (e:4796)
 db DEX_CLEFAIRY ; pokedex id
-db 75 ; base hp
-db 50 ; base attack
-db 53 ; base defense
-db 40 ; base speed
-db 70 ; base special
+db 75 ; base hp       +5
+db 50 ; base attack   +5
+db 53 ; base defense  +5
+db 40 ; base speed    +5
+db 70 ; base special  +10
 db NORMAL ; species type 1
 db NORMAL ; species type 2
 db 150 ; catch rate
