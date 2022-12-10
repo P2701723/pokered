@@ -228,6 +228,7 @@ Mon035_EvosMoves: ; 3b203 (e:7203)
 	db EV_ITEM,MOON_STONE,1,CLEFABLE
 	db 0
 ;Learnset
+	db 9,POUND
 	db 13,SING
 	db 18,DOUBLESLAP
 	db 24,MINIMIZE
@@ -241,6 +242,7 @@ Mon021_EvosMoves: ; 3b215 (e:7215)
 	db EV_LEVEL,25,FEAROW
 	db 0
 ;Learnset
+	db 3,PECK
 	db 9,LEER
 	db 15,FURY_ATTACK
 	db 22,MIRROR_MOVE
@@ -708,11 +710,10 @@ Mon047_EvosMoves: ; 3b42d (e:742d)
 ;Evolutions
 	db 0
 ;Learnset
-	db 13,STUN_SPORE
-	db 20,LEECH_LIFE
-	db 30,SPORE
-	db 39,SLASH
-	db 48,GROWTH
+	db 27,SPORE
+	db 35,SLASH
+	db 43,GROWTH
+	db 51,MEGA_DRAIN
 	db 0
 Mon054_EvosMoves: ; 3b439 (e:7439)
 ;PSYDUCK
@@ -1072,7 +1073,6 @@ Mon037_EvosMoves: ; 3b580 (e:7580)
 	db 0
 ;Learnset
 	db 16,QUICK_ATTACK
-	db 21,ROAR
 	db 28,CONFUSE_RAY
 	db 35,FLAMETHROWER
 	db 42,FIRE_SPIN
@@ -1091,10 +1091,12 @@ Mon025_EvosMoves: ; 3b592 (e:7592)
 ;Learnset
 	db 6,TAIL_WHIP
 	db 8,THUNDER_WAVE
+	db 8,THUNDERSHOCK
 	db 11,QUICK_ATTACK
 	db 15,DOUBLE_TEAM
 	db 20,SLAM
 	db 26,THUNDERBOLT
+	db 26,SWIFT
 	db 33,AGILITY
 	db 41,THUNDER
 	db 50,LIGHT_SCREEN
@@ -1249,7 +1251,6 @@ Mon039_EvosMoves: ; 3b62e (e:762e)
 	db EV_ITEM,MOON_STONE,1,WIGGLYTUFF
 	db 0
 ;Learnset
-	db 9,POUND
 	db 14,DISABLE
 	db 19,DEFENSE_CURL
 	db 24,DOUBLESLAP
@@ -1330,10 +1331,11 @@ Mon066_EvosMoves: ; 3b690 (e:7690)
 Mon041_EvosMoves: ; 3b69f (e:769f)
 ;ZUBAT
 ;Evolutions
-	db EV_LEVEL,22,GOLBAT
+	db EV_LEVEL,26,GOLBAT
 	db 0
 ;Learnset
 	db 10,SUPERSONIC
+	db 10,LEECH_LIFE
 	db 15,BITE
 	db 21,CONFUSE_RAY
 	db 28,WING_ATTACK
@@ -1345,6 +1347,7 @@ Mon023_EvosMoves: ; 3b6ae (e:76ae)
 	db EV_LEVEL,26,ARBOK
 	db 0
 ;Learnset
+	db 3,WRAP
 	db 10,POISON_STING
 	db 17,BITE
 	db 24,GLARE
@@ -1355,14 +1358,16 @@ Mon023_EvosMoves: ; 3b6ae (e:76ae)
 Mon046_EvosMoves: ; 3b6bd (e:76bd)
 ;PARAS
 ;Evolutions
-	db EV_LEVEL,24,PARASECT
+	db EV_LEVEL,28,PARASECT
 	db 0
 ;Learnset
+	db 7,POISONPOWDER
 	db 13,STUN_SPORE
-	db 20,LEECH_LIFE
-	db 27,SPORE
-	db 34,SLASH
-	db 41,GROWTH
+	db 19,LEECH_LIFE
+	db 25,SPORE
+	db 31,SLASH
+	db 37,GROWTH
+	db 43,MEGA_DRAIN
 	db 0
 Mon061_EvosMoves: ; 3b6cc (e:76cc)
 ;POLIWHIRL
@@ -1565,11 +1570,10 @@ Mon042_EvosMoves: ; 3b784 (e:7784)
 ;Evolutions
 	db 0
 ;Learnset
-	db 10,SUPERSONIC
-	db 15,BITE
 	db 21,CONFUSE_RAY
 	db 32,WING_ATTACK
-	db 43,HAZE
+	db 43,TOXIC
+	db 54,MEGA_DRAIN
 	db 0
 Mon150_EvosMoves: ; 3b790 (e:7790)
 ;MEWTWO
@@ -1777,6 +1781,7 @@ Mon001_EvosMoves: ; 3b844 (e:7844)
 	db EV_LEVEL,25,IVYSAUR
 	db 0
 ;Learnset
+	db 5,TACKLE
 	db 7,VINE_WHIP
 	db 13,LEECH_SEED
 	db 20,POISONPOWDER
@@ -2010,6 +2015,7 @@ Mon004_EvosMoves: ; 3b938 (e:7938)
 	db EV_LEVEL,25,CHARMELEON
 	db 0
 ;Learnset
+	db 5,SCRATCH
 	db 9,EMBER
 	db 15,LEER
 	db 22,RAGE
@@ -2023,6 +2029,7 @@ Mon007_EvosMoves: ; 3b949 (e:7949)
 	db EV_LEVEL,25,WARTORTLE
 	db 0
 ;Learnset
+	db 5,TACKLE
 	db 8,BUBBLE
 	db 15,WATER_GUN
 	db 22,BITE
