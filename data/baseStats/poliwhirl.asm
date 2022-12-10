@@ -1,10 +1,10 @@
 PoliwhirlBaseStats: ; 38a6e (e:4a6e)
 db DEX_POLIWHIRL ; pokedex id
 db 65 ; base hp
-db 65 ; base attack
-db 65 ; base defense
+db 70 ; base attack   +5
+db 70 ; base defense  +5
 db 90 ; base speed
-db 50 ; base special
+db 60 ; base special  +10
 db WATER ; species type 1
 db WATER ; species type 2
 db 120 ; catch rate
@@ -22,7 +22,7 @@ db 3 ; growth rate
 db %10110001
 db %00111111
 db %00001111
-db %11010110
+db %11011110 ; Dig
 db %10000110
 db %00101000
 db %00110010
