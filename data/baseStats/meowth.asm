@@ -1,10 +1,10 @@
 MeowthBaseStats: ; 38972 (e:4972)
 db DEX_MEOWTH ; pokedex id
 db 40 ; base hp
-db 45 ; base attack
+db 55 ; base attack   +10
 db 35 ; base defense
 db 90 ; base speed
-db 40 ; base special
+db 50 ; base special  +10
 db NORMAL ; species type 1
 db NORMAL ; species type 2
 db 255 ; catch rate
@@ -22,8 +22,8 @@ db 0 ; growth rate
 db %10100000
 db %10001111
 db %10001000
-db %11000001
+db %11001001 ; Dig
 db %11000010
-db %00001000
-db %00000010
+db %00001010 ; Dream Eater
+db %01000110 ; Cut, Flash
 db 0 ; padding
