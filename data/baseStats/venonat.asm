@@ -1,10 +1,10 @@
 VenonatBaseStats: ; 38902 (e:4902)
 db DEX_VENONAT ; pokedex id
-db 60 ; base hp
-db 55 ; base attack
-db 50 ; base defense
-db 45 ; base speed
-db 40 ; base special
+db 65 ; base hp		+5
+db 65 ; base attack	+10
+db 55 ; base defense	+5
+db 55 ; base speed	+10
+db 55 ; base special	+15
 db BUG ; species type 1
 db POISON ; species type 2
 db 190 ; catch rate
@@ -22,16 +22,8 @@ db 0 ; growth rate
 db %00100000
 db %00000011
 db %00111000
-IF DEF(_YELLOW)
-	db %11110000
-	db %01000011
-	db %00101000
-	db %00100010
-ELSE
-	db %11010000
-	db %00000011
-	db %00101000
-	db %00000010
-ENDC
-
+db %11110000
+db %01000011
+db %00101000
+db %01000010 ; Flash
 db 0 ; padding
