@@ -1,9 +1,9 @@
 TentacoolBaseStats: ; 38ba2 (e:4ba2)
 db DEX_TENTACOOL ; pokedex id
 db 40 ; base hp
-db 40 ; base attack
+db 45 ; base attack   +5
 db 35 ; base defense
-db 70 ; base speed
+db 75 ; base speed    +5
 db 100 ; base special
 db WATER ; species type 1
 db POISON ; species type 2
@@ -13,7 +13,7 @@ INCBIN "pic/bmon/tentacool.pic",0,1 ; 55, sprite dimensions
 dw TentacoolPicFront
 dw TentacoolPicBack
 ; attacks known at lvl 0
-db ACID
+db POISON_STING
 db 0
 db 0
 db 0
