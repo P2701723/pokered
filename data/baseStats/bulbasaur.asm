@@ -1,7 +1,7 @@
 BulbasaurBaseStats: ; 383de (e:43de)
 db DEX_BULBASAUR ; pokedex id
 db 45 ; base hp
-db 52 ; base attack   +2
+db 51 ; base attack   +2
 db 54 ; base defense  +5
 db 45 ; base speed
 db 68 ; base special  +3
