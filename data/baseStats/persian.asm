@@ -3,7 +3,7 @@ db DEX_PERSIAN ; pokedex id
 db 75 ; base hp       +10
 db 90 ; base attack   +20
 db 70 ; base defense  +10
-db 125 ; base speed   +10
+db 115 ; base speed
 db 85 ; base special  +20
 db NORMAL ; species type 1
 db NORMAL ; species type 2
