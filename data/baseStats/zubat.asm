@@ -1,9 +1,9 @@
 ZubatBaseStats: ; 3883e (e:483e)
 db DEX_ZUBAT ; pokedex id
-db 40 ; base hp
-db 45 ; base attack
-db 35 ; base defense
-db 55 ; base speed
+db 45 ; base hp       +5
+db 50 ; base attack   +5
+db 40 ; base defense  +5
+db 75 ; base speed    +20
 db 40 ; base special
 db POISON ; species type 1
 db FLYING ; species type 2
@@ -13,8 +13,8 @@ INCBIN "pic/bmon/zubat.pic",0,1 ; 55, sprite dimensions
 dw ZubatPicFront
 dw ZubatPicBack
 ; attacks known at lvl 0
+db SUPERSONIC
 db LEECH_LIFE
-db 0
 db 0
 db 0
 db 0 ; growth rate
@@ -25,5 +25,5 @@ db %00011000
 db %11000000
 db %01000010
 db %00001000
-db %00000010
+db %00001010 ; Fly
 db 0 ; padding
