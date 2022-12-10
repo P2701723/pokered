@@ -1,9 +1,9 @@
 TentacruelBaseStats: ; 38bbe (e:4bbe)
 db DEX_TENTACRUEL ; pokedex id
 db 80 ; base hp
-db $50 ; base attack
+db 80 ; base attack   +10
 db 65 ; base defense
-db $6e ; base speed
+db 110 ; base speed   +10
 db 120 ; base special
 db WATER ; species type 1
 db POISON ; species type 2
@@ -13,9 +13,9 @@ INCBIN "pic/bmon/tentacruel.pic",0,1 ; 66, sprite dimensions
 dw TentacruelPicFront
 dw TentacruelPicBack
 ; attacks known at lvl 0
-db ACID
+db POISON_STING
 db SUPERSONIC
-db WRAP
+db CONSTRICT
 db 0
 db 5 ; growth rate
 ; learnset
