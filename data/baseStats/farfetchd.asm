@@ -1,10 +1,10 @@
 FarfetchdBaseStats: ; 38cd6 (e:4cd6)
 db DEX_FARFETCH_D ; pokedex id
-db 52 ; base hp
-db 65 ; base attack
-db 55 ; base defense
-db 60 ; base speed
-db 58 ; base special
+db 62 ; base hp       +10
+db 130 ; base attack  +65
+db 95 ; base defense  +40
+db 70 ; base speed    +10
+db 68 ; base special  +10
 db NORMAL ; species type 1
 db FLYING ; species type 2
 db 45 ; catch rate
