@@ -1,10 +1,10 @@
 RhyhornBaseStats: ; 38fe6 (e:4fe6)
 db DEX_RHYHORN ; pokedex id
-db 80 ; base hp
-db 85 ; base attack
-db 95 ; base defense
-db 25 ; base speed
-db 30 ; base special
+db 90 ; base hp       +10
+db 95 ; base attack   +10
+db 105 ; base defense +10
+db 40 ; base speed    +15
+db 40 ; base special  +10
 db GROUND ; species type 1
 db ROCK ; species type 2
 db 120 ; catch rate
@@ -19,11 +19,11 @@ db 0
 db 0
 db 5 ; growth rate
 ; learnset
-db %11100000
-db %00000011
-db %10001000
+db %11100100 ; Swords Dance
+db %00110011 ; Ice Beam, Blizzard
+db %10001010 ; Counter
 db %11001111
-db %10100010
+db %10110010 ; Flamethrower
 db %10001000
 db %00100010
 db 0 ; padding
