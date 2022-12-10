@@ -24,6 +24,6 @@ db %00111111
 db %10101111
 db %11111001 ; Dig
 db %10110011 ; Flamethrower
-db %00111010 ; Dream Eater
+db %00111011 ; Dream Eater, Softboiled
 db %01100011
 db 0 ; padding
