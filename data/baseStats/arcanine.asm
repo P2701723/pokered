@@ -1,10 +1,10 @@
 ArcanineBaseStats: ; 38a36 (e:4a36)
 db DEX_ARCANINE ; pokedex id
 db 90 ; base hp
-db 110 ; base attack
-db 80 ; base defense
-db $64 ; base speed
-db 80 ; base special
+db 120 ; base attack  +10
+db 90 ; base defense  +10
+db 100 ; base speed   +5
+db 100 ; base special +20
 db FIRE ; species type 1
 db FIRE ; species type 2
 db 75 ; catch rate
@@ -13,10 +13,10 @@ INCBIN "pic/bmon/arcanine.pic",0,1 ; 77, sprite dimensions
 dw ArcaninePicFront
 dw ArcaninePicBack
 ; attacks known at lvl 0
-db ROAR
-db EMBER
-db LEER
+db AGILITY
 db TAKE_DOWN
+db REFLECT
+db FLAMETHROWER
 db 5 ; growth rate
 ; learnset
 db %10100000
