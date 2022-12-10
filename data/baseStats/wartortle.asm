@@ -13,8 +13,8 @@ INCBIN "pic/bmon/wartortle.pic",0,1 ; 66, sprite dimensions
 dw WartortlePicFront
 dw WartortlePicBack
 ; attacks known at lvl 0
-db TACKLE
 db TAIL_WHIP
+db TACKLE
 db BUBBLE
 db 0
 db 3 ; growth rate
