@@ -1,10 +1,10 @@
 ElectrodeBaseStats: ; 38ece (e:4ece)
 db DEX_ELECTRODE ; pokedex id
 db 60 ; base hp
-db $46 ; base attack
+db 70 ; base attack   +20
 db 70 ; base defense
-db 140 ; base speed
-db $6e ; base special
+db 150 ; base speed   +10
+db 110 ; base special +30
 db ELECTRIC ; species type 1
 db ELECTRIC ; species type 2
 db 60 ; catch rate
@@ -13,9 +13,9 @@ INCBIN "pic/bmon/electrode.pic",0,1 ; 55, sprite dimensions
 dw ElectrodePicFront
 dw ElectrodePicBack
 ; attacks known at lvl 0
-db TACKLE
 db SCREECH
-db SONICBOOM
+db TACKLE
+db THUNDERSHOCK
 db 0
 db 0 ; growth rate
 ; learnset
