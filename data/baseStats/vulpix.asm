@@ -1,9 +1,9 @@
 VulpixBaseStats: ; 387ce (e:47ce)
 db DEX_VULPIX ; pokedex id
-db 38 ; base hp
-db 41 ; base attack
+db 48 ; base hp       +10
+db 46 ; base attack   +5
 db 40 ; base defense
-db 65 ; base speed
+db 70 ; base speed    +5
 db 65 ; base special
 db FIRE ; species type 1
 db FIRE ; species type 2
@@ -23,7 +23,7 @@ db %10100000
 db %00000011
 db %00001000
 db %11001000
-db %11100011
+db %11110011 ; Flamethrower
 db %00001000
 db %00000010
 db 0 ; padding
