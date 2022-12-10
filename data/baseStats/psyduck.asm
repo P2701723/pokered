@@ -1,10 +1,10 @@
 PsyduckBaseStats: ; 389aa (e:49aa)
 db DEX_PSYDUCK ; pokedex id
 db 50 ; base hp
-db 52 ; base attack
-db 48 ; base defense
-db 55 ; base speed
-db 50 ; base special
+db 60 ; base attack   +8
+db 50 ; base defense  +2
+db 70 ; base speed    +15
+db 65 ; base special  +15
 db WATER ; species type 1
 db WATER ; species type 2
 db 190 ; catch rate
@@ -14,7 +14,7 @@ dw PsyduckPicFront
 dw PsyduckPicBack
 ; attacks known at lvl 0
 db SCRATCH
-db 0
+db TAIL_WHIP
 db 0
 db 0
 db 0 ; growth rate
@@ -22,8 +22,8 @@ db 0 ; growth rate
 db %10110001
 db %10111111
 db %00001111
-db %11001000
+db %11011000 ; Psychic
 db %11000010
-db %00001000
-db %00110010
+db %00101000 ; Psybeam
+db %01110010 ; Flash
 db 0 ; padding
