@@ -6,7 +6,7 @@ db 70 ; base defense	+20
 db 100 ; base speed	+30
 db 90 ; base special	+10
 db BUG ; species type 1
-db FLYING ; species type 2
+db PSYCHIC ; species type 2
 db 45 ; catch rate
 db 160 ; base exp yield
 INCBIN "pic/bmon/butterfree.pic",0,1 ; 77, sprite dimensions
