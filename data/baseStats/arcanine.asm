@@ -21,9 +21,9 @@ db 5 ; growth rate
 ; learnset
 db %10100000
 db %01000011
-db %01001000
+db %01101000 ; Solarbeam
 db %11101000
-db %11100011
+db %11110011 ; Flamethrower
 db %00001000
-db %00000010
+db %00100010 ; Strength
 db 0 ; padding
