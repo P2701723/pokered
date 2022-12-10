@@ -13,8 +13,8 @@ INCBIN "pic/bmon/venusaur.pic",0,1 ; 77, sprite dimensions
 dw VenusaurPicFront
 dw VenusaurPicBack
 ; attacks known at lvl 0
-db TACKLE
 db GROWL
+db TACKLE
 db VINE_WHIP
 db LEECH_SEED
 db 3 ; growth rate
