@@ -3,7 +3,7 @@ db DEX_DODUO ; pokedex id
 db 35 ; base hp
 db 85 ; base attack
 db 45 ; base defense
-db 75 ; base speed
+db 80 ; base speed    +5
 db 35 ; base special
 db NORMAL ; species type 1
 db FLYING ; species type 2
@@ -24,6 +24,6 @@ db %00000011
 db %00001000
 db %11000000
 db %10000011
-db %00001100
+db %01001100 ; Swift
 db %00001011
 db 0 ; padding
