@@ -13,8 +13,8 @@ INCBIN "pic/bmon/zubat.pic",0,1 ; 55, sprite dimensions
 dw ZubatPicFront
 dw ZubatPicBack
 ; attacks known at lvl 0
-db SUPERSONIC
 db LEECH_LIFE
+db 0
 db 0
 db 0
 db 0 ; growth rate
