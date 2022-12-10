@@ -1,10 +1,10 @@
 DodrioBaseStats: ; 38d0e (e:4d0e)
 db DEX_DODRIO ; pokedex id
-db $50 ; base hp
+db 60 ; base hp
 db 110 ; base attack
-db 70 ; base defense
-db 100 ; base speed
-db $50 ; base special
+db 75 ; base defense  +5
+db 110 ; base speed   +10
+db 65 ; base special  +5
 db NORMAL ; species type 1
 db FLYING ; species type 2
 db 45 ; catch rate
@@ -24,6 +24,6 @@ db %01000011
 db %00001000
 db %11000000
 db %10000011
-db %00001100
+db %01001100 ; Swift
 db %00001011
 db 0 ; padding
