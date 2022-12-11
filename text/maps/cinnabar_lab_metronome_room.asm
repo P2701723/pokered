@@ -39,6 +39,7 @@ _Lab3Text3:: ; a1010 (28:5010)
 	line "message!"
 
 	para "..."
+	line "..."
 
 	para "The 3 legendary"
 	line "bird #MON are"
@@ -76,6 +77,7 @@ _Lab3Text3:: ; a1010 (28:5010)
 	line "follow-up email!"
 	
 	para "..."
+	line "..."
 	
 	para "One more thing!"
 	
@@ -94,6 +96,7 @@ _Lab3Text3:: ; a1010 (28:5010)
 	line "RESEARCH TEAM"
 	
 	para "..."
+	line "..."
 	done
 
 _Lab3Text5:: ; a10d8 (28:50d8)
