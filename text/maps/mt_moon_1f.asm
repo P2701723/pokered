@@ -23,8 +23,8 @@ _MtMoon1BattleText3:: ; 806f5 (20:46f5)
 	done
 
 _MtMoon1EndBattleText3:: ; 80713 (20:4713)
-	text "Losing"
-	line "stinks!"
+	text ""
+	line "Losing stinks!"
 	prompt
 
 _MtMoon1AfterBattleText3:: ; 80723 (20:4723)
@@ -87,8 +87,8 @@ _MtMoon1BattleText7:: ; 8085d (20:485d)
 	done
 
 _MtMoon1EndBattleText7:: ; 8088e (20:488e)
-	text "You"
-	line "got me!"
+	text ""
+	line "You got me!"
 	prompt
 
 _MtMoon1AfterBattleText7:: ; 8089b (20:489b)
@@ -105,8 +105,8 @@ _MtMoon1BattleText8:: ; 808c9 (20:48c9)
 	done
 
 _MtMoon1EndBattleText8:: ; 808f8 (20:48f8)
-	text "I"
-	line "lost."
+	text ""
+	line "I lost."
 	prompt
 
 _MtMoon1AfterBattleText8:: ; 80901 (20:4901)
