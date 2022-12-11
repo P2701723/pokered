@@ -10,8 +10,9 @@ _RockTunnel1EndBattleText1:: ; 8c35d (23:435d)
 
 _RockTunnel1AfterBattleText1:: ; 8c36c (23:436c)
 	text "Watch for ONIX!"
-	line "It can put the"
-	cont "squeeze on you!"
+	
+	para "It can put the"
+	line "squeeze on you!"
 	done
 
 _RockTunnel1BattleText2:: ; 8c39c (23:439c)
@@ -53,8 +54,8 @@ _RockTunnel1BattleText4:: ; 8c482 (23:4482)
 	done
 
 _RockTunnel1EndBattleText4:: ; 8c49a (23:449a)
-	text "Game"
-	line "over!"
+	text ""
+	line "Game over!"
 	prompt
 
 _RockTunnel1AfterBattleText4:: ; 8c4a6 (23:44a6)
@@ -69,8 +70,8 @@ _RockTunnel1BattleText5:: ; 8c4c9 (23:44c9)
 	done
 
 _RockTunnel1EndBattleText5:: ; 8c4f4 (23:44f4)
-	text "It"
-	line "was too dark!"
+	text ""
+	line "It was too dark!"
 	prompt
 
 _RockTunnel1AfterBattleText5:: ; 8c506 (23:4506)
@@ -99,8 +100,8 @@ _RockTunnel1BattleText7:: ; 8c571 (23:4571)
 	done
 
 _RockTunnel1EndBattleText7:: ; 8c58d (23:458d)
-	text "You"
-	line "play hard!"
+	text ""
+	line "You play hard!"
 	prompt
 
 _RockTunnel1AfterBattleText7:: ; 8c59d (23:459d)
