@@ -212,7 +212,7 @@ Mon115_EvosMoves: ; 3b1e6 (e:71e6)
 Mon032_EvosMoves: ; 3b1f2 (e:71f2)
 ;NIDORAN_M
 ;Evolutions
-	db EV_LEVEL,25,NIDORINO
+	db EV_LEVEL,23,NIDORINO
 	db 0
 ;Learnset
 	db 8,FOCUS_ENERGY
@@ -255,6 +255,7 @@ Mon100_EvosMoves: ; 3b224 (e:7224)
 	db EV_LEVEL,30,ELECTRODE
 	db 0
 ;Learnset
+	db 12,TACKLE
 	db 17,THUNDERSHOCK
 	db 22,SELFDESTRUCT
 	db 29,LIGHT_SCREEN
@@ -301,8 +302,8 @@ Mon103_EvosMoves: ; 3b25e (e:725e)
 	db 0
 ;Learnset
 	db 50,SLEEP_POWDER
-	db 50,PSYCHIC_M
 	db 60,EGG_BOMB
+	db 60,PSYCHIC_M
 	db 70,EXPLOSION
 	db 0
 Mon108_EvosMoves: ; 3b262 (e:7262)
@@ -310,11 +311,12 @@ Mon108_EvosMoves: ; 3b262 (e:7262)
 ;Evolutions
 	db 0
 ;Learnset
-	db 7,STOMP
-	db 15,DISABLE
-	db 23,DEFENSE_CURL
-	db 31,SLAM
-	db 39,SCREECH
+	db 7,DEFENSE_CURL
+	db 15,STOMP
+	db 23,WRAP
+	db 31,DISABLE
+	db 39,SLAM
+	db 47,LICK
 	db 0
 Mon102_EvosMoves: ; 3b26e (e:726e)
 ;EXEGGCUTE
@@ -322,12 +324,12 @@ Mon102_EvosMoves: ; 3b26e (e:726e)
 	db EV_ITEM,LEAF_STONE ,1,EXEGGUTOR
 	db 0
 ;Learnset
-	db 25,REFLECT
 	db 28,LEECH_SEED
 	db 32,STUN_SPORE
 	db 37,POISONPOWDER
 	db 42,SOLARBEAM
 	db 48,SLEEP_POWDER
+	db 54,EGG_BOMB
 	db 0
 Mon088_EvosMoves: ; 3b280 (e:7280)
 ;GRIMER
@@ -336,9 +338,9 @@ Mon088_EvosMoves: ; 3b280 (e:7280)
 	db 0
 ;Learnset
 	db 30,POISON_GAS
-	db 33,MINIMIZE
+	db 33,HARDEN
 	db 37,SLUDGE
-	db 42,HARDEN
+	db 42,MINIMIZE
 	db 48,SCREECH
 	db 55,ACID_ARMOR
 	db 0
@@ -353,7 +355,7 @@ Mon094_EvosMoves: ; 3b291 (e:7291)
 Mon029_EvosMoves: ; 3b297 (e:7297)
 ;NIDORAN_F
 ;Evolutions
-	db EV_LEVEL,25,NIDORINA
+	db EV_LEVEL,23,NIDORINA
 	db 0
 ;Learnset
 	db 8,TAIL_WHIP
@@ -386,15 +388,12 @@ Mon104_EvosMoves: ; 3b2b0 (e:72b0)
 Mon111_EvosMoves: ; 3b2bf (e:72bf)
 ;RHYHORN
 ;Evolutions
-	db EV_LEVEL,42,RHYDON
+	db EV_LEVEL,50,RHYDON
 	db 0
 ;Learnset
-	db 30,STOMP
-	db 35,TAIL_WHIP
+	db 35,STOMP
 	db 40,FURY_ATTACK
 	db 45,HORN_DRILL
-	db 50,LEER
-	db 55,TAKE_DOWN
 	db 0
 Mon131_EvosMoves: ; 3b2d0 (e:72d0)
 ;LAPRAS
@@ -599,15 +598,15 @@ Mon016_EvosMoves: ; 3b39c (e:739c)
 Mon079_EvosMoves: ; 3b3ad (e:73ad)
 ;SLOWPOKE
 ;Evolutions
-	db EV_LEVEL,37,SLOWBRO
+	db EV_TRADE,1,SLOWBRO
 	db 0
 ;Learnset
 	db 18,DISABLE
-	db 22,HEADBUTT
-	db 27,GROWL
-	db 33,WATER_GUN
-	db 40,AMNESIA
-	db 48,PSYCHIC_M
+	db 18,CONFUSION
+	db 23,HEADBUTT
+	db 30,GROWL
+	db 38,AMNESIA
+	db 47,PSYCHIC_M
 	db 0
 Mon064_EvosMoves: ; 3b3be (e:73be)
 ;KADABRA
@@ -799,8 +798,6 @@ Mon082_EvosMoves: ; 3b485 (e:7485)
 ;Evolutions
 	db 0
 ;Learnset
-	db 21,SONICBOOM
-	db 25,THUNDERSHOCK
 	db 29,SUPERSONIC
 	db 38,THUNDER_WAVE
 	db 46,SWIFT
@@ -966,8 +963,6 @@ Mon084_EvosMoves: ; 3b512 (e:7512)
 	db EV_LEVEL,31,DODRIO
 	db 0
 ;Learnset
-	db 20,GROWL
-	db 24,FURY_ATTACK
 	db 30,DRILL_PECK
 	db 36,RAGE
 	db 40,TRI_ATTACK
@@ -1665,7 +1660,6 @@ Mon101_EvosMoves: ; 3b7d3 (e:77d3)
 ;Evolutions
 	db 0
 ;Learnset
-	db 17,SONICBOOM
 	db 22,SELFDESTRUCT
 	db 29,LIGHT_SCREEN
 	db 40,SWIFT
