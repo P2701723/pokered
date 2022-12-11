@@ -4,11 +4,8 @@ _CeladonMartRoofText_484ee:: ; 9cbb5 (27:4bb5)
 	done
 
 _CeladonMartRoofText_484f3:: ; 9cbcc (27:4bcc)
-	text "Yay!"
-
-	para "FRESH WATER!"
-
-	para "Thank you!"
+	text "Yay! FRESH WATER!"
+	line "Thank you!"
 
 	para "You can have this"
 	line "from me!@@"
@@ -30,11 +27,8 @@ _CeladonMartRoofText_484fe:: ; 9cc1a (27:4c1a)
 	line "target sometimes!@@"
 
 _CeladonMartRoofText_48504:: ; 9cc5a (27:4c5a)
-	text "Yay!"
-
-	para "SODA POP!"
-
-	para "Thank you!"
+	text "Yay! SODA POP!"
+	line "Thank you!"
 
 	para "You can have this"
 	line "from me!@@"
@@ -56,11 +50,8 @@ _CeladonMartRoofText_4850f:: ; 9cca5 (27:4ca5)
 	line "target sometimes!@@"
 
 _CeladonMartRoofText_48515:: ; 9cce6 (27:4ce6)
-	text "Yay!"
-
-	para "LEMONADE!"
-
-	para "Thank you!"
+	text "Yay! LEMONADE!"
+	line "Thank you!"
 
 	para "You can have this"
 	line "from me!@@"
