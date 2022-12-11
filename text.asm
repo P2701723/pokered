@@ -754,7 +754,10 @@ _TurnPageText:: ; 88c6f (22:4c6f)
 	done
 
 _ViridianSchoolNotebookText5:: ; 88c7f (22:4c7f)
-	text "Hey! Don't look"
+	text "..."
+	line "..."
+	
+	para "Hey! Don't look"
 	line "at my notes!@@"
 
 _ViridianSchoolNotebookText1:: ; 88ca3 (22:4ca3)
@@ -975,7 +978,7 @@ _ViridianBlackboardBurnText:: ; 892b5 (22:52b5)
 	line "attack power."
 	
 	para "It also causes"
-	cont "ongoing damage."
+	line "ongoing damage."
 
 	para "Burns remain"
 	line "after battles."
