@@ -13,8 +13,8 @@ INCBIN "pic/bmon/weepinbell.pic",0,1 ; 66, sprite dimensions
 dw WeepinbellPicFront
 dw WeepinbellPicBack
 ; attacks known at lvl 0
-db VINE_WHIP
 db GROWTH
+db VINE_WHIP
 db WRAP
 db 0
 db 3 ; growth rate
