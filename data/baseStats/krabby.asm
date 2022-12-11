@@ -1,10 +1,10 @@
 KrabbyBaseStats: ; 38e7a (e:4e7a)
 db DEX_KRABBY ; pokedex id
-db $3c ; base hp
+db 40 ; base hp       +10
 db 105 ; base attack
 db 90 ; base defense
-db $41 ; base speed
-db $2d ; base special
+db 55 ; base speed    +5
+db 35 ; base special  +10
 db WATER ; species type 1
 db WATER ; species type 2
 db 225 ; catch rate
@@ -13,8 +13,8 @@ INCBIN "pic/bmon/krabby.pic",0,1 ; 55, sprite dimensions
 dw KrabbyPicFront
 dw KrabbyPicBack
 ; attacks known at lvl 0
-db BUBBLE
 db LEER
+db BUBBLE
 db 0
 db 0
 db 0 ; growth rate
@@ -22,8 +22,8 @@ db 0 ; growth rate
 db %10100100
 db %00111111
 db %00001000
-db %11000000
+db %11001000 ; Dig
 db %00000010
-db %00001000
+db %10001000 ; Rock Slide
 db %00110110
 db 0 ; padding
