@@ -13,7 +13,7 @@ INCBIN "pic/bmon/exeggutor.pic",0,1 ; 77, sprite dimensions
 dw ExeggutorPicFront
 dw ExeggutorPicBack
 ; attacks known at lvl 0
-db HYPNOSIS
+db LEECH_SEED
 db POISONPOWDER
 db STUN_SPORE
 db BARRAGE
