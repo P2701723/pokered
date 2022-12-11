@@ -18,9 +18,8 @@ _CopycatsHouse2FText_5ccd4:: ; a15ad (28:55ad)
 _TM31PreReceiveText:: ; a1636 (28:5636)
 	text "Oh wow!"
 	line "A # DOLL!"
-
-	para "For me?"
-	line "Thank you!"
+	cont "For me?"
+	cont "Thank you!"
 
 	para "You can have"
 	line "this, then!"
@@ -88,7 +87,7 @@ _CopycatsHouse2FText6:: ; a17be (28:57be)
 	done
 
 _CopycatsHouse2FText_5cd17:: ; a17ef (28:57ef)
-	text "COPYCAT's SECRETS!"
+	text "COPYCAT's SECRETS"
 
 	para "Skill:"
 	line "Mimicry!"
