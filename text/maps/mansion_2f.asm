@@ -1,7 +1,8 @@
 _Mansion2BattleText1:: ; 852b7 (21:52b7)
 	text "I can't get out!"
-	line "This old place is"
-	cont "one big puzzle!"
+	
+	para "This old place is"
+	line "one big puzzle!"
 	done
 
 _Mansion2EndBattleText1:: ; 852ea (21:52ea)
