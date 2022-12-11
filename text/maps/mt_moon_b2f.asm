@@ -77,10 +77,13 @@ _MtMoon3Text_49f99:: ; 80a93 (20:4a93)
 	line "this is mine!@@"
 
 _MtMoon3BattleText2:: ; 80ab3 (20:4ab3)
-	text "TEAM ROCKET will"
-	line "find the fossils,"
-	cont "revive and sell"
-	cont "them for cash!"
+	para "Stop right there!"
+	
+	para "That fossil is"
+	line "TEAM ROCKET's!"
+
+	para "Surrender now, or"
+	line "prepare to fight!"
 	done
 
 _MtMoon3EndBattleText2:: ; 80af6 (20:4af6)
@@ -102,8 +105,8 @@ _MtMoon3BattleText3:: ; 80b3b (20:4b3b)
 	done
 
 _MtMoon3EndBattleText3:: ; 80b61 (20:4b61)
-	text "I blew"
-	line "it!"
+	text ""
+	line "I blew it!"
 	prompt
 
 _MtMoon3AfterBattleText3:: ; 80b6d (20:4b6d)
@@ -119,8 +122,8 @@ _MtMoon3BattleText4:: ; 80b9e (20:4b9e)
 	done
 
 _MtMoon3EndBattleText4:: ; 80bcb (20:4bcb)
-	text "So, you"
-	line "are good."
+	text ""
+	line "So, you are good."
 	prompt
 
 _MtMoon3AfterBattleText4:: ; 80bde (20:4bde)
@@ -136,8 +139,8 @@ _MtMoon3BattleText5:: ; 80c0e (20:4c0e)
 	done
 
 _MtMoon3EndBattleText5:: ; 80c39 (20:4c39)
-	text "I'm"
-	line "steamed!"
+	text ""
+	line "I'm steamed!"
 	prompt
 
 _MtMoon3AfterBattleText5:: ; 80c46 (20:4c46)
