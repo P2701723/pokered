@@ -49,8 +49,8 @@ _FightingDojoBattleText1:: ; a1999 (28:5999)
 	done
 
 _FightingDojoEndBattleText1:: ; a19b7 (28:59b7)
-	text "I give"
-	line "up!"
+	text ""
+	line "I give up!"
 	prompt
 
 _FightingDojoAfterBattleText1:: ; a19c3 (28:59c3)
