@@ -43,8 +43,8 @@ _ViridianCityText_19157:: ; a44db (29:44db)
 	done
 
 _ViridianCityText_19175:: ; a4525 (29:4525)
-	text "Oh, grandpa! Don't"
-	line "be so mean!"
+	text "Oh, grandpa!"
+	line "Don't be so mean!"
 
 	para "I'm so sorry, he's"
 	line "always like this"
