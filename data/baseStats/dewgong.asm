@@ -1,10 +1,10 @@
 DewgongBaseStats: ; 38d46 (e:4d46)
 db DEX_DEWGONG ; pokedex id
-db 90 ; base hp
-db 70 ; base attack
-db 80 ; base defense
-db 70 ; base speed
-db 95 ; base special
+db 110 ; base hp      +20
+db 80 ; base attack   +10
+db 90 ; base defense  +10
+db 75 ; base speed    +5
+db 100 ; base special +5
 db WATER ; species type 1
 db ICE ; species type 2
 db 75 ; catch rate
