@@ -18,10 +18,10 @@ _FuchsiaCityText2:: ; a5ede (29:5ede)
 _FuchsiaCityText3:: ; a5f3e (29:5f3e)
 	text "That's weird..."
 	
-	para "My girlfriend said"
-	line "to use a fish"
-	cont "#MON to go"
-	cont "meet her..."
+	para "My girlfriend"
+	line "said to use a"
+	cont "fish #MON to"
+	cont "go meet her..."
 	
 	para "But I can't SURF"
 	line "on dry land!"
@@ -29,8 +29,8 @@ _FuchsiaCityText3:: ; a5f3e (29:5f3e)
 
 _FuchsiaCityText4:: ; a5f6b (29:5f6b)
 	text "That item ball in"
-	line "there is really a"
-	cont "#MON!"
+	line "there is really"
+	cont "a #MON!"
 	done
 
 _FuchsiaCityText5:: ; a5f96 (29:5f96)
