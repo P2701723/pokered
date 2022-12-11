@@ -1,6 +1,6 @@
 _Mansion4BattleText1:: ; 854df (21:54df)
-	text "Uh-oh. Where am"
-	line "I now?"
+	text "Uh-oh. Where"
+	line "am I now?"
 	done
 
 _Mansion4EndBattleText1:: ; 854f7 (21:54f7)
