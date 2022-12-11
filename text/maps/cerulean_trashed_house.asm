@@ -1,5 +1,5 @@
 _CeruleanTrashedText_1d6ab:: ; 9875c (26:475c)
-	text "Those miserable"
+	text "Those damned"
 	line "ROCKETs!"
 
 	para "Look what they"
@@ -18,9 +18,9 @@ _CeruleanTrashedText_1d6b0:: ; 987e2 (26:47e2)
 	text "I figure what's"
 	line "lost is lost!"
 
-	para "I decided to teach"
-	line "DIGLETT how to"
-	cont "DIG without a TM!"
+	para "My DIGLETT can"
+	line "learn how to DIG"
+	cont "without a TM!"
 	done
 
 _CeruleanHouseTrashedText2:: ; 98834 (26:4834)
