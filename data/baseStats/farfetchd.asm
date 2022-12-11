@@ -13,8 +13,8 @@ INCBIN "pic/bmon/farfetchd.pic",0,1 ; 66, sprite dimensions
 dw FarfetchdPicFront
 dw FarfetchdPicBack
 ; attacks known at lvl 0
-db PECK
 db SAND_ATTACK
+db PECK
 db 0
 db 0
 db 0 ; growth rate
