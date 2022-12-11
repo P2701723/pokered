@@ -13,7 +13,7 @@ _Museum2FText2:: ; 96869 (25:6869)
 	cont "#MON!"
 
 	para "I bought a laptop"
-	line "to watch it!"
+	line "just to watch it!"
 	done
 
 _Museum2FText3:: ; 968b1 (25:68b1)
