@@ -23,8 +23,8 @@ _CardKeySuccessText1:: ; 80000 (20:4000)
 
 _CardKeySuccessText2:: ; 80009 (20:4009)
 	db $0
-	line "The CARD KEY"
-	cont "opened the door!"
+	para "The CARD KEY"
+	line "opened the door!"
 	done
 
 _CardKeyFailText:: ; 80029 (20:4029)
@@ -106,8 +106,9 @@ _NoMoreRoomForItemText:: ; 8012a (20:412a)
 
 _OaksAideHiText:: ; 80143 (20:4143)
 	text "Hi! Remember me?"
-	line "I'm PROF.OAK's"
-	cont "AIDE!"
+	
+	para "I'm PROF.OAK's"
+	line "AIDE!"
 
 	para "If you caught @"
 	TX_NUM $ffdb, 1, 3
@@ -122,7 +123,7 @@ _OaksAideHiText:: ; 80143 (20:4143)
 	para "So, ", $52, "!"
 	
 	para "Have you caught"
-	cont "at least @"
+	line "at least @"
 	TX_NUM $ffdb, 1, 3
 	text " kinds"
 	cont "of #MON?"
@@ -132,7 +133,7 @@ _OaksAideUhOhText:: ; 801e4 (20:41e4)
 	text "Let's see..."
 
 	para "Uh-oh! You've"
-	cont "only caught @"
+	line "only caught @"
 	TX_NUM $ffdd, 1, 3
 	db $0
 	cont "kinds of #MON!"
@@ -678,6 +679,7 @@ _OakLabEmailText:: ; 88a60 (22:4a60)
 	line "message here!"
 
 	para "..."
+	line "..."
 
 	para "Calling all"
 	line "#MON trainers!"
@@ -739,6 +741,7 @@ TMNotebookText:: ; 88bfd (22:4bfd)
 	line "on TMs."
 
 	para "..."
+	line "..."
 
 	para "There are 50 TMs"
 	line "in all."
@@ -2944,10 +2947,11 @@ _GotMonText:: ; a4180 (29:4180)
 _SetToBoxText:: ; a418f (29:418f)
 	text "There's no more"
 	line "room for #MON!"
-	cont "@"
+	
+	para "@"
 	TX_RAM wBoxMonNicks
 	text " was"
-	cont "sent to #MON"
+	line "sent to #MON"
 	cont "BOX @"
 	TX_RAM wcf4b
 	text " on PC!"
