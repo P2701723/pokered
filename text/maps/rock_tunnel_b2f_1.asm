@@ -102,7 +102,7 @@ _RockTunnel2BattleText8:: ; 86c77 (21:6c77)
 	done
 
 _RockTunnel2EndBattleText8:: ; 86c94 (21:6c94)
-	text "Fired"
-	line "away!"
+	text ""
+	line "Fired away!"
 	prompt
 
