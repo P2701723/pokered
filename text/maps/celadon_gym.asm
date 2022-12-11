@@ -3,7 +3,9 @@ _CeladonGymText_48a5e:: ; 9d28f (27:528f)
 	line "weather isn't it?"
 	cont "It's so pleasant."
 
-	para "...Oh dear..."	
+	para "..."
+	line "..."
+	cont "...Oh dear..."	
 	
 	para "I must have dozed"
 	line "off. Welcome."
@@ -18,6 +20,9 @@ _CeladonGymText_48a5e:: ; 9d28f (27:528f)
 	
 	para "My #MON are of"
 	line "the grass-type."
+	
+	para "..."
+	line "..."
 
 	para "Oh, I'm sorry, I"
 	line "had no idea that"
@@ -110,8 +115,8 @@ _CeladonGymBattleText3:: ; 9d5f0 (27:55f0)
 	done
 
 _CeladonGymEndBattleText3:: ; 9d606 (27:5606)
-	text "My"
-	line "makeup!"
+	text ""
+	line "My makeup!"
 	prompt
 
 _CeladonGymAfterBattleText3:: ; 9d612 (27:5612)
