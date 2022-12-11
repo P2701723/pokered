@@ -105,8 +105,8 @@ _Route12BattleText6:: ; 90301 (24:4301)
 	done
 
 _Route12EndBattleText6:: ; 90318 (24:4318)
-	text "It's"
-	line "not easy..."
+	text ""
+	line "It's not easy..."
 	prompt
 
 _Route12AfterBattleText6:: ; 90329 (24:4329)
