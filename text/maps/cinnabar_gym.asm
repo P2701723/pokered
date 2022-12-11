@@ -15,8 +15,8 @@ _BlaineBattleText:: ; a0844 (28:4844)
 	done
 
 _BlaineEndBattleText:: ; a08c7 (28:48c7)
-	text "I've"
-	line "burnt out!"
+	text ""
+	line "I've burnt out!"
 
 	para "You have earned"
 	line "the VOLCANOBADGE!@@"
@@ -93,8 +93,8 @@ _CinnabarGymText_75994:: ; a0ac0 (28:4ac0)
 	done
 
 _CinnabarGymText_75999:: ; a0af4 (28:4af4)
-	text "I"
-	line "surrender!"
+	text ""
+	line "I surrender!"
 	prompt
 
 _CinnabarGymText_7599e:: ; a0b02 (28:4b02)
