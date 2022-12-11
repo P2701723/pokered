@@ -14,9 +14,9 @@ dw ExeggutorPicFront
 dw ExeggutorPicBack
 ; attacks known at lvl 0
 db LEECH_SEED
-db POISONPOWDER
 db STUN_SPORE
-db BARRAGE
+db POISONPOWDER
+db SOLARBEAM
 db 5 ; growth rate
 ; learnset
 db %00100100 ; Swords Dance
