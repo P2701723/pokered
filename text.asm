@@ -556,8 +556,8 @@ _PushStartText:: ; 886fc (22:46fc)
 	done
 
 _SaveOptionText:: ; 8871a (22:471a)
-	text "The SAVE option is"
-	line "on the MENU"
+	text "The SAVE option"
+	line "is on the MENU"
 	cont "screen."
 	done
 
