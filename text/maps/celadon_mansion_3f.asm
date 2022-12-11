@@ -50,9 +50,17 @@ _CompletedDexText:: ; 9d0ad (27:50ad)
 
 _CeladonMansion3Text5:: ; 9d0ed (27:50ed)
 	text "It's the game"
-	line "program! Messing"
-	cont "with it could bug"
-	cont "out the game!"
+	line "program!"
+	
+	para "Messing with it"
+	line "could cause some"
+	line "unintended bugs!"
+	
+	para "..."
+	line "..."
+	
+	para "You decide to"
+	line "leave it alone."
 	done
 
 _CeladonMansion3Text6:: ; 9d12c (27:512c)
