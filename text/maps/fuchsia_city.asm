@@ -1,8 +1,10 @@
 _FuchsiaCityText1:: ; a5e9c (29:5e9c)
 	text "Did you try the"
-	line "SAFARI GAME? Some"
-	cont "#MON can only"
-	cont "be caught there."
+	line "SAFARI GAME?"
+	
+	para "Some POKEMON can"
+	line "only be caught"
+	cont "there."
 	done
 
 _FuchsiaCityText2:: ; a5ede (29:5ede)
