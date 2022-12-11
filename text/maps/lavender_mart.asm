@@ -16,8 +16,9 @@ _LavenderMartText2:: ; 9a104 (26:6104)
 
 _LavenderMart_5c953:: ; 9a1b4 (26:61b4)
 	text "You know REVIVE?"
-	line "It revives any"
-	cont "fainted #MON!"
+	
+	para "It revives any"
+	line "fainted #MON!"
 	done
 
 _LavenderMart_5c958:: ; 9a1e3 (26:61e3)
