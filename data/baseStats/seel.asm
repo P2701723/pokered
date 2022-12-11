@@ -1,8 +1,8 @@
 SeelBaseStats: ; 38d2a (e:4d2a)
 db DEX_SEEL ; pokedex id
-db 65 ; base hp
-db 45 ; base attack
-db 55 ; base defense
+db 75 ; base hp       +10
+db 50 ; base attack   +5
+db 60 ; base defense  +5
 db 45 ; base speed
 db 70 ; base special
 db WATER ; species type 1
