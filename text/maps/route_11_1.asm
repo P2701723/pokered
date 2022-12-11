@@ -19,8 +19,8 @@ _Route11BattleText2:: ; 8e944 (23:6944)
 	done
 
 _Route11EndBattleText2:: ; 8e965 (23:6965)
-	text "I had"
-	line "a chance!"
+	text ""
+	line "I had a chance!"
 	prompt
 
 _Route11AfterBattleText2:: ; 8e976 (23:6976)
