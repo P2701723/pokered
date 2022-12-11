@@ -1411,6 +1411,7 @@ Mon015_EvosMoves: ; 3b6ee (e:76ee)
 	db 0
 ;Learnset
 	db 14,FURY_ATTACK
+	db 15,FURY_ATTACK
 	db 17,FOCUS_ENERGY
 	db 20,TWINEEDLE
 	db 25,RAGE
@@ -1517,6 +1518,7 @@ Mon012_EvosMoves: ; 3b74c (e:774c)
 	db 0
 ;Learnset
 	db 14,CONFUSION
+	db 15,CONFUSION
 	db 17,POISONPOWDER
 	db 19,STUN_SPORE
 	db 21,SLEEP_POWDER
@@ -1776,7 +1778,6 @@ Mon001_EvosMoves: ; 3b844 (e:7844)
 	db EV_LEVEL,25,IVYSAUR
 	db 0
 ;Learnset
-	db 5,TACKLE
 	db 7,VINE_WHIP
 	db 13,LEECH_SEED
 	db 20,POISONPOWDER
@@ -2008,7 +2009,6 @@ Mon004_EvosMoves: ; 3b938 (e:7938)
 	db EV_LEVEL,25,CHARMELEON
 	db 0
 ;Learnset
-	db 5,SCRATCH
 	db 9,EMBER
 	db 15,LEER
 	db 22,RAGE
@@ -2022,7 +2022,6 @@ Mon007_EvosMoves: ; 3b949 (e:7949)
 	db EV_LEVEL,25,WARTORTLE
 	db 0
 ;Learnset
-	db 5,TACKLE
 	db 8,BUBBLE
 	db 15,WATER_GUN
 	db 22,BITE
