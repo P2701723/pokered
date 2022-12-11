@@ -23,7 +23,7 @@ db %00100100 ; Swords Dance
 db %00000011
 db %00111000 ; Mega Drain, Solarbeam
 db %11110000
-db %00011011
+db %00001011
 db %01101010 ; Dream Eater
 db %01100010 ; Strength, Flash
 db 0 ; padding
