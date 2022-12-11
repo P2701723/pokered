@@ -75,8 +75,8 @@ _FuchsiaGymBattleText2:: ; a0207 (28:4207)
 	done
 
 _FuchsiaGymEndBattleText2:: ; a023a (28:423a)
-	text "I'm done"
-	line "for!"
+	text ""
+	line "I'm done for!"
 	prompt
 
 _FuchsiaGymAfterBattleText2:: ; a0248 (28:4248)
