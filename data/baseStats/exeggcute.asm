@@ -13,17 +13,17 @@ INCBIN "pic/bmon/exeggcute.pic",0,1 ; 77, sprite dimensions
 dw ExeggcutePicFront
 dw ExeggcutePicBack
 ; attacks known at lvl 0
-db BARRAGE
+db REFLECT
 db HYPNOSIS
-db 0
+db BARRAGE
 db 0
 db 5 ; growth rate
 ; learnset
-db %00100000
+db %00100100 ; Swords Dance
 db %00000011
-db %00001000
+db %00111000 ; Mega Drain, Solarbeam
 db %11110000
 db %00011011
-db %01101000
-db %00000010
+db %01101010 ; Dream Eater
+db %01100010 ; Strength, Flash
 db 0 ; padding
