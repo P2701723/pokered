@@ -53,8 +53,8 @@ _RocketHideout1BattleText5:: ; 82020 (20:6020)
 	done
 
 _RocketHideout1EndBattleText5:: ; 82038 (20:6038)
-	text "This"
-	line "won't do!"
+	text ""
+	line "This won't do!"
 	prompt
 
 _RocketHideout1AfterBattleTxt5:: ; 82047 (20:6047)
