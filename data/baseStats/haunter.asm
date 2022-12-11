@@ -1,7 +1,7 @@
 HaunterBaseStats: ; 38dee (e:4dee)
 db DEX_HAUNTER ; pokedex id
 db 45 ; base hp
-db 50 ; base attack
+db 60 ; base attack   +10
 db 45 ; base defense
 db 95 ; base speed
 db 115 ; base special
@@ -13,8 +13,8 @@ INCBIN "pic/bmon/haunter.pic",0,1 ; 66, sprite dimensions
 dw HaunterPicFront
 dw HaunterPicBack
 ; attacks known at lvl 0
-db LICK
 db CONFUSE_RAY
+db LICK
 db NIGHT_SHADE
 db 0
 db 3 ; growth rate
