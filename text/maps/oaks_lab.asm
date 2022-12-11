@@ -195,9 +195,9 @@ _OaksLabPleaseVisitText:: ; 9519e (25:519e)
 	text "Come see me"
 	line "sometimes."
 
-	para "I want to know how"
-	line "your #DEX is"
-	cont "coming along."
+	para "I want to know"
+	line "how your #DEX"
+	cont "is coming along."
 	done
 
 _OaksLabText_1d31d:: ; 951e9 (25:51e9)
