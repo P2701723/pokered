@@ -40,7 +40,7 @@ _CeruleanGymText_5c7c8:: ; 98ab0 (26:4ab0)
 	para "That includes"
 	line "even outsiders!"
 
-	para "There's more, you"
+	para "What's more, you"
 	line "can now use CUT"
 	cont "anytime!"
 
@@ -103,8 +103,8 @@ _CeruleanGymBattleText2:: ; 98c93 (26:4c93)
 	done
 
 _CeruleanGymEndBattleText2:: ; 98cb5 (26:4cb5)
-	text "That"
-	line "can't be!"
+	text ""
+	line "This can't be!"
 	prompt
 
 _CeruleanGymAfterBattleText2:: ; 98cc4 (26:4cc4)
