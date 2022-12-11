@@ -1,7 +1,7 @@
 GengarBaseStats: ; 38e0a (e:4e0a)
 db DEX_GENGAR ; pokedex id
 db 60 ; base hp
-db 65 ; base attack
+db 85 ; base attack   +20
 db 60 ; base defense
 db 110 ; base speed
 db 130 ; base special
