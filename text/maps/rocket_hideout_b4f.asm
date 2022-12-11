@@ -76,8 +76,8 @@ _RocketHideout4BattleText2:: ; 82326 (20:6326)
 	done
 
 _RocketHideout4EndBattleText2:: ; 82354 (20:6354)
-	text "Burned"
-	line "again!"
+	text ""
+	line "Burned again!"
 	prompt
 
 _RocketHide4AfterBattleText2:: ; 82363 (20:6363)
