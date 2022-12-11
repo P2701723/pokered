@@ -1092,6 +1092,7 @@ Mon025_EvosMoves: ; 3b592 (e:7592)
 	db 6,TAIL_WHIP
 	db 8,THUNDER_WAVE
 	db 11,QUICK_ATTACK
+	db 12,THUNDERSHOCK ; for dumb stupid idiot morons that mash A too fast (aka me)
 	db 15,DOUBLE_TEAM
 	db 20,SLAM
 	db 26,SWIFT
