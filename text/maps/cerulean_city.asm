@@ -11,8 +11,7 @@ _CeruleanCityText_19668:: ; a4d2b (29:4d2b)
 	cont "smart #MON!"
 
 	para "Here, let me see"
-	line "what you caught,"
-	cont $52, "!"
+	line "what you caught!"
 	done
 
 _CeruleanCityText_1966d:: ; a4dbe (29:4dbe)
@@ -48,9 +47,9 @@ _CeruleanCityText_19677:: ; a4e07 (29:4e07)
 	line "#MON STORAGE"
 	cont "SYSTEM on PC!"
 
-	para "Since you're using"
-	line "his system, go"
-	cont "thank him!"
+	para "Since you're"
+	line "using his system,"
+	cont "go thank him!"
 
 	para "Well, I better"
 	line "get rolling!"
@@ -69,8 +68,10 @@ _CeruleanCityText_196d9:: ; a4f27 (29:4f27)
 	para "Huh? Me?"
 
 	para "I'm an innocent"
-	line "bystander! Don't"
-	cont "you believe me?"
+	line "bystander!"
+	
+	para "Don't you"
+	line "believe me?"
 	done
 
 _ReceivedTM28Text:: ; a4f82 (29:4f82)
@@ -104,9 +105,12 @@ _CeruleanCityText_196f3:: ; a5010 (29:5010)
 
 _CeruleanCityText3:: ; a5030 (29:5030)
 	text "You're a trainer"
-	line "too? Collecting,"
-	cont "fighting, it's a"
-	cont "tough life."
+	line "too?"
+	
+	para "Collecting,"
+	line "fighting..."
+	
+	para "It's a tough life."
 	done
 
 _CeruleanCityText4:: ; a506e (29:506e)
@@ -143,14 +147,14 @@ _CeruleanCityText6:: ; a50f6 (29:50f6)
 
 _CeruleanCityText_19730:: ; a5188 (29:5188)
 IF DEF(_YELLOW)
-	text "OK! ELECTRODE!"
-ELSE
-	text "OK! SLOWBRO!"
-ENDC
-	line "Use PSYWAVE!"
-IF DEF(_YELLOW)
+	text "OK, ELECTRODE!"
+	line "Use SONICBOOM!"
+	
 	para "Please, ELECTRODE!"
 ELSE
+	text "OK, SLOWBRO!"
+	line "Use PSYWAVE!"
+
 	para "Come on, SLOWBRO!"
 ENDC
 	line "Pay attention!"
@@ -231,10 +235,9 @@ _CeruleanCityText9:: ; a52d6 (29:52d6)
 	done
 
 _CeruleanCityText10:: ; a531f (29:531f)
-	text "This is CERULEAN"
-	line "CAVE! Horribly"
-	cont "strong #MON"
-	cont "live in there!"
+	text "Horribly strong"
+	line "#MON live in"
+	cont "CERULEAN CAVE!"
 
 	para "The #MON LEAGUE"
 	line "champion is the"
@@ -253,10 +256,10 @@ _CeruleanCityText12:: ; a539a (29:539a)
 _CeruleanCityText13:: ; a53ce (29:53ce)
 	text "TRAINER TIPS"
 
-	para "Pressing B button"
+	para "Press the B button"
 	line "during evolution"
-	cont "cancels the whole"
-	cont "process."
+	cont "to cancel the"
+	cont "whole process."
 	done
 
 _CeruleanCityText16:: ; a541a (29:541a)
