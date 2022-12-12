@@ -228,7 +228,6 @@ Mon035_EvosMoves: ; 3b203 (e:7203)
 	db EV_ITEM,MOON_STONE,1,CLEFABLE
 	db 0
 ;Learnset
-	db 9,POUND
 	db 13,SING
 	db 18,DOUBLESLAP
 	db 24,MINIMIZE
@@ -242,7 +241,6 @@ Mon021_EvosMoves: ; 3b215 (e:7215)
 	db EV_LEVEL,25,FEAROW
 	db 0
 ;Learnset
-	db 3,PECK
 	db 9,LEER
 	db 15,FURY_ATTACK
 	db 22,MIRROR_MOVE
@@ -379,11 +377,11 @@ Mon104_EvosMoves: ; 3b2b0 (e:72b0)
 	db EV_LEVEL,28,MAROWAK
 	db 0
 ;Learnset
-	db 25,LEER
+	db 25,HEADBUTT
 	db 31,FOCUS_ENERGY
-	db 38,THRASH
+	db 38,RAGE
 	db 43,BONEMERANG
-	db 46,RAGE
+	db 46,THRASH
 	db 0
 Mon111_EvosMoves: ; 3b2bf (e:72bf)
 ;RHYHORN
@@ -439,7 +437,6 @@ Mon090_EvosMoves: ; 3b2f6 (e:72f6)
 	db 18,SUPERSONIC
 	db 23,CLAMP
 	db 30,AURORA_BEAM
-	db 39,LEER
 	db 50,ICE_BEAM
 	db 0
 Mon072_EvosMoves: ; 3b306 (e:7306)
@@ -460,7 +457,7 @@ Mon072_EvosMoves: ; 3b306 (e:7306)
 Mon092_EvosMoves: ; 3b31b (e:731b)
 ;GASTLY
 ;Evolutions
-	db EV_LEVEL,25,HAUNTER
+	db EV_LEVEL,35,HAUNTER
 	db 0
 ;Learnset
 	db 27,HYPNOSIS
@@ -522,12 +519,13 @@ Mon114_EvosMoves: ; 3b362 (e:7362)
 ;Evolutions
 	db 0
 ;Learnset
-	db 29,ABSORB
+	db 27,ABSORB
+	db 29,VINE_WHIP
 	db 32,POISONPOWDER
 	db 36,STUN_SPORE
 	db 39,SLEEP_POWDER
 	db 45,SLAM
-	db 49,GROWTH
+	db 48,GROWTH
 	db 0
 
 Mon152_EvosMoves: ; 3b370 (e:7370)
@@ -549,7 +547,6 @@ Mon058_EvosMoves: ; 3b374 (e:7374)
 	db EV_ITEM,FIRE_STONE,1,ARCANINE
 	db 0
 ;Learnset
-	db 15,BITE
 	db 18,EMBER
 	db 23,LEER
 	db 30,TAKE_DOWN
@@ -601,8 +598,6 @@ Mon079_EvosMoves: ; 3b3ad (e:73ad)
 	db EV_TRADE,1,SLOWBRO
 	db 0
 ;Learnset
-	db 18,DISABLE
-	db 18,CONFUSION
 	db 23,HEADBUTT
 	db 30,GROWL
 	db 38,AMNESIA
@@ -641,12 +636,16 @@ Mon113_EvosMoves: ; 3b3e0 (e:73e0)
 ;Evolutions
 	db 0
 ;Learnset
-	db 24,SING
-	db 30,GROWL
-	db 38,MINIMIZE
-	db 44,DEFENSE_CURL
-	db 48,LIGHT_SCREEN
-	db 54,DOUBLE_EDGE
+	db 23,MINIMIZE
+	db 29,SING
+	db 35,EGG_BOMB
+	db 41,DEFENSE_CURL
+	db 49,LIGHT_SCREEN
+	db 57,DOUBLE_EDGE
+	db 65,SOFTBOILED
+	db 73,SEISMIC_TOSS
+	db 73,ICE_BEAM
+	db 73,THUNDERBOLT
 	db 0
 Mon067_EvosMoves: ; 3b3ee (e:73ee)
 ;MACHOKE
@@ -675,8 +674,8 @@ Mon106_EvosMoves: ; 3b409 (e:7409)
 ;Evolutions
 	db 0
 ;Learnset
-	db 33,ROLLING_KICK
-	db 38,JUMP_KICK
+	db 33,JUMP_KICK
+	db 38,ROLLING_KICK
 	db 43,FOCUS_ENERGY
 	db 48,HI_JUMP_KICK
 	db 53,MEGA_KICK
@@ -690,7 +689,6 @@ Mon107_EvosMoves: ; 3b415 (e:7415)
 	db 38,ICE_PUNCH
 	db 43,THUNDERPUNCH
 	db 48,MEGA_PUNCH
-	db 53,COUNTER
 	db 0
 Mon024_EvosMoves: ; 3b421 (e:7421)
 ;ARBOK
@@ -707,10 +705,10 @@ Mon047_EvosMoves: ; 3b42d (e:742d)
 ;Evolutions
 	db 0
 ;Learnset
-	db 27,SPORE
-	db 35,SLASH
-	db 43,GROWTH
-	db 51,MEGA_DRAIN
+	db 30,SPORE
+	db 39,SLASH
+	db 48,GROWTH
+	db 57,MEGA_DRAIN
 	db 0
 Mon054_EvosMoves: ; 3b439 (e:7439)
 ;PSYDUCK
@@ -718,7 +716,6 @@ Mon054_EvosMoves: ; 3b439 (e:7439)
 	db EV_LEVEL,33,GOLDUCK
 	db 0
 ;Learnset
-	db 26,SCRATCH
 	db 28,DISABLE
 	db 31,WATER_GUN
 	db 35,CONFUSION
@@ -737,8 +734,10 @@ Mon096_EvosMoves: ; 3b448 (e:7448)
 	db 17,CONFUSION
 	db 24,HEADBUTT
 	db 29,POISON_GAS
+	db 29,HYPNOSIS
 	db 32,PSYCHIC_M
-	db 37,MEDITATE
+	db 37,DREAM_EATER
+	db 37,HEADBUTT
 	db 0
 Mon076_EvosMoves: ; 3b459 (e:7459)
 ;GOLEM
@@ -855,6 +854,7 @@ Mon050_EvosMoves: ; 3b4c2 (e:74c2)
 	db EV_LEVEL,26,DUGTRIO
 	db 0
 ;Learnset
+	db 15,GROWL
 	db 19,SAND_ATTACK
 	db 24,DIG
 	db 31,SLASH
@@ -1026,7 +1026,6 @@ Mon052_EvosMoves: ; 3b55c (e:755c)
 	db EV_LEVEL,28,PERSIAN
 	db 0
 ;Learnset
-	db 8,SCRATCH
 	db 12,BITE
 	db 17,PAY_DAY
 	db 24,SCREECH
@@ -1182,9 +1181,7 @@ Mon117_EvosMoves: ; 3b5ec (e:75ec)
 ;Evolutions
 	db 0
 ;Learnset
-	db 19,SMOKESCREEN
-	db 24,LEER
-	db 30,WATER_GUN
+	db 30,BUBBLEBEAM
 	db 41,AGILITY
 	db 52,HYDRO_PUMP
 	db 0
@@ -1322,8 +1319,8 @@ Mon066_EvosMoves: ; 3b690 (e:7690)
 	db EV_LEVEL,28,MACHOKE
 	db 0
 ;Learnset
-	db 20,LOW_KICK
-	db 25,LEER
+	db 20,LEER
+	db 25,LOW_KICK
 	db 31,KARATE_CHOP
 	db 32,FOCUS_ENERGY
 	db 39,SEISMIC_TOSS
@@ -1335,8 +1332,6 @@ Mon041_EvosMoves: ; 3b69f (e:769f)
 	db EV_LEVEL,26,GOLBAT
 	db 0
 ;Learnset
-	db 10,SUPERSONIC
-	db 10,LEECH_LIFE
 	db 15,BITE
 	db 21,CONFUSE_RAY
 	db 28,WING_ATTACK
@@ -1348,7 +1343,6 @@ Mon023_EvosMoves: ; 3b6ae (e:76ae)
 	db EV_LEVEL,26,ARBOK
 	db 0
 ;Learnset
-	db 3,WRAP
 	db 10,POISON_STING
 	db 17,BITE
 	db 24,GLARE
@@ -1362,13 +1356,12 @@ Mon046_EvosMoves: ; 3b6bd (e:76bd)
 	db EV_LEVEL,28,PARASECT
 	db 0
 ;Learnset
-	db 7,POISONPOWDER
 	db 13,STUN_SPORE
-	db 19,LEECH_LIFE
-	db 25,SPORE
-	db 31,SLASH
-	db 37,GROWTH
-	db 43,MEGA_DRAIN
+	db 20,LEECH_LIFE
+	db 27,SPORE
+	db 34,SLASH
+	db 41,GROWTH
+	db 48,MEGA_DRAIN
 	db 0
 Mon061_EvosMoves: ; 3b6cc (e:76cc)
 ;POLIWHIRL
@@ -1442,20 +1435,15 @@ Mon057_EvosMoves: ; 3b70c (e:770c)
 ;Evolutions
 	db 0
 ;Learnset
-	db 15,KARATE_CHOP
-	db 21,FURY_SWIPES
-	db 27,FOCUS_ENERGY
 	db 28,RAGE
 	db 37,SEISMIC_TOSS
 	db 46,THRASH
-	db 55,SCREECH
 	db 0
 Mon051_EvosMoves: ; 3b718 (e:7718)
 ;DUGTRIO
 ;Evolutions
 	db 0
 ;Learnset
-	db 19,SAND_ATTACK
 	db 24,DIG
 	db 35,SLASH
 	db 47,EARTHQUAKE
@@ -1477,8 +1465,7 @@ Mon087_EvosMoves: ; 3b732 (e:7732)
 ;Evolutions
 	db 0
 ;Learnset
-	db 30,GROWL
-	db 35,AURORA_BEAM
+	db 35,BUBBLEBEAM
 	db 44,REST
 	db 50,TAKE_DOWN
 	db 56,ICE_BEAM
@@ -1558,12 +1545,12 @@ Mon097_EvosMoves: ; 3b776 (e:7776)
 ;Evolutions
 	db 0
 ;Learnset
-	db 12,DISABLE
-	db 17,CONFUSION
 	db 24,HEADBUTT
 	db 33,POISON_GAS
+	db 33,HYPNOSIS
 	db 37,PSYCHIC_M
-	db 43,MEDITATE
+	db 43,DREAM_EATER
+	db 43,HEADBUTT
 	db 0
 Mon042_EvosMoves: ; 3b784 (e:7784)
 ;GOLBAT
@@ -1637,7 +1624,6 @@ Mon099_EvosMoves: ; 3b7c1 (e:77c1)
 ;Evolutions
 	db 0
 ;Learnset
-	db 20,VICEGRIP
 	db 25,GUILLOTINE
 	db 34,STOMP
 	db 42,CRABHAMMER
@@ -1649,6 +1635,7 @@ Mon091_EvosMoves: ; 3b7cd (e:77cd)
 	db 0
 ;Learnset
 	db 50,SPIKE_CANNON
+	db 60,ICE_BEAM
 	db 0
 
 Mon177_EvosMoves: ; 3b7d1 (e:77d1)
@@ -1698,11 +1685,10 @@ Mon105_EvosMoves: ; 3b7f9 (e:77f9)
 ;Evolutions
 	db 0
 ;Learnset
-	db 25,LEER
 	db 33,FOCUS_ENERGY
-	db 41,THRASH
+	db 41,RAGE
 	db 48,BONEMERANG
-	db 55,RAGE
+	db 55,THRASH
 	db 0
 
 Mon178_EvosMoves: ; 3b805 (e:7805)
@@ -1715,10 +1701,8 @@ Mon093_EvosMoves: ; 3b807 (e:7807)
 ;HAUNTER
 ;Evolutions
 	db EV_LEVEL,50,GENGAR
-	db EV_TRADE,1,GENGAR
 	db 0
 ;Learnset
-	db 29,HYPNOSIS
 	db 38,DREAM_EATER
 	db 0
 Mon063_EvosMoves: ; 3b810 (e:7810)
@@ -1834,7 +1818,6 @@ Mon119_EvosMoves: ; 3b88c (e:788c)
 ;Evolutions
 	db 0
 ;Learnset
-	db 19,SUPERSONIC
 	db 24,HORN_ATTACK
 	db 30,FURY_ATTACK
 	db 39,WATERFALL
