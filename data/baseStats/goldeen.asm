@@ -1,9 +1,9 @@
 GoldeenBaseStats: ; 390aa (e:50aa)
 db DEX_GOLDEEN ; pokedex id
-db $37 ; base hp
-db $4d ; base attack
-db $46 ; base defense
-db 63 ; base speed
+db 50 ; base hp       +5
+db 72 ; base attack   +5
+db 65 ; base defense  +5
+db 68 ; base speed    +5
 db 50 ; base special
 db WATER ; species type 1
 db WATER ; species type 2
@@ -13,8 +13,8 @@ INCBIN "pic/bmon/goldeen.pic",0,1 ; 66, sprite dimensions
 dw GoldeenPicFront
 dw GoldeenPicBack
 ; attacks known at lvl 0
-db PECK
 db TAIL_WHIP
+db PECK
 db 0
 db 0
 db 0 ; growth rate
