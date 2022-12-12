@@ -1,9 +1,9 @@
 SeakingBaseStats: ; 390c6 (e:50c6)
 db DEX_SEAKING ; pokedex id
-db 80 ; base hp
-db 92 ; base attack
-db $69 ; base defense
-db 68 ; base speed
+db 90 ; base hp       +10
+db 102 ; base attack  +10
+db 75 ; base defense  +10
+db 78 ; base speed    +10
 db 80 ; base special
 db WATER ; species type 1
 db WATER ; species type 2
@@ -13,8 +13,8 @@ INCBIN "pic/bmon/seaking.pic",0,1 ; 77, sprite dimensions
 dw SeakingPicFront
 dw SeakingPicBack
 ; attacks known at lvl 0
-db PECK
 db TAIL_WHIP
+db PECK
 db SUPERSONIC
 db 0
 db 0 ; growth rate
