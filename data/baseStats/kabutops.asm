@@ -1,10 +1,10 @@
 KabutopsBaseStats: ; 3932e (e:532e)
 db DEX_KABUTOPS ; pokedex id
-db 70 ; base hp
-db 125 ; base attack    +10
-db 115 ; base defense   +10
-db 90 ; base speed      +10
-db 75 ; base special    +5
+db 70 ; base hp        +10
+db 115 ; base attack
+db 105 ; base defense
+db 100 ; base speed    +20
+db 80 ; base special   +10
 db ROCK ; species type 1
 db WATER ; species type 2
 db 45 ; catch rate
