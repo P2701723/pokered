@@ -1,7 +1,7 @@
 HorseaBaseStats: ; 39072 (e:5072)
 db DEX_HORSEA ; pokedex id
-db 30 ; base hp
-db 40 ; base attack
+db 40 ; base hp       +10
+db 55 ; base attack   +15
 db 70 ; base defense
 db 60 ; base speed
 db 70 ; base special
@@ -21,7 +21,7 @@ db 0 ; growth rate
 ; learnset
 db %00100000
 db %00111111
-db %00001000
+db %01001000 ; Dragon Rage
 db %11000000
 db %11000010
 db %00001000
