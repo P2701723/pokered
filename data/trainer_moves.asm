@@ -12,10 +12,10 @@ LoneMoves: ; 39d22 (e:5d22)
 	db 0,BUBBLEBEAM		; Misty's Staryu/Golduck
 	db 2,THUNDER_WAVE	; Lt. Surge's Raichu/Jolteon
 	db 0,MEGA_DRAIN		; Erika's Victreebel/Tangela
-	db 3,TOXIC		; Koga
+	db 3,TOXIC		; Koga's Weezing/Muk
 	db 1,PSYCHIC_M		; Sabrina's Mr. Mime
 	db 1,FIRE_BLAST		; Blaine's Rapidash
-	db 4,EARTHQUAKE		; Giovanni/PC has OPquake PogChamp
+	db 0,THUNDERBOLT	; Giovanni's Rhyhorn
 
 TeamMoves: ; 39d32 (e:5d32)
 ; these are used for elite four.
