@@ -1,10 +1,10 @@
 OmanyteBaseStats: ; 392da (e:52da)
 db DEX_OMANYTE ; pokedex id
-db 40 ; base hp         +5
-db 45 ; base attack     +5
-db 105 ; base defense   +5
-db 40 ; base speed      +5
-db 95 ; base special    +5
+db 45 ; base hp         +10
+db 40 ; base attack
+db 100 ; base defense
+db 35 ; base speed
+db 90 ; base special
 db ROCK ; species type 1
 db WATER ; species type 2
 db 45 ; catch rate
