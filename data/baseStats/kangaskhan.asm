@@ -1,10 +1,10 @@
 KangaskhanBaseStats: ; 39056 (e:5056)
 db DEX_KANGASKHAN ; pokedex id
 db 105 ; base hp
-db 110 ; base attack  +15
-db 90 ; base defense  +10
-db 95 ; base speed    +5
-db 70 ; base special  +30
+db 95 ; base attack
+db 80 ; base defense
+db 90 ; base speed
+db 80 ; base special  +40
 db NORMAL ; species type 1
 db NORMAL ; species type 2
 db 45 ; catch rate
