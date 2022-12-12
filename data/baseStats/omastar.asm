@@ -1,10 +1,10 @@
 OmastarBaseStats: ; 392f6 (e:52f6)
 db DEX_OMASTAR ; pokedex id
-db 80 ; base hp         +10
-db 70 ; base attack     +10
-db 135 ; base defense   +10
-db 65 ; base speed      +10
-db 125 ; base special   +10
+db 90 ; base hp         +20
+db 80 ; base attack     +20
+db 125 ; base defense
+db 55 ; base speed
+db 115 ; base special
 db ROCK ; species type 1
 db WATER ; species type 2
 db 45 ; catch rate
