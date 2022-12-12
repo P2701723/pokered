@@ -1,9 +1,9 @@
 TangelaBaseStats: ; 3903a (e:503a)
 db DEX_TANGELA ; pokedex id
-db 65 ; base hp
-db 55 ; base attack
-db 115 ; base defense
-db 60 ; base speed
+db 100 ; base hp      +35
+db 80 ; base attack   +25
+db 125 ; base defense +10
+db 50 ; base speed    -10
 db 100 ; base special
 db GRASS ; species type 1
 db GRASS ; species type 2
@@ -22,8 +22,8 @@ db 0 ; growth rate
 db %10100100
 db %01000011
 db %00111000
-db %11000000
+db %11000110 ; Earthquake, Fissure
 db %10000010
-db %00001000
-db %00000110
+db %10001000 ; Rock Slide
+db %01100110 ; Strength, Flash
 db 0 ; padding
