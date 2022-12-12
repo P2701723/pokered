@@ -14,20 +14,16 @@ dw ChanseyPicFront
 dw ChanseyPicBack
 ; attacks known at lvl 0
 db POUND
-IF DEF(_YELLOW)
-	db TAIL_WHIP
-ELSE
-	db DOUBLESLAP
-ENDC
-db 0
-db 0
+db GROWL
+db TAIL_WHIP
+db DOUBLESLAP
 db 4 ; growth rate
 ; learnset
 db %10110001
 db %01111111
 db %10101111
-db %11110001
-db %10110111
-db %00111001
+db %11110111 ; Earthquake, Fissure
+db %10110111 ; Flamethrower
+db %10111011 ; Dream Eater, Rock Slide
 db %01100011
 db 0 ; padding
