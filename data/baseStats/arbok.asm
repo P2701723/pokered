@@ -1,9 +1,9 @@
 ArbokBaseStats: ; 38662 (e:4662)
 db DEX_ARBOK ; pokedex id
-db 70 ; base hp       +10
+db 60 ; base hp
 db 105 ; base attack  +20
 db 79 ; base defense  +10
-db 100 ; base speed   +20
+db 95 ; base speed    +15
 db 89 ; base special  +24
 db POISON ; species type 1
 db POISON ; species type 2
