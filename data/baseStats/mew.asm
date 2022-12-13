@@ -14,8 +14,8 @@ dw MewPicFront
 dw MewPicBack
 ; attacks known at lvl 0
 db PSYCHIC_M
+db MEGA_PUNCH
 db METRONOME
-db 0
 db 0
 db 3 ; growth rate
 ; include learnset directly
