@@ -1,8 +1,8 @@
 JynxBaseStats: ; 39152 (e:5152)
 db DEX_JYNX ; pokedex id
-db 65 ; base hp
-db 50 ; base attack
-db 35 ; base defense
+db 75 ; base hp       +10
+db 60 ; base attack   +10
+db 45 ; base defense  +10
 db 95 ; base speed
 db 115 ; base special +20
 db ICE ; species type 1
