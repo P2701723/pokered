@@ -1,7 +1,7 @@
 MarowakBaseStats: ; 38f3e (e:4f3e)
 db DEX_MAROWAK ; pokedex id
 db 60 ; base hp
-db 120 ; base attack	+40
+db 130 ; base attack	+50
 db 110 ; base defense
 db 45 ; base speed
 db 80 ; base special	+30
