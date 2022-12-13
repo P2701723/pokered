@@ -3,7 +3,7 @@ db DEX_VOLTORB ; pokedex id
 db 40 ; base hp
 db 30 ; base attack   +10
 db 50 ; base defense
-db 105 ; base speed   +5
+db 100 ; base speed
 db 70 ; base special  +15
 db ELECTRIC ; species type 1
 db ELECTRIC ; species type 2
