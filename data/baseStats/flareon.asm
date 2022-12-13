@@ -1,6 +1,6 @@
 FlareonBaseStats: ; 392a2 (e:52a2)
 db DEX_FLAREON ; pokedex id
-db 75 ; base hp       +10
+db 85 ; base hp       +20
 db 130 ; base attack
 db 70 ; base defense  +10
 db 75 ; base speed    +10
