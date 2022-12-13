@@ -14,9 +14,9 @@ dw MewtwoPicFront
 dw MewtwoPicBack
 ; attacks known at lvl 0
 db PSYCHIC_M
+db SWIFT
 db BARRIER
 db RECOVER
-db DISABLE
 db 5 ; growth rate
 ; learnset
 db %10110001
