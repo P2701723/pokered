@@ -1,8 +1,8 @@
 GastlyBaseStats: ; 38dd2 (e:4dd2)
 db DEX_GASTLY ; pokedex id
 db 30 ; base hp
-db 35 ; base attack
-db 30 ; base defense
+db 40 ; base attack   +5
+db 35 ; base defense  +5
 db 80 ; base speed
 db 100 ; base special
 db GHOST ; species type 1
