@@ -1,7 +1,7 @@
 CuboneBaseStats: ; 38f22 (e:4f22)
 db DEX_CUBONE ; pokedex id
 db 50 ; base hp
-db 75 ; base attack   +25
+db 80 ; base attack   +30
 db 95 ; base defense
 db 35 ; base speed
 db 50 ; base special  +10
