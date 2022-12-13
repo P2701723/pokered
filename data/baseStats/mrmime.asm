@@ -1,7 +1,7 @@
 MrMimeBaseStats: ; 3911a (e:511a)
 db DEX_MR_MIME ; pokedex id
-db 40 ; base hp
-db 45 ; base attack
+db 50 ; base hp         +10
+db 65 ; base attack     +20
 db 65 ; base defense
 db 90 ; base speed
 db 120 ; base special   +20
