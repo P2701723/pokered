@@ -2,7 +2,7 @@ HaunterBaseStats: ; 38dee (e:4dee)
 db DEX_HAUNTER ; pokedex id
 db 45 ; base hp
 db 60 ; base attack   +10
-db 45 ; base defense
+db 55 ; base defense  +10
 db 95 ; base speed
 db 115 ; base special
 db GHOST ; species type 1
