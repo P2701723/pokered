@@ -1,10 +1,10 @@
 WeezingBaseStats: ; 38fca (e:4fca)
 db DEX_WEEZING ; pokedex id
-db 65 ; base hp
+db 75 ; base hp       +10
 db 90 ; base attack
 db 120 ; base defense
 db 60 ; base speed
-db 85 ; base special
+db 100 ; base special +15
 db POISON ; species type 1
 db POISON ; species type 2
 db 60 ; catch rate
@@ -23,7 +23,7 @@ db %00100000
 db %01000000
 db %10001000
 db %11000001
-db %00101010
-db %01001000
-db %00000010
+db %00111010 ; Flamethrower
+db %01101000 ; Psybeam
+db %01000010 ; Flash
 db 0 ; padding
