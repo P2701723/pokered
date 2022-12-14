@@ -1,10 +1,10 @@
 WigglytuffBaseStats: ; 38822 (e:4822)
 db DEX_WIGGLYTUFF ; pokedex id
-db 150 ; base hp      +10
+db 140 ; base hp
 db 80 ; base attack   +10
-db 55 ; base defense  +10
-db 55 ; base speed    +10
-db 95 ; base special  +45
+db 65 ; base defense  +20
+db 65 ; base speed    +20
+db 85 ; base special  +35
 db NORMAL ; species type 1
 db NORMAL ; species type 2
 db 50 ; catch rate
