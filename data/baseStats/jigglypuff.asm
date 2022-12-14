@@ -1,10 +1,10 @@
 JigglypuffBaseStats: ; 38806 (e:4806)
 db DEX_JIGGLYPUFF ; pokedex id
-db 120 ; base hp      +5
+db 115 ; base hp
 db 50 ; base attack   +5
-db 25 ; base defense  +5
-db 25 ; base speed    +5
-db 50 ; base special  +25
+db 30 ; base defense  +10
+db 30 ; base speed    +10
+db 45 ; base special  +20
 db NORMAL ; species type 1
 db NORMAL ; species type 2
 db 170 ; catch rate
