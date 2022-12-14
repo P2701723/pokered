@@ -4,5 +4,5 @@ PrizeMonLevelDictionary: ; 5298a (14:698a)
 	db SQUIRTLE,20
 
 	db EEVEE,30
-	db DRAGONAIR,30
+	db DRATINI,30
 	db PORYGON,30
