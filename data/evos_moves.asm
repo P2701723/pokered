@@ -250,7 +250,7 @@ Mon021_EvosMoves: ; 3b215 (e:7215)
 Mon100_EvosMoves: ; 3b224 (e:7224)
 ;VOLTORB
 ;Evolutions
-	db EV_LEVEL,30,ELECTRODE
+	db EV_LEVEL,40,ELECTRODE
 	db 0
 ;Learnset
 	db 12,TACKLE
@@ -332,7 +332,7 @@ Mon102_EvosMoves: ; 3b26e (e:726e)
 Mon088_EvosMoves: ; 3b280 (e:7280)
 ;GRIMER
 ;Evolutions
-	db EV_LEVEL,38,MUK
+	db EV_LEVEL,46,MUK
 	db 0
 ;Learnset
 	db 30,POISON_GAS
@@ -374,7 +374,7 @@ Mon031_EvosMoves: ; 3b2a8 (e:72a8)
 Mon104_EvosMoves: ; 3b2b0 (e:72b0)
 ;CUBONE
 ;Evolutions
-	db EV_LEVEL,28,MAROWAK
+	db EV_LEVEL,38,MAROWAK
 	db 0
 ;Learnset
 	db 25,HEADBUTT
@@ -442,7 +442,7 @@ Mon090_EvosMoves: ; 3b2f6 (e:72f6)
 Mon072_EvosMoves: ; 3b306 (e:7306)
 ;TENTACOOL
 ;Evolutions
-	db EV_LEVEL,30,TENTACRUEL
+	db EV_LEVEL,40,TENTACRUEL
 	db 0
 ;Learnset
 	db 7,SUPERSONIC
@@ -581,7 +581,7 @@ Mon022_EvosMoves: ; 3b390 (e:7390)
 Mon016_EvosMoves: ; 3b39c (e:739c)
 ;PIDGEY
 ;Evolutions
-	db EV_LEVEL,20,PIDGEOTTO
+	db EV_LEVEL,18,PIDGEOTTO
 	db 0
 ;Learnset
 	db 5,SAND_ATTACK
@@ -595,6 +595,7 @@ Mon016_EvosMoves: ; 3b39c (e:739c)
 Mon079_EvosMoves: ; 3b3ad (e:73ad)
 ;SLOWPOKE
 ;Evolutions
+	db EV_LEVEL,50,SLOWBRO
 	db EV_TRADE,1,SLOWBRO
 	db 0
 ;Learnset
@@ -713,7 +714,7 @@ Mon047_EvosMoves: ; 3b42d (e:742d)
 Mon054_EvosMoves: ; 3b439 (e:7439)
 ;PSYDUCK
 ;Evolutions
-	db EV_LEVEL,33,GOLDUCK
+	db EV_LEVEL,50,GOLDUCK
 	db 0
 ;Learnset
 	db 28,DISABLE
@@ -806,14 +807,17 @@ Mon082_EvosMoves: ; 3b485 (e:7485)
 Mon109_EvosMoves: ; 3b493 (e:7493)
 ;KOFFING
 ;Evolutions
-	db EV_LEVEL,35,WEEZING
+	db EV_LEVEL,43,WEEZING
 	db 0
 ;Learnset
 	db 32,SLUDGE
 	db 37,SMOKESCREEN
 	db 40,SELFDESTRUCT
-	db 45,HAZE
+	db 45,POISON_GAS
 	db 48,EXPLOSION
+	db 48,SLUDGE
+	db 48,POISON_GAS
+	db 48,SMOKESCREEN
 	db 0
 
 Mon156_EvosMoves: ; 3b4a2 (e:74a2)
@@ -839,7 +843,7 @@ Mon056_EvosMoves: ; 3b4a4 (e:74a4)
 Mon086_EvosMoves: ; 3b4b3 (e:74b3)
 ;SEEL
 ;Evolutions
-	db EV_LEVEL,34,DEWGONG
+	db EV_LEVEL,50,DEWGONG
 	db 0
 ;Learnset
 	db 30,GROWL
@@ -960,7 +964,7 @@ Mon162_EvosMoves: ; 3b510 (e:7510)
 Mon084_EvosMoves: ; 3b512 (e:7512)
 ;DODUO
 ;Evolutions
-	db EV_LEVEL,31,DODRIO
+	db EV_LEVEL,40,DODRIO
 	db 0
 ;Learnset
 	db 30,DRILL_PECK
@@ -1035,7 +1039,7 @@ Mon052_EvosMoves: ; 3b55c (e:755c)
 Mon098_EvosMoves: ; 3b56b (e:756b)
 ;KRABBY
 ;Evolutions
-	db EV_LEVEL,28,KINGLER
+	db EV_LEVEL,35,KINGLER
 	db 0
 ;Learnset
 	db 20,VICEGRIP
@@ -1123,7 +1127,7 @@ Mon167_EvosMoves: ; 3b5a6 (e:75a6)
 Mon147_EvosMoves: ; 3b5a8 (e:75a8)
 ;DRATINI
 ;Evolutions
-	db EV_LEVEL,30,DRAGONAIR
+	db EV_LEVEL,40,DRAGONAIR
 	db 0
 ;Learnset
 	db 20,THUNDER_WAVE
@@ -1605,10 +1609,9 @@ Mon089_EvosMoves: ; 3b7b1 (e:77b1)
 ;Evolutions
 	db 0
 ;Learnset
-	db 30,POISON_GAS
-	db 33,MINIMIZE
+	db 33,HARDEN
 	db 37,SLUDGE
-	db 45,HARDEN
+	db 45,MINIMIZE
 	db 53,SCREECH
 	db 60,ACID_ARMOR
 	db 0
@@ -1665,11 +1668,13 @@ Mon110_EvosMoves: ; 3b7e1 (e:77e1)
 ;Evolutions
 	db 0
 ;Learnset
-	db 32,SLUDGE
 	db 39,SMOKESCREEN
 	db 43,SELFDESTRUCT
-	db 49,HAZE
+	db 49,POISON_GAS
 	db 53,EXPLOSION
+	db 53,SLUDGE
+	db 53,POISON_GAS
+	db 53,SMOKESCREEN
 	db 0
 Mon053_EvosMoves: ; 3b7ed (e:77ed)
 ;PERSIAN
@@ -1727,7 +1732,7 @@ Mon065_EvosMoves: ; 3b815 (e:7815)
 Mon017_EvosMoves: ; 3b823 (e:7823)
 ;PIDGEOTTO
 ;Evolutions
-	db EV_LEVEL,45,PIDGEOT
+	db EV_LEVEL,40,PIDGEOT
 	db 0
 ;Learnset
 	db 15,QUICK_ATTACK
@@ -1961,7 +1966,7 @@ Mon184_EvosMoves: ; 3b921 (e:7921)
 Mon081_EvosMoves: ; 3b923 (e:7923)
 ;MAGNEMITE
 ;Evolutions
-	db EV_LEVEL,30,MAGNETON
+	db EV_LEVEL,40,MAGNETON
 	db 0
 ;Learnset
 	db 21,SONICBOOM
