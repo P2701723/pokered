@@ -2,7 +2,7 @@ OddishBaseStats: ; 38876 (e:4876)
 db DEX_ODDISH ; pokedex id
 db 50 ; base hp       +5
 db 50 ; base attack
-db 65 ; base defense  +10
+db 60 ; base defense  +5
 db 40 ; base speed    +10
 db 85 ; base special  +10
 db GRASS ; species type 1
