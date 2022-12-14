@@ -4,7 +4,7 @@ db 75 ; base hp       +10
 db 90 ; base attack
 db 120 ; base defense
 db 60 ; base speed
-db 100 ; base special +15
+db 85 ; base special
 db POISON ; species type 1
 db POISON ; species type 2
 db 60 ; catch rate
@@ -13,8 +13,8 @@ INCBIN "pic/bmon/weezing.pic",0,1 ; 77, sprite dimensions
 dw WeezingPicFront
 dw WeezingPicBack
 ; attacks known at lvl 0
-db TACKLE
 db SMOG
+db TACKLE
 db SLUDGE
 db 0
 db 0 ; growth rate
