@@ -4,7 +4,7 @@ db 80 ; base hp
 db 80 ; base attack
 db 50 ; base defense
 db 25 ; base speed
-db 40 ; base special
+db 50 ; base special  +10
 db POISON ; species type 1
 db POISON ; species type 2
 db 190 ; catch rate
@@ -22,8 +22,8 @@ db 0 ; growth rate
 db %10100000
 db %00000000
 db %10011000
-db %11000001
-db %00101010
-db %01001000
-db %00000010
+db %11001001 ; Dig
+db %00111010 ; Flamethrower
+db %11001000 ; Rock Slide
+db %00100010 ; Strength
 db 0 ; padding
