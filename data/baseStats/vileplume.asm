@@ -1,9 +1,9 @@
 VileplumeBaseStats: ; 388ae (e:48ae)
 db DEX_VILEPLUME ; pokedex id
-db 80 ; base hp       +5
+db 90 ; base hp       +15
 db 80 ; base attack
-db 105 ; base defense +20
-db 70 ; base speed    +20
+db 100 ; base defense +15
+db 60 ; base speed    +10
 db 120 ; base special +20
 db GRASS ; species type 1
 db POISON ; species type 2
