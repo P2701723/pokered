@@ -3,7 +3,7 @@ db DEX_PSYDUCK ; pokedex id
 db 50 ; base hp
 db 60 ; base attack   +8
 db 50 ; base defense  +2
-db 70 ; base speed    +15
+db 55 ; base speed
 db 65 ; base special  +15
 db WATER ; species type 1
 db WATER ; species type 2
