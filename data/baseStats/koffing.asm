@@ -23,7 +23,7 @@ db %00100000
 db %00000000
 db %10001000
 db %11000001
-db %00101010
-db %01001000
-db %00000010
+db %00111010 ; Flamethrower
+db %01101000 ; Psybeam
+db %01000010 ; Flash
 db 0 ; padding
