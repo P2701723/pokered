@@ -13,8 +13,8 @@ INCBIN "pic/bmon/koffing.pic",0,1 ; 66, sprite dimensions
 dw KoffingPicFront
 dw KoffingPicBack
 ; attacks known at lvl 0
-db TACKLE
 db SMOG
+db TACKLE
 db 0
 db 0
 db 0 ; growth rate
