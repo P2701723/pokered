@@ -24,7 +24,7 @@ PrizeMenuMon1Cost: ; 5285d (14:685d)
 
 PrizeMenuMon2Entries: ; 52864 (14:6864)
 	db EEVEE
-	db DRAGONAIR
+	db DRATINI
 	db PORYGON
 	db "@"
 PrizeMenuMon2Cost: ; 52868 (14:6868)
