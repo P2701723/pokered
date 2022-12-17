@@ -130,7 +130,7 @@ _Route25AfterBattleText6:: ; 94469 (25:4469)
 	line "MT.MOON?"
 	
 	para "May I have a"
-	cont "CLEFAIRY?"
+	line "CLEFAIRY?"
 	done
 
 _Route25BattleText7:: ; 94499 (25:4499)
