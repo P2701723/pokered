@@ -25,8 +25,8 @@ endm
 	move RAZOR_WIND,   CHARGE_EFFECT,              160, NORMAL,   100, 10 ; done
 	move SWORDS_DANCE, ATTACK_UP2_EFFECT,            0, NORMAL,   100, 30 ; done
 	move CUT,          NO_ADDITIONAL_EFFECT,        70, NORMAL,   100, 30 ; done
-	move GUST,         CONFUSION_SIDE_EFFECT,       40, FLYING,   100, 40 ; done
-	move WING_ATTACK,  NO_ADDITIONAL_EFFECT,        60, FLYING,   100, 35 ; done
+	move GUST,         CONFUSION_SIDE_EFFECT,       40, FLYING,   100, 35 ; done
+	move WING_ATTACK,  NO_ADDITIONAL_EFFECT,        60, FLYING,   100, 30 ; done
 	move WHIRLWIND,    SWITCH_AND_TELEPORT_EFFECT,   0, NORMAL,   100, 20 ; done
 	move FLY,          FLY_EFFECT,                  90, FLYING,    95, 15 ; done
 	move BIND,         TRAPPING_EFFECT,             15, NORMAL,    90, 20 ; done
