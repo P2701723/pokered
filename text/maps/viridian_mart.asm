@@ -22,7 +22,7 @@ _ViridianMartText1:: ; 95c36 (25:5c36)
 	done
 
 _ViridianMartText4:: ; 95c58 (25:5c58)
-	text "Hey! You came from"
+	text "Hey! Are you from"
 	line "PALLET TOWN?"
 	done
 
@@ -30,9 +30,11 @@ ViridianMartParcelQuestText:: ; 95c79 (25:5c79)
 	text "You know PROF."
 	line "OAK, right?"
 
-	para "His order came in."
-	line "Will you take it"
-	cont "to him?"
+	para "His order just"
+	line "came in today."
+	
+	para "Could you take"
+	line "it to him?"
 
 	para $52, " got"
 	line "OAK's PARCEL!@@"
