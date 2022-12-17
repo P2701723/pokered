@@ -41,61 +41,61 @@ SuperRodData: ; e919 (3:6919)
 ; number of monsters, followed by level/monster pairs
 FishingGroup1: ; e97d (3:697d)
 	db 2
-	db 15,TENTACOOL
-	db 15,POLIWAG
+	db 30,TENTACOOL
+	db 30,POLIWAG
 
 FishingGroup2: ; e982 (3:6982)
 	db 2
-	db 15,GOLDEEN
-	db 15,POLIWAG
+	db 30,GOLDEEN
+	db 30,POLIWAG
 
 FishingGroup3: ; e987 (3:6987)
 	db 3
-	db 15,PSYDUCK
-	db 15,GOLDEEN
-	db 15,KRABBY
+	db 30,PSYDUCK
+	db 30,GOLDEEN
+	db 30,KRABBY
 
 FishingGroup4: ; e98e (3:698e)
 	db 2
-	db 15,KRABBY
-	db 15,SHELLDER
+	db 30,KRABBY
+	db 30,SHELLDER
 
 FishingGroup5: ; e993 (3:6993)
 	db 2
-	db 23,POLIWHIRL
-	db 15,SLOWPOKE
+	db 45,POLIWHIRL
+	db 30,SLOWPOKE
 
 FishingGroup6: ; e998 (3:6998)
 	db 4
-	db 15,DRATINI
-	db 15,KRABBY
-	db 15,PSYDUCK
-	db 15,SLOWPOKE
+	db 30,DRATINI
+	db 30,KRABBY
+	db 30,PSYDUCK
+	db 30,SLOWPOKE
 
 FishingGroup7: ; e9a1 (3:69a1)
 	db 4
-	db 5,TENTACOOL
-	db 15,KRABBY
-	db 15,GOLDEEN
-	db 15,MAGIKARP
+	db 10,TENTACOOL
+	db 30,KRABBY
+	db 30,GOLDEEN
+	db 30,MAGIKARP
 
 FishingGroup8: ; e9aa (3:69aa)
 	db 4
-	db 15,STARYU
-	db 15,HORSEA
-	db 15,SHELLDER
-	db 15,GOLDEEN
+	db 30,STARYU
+	db 30,HORSEA
+	db 30,SHELLDER
+	db 30,GOLDEEN
 
 FishingGroup9: ; e9b3 (3:69b3)
 	db 4
-	db 23,SLOWBRO
-	db 23,SEAKING
-	db 23,KINGLER
-	db 23,SEADRA
+	db 45,SLOWBRO
+	db 45,SEAKING
+	db 45,KINGLER
+	db 45,SEADRA
 
 FishingGroup10: ; e9bc (3:69bc)
 	db 4
-	db 23,SEAKING
-	db 15,KRABBY
-	db 15,GOLDEEN
-	db 15,MAGIKARP
+	db 45,SEAKING
+	db 30,KRABBY
+	db 30,GOLDEEN
+	db 30,MAGIKARP
