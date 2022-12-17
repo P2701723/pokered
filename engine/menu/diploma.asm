@@ -88,7 +88,7 @@ DiplomaTextPointersAndCoords: ; 56784 (15:6784)
 	dw wTileMap + $149
 
 DiplomaText:
-	db $70,"Diploma",$70,"@"
+	db $70,"DIPLOMA",$70,"@"
 
 DiplomaPlayer:
 	db "Player@"
