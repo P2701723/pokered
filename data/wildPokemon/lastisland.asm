@@ -9,5 +9,5 @@ LastIslandMons:
 	db 70,OMANYTE
 	db 70,KABUTO
 	db 70,AERODACTYL
-	db 70,DRAGONITE
+	db 70,DRAGONAIR
 	db $00
