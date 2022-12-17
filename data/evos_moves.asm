@@ -858,7 +858,6 @@ Mon050_EvosMoves: ; 3b4c2 (e:74c2)
 	db EV_LEVEL,26,DUGTRIO
 	db 0
 ;Learnset
-	db 15,GROWL
 	db 19,SAND_ATTACK
 	db 24,DIG
 	db 31,SLASH
