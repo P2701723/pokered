@@ -481,8 +481,8 @@ _UnusedBenchGuyText3:: ; 88460 (22:4460)
 	done
 
 _VermilionPokecenterGuyText:: ; 8848e (22:448e)
-	text "It is true that a"
-	line "higher level"
+	text "It is true that"
+	line "a higher level"
 	cont "#MON will be"
 	cont "more powerful..."
 
@@ -717,18 +717,27 @@ _GameCornerNoCoinsText:: ; 88b75 (22:4b75)
 _GameCornerOutOfOrderText:: ; 88b8f (22:4b8f)
 	text "OUT OF ORDER!"
 	
+	para "..."
+	line "..."
+	
 	para "This is broken."
 	done
 
 _GameCornerOutToLunchText:: ; 88bad (22:4bad)
 	text "OUT TO LUNCH!"
 	
+	para "..."
+	line "..."
+
 	para "This is reserved."
 	done
 
 _GameCornerSomeonesKeysText:: ; 88bcd (22:4bcd)
 	text "Someone's keys!"
 	
+	para "..."
+	line "..."
+
 	para "They'll be back."
 	done
 
@@ -959,6 +968,10 @@ _ViridianBlackboardPoisonText:: ; 891de (22:51de)
 
 	para "Use an ANTIDOTE"
 	line "to cure poison!"
+	
+	para "Also, poison-type"
+	line "#MON cannot"
+	cont "be poisoned!"
 	prompt
 
 _ViridianBlackbaordPrlzText:: ; 8924b (22:524b)
@@ -985,6 +998,9 @@ _ViridianBlackboardBurnText:: ; 892b5 (22:52b5)
 
 	para "Burns remain"
 	line "after battles."
+	
+	para "Fire-type #MON"
+	line "can't be burned!"
 
 	para "Use BURN HEAL to"
 	line "cure a burn!"
@@ -999,11 +1015,13 @@ _ViridianBlackboardFrozenText:: ; 8932f (22:532f)
 	line "even after the"
 	cont "battle ends."
 
-	para "Use ICE HEAL to"
-	line "thaw out #MON!"
+	para "Ice-type #MON"
+	line "can't be frozen!"
 	
-	para "Fire attacks can"
-	line "also melt ice!"
+	para "Use ICE HEAL to"
+	line "thaw out #MON,"			
+	cont "or melt away the"
+	cont "ice with fire!"
 	prompt
 
 _VermilionGymTrashText:: ; 893a7 (22:53a7)
@@ -1124,14 +1142,14 @@ _WildRanText:: ; 89666 (22:5666)
 	text "Wild @"
 	TX_RAM wEnemyMonNick
 	db $0
-	line "escaped!"
+	line "ran away!"
 	prompt
 
 _EnemyRanText:: ; 89677 (22:5677)
 	text "Enemy @"
 	TX_RAM wEnemyMonNick
 	db $0
-	line "escaped!"
+	line "ran away!"
 	prompt
 
 _HurtByPoisonText:: ; 89689 (22:5689)
@@ -1550,7 +1568,7 @@ _TrainerWantsToFightText:: ; 89c5e (22:5c5e)
 	prompt
 
 _UnveiledGhostText:: ; 89c73 (22:5c73)
-	text "SILPH SCOPE"
+	text "The SILPH SCOPE"
 	line "unveiled the"
 	cont "GHOST's identity!"
 	prompt
@@ -1564,14 +1582,14 @@ _GoText:: ; 89cbc (22:5cbc)
 	text "Go! @@"
 
 _DoItText:: ; 89cc3 (22:5cc3)
-	text "Do it! @@"
+	text "Do it, @@"
 
 _GetmText:: ; 89ccd (22:5ccd)
-	text "Get'm! @@"
+	text "Get'm, @@"
 
 _EnemysWeakText:: ; 89cd6 (22:5cd6)
 	text "The enemy's weak!"
-	line "Get'm! @@"
+	line "Get'm, @@"
 
 _PlayerMon1Text:: ; 89cf0 (22:5cf0)
 	TX_RAM wBattleMonNick
@@ -1580,7 +1598,7 @@ _PlayerMon1Text:: ; 89cf0 (22:5cf0)
 
 _PlayerMon2Text:: ; 89cf6 (22:5cf6)
 	TX_RAM wBattleMonNick
-	text " @@"
+	text ", @@"
 
 _EnoughText:: ; 89cfd (22:5cfd)
 	text "enough!@@"
@@ -3057,8 +3075,8 @@ _VitaminStatRoseText:: ; a688c (29:688c)
 	prompt
 
 _VitaminNoEffectText:: ; a689e (29:689e)
-	text "It won't have any"
-	line "effect."
+	text "It won't have"
+	line "any effect."
 	prompt
 
 _ThrewBaitText:: ; a68b8 (29:68b8)
@@ -3168,7 +3186,7 @@ _MonCannotLearnMachineMoveText:: ; a6a6e (29:6a6e)
 
 _ItemUseNotTimeText:: ; a6aa6 (29:6aa6)
 	text "This isn't the"
-	line "time to use that! "
+	line "time to use that!"
 	prompt
 
 _ItemUseNotYoursToUseText:: ; a6ad0 (29:6ad0)
