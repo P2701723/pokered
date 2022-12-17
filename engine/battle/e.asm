@@ -1147,20 +1147,20 @@ AIUseFullRestore: ; 3a6a0 (e:66a0)
 
 AIUsePotion: ; 3a6ca (e:66ca)
 ; enemy trainer heals his monster with a potion
-	ld a,POTION
-	ld b,50
+	ld a,SUPER_POTION
+	ld b,60
 	jr AIRecoverHP
 
 AIUseSuperPotion: ; 3a6d0 (e:66d0)
 ; enemy trainer heals his monster with a super potion
-	ld a,SUPER_POTION
-	ld b,150
+	ld a,HYPER_POTION
+	ld b,120
 	jr AIRecoverHP
 
 AIUseHyperPotion: ; 3a6d6 (e:66d6)
 ; enemy trainer heals his monster with a hyper potion
-	ld a,HYPER_POTION
-	ld b,300
+	ld a,MAX_POTION
+	ld b,254
 	; fallthrough
 
 AIRecoverHP: ; 3a6da (e:66da)
