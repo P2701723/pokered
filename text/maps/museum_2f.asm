@@ -25,7 +25,7 @@ _Museum2FText4:: ; 968cf (25:68cf)
 	text "I want a PIKACHU!"
 	line "It's so cute!"
 
-	para "I asked my Daddy"
+	para "I asked my daddy"
 	line "to catch me one!"
 	done
 
