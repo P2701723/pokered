@@ -12,12 +12,12 @@ BTLib2:
 	
 BTLib3:
 	db "Oh no@@@@@"
-	db "Argh, no@@"
-	db "Oh well@@@"
+	db "Argh! No@@"
+	db "Oh, well@@"
 	db "My streak@"
 	
 BTLib4:
-	db "game@@@"
+	db "match@@"
 	db "battle@"
 	db "play@@@"
 	db "job@@@@"
@@ -138,11 +138,8 @@ BTAfterBattleTemplate4:
 	prompt
 	
 BTAfterBattleTemplate5:
-	text "I did the best"
-	line "I could."
-	
-	para "I have no"
-	line "regrets!"
+	text "I did my best, I"
+	line "have no regrets!"
 	prompt
 
 BTAfterBattleTemplate6:
@@ -169,6 +166,6 @@ BTAfterBattleTemplate8:
 	TX_RAM wStringBuffer2
 	text "!"
 	
-	para "Shall we do this"
-	line "again?"
+	para "Let's do this"
+	line "again sometime!"
 	prompt
