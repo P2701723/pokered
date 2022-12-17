@@ -13,7 +13,8 @@ _ViridianForestBattleText1:: ; 80359 (20:4359)
 	done
 
 _ViridianForestEndBattleText1:: ; 80387 (20:4387)
-	text "No!"
+	text ""
+	line "No!"
 	
 	para "CATERPIE can't"
 	line "cut it!"
@@ -31,7 +32,8 @@ _ViridianForestBattleText2:: ; 803c3 (20:43c3)
 	done
 
 _ViridianForestEndBattleText2:: ; 803f2 (20:43f2)
-	text "Huh?"
+	text ""
+	line "Huh?"
 	
 	para "I ran out of"
 	line "#MON!"
