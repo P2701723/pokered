@@ -36,6 +36,10 @@ EvolveTradeMon: ; 17d7d (5:7d7d)
 	
 	; MACHOKE -> MACHAMP
 	cp "M"
+	jr z, .ok
+	
+	; SLOWPOKE -> SLOWBRO
+	cp "S"
 	ret nz
 
 .ok
