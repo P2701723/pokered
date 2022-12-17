@@ -95,7 +95,8 @@ _PewterGymBattleText1:: ; 982ae (26:42ae)
 	done
 
 _PewterGymEndBattleText1:: ; 982f1 (26:42f1)
-	text "Darn!"
+	text ""
+	line "Darn!"
 
 	para "Light years isn't"
 	line "time! It measures"
