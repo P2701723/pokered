@@ -168,7 +168,7 @@ _OaksLabGivePokeballsText1:: ; 9506d (25:506d)
 	cont "to capture wild"
 	cont "#MON."
 
-	para $52, " got 5"
+	para $52, " got 10"
 	line "# BALLs!@@"
 
 _OaksLabGivePokeballsText2:: ; 950f2 (25:50f2)
