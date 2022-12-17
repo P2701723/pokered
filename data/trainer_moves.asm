@@ -28,7 +28,7 @@ TeamMoves: ; 39d32 (e:5d32)
 ; ff-terminated
 	db LORELEI,BLIZZARD	; Lapras
 	db BRUNO,FISSURE	; Machamp/Golem
-	db AGATHA,TOXIC		; Gengar/Arbok
+	db AGATHA,TOXIC		; Gengar/Muk
 	db LANCE,FIRE_BLAST	; Dragonite/Charizard
 	db $FF
 
