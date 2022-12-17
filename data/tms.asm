@@ -2,12 +2,12 @@ TechnicalMachines: ; 13773 (4:7773)
 	db MEGA_PUNCH
 	db RAZOR_WIND
 	db SWORDS_DANCE
-	db GUST
+	db GUST		; replaces Whirlwind, retains TM04 compatibility
 	db MEGA_KICK
 	db TOXIC
 	db HORN_DRILL
 	db BODY_SLAM
-	db HEADBUTT
+	db HEADBUTT	; replaces Take Down, retains TM09 compatibility
 	db DOUBLE_EDGE
 	db BUBBLEBEAM
 	db WATER_GUN
@@ -35,7 +35,7 @@ TechnicalMachines: ; 13773 (4:7773)
 	db BIDE
 	db METRONOME
 	db SELFDESTRUCT
-	db FLAMETHROWER
+	db FLAMETHROWER	; replaces Egg Bomb, copies TM38 compatibility
 	db FIRE_BLAST
 	db SWIFT
 	db SKULL_BASH
@@ -44,7 +44,7 @@ TechnicalMachines: ; 13773 (4:7773)
 	db SKY_ATTACK
 	db REST
 	db THUNDER_WAVE
-	db PSYBEAM
+	db PSYBEAM	; replaces Psywave, retains TM46 compatibility
 	db EXPLOSION
 	db ROCK_SLIDE
 	db TRI_ATTACK
