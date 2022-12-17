@@ -866,14 +866,14 @@ _AerodactylFossilText:: ; 88fa7 (22:4fa7)
 	text "AERODACTYL FOSSIL"
 
 	para "The progenitor of"
-	cont "all bird #MON!"
+	line "all bird #MON!"
 	done
 
 _KabutopsFossilText:: ; 88fd5 (22:4fd5)
 	text "KABUTOPS FOSSIL"
 	
 	para "Maybe the oldest"
-	cont "of all #MON!?"
+	line "of all #MON!?"
 	done
 
 IF DEF(_YELLOW)
