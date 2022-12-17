@@ -677,47 +677,43 @@ BattleTentTrainer_After:
 	jp TextScriptEnd
 	
 BattleTentWelcome:
-	text "Welcome to"
+	text "Welcome to the"
 	line "BATTLE TENT!"
 	
-	para "Here is where"
-	line "trainers from all"
-	cont "over come to"
+	para "Trainers from all"
+	line "over come here to"
 	cont "face each other"
-	cont "off in 10 battles"
-	cont "at a time."
+	cont "in 10 battles at"
+	cont "a time."
 	
-	para "If you win all of"
-	line "them, you win"
+	para "If you win all 10"
+	line "battles, you win"
 	cont "a prize!"
 	
 	para "Would you like"
 	line "to participate?"
-	
 	prompt
 	
 BattleTentNotEnough:
-	text "..whoops! You don't"
+	text "Sorry! You don't"
 	line "have enough"
 	cont "#MON that"
 	cont "follow the rules!"
 	prompt
 	
 BattleTentNoBoxTmp:
-	text "..whoops! your"
+	text "Sorry! Your"
 	line "current #MON"
-	cont "BOX does not"
-	cont "have enough"
-	cont "space!"
+	cont "BOX doesn't have"
+	cont "enough space!"
 	
-	para "We need to"
-	line "store all of your"
-	cont "party's #MON"
-	cont "into the box."
+	para "We need to store"
+	line "your #MON into"
+	cont "the BOX before we"
+	cont "can begin."
 	
-	para "Try changing"
+	para "Try changing or"
 	line "or emptying it."
-	
 	prompt
 	
 BattleTentPlsSel:
@@ -727,8 +723,8 @@ BattleTentPlsSel:
 	prompt
 	
 BattleTentNoMoreThan3:
-	text "No more than three"
-	line "#MON may enter!"
+	text "Only 3 #MON"
+	line "may enter!"
 	prompt
 	
 BattleTentConfirm:
@@ -737,18 +733,19 @@ BattleTentConfirm:
 	prompt
 	
 BattleTentPleaseWait:
-	text "Please wait…"
+	text "Please wait."
 	done
 	
 BattleTentLetsGo:
-	text "Alright, this way."
+	text "Alright, please"
+	line "come this way."
 	done
 	
 BattleTentWon:
-	text "Wow! You finally"
-	line "did it!"
+	text "Congrats! You won"
+	line "all 10 battles!"
 	
-	para "Here is the"
+	para "Here is your"
 	line "reward!"
 	
 	para $52, " received"
@@ -757,8 +754,12 @@ BattleTentWon:
 	
 BattleTentLost:
 	text "It's a shame that"
-	line "you lost."
-	cont "Try again later!"
+	line "you lost, but"
+	cont "don't give up!"
+	
+	para "We hope you'll"
+	line "come back and try"
+	cont "again sometime!"
 	prompt
 	
 BattleTentSeeYouAgain:
@@ -768,8 +769,7 @@ BattleTentSeeYouAgain:
 BattleTentGuy2_Init:
 	text "Your battle will"
 	line "begin soon."
-	
-	para "Good luck!"
+	cont "Good luck!"
 	done
 	
 BattleTentGuy2_Streak:
@@ -777,7 +777,7 @@ BattleTentGuy2_Streak:
 	TX_NUM wBTStreakCnt, 1, 2
 	db $0
 	line "is up next."
-	para "Good luck!"
+	cont "Good luck!"
 	done
 	
 BattleTentGuy2_Win:
@@ -786,7 +786,7 @@ BattleTentGuy2_Win:
 	para "You have defeated"
 	line "all 10 opponents!"
 	
-	para "Please go back to"
+	para "Please return to"
 	line "the counter to"
 	cont "claim your prize!"
 	done
