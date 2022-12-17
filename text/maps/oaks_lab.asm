@@ -54,19 +54,19 @@ _OaksLabPikachuText::
 ENDC
 
 _OaksLabCharmanderText:: ; 94e06 (25:4e06)
-	text "So! You want the"
+	text "Ah! You want the"
 	line "flame #MON,"
 	cont "CHARMANDER?"
 	done
 
 _OaksLabSquirtleText:: ; 94e2f (25:4e2f)
-	text "So! You want the"
+	text "Ah! You want the"
 	line "water #MON,"
 	cont "SQUIRTLE?"
 	done
 
 _OaksLabBulbasaurText:: ; 94e57 (25:4e57)
-	text "So! You want the"
+	text "Ah! You want the"
 	line "plant #MON,"
 	cont "BULBASAUR?"
 	done
@@ -160,7 +160,7 @@ _OaksLabAroundWorldText:: ; 95045 (25:5045)
 _OaksLabGivePokeballsText1:: ; 9506d (25:506d)
 	text "You can't get"
 	line "detailed data on"
-	cont "#MON by just"
+	cont "#MON just by"
 	cont "seeing them."
 
 	para "You must catch"
@@ -177,8 +177,8 @@ _OaksLabGivePokeballsText2:: ; 950f2 (25:50f2)
 	line "#MON appears,"
 	cont "it's fair game."
 
-	para "Just throw a #"
-	line "BALL at it and"
+	para "Just throw a"
+	line "# BALL and"
 	cont "try to catch it!"
 
 	para "This won't always"
@@ -359,7 +359,7 @@ ENDC
 
 _OaksLabLeavingText:: ; 95427 (25:5427)
 	text "Hey! Don't go"
-	line "away yet!"
+	line "away just yet!"
 	done
 
 _OaksLabRivalPickingMonText:: ; 95444 (25:5444)
@@ -378,8 +378,8 @@ _OaksLabRivalChallengeText:: ; 95477 (25:5477)
 	para "Let's check out"
 	line "our #MON!"
 
-	para "Come on, I'll take"
-	line "you on!"
+	para "Come on, I'll"
+	line "take you on!"
 	done
 
 _OaksLabText_1d3be:: ; 954b6 (25:54b6)
@@ -478,14 +478,15 @@ _OaksLabText26:: ; 95664 (25:5664)
 	cont "#MON in the"
 	cont "world..."
 
-	para "That was my dream!"
+	para "That was my"
+	line "dream!"
 
 	para "But, I'm too old!"
 	line "I can't do it!"
 
-	para "So, I want you two"
-	line "to fulfill my"
-	cont "dream for me!"
+	para "So, I want you"
+	line "two to fulfill"
+	cont "my dream for me!"
 
 	para "Get moving, you"
 	line "two!"
