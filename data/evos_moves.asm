@@ -266,6 +266,7 @@ Mon034_EvosMoves: ; 3b233 (e:7233)
 ;Evolutions
 	db 0
 ;Learnset
+	db 23,DOUBLE_KICK
 	db 43,THRASH
 	db 65,EARTHQUAKE
 	db 65,THUNDER
@@ -367,6 +368,7 @@ Mon031_EvosMoves: ; 3b2a8 (e:72a8)
 ;Evolutions
 	db 0
 ;Learnset
+	db 23,DOUBLE_KICK
 	db 43,BODY_SLAM
 	db 65,EARTHQUAKE
 	db 65,THUNDER
