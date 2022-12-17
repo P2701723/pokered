@@ -4627,7 +4627,6 @@ CriticalHitTest: ; 3e023 (f:6023)
 	call GetMonHeader
 	ld a, [W_MONHBASESPEED]
 	ld b, a
-	srl b                        ; (effective (base speed/2))
 	ld a, [H_WHOSETURN]
 	and a
 	ld hl, W_PLAYERMOVEPOWER
