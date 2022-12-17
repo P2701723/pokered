@@ -90,7 +90,7 @@ endm
 	move STUN_SPORE,   PARALYZE_EFFECT,              0, NORMAL,    80, 20 ; done
 	move SLEEP_POWDER, SLEEP_EFFECT,                 0, NORMAL,    75, 15 ; done
 	move PETAL_DANCE,  THRASH_PETAL_DANCE_EFFECT,  120, GRASS,    100, 20 ; done
-	move STRING_SHOT,  SPEED_DOWN2_EFFECT,           0, NORMAL,    95, 40 ; done
+	move STRING_SHOT,  SPEED_DOWN1_EFFECT,           0, NORMAL,    95, 40 ; done
 	move DRAGON_RAGE,  THRASH_PETAL_DANCE_EFFECT,  120, DRAGON,   100, 20 ; done
 	move FIRE_SPIN,    TRAPPING_EFFECT,             35, FIRE,      85, 15 ; done
 	move THUNDERSHOCK, PARALYZE_SIDE_EFFECT1,       40, ELECTRIC, 100, 30 ; done
