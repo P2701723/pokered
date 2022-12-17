@@ -77,7 +77,7 @@ _MtMoon3Text_49f99:: ; 80a93 (20:4a93)
 	line "this is mine!@@"
 
 _MtMoon3BattleText2:: ; 80ab3 (20:4ab3)
-	para "Stop right there!"
+	text "Stop right there!"
 	
 	para "That fossil is"
 	line "TEAM ROCKET's!"
