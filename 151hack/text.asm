@@ -6,8 +6,8 @@ _OakSpeechText2C::
 	prompt
 
 _IntroducePlayerGender::
-	text "Do you want to be"
-	line "a boy or a girl?"
+	text "Are you a boy, or"
+	line "are you a girl?"
 	done
 
 _IntroducePlayerName::
@@ -16,13 +16,13 @@ _IntroducePlayerName::
 	prompt
 	
 _ConfirmBoyText::
-	text "So, you want to be"
-	line "the boy, right?"
+	text "So, you're a boy."
+	line "Is that right?"
 	done
 
 _ConfirmGirlText::
-	text "So, you want to be"
-	line "the girl, right?"
+	text "So you're a girl."
+	line "Is that right?"
 	done
 
 _AreYouREALLYSureText::
@@ -43,13 +43,22 @@ _Red3dots:
 _Red12dots:
 	text "..."
 	line "..."
+	
+	para "..."
+	line "..."
+	
+	para "..."
+	line "..."
+	
+	para "..."
+	line "..."
 	done
 
 _LegendaryRanText::
 	text "Wild @"
 	TX_RAM wEnemyMonNick
 	db $0
-	line "ran away!"
+	line "vanished!"
 	prompt
 	
 _ItWasJustADreamText::
@@ -78,10 +87,10 @@ _OakPreBattleText::
 	
 	para "Now that you're a"
 	line "#MON MASTER,"
-	cont "you must prove to"
-	cont "me that you are"
-	cont "deserving of"
-	cont "that title."
+	cont "you must prove"
+	cont "to me that you"
+	cont "are deserving"
+	cont "of that title."
 	
 	para "Please, ", $52, ","
 	line "do not hold back"
@@ -91,12 +100,12 @@ _OakPreBattleText::
 	done
 	
 _OakVictorySpeech::
-	text "Wow, I'm"
-	line "speechless!"
+	text "Wow!"
+	line "I'm speechless!"
 	
-	para "I guess you're as"
-	line "good as they say"
-	cont "you are!"
+	para "I guess you're"
+	line "as good as they"
+	cont "say you are!"
 	prompt
 	
 _BattleTentSignText::
@@ -250,15 +259,14 @@ _LeaguePCNoText::
 	
 _LeaguePCAfterText::
 	text "CONGRATULATIONS"
-	line "ON YOUR VICTORY."
+	line "ON YOUR VICTORY!"
 	
 	para "PLEASE PROCEED TO"
 	line "INDIGO PLATEAU"
 	cont "AFTER YOU HAVE"
 	cont "DEFEATED ALL 8"
-	cont "GYM LEADERS AT"
-	cont "THEIR STRONGEST"
-	cont "AND COLLECTED 151"
+	cont "GYM LEADERS AND"
+	cont "COLLECTED ALL 151"
 	cont "KINDS OF #MON."
 	
 	para "THE ELITE FOUR"
