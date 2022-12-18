@@ -178,6 +178,6 @@ _Route13Text13:: ; 907eb (24:47eb)
 	text "ROUTE 13"
 	
 	para "SILENCE BRIDGE"
-	cont "is north of here!"
+	line "is north of here!"
 	done
 
