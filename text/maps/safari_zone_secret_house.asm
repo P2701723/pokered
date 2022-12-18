@@ -30,12 +30,13 @@ _HM03ExplanationText:: ; 85957 (21:5957)
 	para "And, this HM isn't"
 	line "disposable!"
 	
-	para" You can use it"
+	para "You can use it"
 	line "over and over!"
 
 	para "You're super lucky"
 	line "for winning this"
 	cont "fabulous prize!"
+	done
 
 _HM03NoRoomText:: ; 85a02 (21:5a02)
 	text "You don't have"
