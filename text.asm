@@ -138,7 +138,7 @@ _OaksAideUhOhText:: ; 801e4 (20:41e4)
 	db $0
 	cont "kinds of #MON!"
 
-	para "You'll need @"
+	para "You need @"
 	TX_NUM $ffdb, 1, 3
 	text " kinds"
 	line "if you want the"
