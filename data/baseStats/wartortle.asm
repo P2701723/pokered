@@ -15,7 +15,7 @@ dw WartortlePicBack
 ; attacks known at lvl 0
 db TAIL_WHIP
 db TACKLE
-db BUBBLE
+db WATER_GUN
 db 0
 db 3 ; growth rate
 ; learnset
