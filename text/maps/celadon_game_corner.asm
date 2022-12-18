@@ -176,7 +176,7 @@ _CeladonGameCornerText_48ed8:: ; 9dd7a (27:5d7a)
 	line "be discovered!"
 	
 	para "I better tell"
-	cont "BOSS!"
+	line "BOSS!"
 	done
 
 _CeladonGameCornerText_48f09:: ; 9ddb0 (27:5db0)
