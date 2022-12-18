@@ -44,7 +44,7 @@ _SSAnne6Text_61807:: ; 81203 (20:5203)
 	line "am le chef!"
 
 	para "Le main course"
-	line "is...
+	line "is..."
 	prompt
 
 _SSAnne6Text_6180c:: ; 81233 (20:5233)
