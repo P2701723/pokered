@@ -55,7 +55,7 @@ _ReceivedThunderbadgeText:: ; 9c151 (27:4151)
 
 _VermilionGymBattleText1:: ; 9c194 (27:4194)
 	text "When I was in the"
-	line "Army, LT.SURGE"
+	line "army, LT.SURGE"
 	cont "was my strict CO!"
 	done
 
