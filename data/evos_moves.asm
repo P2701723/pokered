@@ -348,8 +348,8 @@ Mon094_EvosMoves: ; 3b291 (e:7291)
 ;Evolutions
 	db 0
 ;Learnset
-	db 29,HYPNOSIS
-	db 38,DREAM_EATER
+	db 31,HYPNOSIS
+	db 41,DREAM_EATER
 	db 0
 Mon029_EvosMoves: ; 3b297 (e:7297)
 ;NIDORAN_F
@@ -625,7 +625,6 @@ Mon075_EvosMoves: ; 3b3cf (e:73cf)
 	db EV_TRADE,1,GOLEM
 	db 0
 ;Learnset
-	db 11,DEFENSE_CURL
 	db 16,ROCK_THROW
 	db 21,SELFDESTRUCT
 	db 29,TAKE_DOWN
@@ -1709,6 +1708,7 @@ Mon093_EvosMoves: ; 3b807 (e:7807)
 	db EV_LEVEL,50,GENGAR
 	db 0
 ;Learnset
+	db 29,HYPNOSIS
 	db 38,DREAM_EATER
 	db 0
 Mon063_EvosMoves: ; 3b810 (e:7810)
@@ -2036,7 +2036,7 @@ Mon008_EvosMoves: ; 3b96b (e:796b)
 	db EV_LEVEL,50,BLASTOISE
 	db 0
 ;Learnset
-	db 15,WATER_GUN
+	db 15,BUBBLEBEAM
 	db 24,BITE
 	db 31,WITHDRAW
 	db 39,SKULL_BASH
