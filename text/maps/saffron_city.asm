@@ -86,7 +86,7 @@ _SaffronCityText14:: ; a6518 (29:6518)
 	done
 
 _SaffronCityText15:: ; a654f (29:654f)
-	para "Snore..."
+	text "Snore..."
 
 	para "..."
 	line "..."
