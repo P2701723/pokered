@@ -57,7 +57,7 @@ _SSAnne9EndBattleText1:: ; 81956 (20:5956)
 	line "Good fight!"
 	
 	para "Ah, I feel young"
-	cont "again!"
+	line "again!"
 	prompt
 
 _SSAnne9AfterBattleText1:: ; 8197b (20:597b)
