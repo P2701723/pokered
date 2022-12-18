@@ -165,7 +165,7 @@ JrTrainerFData:
 PokemaniacData:
 ; Route 10
 	db 39,RHYHORN,LICKITUNG,0
-	db 32,CUBONE,SLOWPOKE,0
+	db 32,MAROWAK,SLOWBRO,0
 ; Rock Tunnel
 	db 31,SLOWPOKE,KADABRA,MR_MIME,0
 	db 33,CHARMELEON,MAROWAK,0
@@ -173,7 +173,7 @@ PokemaniacData:
 ; Victory Road
 	db 66,CHARIZARD,LAPRAS,LICKITUNG,0
 ; Rock Tunnel
-	db 34,MAROWAK,SLOWBRO,0
+	db 34,CUBONE,SLOWPOKE,0
 
 SuperNerdData:
 ; Mt. Moon
