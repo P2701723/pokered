@@ -91,8 +91,9 @@ _CeladonGameCornerText_48dca:: ; 9db11 (27:5b11)
 
 	para "CELADON GYM's"
 	line "LEADER is ERIKA!"
-	cont "She uses grass-"
-	cont "type #MON!"
+	
+	para "She uses grass-"
+	line "type #MON!"
 
 	para "She might appear"
 	line "docile, but don't"
