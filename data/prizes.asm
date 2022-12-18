@@ -40,10 +40,10 @@ PrizeMenuMon2Cost: ; 52868 (14:6868)
 PrizeMenuTMsEntries: ; 5286f (14:686f)
 	db HELIX_FOSSIL
 	db DOME_FOSSIL
-	db MASTER_BALL
+	db EXP_ALL
 	db "@"
 PrizeMenuTMsCost: ; 52873 (14:6873)
 	db $40,$00 ; 4000 Coins
 	db $40,$00 ; 4000 Coins
-	db $99,$99 ; 9999 Coins
+	db $01,$50 ; 150 Coins
 	db "@"
