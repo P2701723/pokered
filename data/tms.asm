@@ -2,7 +2,7 @@ TechnicalMachines: ; 13773 (4:7773)
 	db MEGA_PUNCH
 	db RAZOR_WIND
 	db SWORDS_DANCE
-	db GUST		; replaces Whirlwind, retains TM04 compatibility
+	db WHIRLWIND
 	db MEGA_KICK
 	db TOXIC
 	db HORN_DRILL
