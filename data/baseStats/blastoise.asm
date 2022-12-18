@@ -15,8 +15,8 @@ dw BlastoisePicBack
 ; attacks known at lvl 0
 db TAIL_WHIP
 db TACKLE
-db BUBBLE
 db WATER_GUN
+db BUBBLEBEAM
 db 3 ; growth rate
 ; learnset
 db %10110001
