@@ -27,7 +27,7 @@ endm
 	move CUT,          NO_ADDITIONAL_EFFECT,        70, NORMAL,   100, 30 ; done
 	move GUST,         CONFUSION_SIDE_EFFECT,       40, FLYING,   100, 35 ; done
 	move WING_ATTACK,  NO_ADDITIONAL_EFFECT,        60, FLYING,   100, 30 ; done
-	move WHIRLWIND,    SWITCH_AND_TELEPORT_EFFECT,   0, NORMAL,   100, 20 ; done
+	move WHIRLWIND,    CONFUSION_EFFECT,             0, NORMAL,   100, 20 ; done
 	move FLY,          FLY_EFFECT,                  90, FLYING,    95, 15 ; done
 	move BIND,         TRAPPING_EFFECT,             15, NORMAL,    90, 20 ; done
 	move SLAM,         NO_ADDITIONAL_EFFECT,       100, NORMAL,    75, 20 ; done
@@ -55,7 +55,7 @@ endm
 	move LEER,         DEFENSE_DOWN1_EFFECT,         0, NORMAL,   100, 30 ; done
 	move BITE,         FLINCH_SIDE_EFFECT1,         60, GHOST,    100, 25 ; done
 	move GROWL,        ATTACK_DOWN1_EFFECT,          0, NORMAL,   100, 40 ; done
-	move ROAR,         SWITCH_AND_TELEPORT_EFFECT,   0, NORMAL,   100, 20 ; done
+	move ROAR,         ATTACK_UP1_EFFECT,            0, NORMAL,   100, 20 ; done
 	move SING,         SLEEP_EFFECT,                 0, NORMAL,    55, 15 ; done
 	move SUPERSONIC,   CONFUSION_EFFECT,             0, NORMAL,    55, 20 ; done
 	move SONICBOOM,    SPECIAL_DAMAGE_EFFECT,        1, NORMAL,    90, 20 ; done
