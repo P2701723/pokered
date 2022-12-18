@@ -43,11 +43,12 @@ _SSAnne6Text_61807:: ; 81203 (20:5203)
 	text "Er-hem! Indeed I"
 	line "am le chef!"
 
-	para "Le main course is"
+	para "Le main course"
+	line "is...
 	prompt
 
 _SSAnne6Text_6180c:: ; 81233 (20:5233)
-	text "salade de salmon!"
+	text "Salade de salmon!"
 
 	para "Les guests may"
 	line "gripe it's fish"
@@ -55,14 +56,14 @@ _SSAnne6Text_6180c:: ; 81233 (20:5233)
 	done
 
 _SSAnne6Text_61811:: ; 81273 (20:5273)
-	text "eels au barbecue!"
+	text "Eels au barbecue!"
 
 	para "Les guests will"
 	line "mutiny, I fear."
 	done
 
 _SSAnne6Text_61816:: ; 812a6 (20:52a6)
-	text "prime beef steak!"
+	text "Prime beef steak!"
 
 	para "But, have I enough"
 	line "fillets du beef?"
