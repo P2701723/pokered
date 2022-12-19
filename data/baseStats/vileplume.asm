@@ -13,9 +13,9 @@ INCBIN "pic/bmon/vileplume.pic",0,1 ; 77, sprite dimensions
 dw VileplumePicFront
 dw VileplumePicBack
 ; attacks known at lvl 0
-db MEGA_DRAIN
 db POISONPOWDER
 db STUN_SPORE
+db MEGA_DRAIN
 db SLEEP_POWDER
 db 3 ; growth rate
 ; learnset
