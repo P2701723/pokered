@@ -15,7 +15,7 @@ dw VictreebelPicBack
 ; attacks known at lvl 0
 db RAZOR_LEAF
 db WRAP
-db POISONPOWDER
+db MEGA_DRAIN
 db SLEEP_POWDER
 db 3 ; growth rate
 ; learnset
