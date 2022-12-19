@@ -15,8 +15,8 @@ dw PersianPicBack
 ; attacks known at lvl 0
 db GROWL
 db SCRATCH
+db PAY_DAY
 db BITE
-db SCREECH
 db 0 ; growth rate
 ; learnset
 db %10100000
