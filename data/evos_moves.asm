@@ -293,6 +293,7 @@ Mon002_EvosMoves: ; 3b24b (e:724b)
 	db 30,RAZOR_LEAF
 	db 38,SLEEP_POWDER
 	db 46,GROWTH
+	db 46,MEGA_DRAIN
 	db 54,SOLARBEAM
 	db 0
 Mon103_EvosMoves: ; 3b25e (e:725e)
@@ -592,7 +593,8 @@ Mon016_EvosMoves: ; 3b39c (e:739c)
 	db 21,WHIRLWIND
 	db 29,WING_ATTACK
 	db 37,AGILITY
-	db 47,MIRROR_MOVE
+	db 47,SKY_ATTACK
+	db 57,MIRROR_MOVE
 	db 0
 Mon079_EvosMoves: ; 3b3ad (e:73ad)
 ;SLOWPOKE
@@ -1226,7 +1228,7 @@ Mon028_EvosMoves: ; 3b60b (e:760b)
 	db 27,SLASH
 	db 36,SWIFT
 	db 47,FURY_SWIPES
-	db 56,EARTHQUAKE
+	db 58,EARTHQUAKE
 	db 0
 Mon138_EvosMoves: ; 3b617 (e:7617)
 ;OMANYTE
@@ -1350,7 +1352,6 @@ Mon023_EvosMoves: ; 3b6ae (e:76ae)
 	db 10,POISON_STING
 	db 17,BITE
 	db 24,GLARE
-	db 31,SCREECH
 	db 38,ACID
 	db 45,WRAP
 	db 0
@@ -1515,6 +1516,7 @@ Mon012_EvosMoves: ; 3b74c (e:774c)
 	db 21,SLEEP_POWDER
 	db 26,GUST
 	db 32,PSYBEAM
+	db 32,MEGA_DRAIN
 	db 0
 Mon068_EvosMoves: ; 3b75c (e:775c)
 ;MACHAMP
@@ -1740,7 +1742,8 @@ Mon017_EvosMoves: ; 3b823 (e:7823)
 	db 23,WHIRLWIND
 	db 33,WING_ATTACK
 	db 43,AGILITY
-	db 55,MIRROR_MOVE
+	db 55,SKY_ATTACK
+	db 67,MIRROR_MOVE
 	db 0
 Mon018_EvosMoves: ; 3b834 (e:7834)
 ;PIDGEOT
@@ -1750,8 +1753,8 @@ Mon018_EvosMoves: ; 3b834 (e:7834)
 	db 23,WHIRLWIND
 	db 33,WING_ATTACK
 	db 46,AGILITY
-	db 53,SKY_ATTACK
-	db 61,MIRROR_MOVE
+	db 59,SKY_ATTACK
+	db 72,MIRROR_MOVE
 	db 0
 Mon121_EvosMoves: ; 3b842 (e:7842)
 ;STARMIE
@@ -1773,7 +1776,7 @@ Mon001_EvosMoves: ; 3b844 (e:7844)
 	db 20,POISONPOWDER
 	db 27,RAZOR_LEAF
 	db 34,SLEEP_POWDER
-	db 41,GROWTH
+	db 41,MEGA_DRAIN
 	db 48,SOLARBEAM
 	db 0
 Mon003_EvosMoves: ; 3b857 (e:7857)
@@ -1890,6 +1893,7 @@ Mon019_EvosMoves: ; 3b8c1 (e:78c1)
 	db 14,HYPER_FANG
 	db 23,FOCUS_ENERGY
 	db 34,SUPER_FANG
+	db 47,BITE
 	db 0
 Mon020_EvosMoves: ; 3b8ce (e:78ce)
 ;RATICATE
@@ -1899,6 +1903,7 @@ Mon020_EvosMoves: ; 3b8ce (e:78ce)
 	db 14,HYPER_FANG
 	db 27,FOCUS_ENERGY
 	db 41,SUPER_FANG
+	db 56,BITE
 	db 0
 Mon033_EvosMoves: ; 3b8d8 (e:78d8)
 ;NIDORINO
