@@ -15,8 +15,8 @@ dw VileplumePicBack
 ; attacks known at lvl 0
 db POISONPOWDER
 db STUN_SPORE
-db MEGA_DRAIN
 db SLEEP_POWDER
+db MEGA_DRAIN
 db 3 ; growth rate
 ; learnset
 db %10100100
