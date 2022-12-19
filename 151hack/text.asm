@@ -36,8 +36,7 @@ _EvoInstructionText::
 	done
 	
 _Red3dots:
-	text "..."
-	line "..."
+	text "RED: ... ..."
 	prompt
 	
 _Red12dots:
