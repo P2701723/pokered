@@ -1541,7 +1541,7 @@ Mon055_EvosMoves: ; 3b76a (e:776a)
 ;Learnset
 	db 31,WATER_GUN
 	db 37,CONFUSION
-	db 44,FURY_SWIPES
+	db 44,SLASH
 	db 52,AMNESIA
 	db 61,HYDRO_PUMP
 	db 71,PSYCHIC_M
@@ -1915,7 +1915,6 @@ Mon033_EvosMoves: ; 3b8d8 (e:78d8)
 	db 19,POISON_STING
 	db 27,HORN_ATTACK
 	db 36,FURY_ATTACK
-	db 46,HORN_DRILL
 	db 0
 Mon030_EvosMoves: ; 3b8ea (e:78ea)
 ;NIDORINA
@@ -1927,7 +1926,6 @@ Mon030_EvosMoves: ; 3b8ea (e:78ea)
 	db 19,POISON_STING
 	db 27,BITE
 	db 36,FURY_SWIPES
-	db 46,HORN_DRILL
 	db 0
 Mon074_EvosMoves: ; 3b8fc (e:78fc)
 ;GEODUDE
@@ -1959,8 +1957,8 @@ Mon142_EvosMoves: ; 3b917 (e:7917)
 ;Evolutions
 	db 0
 ;Learnset
-	db 45,ROCK_SLIDE
 	db 54,HYPER_BEAM
+	db 54,ROCK_SLIDE
 	db 0
 
 Mon184_EvosMoves: ; 3b921 (e:7921)
