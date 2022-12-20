@@ -13,10 +13,10 @@ INCBIN "pic/bmon/slowbro.pic",0,1 ; 77, sprite dimensions
 dw SlowbroPicFront
 dw SlowbroPicBack
 ; attacks known at lvl 0
-db DISABLE
-db HEADBUTT
-db CONFUSION
+db GROWL
+db TACKLE
 db WATER_GUN
+db CONFUSION
 db 0 ; growth rate
 ; learnset
 db %10110001
