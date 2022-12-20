@@ -13,8 +13,8 @@ INCBIN "pic/bmon/doduo.pic",0,1 ; 55, sprite dimensions
 dw DoduoPicFront
 dw DoduoPicBack
 ; attacks known at lvl 0
+db GROWL
 db PECK
-db 0
 db 0
 db 0
 db 0 ; growth rate
