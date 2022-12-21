@@ -13,8 +13,8 @@ INCBIN "pic/bmon/kangaskhan.pic",0,1 ; 77, sprite dimensions
 dw KangaskhanPicFront
 dw KangaskhanPicBack
 ; attacks known at lvl 0
-db RAGE
 db LEER
+db RAGE
 db COMET_PUNCH
 db 0
 db 0 ; growth rate
