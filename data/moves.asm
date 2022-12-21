@@ -14,7 +14,7 @@ endm
 	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        50, FIGHTING, 100, 25 ; done
 	move DOUBLESLAP,   TWO_TO_FIVE_ATTACKS_EFFECT,  25, NORMAL,    85, 15 ; done
 	move COMET_PUNCH,  TWO_TO_FIVE_ATTACKS_EFFECT,  20, FIGHTING,  90, 15 ; done
-	move MEGA_PUNCH,   NO_ADDITIONAL_EFFECT,        90, NORMAL,    95, 20 ; done
+	move MEGA_PUNCH,   NO_ADDITIONAL_EFFECT,        80, NORMAL,   100, 20 ; done
 	move PAY_DAY,      PAY_DAY_EFFECT,              50, NORMAL,   100, 20 ; done
 	move FIRE_PUNCH,   BURN_SIDE_EFFECT2,           75, FIRE,     100, 20 ; done
 	move ICE_PUNCH,    FREEZE_SIDE_EFFECT,          75, ICE,      100, 20 ; done
@@ -60,7 +60,7 @@ endm
 	move SUPERSONIC,   CONFUSION_EFFECT,             0, NORMAL,    55, 20 ; done
 	move SONICBOOM,    SPECIAL_DAMAGE_EFFECT,        1, NORMAL,    90, 20 ; done
 	move DISABLE,      DISABLE_EFFECT,               0, NORMAL,   100, 20 ; done
-	move ACID,         SPECIAL_DOWN_SIDE_EFFECT,    55, POISON,   100, 30 ; done
+	move ACID,         SPECIAL_DOWN_SIDE_EFFECT,    65, POISON,   100, 30 ; done
 	move EMBER,        BURN_SIDE_EFFECT2,           40, FIRE,     100, 25 ; done
 	move FLAMETHROWER, BURN_SIDE_EFFECT2,           90, FIRE,     100, 15 ; done
 	move MIST,         MIST_EFFECT,                  0, NORMAL,   100, 30 ; done
@@ -170,7 +170,7 @@ endm
 	move HYPER_FANG,   FLINCH_SIDE_EFFECT1,         80, NORMAL,    90, 15 ; done
 	move SHARPEN,      ATTACK_UP2_EFFECT,            0, NORMAL,   100, 30 ; done
 	move CONVERSION,   CONVERSION_EFFECT,            0, NORMAL,   100, 30 ; done
-	move TRI_ATTACK,   NO_ADDITIONAL_EFFECT,        80, NORMAL,   100, 15 ; done
+	move TRI_ATTACK,   CONFUSION_SIDE_EFFECT,       80, NORMAL,   100, 15 ; done
 	move SUPER_FANG,   SUPER_FANG_EFFECT,            1, NORMAL,    90, 10 ; done
 	move SLASH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,   100, 20 ; done
 	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, NORMAL,   100, 10 ; done
