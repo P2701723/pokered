@@ -14,8 +14,8 @@ dw SeakingPicFront
 dw SeakingPicBack
 ; attacks known at lvl 0
 db TAIL_WHIP
-db PECK
 db SUPERSONIC
+db PECK
 db 0
 db 0 ; growth rate
 ; learnset
