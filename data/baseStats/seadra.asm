@@ -13,9 +13,9 @@ INCBIN "pic/bmon/seadra.pic",0,1 ; 66, sprite dimensions
 dw SeadraPicFront
 dw SeadraPicBack
 ; attacks known at lvl 0
+db LEER
 db WATER_GUN
 db SMOKESCREEN
-db 0
 db 0
 db 0 ; growth rate
 ; learnset
