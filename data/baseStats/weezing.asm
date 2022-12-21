@@ -15,7 +15,7 @@ dw WeezingPicBack
 ; attacks known at lvl 0
 db SMOG
 db TACKLE
-db SLUDGE
+db SELFDESTRUCT
 db 0
 db 0 ; growth rate
 ; learnset
