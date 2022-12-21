@@ -13,8 +13,8 @@ INCBIN "pic/bmon/grimer.pic",0,1 ; 55, sprite dimensions
 dw GrimerPicFront
 dw GrimerPicBack
 ; attacks known at lvl 0
-db POUND
 db POISON_GAS
+db POUND
 db 0
 db 0
 db 0 ; growth rate
