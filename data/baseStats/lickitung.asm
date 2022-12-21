@@ -14,8 +14,8 @@ dw LickitungPicFront
 dw LickitungPicBack
 ; attacks known at lvl 0
 db SUPERSONIC
+db DEFENSE_CURL
 db LICK
-db 0
 db 0
 db 0 ; growth rate
 ; learnset
