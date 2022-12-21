@@ -13,7 +13,7 @@ INCBIN "pic/bmon/gyarados.pic",0,1 ; 77, sprite dimensions
 dw GyaradosPicFront
 dw GyaradosPicBack
 ; attacks known at lvl 0
-db THRASH
+db BITE
 db 0
 db 0
 db 0
