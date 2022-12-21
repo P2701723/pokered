@@ -14,8 +14,8 @@ dw ExeggutorPicFront
 dw ExeggutorPicBack
 ; attacks known at lvl 0
 db LEECH_SEED
-db STUN_SPORE
 db POISONPOWDER
+db STUN_SPORE
 db SOLARBEAM
 db 5 ; growth rate
 ; learnset
