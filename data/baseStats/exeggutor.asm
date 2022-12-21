@@ -13,10 +13,10 @@ INCBIN "pic/bmon/exeggutor.pic",0,1 ; 77, sprite dimensions
 dw ExeggutorPicFront
 dw ExeggutorPicBack
 ; attacks known at lvl 0
-db LEECH_SEED
-db POISONPOWDER
-db STUN_SPORE
-db SOLARBEAM
+db HYPNOSIS
+db BARRAGE
+db STOMP
+db 0
 db 5 ; growth rate
 ; learnset
 db %00100100 ; Swords Dance
