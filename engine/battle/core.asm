@@ -4608,6 +4608,11 @@ UnusedHighCriticalMoves: ; 3e01e (f:601e)
 	db RAZOR_LEAF
 	db CRABHAMMER
 	db SLASH
+	db CUT
+	db GUILLOTINE
+	db HORN_DRILL
+	db FISSURE
+	db RAZOR_WIND
 	db $FF
 ; 3e023
 
@@ -4684,6 +4689,11 @@ HighCriticalMoves: ; 3e08e (f:608e)
 	db RAZOR_LEAF
 	db CRABHAMMER
 	db SLASH
+	db CUT
+	db GUILLOTINE
+	db HORN_DRILL
+	db FISSURE
+	db RAZOR_WIND
 	db $FF
 
 
