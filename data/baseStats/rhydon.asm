@@ -13,10 +13,10 @@ INCBIN "pic/bmon/rhydon.pic",0,1 ; 77, sprite dimensions
 dw RhydonPicFront
 dw RhydonPicBack
 ; attacks known at lvl 0
+db LEER
+db HORN_ATTACK
+db STOMP
 db MEGA_PUNCH
-db 0
-db 0
-db 0
 db 5 ; growth rate
 ; learnset
 db %11110101 ; Swords Dance
