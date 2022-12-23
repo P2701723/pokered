@@ -6,7 +6,7 @@ db 75 ; base defense  +15
 db 110 ; base speed
 db 130 ; base special
 db GHOST ; species type 1
-db POISON ; species type 2
+db BIRD ; species type 2
 db 45 ; catch rate
 db 190 ; base exp yield
 INCBIN "pic/bmon/gengar.pic",0,1 ; 66, sprite dimensions
