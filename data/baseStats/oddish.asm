@@ -4,7 +4,7 @@ db 50 ; base hp       +5
 db 50 ; base attack
 db 60 ; base defense  +5
 db 40 ; base speed    +10
-db 85 ; base special  +10
+db 80 ; base special  +5
 db GRASS ; species type 1
 db POISON ; species type 2
 db 255 ; catch rate
