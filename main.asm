@@ -5142,7 +5142,7 @@ TangelaPicFront::     INCBIN "pic/bmon/tangela.pic"
 TangelaPicBack::      INCBIN "pic/monback/tangelab.pic"
 
 
-SECTION "Battle (bank 9)", ROMX, BANK[$9]
+SECTION "Battle (bank 9)", ROMX, BANK[$1F]
 INCLUDE "engine/battle/9.asm"
 
 
