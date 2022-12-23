@@ -1,9 +1,9 @@
 TentacoolBaseStats: ; 38ba2 (e:4ba2)
 db DEX_TENTACOOL ; pokedex id
 db 40 ; base hp
-db 45 ; base attack   +5
+db 50 ; base attack   +10
 db 35 ; base defense
-db 75 ; base speed    +5
+db 80 ; base speed    +10
 db 100 ; base special
 db WATER ; species type 1
 db POISON ; species type 2
