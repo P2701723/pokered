@@ -6,7 +6,7 @@ db 120 ; base defense
 db 60 ; base speed
 db 85 ; base special
 db POISON ; species type 1
-db POISON ; species type 2
+db BIRD ; species type 2
 db 60 ; catch rate
 db 173 ; base exp yield
 INCBIN "pic/bmon/weezing.pic",0,1 ; 77, sprite dimensions
