@@ -6,7 +6,7 @@ db 55 ; base defense  +10
 db 95 ; base speed
 db 115 ; base special
 db GHOST ; species type 1
-db POISON ; species type 2
+db BIRD ; species type 2
 db 90 ; catch rate
 db 126 ; base exp yield
 INCBIN "pic/bmon/haunter.pic",0,1 ; 66, sprite dimensions
