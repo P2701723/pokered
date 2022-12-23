@@ -5433,7 +5433,7 @@ VictreebelPicFront::   INCBIN "pic/bmon/victreebel.pic"
 VictreebelPicBack::    INCBIN "pic/monback/victreebelb.pic"
 
 
-SECTION "Battle (bank D)", ROMX, BANK[$D]
+SECTION "Battle (bank D)", ROMX, BANK[$22]
 
 INCLUDE "engine/titlescreen2.asm"
 INCLUDE "engine/battle/d.asm"
