@@ -5214,7 +5214,7 @@ MoltresPicFront::     INCBIN "pic/bmon/moltres.pic"
 MoltresPicBack::      INCBIN "pic/monback/moltresb.pic"
 
 
-SECTION "Battle (bank A)", ROMX, BANK[$A]
+SECTION "Battle (bank A)", ROMX, BANK[$21]
 INCLUDE "engine/battle/a.asm"
 
 
