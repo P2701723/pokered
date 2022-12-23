@@ -5142,7 +5142,7 @@ TangelaPicFront::     INCBIN "pic/bmon/tangela.pic"
 TangelaPicBack::      INCBIN "pic/monback/tangelab.pic"
 
 
-SECTION "Battle (bank 9)", ROMX, BANK[$20]
+SECTION "Battle (bank 9)", ROMX, BANK[$9]
 INCLUDE "engine/battle/9.asm"
 
 
@@ -5214,7 +5214,7 @@ MoltresPicFront::     INCBIN "pic/bmon/moltres.pic"
 MoltresPicBack::      INCBIN "pic/monback/moltresb.pic"
 
 
-SECTION "Battle (bank A)", ROMX, BANK[$21]
+SECTION "Battle (bank A)", ROMX, BANK[$A]
 INCLUDE "engine/battle/a.asm"
 
 
@@ -5364,6 +5364,8 @@ PidgeottoPicFront::    INCBIN "pic/bmon/pidgeotto.pic"
 PidgeottoPicBack::     INCBIN "pic/monback/pidgeottob.pic"
 PidgeotPicFront::      INCBIN "pic/bmon/pidgeot.pic"
 PidgeotPicBack::       INCBIN "pic/monback/pidgeotb.pic"
+StarmiePicFront::      INCBIN "pic/bmon/starmie.pic"
+StarmiePicBack::       INCBIN "pic/monback/starmieb.pic"
 
 RedPicBack::           INCBIN "pic/trainer/redb.pic"
 OldManPic::            INCBIN "pic/trainer/oldman.pic"
@@ -5375,8 +5377,6 @@ INCLUDE "engine/battle/c.asm"
 
 SECTION "Pics 5", ROMX, BANK[PICS_5]
 
-StarmiePicFront::      INCBIN "pic/bmon/starmie.pic"
-StarmiePicBack::       INCBIN "pic/monback/starmieb.pic"
 BulbasaurPicFront::    INCBIN "pic/bmon/bulbasaur.pic"
 BulbasaurPicBack::     INCBIN "pic/monback/bulbasaurb.pic"
 VenusaurPicFront::     INCBIN "pic/bmon/venusaur.pic"
@@ -5433,7 +5433,7 @@ VictreebelPicFront::   INCBIN "pic/bmon/victreebel.pic"
 VictreebelPicBack::    INCBIN "pic/monback/victreebelb.pic"
 
 
-SECTION "Battle (bank D)", ROMX, BANK[$22]
+SECTION "Battle (bank D)", ROMX, BANK[$D]
 
 INCLUDE "engine/titlescreen2.asm"
 INCLUDE "engine/battle/d.asm"
