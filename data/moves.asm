@@ -22,7 +22,7 @@ endm
 	move SCRATCH,      NO_ADDITIONAL_EFFECT,        40, NORMAL,   100, 35
 	move VICEGRIP,     NO_ADDITIONAL_EFFECT,        55, NORMAL,   100, 30
 	move GUILLOTINE,   NO_ADDITIONAL_EFFECT,       250, NORMAL,    30,  5
-	move RAZOR_WIND,   CHARGE_EFFECT,               80, NORMAL,   100, 10
+	move RAZOR_WIND,   CHARGE_EFFECT,               80, FLYING,   100, 10
 	move SWORDS_DANCE, ATTACK_UP2_EFFECT,            0, NORMAL,   100, 30
 	move CUT,          NO_ADDITIONAL_EFFECT,        70, NORMAL,   100, 20
 	move GUST,         CONFUSION_SIDE_EFFECT,       40, FLYING,   100, 35
@@ -105,7 +105,7 @@ endm
 	move CONFUSION,    CONFUSION_SIDE_EFFECT,       50, PSYCHIC,  100, 25
 	move PSYCHIC_M,    CONFUSION_SIDE_EFFECT,       90, PSYCHIC,  100, 15
 	move HYPNOSIS,     SLEEP_EFFECT,                 0, NORMAL,    60, 20
-	move MEDITATE,     ATTACK_UP1_EFFECT,            0, NORMAL,   100, 40
+	move MEDITATE,     SPECIAL_UP1_EFFECT,           0, NORMAL,   100, 40
 	move AGILITY,      SPEED_UP2_EFFECT,             0, NORMAL,   100, 30
 	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, NORMAL,   100, 30
 	move RAGE,         RAGE_EFFECT,                 40, NORMAL,   100, 20
