@@ -1,7 +1,7 @@
 GloomBaseStats: ; 38892 (e:4892)
 db DEX_GLOOM ; pokedex id
 db 70 ; base hp       +10
-db 65 ; base attack
+db 60 ; base attack   -5
 db 80 ; base defense  +10
 db 50 ; base speed    +10
 db 100 ; base special +15
