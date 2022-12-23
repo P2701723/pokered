@@ -5364,8 +5364,6 @@ PidgeottoPicFront::    INCBIN "pic/bmon/pidgeotto.pic"
 PidgeottoPicBack::     INCBIN "pic/monback/pidgeottob.pic"
 PidgeotPicFront::      INCBIN "pic/bmon/pidgeot.pic"
 PidgeotPicBack::       INCBIN "pic/monback/pidgeotb.pic"
-StarmiePicFront::      INCBIN "pic/bmon/starmie.pic"
-StarmiePicBack::       INCBIN "pic/monback/starmieb.pic"
 
 RedPicBack::           INCBIN "pic/trainer/redb.pic"
 OldManPic::            INCBIN "pic/trainer/oldman.pic"
@@ -5377,6 +5375,8 @@ INCLUDE "engine/battle/c.asm"
 
 SECTION "Pics 5", ROMX, BANK[PICS_5]
 
+StarmiePicFront::      INCBIN "pic/bmon/starmie.pic"
+StarmiePicBack::       INCBIN "pic/monback/starmieb.pic"
 BulbasaurPicFront::    INCBIN "pic/bmon/bulbasaur.pic"
 BulbasaurPicBack::     INCBIN "pic/monback/bulbasaurb.pic"
 VenusaurPicFront::     INCBIN "pic/bmon/venusaur.pic"
